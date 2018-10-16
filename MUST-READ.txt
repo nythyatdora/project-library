@@ -1,0 +1,12 @@
+Following these commit head-message:
+
+1. Add file-name.extension
+1.1 Create file-name.extension
+
+2. Modify|Update file-name.extension
+2.1 Modify 'feature' in file-name.extension
+2.2 Modify 'line from i to j' of file-name.extension
+
+3. Remove file-name.extension
+
+Please carefully named each commit because it is very important for later.
