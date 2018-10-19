@@ -41,6 +41,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -49,7 +51,7 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(16, 331);
+            this.btnExit.Location = new System.Drawing.Point(28, 395);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(91, 23);
             this.btnExit.TabIndex = 67;
@@ -59,7 +61,7 @@
             // 
             // btnHelp
             // 
-            this.btnHelp.Location = new System.Drawing.Point(16, 282);
+            this.btnHelp.Location = new System.Drawing.Point(28, 346);
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.Size = new System.Drawing.Size(92, 23);
             this.btnHelp.TabIndex = 66;
@@ -68,7 +70,7 @@
             // 
             // btnOption
             // 
-            this.btnOption.Location = new System.Drawing.Point(16, 232);
+            this.btnOption.Location = new System.Drawing.Point(28, 296);
             this.btnOption.Name = "btnOption";
             this.btnOption.Size = new System.Drawing.Size(92, 23);
             this.btnOption.TabIndex = 65;
@@ -77,7 +79,7 @@
             // 
             // btnRegistration
             // 
-            this.btnRegistration.Location = new System.Drawing.Point(16, 90);
+            this.btnRegistration.Location = new System.Drawing.Point(28, 90);
             this.btnRegistration.Name = "btnRegistration";
             this.btnRegistration.Size = new System.Drawing.Size(92, 23);
             this.btnRegistration.TabIndex = 64;
@@ -87,7 +89,7 @@
             // 
             // btnBooks
             // 
-            this.btnBooks.Location = new System.Drawing.Point(16, 81);
+            this.btnBooks.Location = new System.Drawing.Point(28, 73);
             this.btnBooks.Name = "btnBooks";
             this.btnBooks.Size = new System.Drawing.Size(92, 23);
             this.btnBooks.TabIndex = 62;
@@ -97,7 +99,7 @@
             // 
             // btnBookLocate
             // 
-            this.btnBookLocate.Location = new System.Drawing.Point(16, 133);
+            this.btnBookLocate.Location = new System.Drawing.Point(28, 117);
             this.btnBookLocate.Name = "btnBookLocate";
             this.btnBookLocate.Size = new System.Drawing.Size(92, 23);
             this.btnBookLocate.TabIndex = 63;
@@ -106,7 +108,7 @@
             // 
             // btnBookTraffic
             // 
-            this.btnBookTraffic.Location = new System.Drawing.Point(16, 182);
+            this.btnBookTraffic.Location = new System.Drawing.Point(28, 161);
             this.btnBookTraffic.Name = "btnBookTraffic";
             this.btnBookTraffic.Size = new System.Drawing.Size(92, 23);
             this.btnBookTraffic.TabIndex = 68;
@@ -134,7 +136,9 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel4.Controls.Add(this.button2);
             this.panel4.Controls.Add(this.btnBooks);
+            this.panel4.Controls.Add(this.button3);
             this.panel4.Controls.Add(this.btnBookTraffic);
             this.panel4.Controls.Add(this.btnExit);
             this.panel4.Controls.Add(this.btnBookLocate);
@@ -176,6 +180,24 @@
             this.panel2.Size = new System.Drawing.Size(175, 187);
             this.panel2.TabIndex = 77;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(28, 250);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(92, 23);
+            this.button2.TabIndex = 79;
+            this.button2.Text = "Return";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(28, 206);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(92, 23);
+            this.button3.TabIndex = 78;
+            this.button3.Text = "Borrow";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // frm_main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -212,6 +234,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }
 
