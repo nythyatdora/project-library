@@ -10,29 +10,16 @@ using System.Windows.Forms;
 
 namespace project_library
 {
-    public partial class frm_main : MetroFramework.Forms.MetroForm
+    public partial class frm_BooksLocation : MetroFramework.Forms.MetroForm
     {
-        public frm_main()
+        public frm_BooksLocation()
         {
             InitializeComponent();
         }
-        private void frm_main_Load(object sender, EventArgs e)
-        {
-            
 
-        }
-
-        
-        private void btnRegistration_Click(object sender, EventArgs e)
+        private void frm_BooksLocation_Load(object sender, EventArgs e)
         {
-            frm_Registration frmRegistration = new frm_Registration();
-            frmRegistration.Show();
-        }
 
-        private void btnExit_Click(object sender, EventArgs e)
-        {
-            frm_main frmMain = new frm_main();
-            frmMain.Close();
         }
 
         private void btnBooks_Click(object sender, EventArgs e)
@@ -41,10 +28,16 @@ namespace project_library
             frmBook.Show();
         }
 
-        private void btnBookLocate_Click(object sender, EventArgs e)
+        private void btnRegistration_Click(object sender, EventArgs e)
         {
-            frm_BooksLocation frmBooksLocation = new frm_BooksLocation();
-            frmBooksLocation.Show();
+            frm_Registration frmRegistration = new frm_Registration();
+            frmRegistration.Show();
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            frm_main frmMain = new frm_main();
+            frmMain.Show();
         }
 
         private void btnBookTraffic_Click(object sender, EventArgs e)
@@ -53,7 +46,12 @@ namespace project_library
             frmBooksTraffic.Show();
         }
 
-        private void btnBorrow_Click(object sender, EventArgs e)
+        private void btnBookLocate_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("You're already on the form, bitch!!!");
+        }
+
+        private void btnBorrow1_Click(object sender, EventArgs e)
         {
             frm_Borrow frmBorrow = new frm_Borrow();
             frmBorrow.Show();

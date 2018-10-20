@@ -38,11 +38,11 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.metroDateTime2 = new MetroFramework.Controls.MetroDateTime();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnBorrow = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -105,6 +105,7 @@
             this.btnBookLocate.TabIndex = 63;
             this.btnBookLocate.Text = "Books Location";
             this.btnBookLocate.UseVisualStyleBackColor = true;
+            this.btnBookLocate.Click += new System.EventHandler(this.btnBookLocate_Click);
             // 
             // btnBookTraffic
             // 
@@ -114,6 +115,7 @@
             this.btnBookTraffic.TabIndex = 68;
             this.btnBookTraffic.Text = "Books Traffic";
             this.btnBookTraffic.UseVisualStyleBackColor = true;
+            this.btnBookTraffic.Click += new System.EventHandler(this.btnBookTraffic_Click);
             // 
             // panel3
             // 
@@ -136,9 +138,9 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel4.Controls.Add(this.btnBorrow);
             this.panel4.Controls.Add(this.button2);
             this.panel4.Controls.Add(this.btnBooks);
-            this.panel4.Controls.Add(this.button3);
             this.panel4.Controls.Add(this.btnBookTraffic);
             this.panel4.Controls.Add(this.btnExit);
             this.panel4.Controls.Add(this.btnBookLocate);
@@ -148,6 +150,15 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(152, 687);
             this.panel4.TabIndex = 74;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(28, 250);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(92, 23);
+            this.button2.TabIndex = 79;
+            this.button2.Text = "Return";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
             // 
@@ -180,23 +191,15 @@
             this.panel2.Size = new System.Drawing.Size(175, 187);
             this.panel2.TabIndex = 77;
             // 
-            // button2
+            // btnBorrow
             // 
-            this.button2.Location = new System.Drawing.Point(28, 250);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(92, 23);
-            this.button2.TabIndex = 79;
-            this.button2.Text = "Return";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(28, 206);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(92, 23);
-            this.button3.TabIndex = 78;
-            this.button3.Text = "Borrow";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnBorrow.Location = new System.Drawing.Point(28, 208);
+            this.btnBorrow.Name = "btnBorrow";
+            this.btnBorrow.Size = new System.Drawing.Size(92, 23);
+            this.btnBorrow.TabIndex = 79;
+            this.btnBorrow.Text = "Borrow";
+            this.btnBorrow.UseVisualStyleBackColor = true;
+            this.btnBorrow.Click += new System.EventHandler(this.btnBorrow_Click);
             // 
             // frm_main
             // 
@@ -235,7 +238,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnBorrow;
     }
 }
 

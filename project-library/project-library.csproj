@@ -55,11 +55,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frm_Borrow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Borrow.Designer.cs">
+      <DependentUpon>frm_Borrow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_BooksTraffic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_BooksTraffic.Designer.cs">
+      <DependentUpon>frm_BooksTraffic.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_Book.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_Book.Designer.cs">
       <DependentUpon>frm_Book.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_BooksLocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_BooksLocation.Designer.cs">
+      <DependentUpon>frm_BooksLocation.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_main.cs">
       <SubType>Form</SubType>
@@ -75,8 +93,17 @@
     <Compile Include="frm_Registration.Designer.cs">
       <DependentUpon>frm_Registration.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="frm_Borrow.resx">
+      <DependentUpon>frm_Borrow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_BooksTraffic.resx">
+      <DependentUpon>frm_BooksTraffic.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_Book.resx">
       <DependentUpon>frm_Book.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_BooksLocation.resx">
+      <DependentUpon>frm_BooksLocation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_main.resx">
       <DependentUpon>frm_main.cs</DependentUpon>
