@@ -10,20 +10,11 @@ using System.Windows.Forms;
 
 namespace project_library
 {
-    public partial class Frm_Main : Form
+    public partial class Panel_Form_Books : Form
     {
-        List<Panel> panel_body = new List<Panel>();
-
-        private void setPanelBody()
-        {
-
-        }
-
-        public Frm_Main()
+        public Panel_Form_Books()
         {
             InitializeComponent();
         }
-
-
     }
 }
