@@ -24,6 +24,9 @@ namespace project_library
             InitializeComponent();
         }
 
-
+        private void btn_close_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

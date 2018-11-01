@@ -32,6 +32,7 @@
             this.panel_head = new System.Windows.Forms.Panel();
             this.btn_close = new System.Windows.Forms.Button();
             this.panel_body = new System.Windows.Forms.Panel();
+            this.label_view_table_readers = new System.Windows.Forms.Label();
             this.label_upload_identification = new System.Windows.Forms.Label();
             this.label_upload_picture = new System.Windows.Forms.Label();
             this.picbox_identificationid = new System.Windows.Forms.PictureBox();
@@ -57,7 +58,6 @@
             this.txt_first_name = new System.Windows.Forms.TextBox();
             this.label_first_name = new System.Windows.Forms.Label();
             this.picbox_title = new System.Windows.Forms.PictureBox();
-            this.label_view_table_readers = new System.Windows.Forms.Label();
             this.panel_head.SuspendLayout();
             this.panel_body.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picbox_identificationid)).BeginInit();
@@ -127,6 +127,20 @@
             this.panel_body.Name = "panel_body";
             this.panel_body.Size = new System.Drawing.Size(900, 796);
             this.panel_body.TabIndex = 1;
+            // 
+            // label_view_table_readers
+            // 
+            this.label_view_table_readers.AutoSize = true;
+            this.label_view_table_readers.BackColor = System.Drawing.Color.Transparent;
+            this.label_view_table_readers.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_view_table_readers.ForeColor = System.Drawing.Color.White;
+            this.label_view_table_readers.Location = new System.Drawing.Point(754, 40);
+            this.label_view_table_readers.Name = "label_view_table_readers";
+            this.label_view_table_readers.Size = new System.Drawing.Size(121, 69);
+            this.label_view_table_readers.TabIndex = 54;
+            this.label_view_table_readers.Text = "view\r\ntable readers\r\n\r\n";
+            this.label_view_table_readers.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label_view_table_readers.Click += new System.EventHandler(this.label_view_table_readers_Click);
             // 
             // label_upload_identification
             // 
@@ -400,19 +414,6 @@
             this.picbox_title.Size = new System.Drawing.Size(400, 72);
             this.picbox_title.TabIndex = 0;
             this.picbox_title.TabStop = false;
-            // 
-            // label_view_table_readers
-            // 
-            this.label_view_table_readers.AutoSize = true;
-            this.label_view_table_readers.BackColor = System.Drawing.Color.Transparent;
-            this.label_view_table_readers.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_view_table_readers.ForeColor = System.Drawing.Color.White;
-            this.label_view_table_readers.Location = new System.Drawing.Point(754, 40);
-            this.label_view_table_readers.Name = "label_view_table_readers";
-            this.label_view_table_readers.Size = new System.Drawing.Size(121, 69);
-            this.label_view_table_readers.TabIndex = 54;
-            this.label_view_table_readers.Text = "view\r\ntable readers\r\n\r\n";
-            this.label_view_table_readers.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // Frm_Insert_Reader
             // 

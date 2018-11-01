@@ -50,6 +50,7 @@
             this.label_books = new System.Windows.Forms.Label();
             this.label_borrow_return = new System.Windows.Forms.Label();
             this.label_home = new System.Windows.Forms.Label();
+            this.btn_close = new System.Windows.Forms.Button();
             this.panel_background.SuspendLayout();
             this.panel_main.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panel_main_picbox_profile)).BeginInit();
@@ -59,6 +60,7 @@
             // 
             this.panel_background.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_background.BackgroundImage")));
             this.panel_background.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel_background.Controls.Add(this.btn_close);
             this.panel_background.Controls.Add(this.panel_main);
             this.panel_background.Controls.Add(this.label_dropmenu);
             this.panel_background.Controls.Add(this.label_date);
@@ -356,6 +358,24 @@
             this.label_home.TabIndex = 0;
             this.label_home.Text = "HOME";
             // 
+            // btn_close
+            // 
+            this.btn_close.BackColor = System.Drawing.Color.Transparent;
+            this.btn_close.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_close.FlatAppearance.BorderSize = 0;
+            this.btn_close.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_close.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_close.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_close.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_close.Image = ((System.Drawing.Image)(resources.GetObject("btn_close.Image")));
+            this.btn_close.Location = new System.Drawing.Point(1049, 0);
+            this.btn_close.Name = "btn_close";
+            this.btn_close.Size = new System.Drawing.Size(50, 6);
+            this.btn_close.TabIndex = 21;
+            this.btn_close.UseVisualStyleBackColor = false;
+            this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
+            // 
             // Frm_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -401,6 +421,7 @@
         private System.Windows.Forms.Label label_email_address;
         private System.Windows.Forms.Label label_username;
         private System.Windows.Forms.PictureBox panel_main_picbox_profile;
+        private System.Windows.Forms.Button btn_close;
     }
 }
 

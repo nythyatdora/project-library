@@ -40,6 +40,8 @@
             this.txt_searchby = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label_title = new System.Windows.Forms.Label();
+            this.btn_close = new System.Windows.Forms.Button();
+            this.panel_head.SuspendLayout();
             this.panel_body.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.datagrid_table)).BeginInit();
             this.SuspendLayout();
@@ -48,6 +50,7 @@
             // 
             this.panel_head.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_head.BackgroundImage")));
             this.panel_head.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel_head.Controls.Add(this.btn_close);
             this.panel_head.Location = new System.Drawing.Point(0, 0);
             this.panel_head.Name = "panel_head";
             this.panel_head.Size = new System.Drawing.Size(1000, 6);
@@ -181,6 +184,24 @@
             this.label_title.TabIndex = 4;
             this.label_title.Text = "Title";
             // 
+            // btn_close
+            // 
+            this.btn_close.BackColor = System.Drawing.Color.Transparent;
+            this.btn_close.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_close.FlatAppearance.BorderSize = 0;
+            this.btn_close.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_close.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_close.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_close.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_close.Image = ((System.Drawing.Image)(resources.GetObject("btn_close.Image")));
+            this.btn_close.Location = new System.Drawing.Point(949, -1);
+            this.btn_close.Name = "btn_close";
+            this.btn_close.Size = new System.Drawing.Size(50, 6);
+            this.btn_close.TabIndex = 51;
+            this.btn_close.UseVisualStyleBackColor = false;
+            this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
+            // 
             // Frm_Table
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -192,6 +213,7 @@
             this.Name = "Frm_Table";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_Table";
+            this.panel_head.ResumeLayout(false);
             this.panel_body.ResumeLayout(false);
             this.panel_body.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.datagrid_table)).EndInit();
@@ -212,5 +234,6 @@
         private System.Windows.Forms.Label label_insert;
         private System.Windows.Forms.Label label_view;
         private System.Windows.Forms.Label label_refresh;
+        private System.Windows.Forms.Button btn_close;
     }
 }

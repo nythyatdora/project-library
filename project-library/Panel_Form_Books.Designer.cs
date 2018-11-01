@@ -70,6 +70,7 @@
             this.btn_find_book.TabIndex = 15;
             this.btn_find_book.Text = "FIND BOOK";
             this.btn_find_book.UseVisualStyleBackColor = false;
+            this.btn_find_book.Click += new System.EventHandler(this.btn_find_book_Click);
             // 
             // panel_books_picbox_profile
             // 
@@ -124,6 +125,7 @@
             this.btn_insert_book.TabIndex = 0;
             this.btn_insert_book.Text = "INPUT/INSERT\r\nNEW BOOK";
             this.btn_insert_book.UseVisualStyleBackColor = false;
+            this.btn_insert_book.Click += new System.EventHandler(this.btn_insert_book_Click);
             // 
             // Panel_Form_Books
             // 
@@ -133,6 +135,7 @@
             this.Controls.Add(this.panel_books);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Panel_Form_Books";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Panel_Form_Books";
             this.panel_books.ResumeLayout(false);
             this.panel_books.PerformLayout();

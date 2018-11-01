@@ -16,7 +16,7 @@ namespace project_library
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new OverlapPanel());
+            Application.Run(new Frm_Insert_Book());
         }
     }
 }

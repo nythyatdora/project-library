@@ -21,5 +21,11 @@ namespace project_library
         {
             this.Close();
         }
+
+        private void label_view_table_readers_Click(object sender, EventArgs e)
+        {
+            Frm_Table frm_table = new Frm_Table();
+            frm_table.Show();
+        }
     }
 }

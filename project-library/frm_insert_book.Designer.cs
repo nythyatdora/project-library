@@ -32,6 +32,7 @@
             this.panel_head = new System.Windows.Forms.Panel();
             this.btn_close = new System.Windows.Forms.Button();
             this.panel_body = new System.Windows.Forms.Panel();
+            this.label_view_table_book = new System.Windows.Forms.Label();
             this.label_confirm = new System.Windows.Forms.Label();
             this.label_reset = new System.Windows.Forms.Label();
             this.label_upload_bookcover = new System.Windows.Forms.Label();
@@ -58,7 +59,6 @@
             this.label_book_title = new System.Windows.Forms.Label();
             this.label_import_external = new System.Windows.Forms.Label();
             this.panel_title = new System.Windows.Forms.Panel();
-            this.label_view_table_book = new System.Windows.Forms.Label();
             this.panel_head.SuspendLayout();
             this.panel_body.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picbox_bookcover)).BeginInit();
@@ -127,6 +127,20 @@
             this.panel_body.Name = "panel_body";
             this.panel_body.Size = new System.Drawing.Size(900, 869);
             this.panel_body.TabIndex = 1;
+            // 
+            // label_view_table_book
+            // 
+            this.label_view_table_book.AutoSize = true;
+            this.label_view_table_book.BackColor = System.Drawing.Color.Transparent;
+            this.label_view_table_book.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_view_table_book.ForeColor = System.Drawing.Color.White;
+            this.label_view_table_book.Location = new System.Drawing.Point(754, 110);
+            this.label_view_table_book.Name = "label_view_table_book";
+            this.label_view_table_book.Size = new System.Drawing.Size(105, 46);
+            this.label_view_table_book.TabIndex = 55;
+            this.label_view_table_book.Text = "view\r\ntable books";
+            this.label_view_table_book.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label_view_table_book.Click += new System.EventHandler(this.label_view_table_book_Click);
             // 
             // label_confirm
             // 
@@ -409,19 +423,6 @@
             this.panel_title.Name = "panel_title";
             this.panel_title.Size = new System.Drawing.Size(378, 71);
             this.panel_title.TabIndex = 0;
-            // 
-            // label_view_table_book
-            // 
-            this.label_view_table_book.AutoSize = true;
-            this.label_view_table_book.BackColor = System.Drawing.Color.Transparent;
-            this.label_view_table_book.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_view_table_book.ForeColor = System.Drawing.Color.White;
-            this.label_view_table_book.Location = new System.Drawing.Point(754, 110);
-            this.label_view_table_book.Name = "label_view_table_book";
-            this.label_view_table_book.Size = new System.Drawing.Size(105, 46);
-            this.label_view_table_book.TabIndex = 55;
-            this.label_view_table_book.Text = "view\r\ntable books";
-            this.label_view_table_book.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // Frm_Insert_Book
             // 
