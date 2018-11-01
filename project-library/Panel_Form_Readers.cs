@@ -22,5 +22,11 @@ namespace project_library
             Frm_Insert_Reader frm_insert_reader = new Frm_Insert_Reader();
             frm_insert_reader.Show();
         }
+
+        private void btn_find_reader_Click(object sender, EventArgs e)
+        {
+            Frm_Search frm_search = new Frm_Search();
+            frm_search.Show();
+        }
     }
 }

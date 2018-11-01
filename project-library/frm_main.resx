@@ -270,6 +270,12 @@
         APDeZ+/+F8DxbG6hfUf2AAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="btn_close.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAGCAYAAACB1M0KAAAABGdBTUEAALGPC/xhBQAAACFJREFUOE9j
+        AIL/wwQz/H8rozKk8ahHBhsefh4Z+pjhPwA1EQyznV9NWwAAAABJRU5ErkJggg==
+</value>
+  </data>
   <data name="panel_main.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAA1QAAAJDCAYAAAAMxVXKAAAABGdBTUEAALGPC/xhBQAA/8dJREFUeF7s

@@ -39,6 +39,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.picbox_login = new System.Windows.Forms.PictureBox();
             this.panel_body = new System.Windows.Forms.Panel();
+            this.btn_close = new System.Windows.Forms.Button();
             this.panel_background.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picbox_password)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbox_username)).BeginInit();
@@ -51,6 +52,7 @@
             // 
             this.panel_background.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_background.BackgroundImage")));
             this.panel_background.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel_background.Controls.Add(this.btn_close);
             this.panel_background.Controls.Add(this.label_exit);
             this.panel_background.Controls.Add(this.label_confirm);
             this.panel_background.Controls.Add(this.txt_password);
@@ -162,14 +164,32 @@
             this.panel_body.Size = new System.Drawing.Size(400, 400);
             this.panel_body.TabIndex = 1;
             // 
-            // frm_login
+            // btn_close
+            // 
+            this.btn_close.BackColor = System.Drawing.Color.Transparent;
+            this.btn_close.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_close.FlatAppearance.BorderSize = 0;
+            this.btn_close.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_close.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_close.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_close.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_close.Image = ((System.Drawing.Image)(resources.GetObject("btn_close.Image")));
+            this.btn_close.Location = new System.Drawing.Point(348, -2);
+            this.btn_close.Name = "btn_close";
+            this.btn_close.Size = new System.Drawing.Size(50, 9);
+            this.btn_close.TabIndex = 51;
+            this.btn_close.UseVisualStyleBackColor = false;
+            this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
+            // 
+            // Frm_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(400, 400);
             this.Controls.Add(this.panel_body);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frm_login";
+            this.Name = "Frm_Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_login";
             this.panel_background.ResumeLayout(false);
@@ -195,5 +215,6 @@
         private System.Windows.Forms.TextBox txt_password;
         private System.Windows.Forms.Label label_exit;
         private System.Windows.Forms.Label label_confirm;
+        private System.Windows.Forms.Button btn_close;
     }
 }

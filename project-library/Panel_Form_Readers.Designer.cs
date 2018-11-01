@@ -71,6 +71,7 @@
             this.btn_find_reader.TabIndex = 15;
             this.btn_find_reader.Text = "FIND READER";
             this.btn_find_reader.UseVisualStyleBackColor = false;
+            this.btn_find_reader.Click += new System.EventHandler(this.btn_find_reader_Click);
             // 
             // panel_readers_picbox_profile
             // 
