@@ -30,11 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Insert_Reader));
             this.panel_head = new System.Windows.Forms.Panel();
+            this.btn_close = new System.Windows.Forms.Button();
             this.panel_body = new System.Windows.Forms.Panel();
             this.label_upload_identification = new System.Windows.Forms.Label();
             this.label_upload_picture = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.picbox_identificationid = new System.Windows.Forms.PictureBox();
+            this.picbox_readerpic = new System.Windows.Forms.PictureBox();
             this.dtp_dateofbirth = new System.Windows.Forms.DateTimePicker();
             this.cbo_gender = new System.Windows.Forms.ComboBox();
             this.label_confirm = new System.Windows.Forms.Label();
@@ -56,9 +57,11 @@
             this.txt_first_name = new System.Windows.Forms.TextBox();
             this.label_first_name = new System.Windows.Forms.Label();
             this.picbox_title = new System.Windows.Forms.PictureBox();
+            this.label_view_table_readers = new System.Windows.Forms.Label();
+            this.panel_head.SuspendLayout();
             this.panel_body.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picbox_identificationid)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picbox_readerpic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbox_title)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,19 +69,39 @@
             // 
             this.panel_head.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_head.BackgroundImage")));
             this.panel_head.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel_head.Controls.Add(this.btn_close);
             this.panel_head.Location = new System.Drawing.Point(0, 0);
             this.panel_head.Name = "panel_head";
             this.panel_head.Size = new System.Drawing.Size(900, 6);
             this.panel_head.TabIndex = 0;
             // 
+            // btn_close
+            // 
+            this.btn_close.BackColor = System.Drawing.Color.Transparent;
+            this.btn_close.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_close.FlatAppearance.BorderSize = 0;
+            this.btn_close.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_close.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_close.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_close.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_close.Image = ((System.Drawing.Image)(resources.GetObject("btn_close.Image")));
+            this.btn_close.Location = new System.Drawing.Point(849, -1);
+            this.btn_close.Name = "btn_close";
+            this.btn_close.Size = new System.Drawing.Size(50, 6);
+            this.btn_close.TabIndex = 19;
+            this.btn_close.UseVisualStyleBackColor = false;
+            this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
+            // 
             // panel_body
             // 
             this.panel_body.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_body.BackgroundImage")));
             this.panel_body.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel_body.Controls.Add(this.label_view_table_readers);
             this.panel_body.Controls.Add(this.label_upload_identification);
             this.panel_body.Controls.Add(this.label_upload_picture);
-            this.panel_body.Controls.Add(this.pictureBox2);
-            this.panel_body.Controls.Add(this.pictureBox1);
+            this.panel_body.Controls.Add(this.picbox_identificationid);
+            this.panel_body.Controls.Add(this.picbox_readerpic);
             this.panel_body.Controls.Add(this.dtp_dateofbirth);
             this.panel_body.Controls.Add(this.cbo_gender);
             this.panel_body.Controls.Add(this.label_confirm);
@@ -130,29 +153,29 @@
             this.label_upload_picture.TabIndex = 52;
             this.label_upload_picture.Text = "Upload Picture";
             // 
-            // pictureBox2
+            // picbox_identificationid
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox2.Location = new System.Drawing.Point(663, 435);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(205, 219);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox2.TabIndex = 51;
-            this.pictureBox2.TabStop = false;
+            this.picbox_identificationid.BackColor = System.Drawing.Color.Transparent;
+            this.picbox_identificationid.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picbox_identificationid.BackgroundImage")));
+            this.picbox_identificationid.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.picbox_identificationid.Location = new System.Drawing.Point(663, 435);
+            this.picbox_identificationid.Name = "picbox_identificationid";
+            this.picbox_identificationid.Size = new System.Drawing.Size(205, 219);
+            this.picbox_identificationid.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.picbox_identificationid.TabIndex = 51;
+            this.picbox_identificationid.TabStop = false;
             // 
-            // pictureBox1
+            // picbox_readerpic
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox1.Location = new System.Drawing.Point(656, 156);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(219, 219);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 50;
-            this.pictureBox1.TabStop = false;
+            this.picbox_readerpic.BackColor = System.Drawing.Color.Transparent;
+            this.picbox_readerpic.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picbox_readerpic.BackgroundImage")));
+            this.picbox_readerpic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.picbox_readerpic.Location = new System.Drawing.Point(656, 156);
+            this.picbox_readerpic.Name = "picbox_readerpic";
+            this.picbox_readerpic.Size = new System.Drawing.Size(219, 219);
+            this.picbox_readerpic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.picbox_readerpic.TabIndex = 50;
+            this.picbox_readerpic.TabStop = false;
             // 
             // dtp_dateofbirth
             // 
@@ -177,7 +200,7 @@
             this.label_confirm.BackColor = System.Drawing.Color.Transparent;
             this.label_confirm.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_confirm.ForeColor = System.Drawing.Color.White;
-            this.label_confirm.Location = new System.Drawing.Point(550, 736);
+            this.label_confirm.Location = new System.Drawing.Point(541, 736);
             this.label_confirm.Name = "label_confirm";
             this.label_confirm.Size = new System.Drawing.Size(90, 23);
             this.label_confirm.TabIndex = 47;
@@ -189,7 +212,7 @@
             this.label_reset.BackColor = System.Drawing.Color.Transparent;
             this.label_reset.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_reset.ForeColor = System.Drawing.Color.White;
-            this.label_reset.Location = new System.Drawing.Point(43, 736);
+            this.label_reset.Location = new System.Drawing.Point(37, 736);
             this.label_reset.Name = "label_reset";
             this.label_reset.Size = new System.Drawing.Size(65, 23);
             this.label_reset.TabIndex = 46;
@@ -378,6 +401,19 @@
             this.picbox_title.TabIndex = 0;
             this.picbox_title.TabStop = false;
             // 
+            // label_view_table_readers
+            // 
+            this.label_view_table_readers.AutoSize = true;
+            this.label_view_table_readers.BackColor = System.Drawing.Color.Transparent;
+            this.label_view_table_readers.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_view_table_readers.ForeColor = System.Drawing.Color.White;
+            this.label_view_table_readers.Location = new System.Drawing.Point(754, 40);
+            this.label_view_table_readers.Name = "label_view_table_readers";
+            this.label_view_table_readers.Size = new System.Drawing.Size(121, 69);
+            this.label_view_table_readers.TabIndex = 54;
+            this.label_view_table_readers.Text = "view\r\ntable readers\r\n\r\n";
+            this.label_view_table_readers.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
             // Frm_Insert_Reader
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -389,10 +425,11 @@
             this.Name = "Frm_Insert_Reader";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_Insert_Reader";
+            this.panel_head.ResumeLayout(false);
             this.panel_body.ResumeLayout(false);
             this.panel_body.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picbox_identificationid)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picbox_readerpic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbox_title)).EndInit();
             this.ResumeLayout(false);
 
@@ -403,8 +440,8 @@
         private System.Windows.Forms.Panel panel_head;
         private System.Windows.Forms.Panel panel_body;
         private System.Windows.Forms.PictureBox picbox_title;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox picbox_identificationid;
+        private System.Windows.Forms.PictureBox picbox_readerpic;
         private System.Windows.Forms.DateTimePicker dtp_dateofbirth;
         private System.Windows.Forms.ComboBox cbo_gender;
         private System.Windows.Forms.Label label_confirm;
@@ -427,5 +464,7 @@
         private System.Windows.Forms.Label label_first_name;
         private System.Windows.Forms.Label label_upload_identification;
         private System.Windows.Forms.Label label_upload_picture;
+        private System.Windows.Forms.Button btn_close;
+        private System.Windows.Forms.Label label_view_table_readers;
     }
 }

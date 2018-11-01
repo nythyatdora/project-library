@@ -41,7 +41,9 @@
             // 
             // panel_readers
             // 
+            this.panel_readers.BackColor = System.Drawing.Color.Transparent;
             this.panel_readers.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_readers.BackgroundImage")));
+            this.panel_readers.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel_readers.Controls.Add(this.btn_find_reader);
             this.panel_readers.Controls.Add(this.panel_readers_picbox_profile);
             this.panel_readers.Controls.Add(this.panel_readers_label_email_address);
@@ -73,6 +75,7 @@
             // panel_readers_picbox_profile
             // 
             this.panel_readers_picbox_profile.BackColor = System.Drawing.Color.Transparent;
+            this.panel_readers_picbox_profile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel_readers_picbox_profile.Location = new System.Drawing.Point(764, 21);
             this.panel_readers_picbox_profile.Name = "panel_readers_picbox_profile";
             this.panel_readers_picbox_profile.Size = new System.Drawing.Size(63, 65);
@@ -122,6 +125,7 @@
             this.btn_insert_reader.TabIndex = 0;
             this.btn_insert_reader.Text = "INSERT\r\nNEW READER";
             this.btn_insert_reader.UseVisualStyleBackColor = false;
+            this.btn_insert_reader.Click += new System.EventHandler(this.btn_insert_reader_Click);
             // 
             // Panel_Form_Readers
             // 
@@ -131,6 +135,7 @@
             this.Controls.Add(this.panel_readers);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Panel_Form_Readers";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Panel_Form_Readers";
             this.panel_readers.ResumeLayout(false);
             this.panel_readers.PerformLayout();

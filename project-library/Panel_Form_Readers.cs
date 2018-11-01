@@ -16,5 +16,11 @@ namespace project_library
         {
             InitializeComponent();
         }
+
+        private void btn_insert_reader_Click(object sender, EventArgs e)
+        {
+            Frm_Insert_Reader frm_insert_reader = new Frm_Insert_Reader();
+            frm_insert_reader.Show();
+        }
     }
 }

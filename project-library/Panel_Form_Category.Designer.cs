@@ -52,6 +52,7 @@
             // panel_category
             // 
             this.panel_category.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_category.BackgroundImage")));
+            this.panel_category.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel_category.Controls.Add(this.label_search);
             this.panel_category.Controls.Add(this.panel_category_txt_searchby);
             this.panel_category.Controls.Add(this.btn_science);
@@ -259,6 +260,7 @@
             // panel_category_picbox_profile
             // 
             this.panel_category_picbox_profile.BackColor = System.Drawing.Color.Transparent;
+            this.panel_category_picbox_profile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel_category_picbox_profile.Location = new System.Drawing.Point(764, 21);
             this.panel_category_picbox_profile.Name = "panel_category_picbox_profile";
             this.panel_category_picbox_profile.Size = new System.Drawing.Size(63, 65);
