@@ -100,6 +100,12 @@
     <Compile Include="Panel_Form_Category.Designer.cs">
       <DependentUpon>Panel_Form_Category.cs</DependentUpon>
     </Compile>
+    <Compile Include="Panel_Form_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Panel_Form_Main.Designer.cs">
+      <DependentUpon>Panel_Form_Main.cs</DependentUpon>
+    </Compile>
     <Compile Include="Panel_Form_MyProfile_One.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -146,6 +152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Panel_Form_Category.resx">
       <DependentUpon>Panel_Form_Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel_Form_Main.resx">
+      <DependentUpon>Panel_Form_Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Panel_Form_MyProfile_One.resx">
       <DependentUpon>Panel_Form_MyProfile_One.cs</DependentUpon>
