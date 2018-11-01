@@ -30,6 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Panel_Form_MyProfile_Two));
             this.panel_home = new System.Windows.Forms.Panel();
+            this.txt_confirm_password = new System.Windows.Forms.TextBox();
+            this.label_confirm_password = new System.Windows.Forms.Label();
+            this.txt_new_password = new System.Windows.Forms.TextBox();
+            this.label_new_password = new System.Windows.Forms.Label();
             this.cbo_gender = new System.Windows.Forms.ComboBox();
             this.label_confirm = new System.Windows.Forms.Label();
             this.label_reset = new System.Windows.Forms.Label();
@@ -42,12 +46,8 @@
             this.label_gender = new System.Windows.Forms.Label();
             this.txt_username = new System.Windows.Forms.TextBox();
             this.label_last_name = new System.Windows.Forms.Label();
-            this.txt_first_name = new System.Windows.Forms.TextBox();
+            this.txt_full_name = new System.Windows.Forms.TextBox();
             this.label_full_name = new System.Windows.Forms.Label();
-            this.txt_new_password = new System.Windows.Forms.TextBox();
-            this.label_new_password = new System.Windows.Forms.Label();
-            this.txt_confirm_password = new System.Windows.Forms.TextBox();
-            this.label_confirm_password = new System.Windows.Forms.Label();
             this.panel_home.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,12 +70,54 @@
             this.panel_home.Controls.Add(this.label_gender);
             this.panel_home.Controls.Add(this.txt_username);
             this.panel_home.Controls.Add(this.label_last_name);
-            this.panel_home.Controls.Add(this.txt_first_name);
+            this.panel_home.Controls.Add(this.txt_full_name);
             this.panel_home.Controls.Add(this.label_full_name);
             this.panel_home.Location = new System.Drawing.Point(0, 0);
             this.panel_home.Name = "panel_home";
             this.panel_home.Size = new System.Drawing.Size(852, 579);
             this.panel_home.TabIndex = 13;
+            // 
+            // txt_confirm_password
+            // 
+            this.txt_confirm_password.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_confirm_password.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_confirm_password.Location = new System.Drawing.Point(451, 273);
+            this.txt_confirm_password.Name = "txt_confirm_password";
+            this.txt_confirm_password.Size = new System.Drawing.Size(350, 33);
+            this.txt_confirm_password.TabIndex = 66;
+            // 
+            // label_confirm_password
+            // 
+            this.label_confirm_password.AutoSize = true;
+            this.label_confirm_password.BackColor = System.Drawing.Color.Transparent;
+            this.label_confirm_password.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_confirm_password.ForeColor = System.Drawing.Color.White;
+            this.label_confirm_password.Location = new System.Drawing.Point(445, 237);
+            this.label_confirm_password.Name = "label_confirm_password";
+            this.label_confirm_password.Size = new System.Drawing.Size(298, 33);
+            this.label_confirm_password.TabIndex = 65;
+            this.label_confirm_password.Text = "Confirm New Password";
+            // 
+            // txt_new_password
+            // 
+            this.txt_new_password.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_new_password.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_new_password.Location = new System.Drawing.Point(451, 180);
+            this.txt_new_password.Name = "txt_new_password";
+            this.txt_new_password.Size = new System.Drawing.Size(350, 33);
+            this.txt_new_password.TabIndex = 64;
+            // 
+            // label_new_password
+            // 
+            this.label_new_password.AutoSize = true;
+            this.label_new_password.BackColor = System.Drawing.Color.Transparent;
+            this.label_new_password.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_new_password.ForeColor = System.Drawing.Color.White;
+            this.label_new_password.Location = new System.Drawing.Point(445, 144);
+            this.label_new_password.Name = "label_new_password";
+            this.label_new_password.Size = new System.Drawing.Size(195, 33);
+            this.label_new_password.TabIndex = 63;
+            this.label_new_password.Text = "New Password";
             // 
             // cbo_gender
             // 
@@ -207,14 +249,14 @@
             this.label_last_name.TabIndex = 51;
             this.label_last_name.Text = "Username";
             // 
-            // txt_first_name
+            // txt_full_name
             // 
-            this.txt_first_name.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_first_name.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_first_name.Location = new System.Drawing.Point(52, 97);
-            this.txt_first_name.Name = "txt_first_name";
-            this.txt_first_name.Size = new System.Drawing.Size(350, 33);
-            this.txt_first_name.TabIndex = 50;
+            this.txt_full_name.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_full_name.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_full_name.Location = new System.Drawing.Point(52, 97);
+            this.txt_full_name.Name = "txt_full_name";
+            this.txt_full_name.Size = new System.Drawing.Size(350, 33);
+            this.txt_full_name.TabIndex = 50;
             // 
             // label_full_name
             // 
@@ -227,48 +269,6 @@
             this.label_full_name.Size = new System.Drawing.Size(136, 33);
             this.label_full_name.TabIndex = 49;
             this.label_full_name.Text = "Full Name";
-            // 
-            // txt_new_password
-            // 
-            this.txt_new_password.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_new_password.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_new_password.Location = new System.Drawing.Point(451, 180);
-            this.txt_new_password.Name = "txt_new_password";
-            this.txt_new_password.Size = new System.Drawing.Size(350, 33);
-            this.txt_new_password.TabIndex = 64;
-            // 
-            // label_new_password
-            // 
-            this.label_new_password.AutoSize = true;
-            this.label_new_password.BackColor = System.Drawing.Color.Transparent;
-            this.label_new_password.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_new_password.ForeColor = System.Drawing.Color.White;
-            this.label_new_password.Location = new System.Drawing.Point(445, 144);
-            this.label_new_password.Name = "label_new_password";
-            this.label_new_password.Size = new System.Drawing.Size(195, 33);
-            this.label_new_password.TabIndex = 63;
-            this.label_new_password.Text = "New Password";
-            // 
-            // txt_confirm_password
-            // 
-            this.txt_confirm_password.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_confirm_password.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_confirm_password.Location = new System.Drawing.Point(451, 273);
-            this.txt_confirm_password.Name = "txt_confirm_password";
-            this.txt_confirm_password.Size = new System.Drawing.Size(350, 33);
-            this.txt_confirm_password.TabIndex = 66;
-            // 
-            // label_confirm_password
-            // 
-            this.label_confirm_password.AutoSize = true;
-            this.label_confirm_password.BackColor = System.Drawing.Color.Transparent;
-            this.label_confirm_password.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_confirm_password.ForeColor = System.Drawing.Color.White;
-            this.label_confirm_password.Location = new System.Drawing.Point(445, 237);
-            this.label_confirm_password.Name = "label_confirm_password";
-            this.label_confirm_password.Size = new System.Drawing.Size(298, 33);
-            this.label_confirm_password.TabIndex = 65;
-            this.label_confirm_password.Text = "Confirm New Password";
             // 
             // Panel_Form_MyProfile_Two
             // 
@@ -300,7 +300,7 @@
         private System.Windows.Forms.Label label_gender;
         private System.Windows.Forms.TextBox txt_username;
         private System.Windows.Forms.Label label_last_name;
-        private System.Windows.Forms.TextBox txt_first_name;
+        private System.Windows.Forms.TextBox txt_full_name;
         private System.Windows.Forms.Label label_full_name;
         private System.Windows.Forms.TextBox txt_confirm_password;
         private System.Windows.Forms.Label label_confirm_password;
