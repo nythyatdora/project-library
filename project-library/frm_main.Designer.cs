@@ -58,6 +58,7 @@
             // panel_background
             // 
             this.panel_background.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_background.BackgroundImage")));
+            this.panel_background.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel_background.Controls.Add(this.panel_main);
             this.panel_background.Controls.Add(this.label_dropmenu);
             this.panel_background.Controls.Add(this.label_date);
@@ -77,6 +78,7 @@
             // panel_main
             // 
             this.panel_main.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_main.BackgroundImage")));
+            this.panel_main.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel_main.Controls.Add(this.panel_main_picbox_profile);
             this.panel_main.Controls.Add(this.label_email_address);
             this.panel_main.Controls.Add(this.label_username);

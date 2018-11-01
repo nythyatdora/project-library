@@ -42,6 +42,7 @@
             // panel_books
             // 
             this.panel_books.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_books.BackgroundImage")));
+            this.panel_books.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel_books.Controls.Add(this.btn_find_book);
             this.panel_books.Controls.Add(this.panel_books_picbox_profile);
             this.panel_books.Controls.Add(this.panel_books_label_email_address);
@@ -73,6 +74,7 @@
             // panel_books_picbox_profile
             // 
             this.panel_books_picbox_profile.BackColor = System.Drawing.Color.Transparent;
+            this.panel_books_picbox_profile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel_books_picbox_profile.Location = new System.Drawing.Point(764, 21);
             this.panel_books_picbox_profile.Name = "panel_books_picbox_profile";
             this.panel_books_picbox_profile.Size = new System.Drawing.Size(63, 65);

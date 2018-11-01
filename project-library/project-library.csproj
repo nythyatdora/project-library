@@ -82,6 +82,12 @@
     <Compile Include="Frm_Table.Designer.cs">
       <DependentUpon>Frm_Table.cs</DependentUpon>
     </Compile>
+    <Compile Include="OverlapPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OverlapPanel.Designer.cs">
+      <DependentUpon>OverlapPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Panel_Form_Books.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +149,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Table.resx">
       <DependentUpon>Frm_Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OverlapPanel.resx">
+      <DependentUpon>OverlapPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Panel_Form_Books.resx">
       <DependentUpon>Panel_Form_Books.cs</DependentUpon>

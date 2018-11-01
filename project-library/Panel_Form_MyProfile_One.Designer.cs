@@ -40,6 +40,7 @@
             // panel_home
             // 
             this.panel_home.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_home.BackgroundImage")));
+            this.panel_home.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel_home.Controls.Add(this.panel_myprofile_label_email_address);
             this.panel_home.Controls.Add(this.panel_myprofile_label_username);
             this.panel_home.Controls.Add(this.panel_myprofile_picbox_profile);
@@ -77,6 +78,7 @@
             // panel_myprofile_picbox_profile
             // 
             this.panel_myprofile_picbox_profile.BackColor = System.Drawing.Color.Transparent;
+            this.panel_myprofile_picbox_profile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel_myprofile_picbox_profile.Location = new System.Drawing.Point(277, 167);
             this.panel_myprofile_picbox_profile.Name = "panel_myprofile_picbox_profile";
             this.panel_myprofile_picbox_profile.Size = new System.Drawing.Size(299, 299);

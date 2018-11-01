@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Insert_Book));
             this.panel_head = new System.Windows.Forms.Panel();
+            this.btn_close = new System.Windows.Forms.Button();
             this.panel_body = new System.Windows.Forms.Panel();
             this.label_confirm = new System.Windows.Forms.Label();
             this.label_reset = new System.Windows.Forms.Label();
@@ -57,6 +58,8 @@
             this.label_book_title = new System.Windows.Forms.Label();
             this.label_import_external = new System.Windows.Forms.Label();
             this.panel_title = new System.Windows.Forms.Panel();
+            this.label_view_table_book = new System.Windows.Forms.Label();
+            this.panel_head.SuspendLayout();
             this.panel_body.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picbox_bookcover)).BeginInit();
             this.SuspendLayout();
@@ -65,15 +68,35 @@
             // 
             this.panel_head.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_head.BackgroundImage")));
             this.panel_head.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel_head.Controls.Add(this.btn_close);
             this.panel_head.Location = new System.Drawing.Point(0, 0);
             this.panel_head.Name = "panel_head";
             this.panel_head.Size = new System.Drawing.Size(900, 6);
             this.panel_head.TabIndex = 0;
             // 
+            // btn_close
+            // 
+            this.btn_close.BackColor = System.Drawing.Color.Transparent;
+            this.btn_close.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_close.FlatAppearance.BorderSize = 0;
+            this.btn_close.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_close.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_close.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_close.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_close.Image = ((System.Drawing.Image)(resources.GetObject("btn_close.Image")));
+            this.btn_close.Location = new System.Drawing.Point(849, -1);
+            this.btn_close.Name = "btn_close";
+            this.btn_close.Size = new System.Drawing.Size(50, 6);
+            this.btn_close.TabIndex = 20;
+            this.btn_close.UseVisualStyleBackColor = false;
+            this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
+            // 
             // panel_body
             // 
             this.panel_body.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_body.BackgroundImage")));
             this.panel_body.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel_body.Controls.Add(this.label_view_table_book);
             this.panel_body.Controls.Add(this.label_confirm);
             this.panel_body.Controls.Add(this.label_reset);
             this.panel_body.Controls.Add(this.label_upload_bookcover);
@@ -144,6 +167,7 @@
             // 
             // picbox_bookcover
             // 
+            this.picbox_bookcover.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.picbox_bookcover.Image = ((System.Drawing.Image)(resources.GetObject("picbox_bookcover.Image")));
             this.picbox_bookcover.Location = new System.Drawing.Point(659, 199);
             this.picbox_bookcover.Name = "picbox_bookcover";
@@ -386,7 +410,20 @@
             this.panel_title.Size = new System.Drawing.Size(378, 71);
             this.panel_title.TabIndex = 0;
             // 
-            // frm_insert_book
+            // label_view_table_book
+            // 
+            this.label_view_table_book.AutoSize = true;
+            this.label_view_table_book.BackColor = System.Drawing.Color.Transparent;
+            this.label_view_table_book.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_view_table_book.ForeColor = System.Drawing.Color.White;
+            this.label_view_table_book.Location = new System.Drawing.Point(754, 110);
+            this.label_view_table_book.Name = "label_view_table_book";
+            this.label_view_table_book.Size = new System.Drawing.Size(105, 46);
+            this.label_view_table_book.TabIndex = 55;
+            this.label_view_table_book.Text = "view\r\ntable books";
+            this.label_view_table_book.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // Frm_Insert_Book
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -394,9 +431,10 @@
             this.Controls.Add(this.panel_head);
             this.Controls.Add(this.panel_body);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frm_insert_book";
+            this.Name = "Frm_Insert_Book";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_insert_book";
+            this.panel_head.ResumeLayout(false);
             this.panel_body.ResumeLayout(false);
             this.panel_body.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picbox_bookcover)).EndInit();
@@ -434,5 +472,7 @@
         private System.Windows.Forms.Label label_confirm;
         private System.Windows.Forms.Label label_reset;
         private System.Windows.Forms.Label label_upload_bookcover;
+        private System.Windows.Forms.Button btn_close;
+        private System.Windows.Forms.Label label_view_table_book;
     }
 }

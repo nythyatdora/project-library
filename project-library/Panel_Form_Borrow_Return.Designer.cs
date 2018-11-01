@@ -42,6 +42,7 @@
             // panel_borrow_return
             // 
             this.panel_borrow_return.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_borrow_return.BackgroundImage")));
+            this.panel_borrow_return.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel_borrow_return.Controls.Add(this.btn_return);
             this.panel_borrow_return.Controls.Add(this.panel_borrow_return_picbox_profile);
             this.panel_borrow_return.Controls.Add(this.panel_borrow_return_label_email_address);
@@ -73,6 +74,7 @@
             // panel_borrow_return_picbox_profile
             // 
             this.panel_borrow_return_picbox_profile.BackColor = System.Drawing.Color.Transparent;
+            this.panel_borrow_return_picbox_profile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel_borrow_return_picbox_profile.Location = new System.Drawing.Point(764, 21);
             this.panel_borrow_return_picbox_profile.Name = "panel_borrow_return_picbox_profile";
             this.panel_borrow_return_picbox_profile.Size = new System.Drawing.Size(63, 65);
