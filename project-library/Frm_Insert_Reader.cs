@@ -17,14 +17,9 @@ namespace project_library
             InitializeComponent();
         }
 
-        private void btn_close_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void label_view_table_readers_Click(object sender, EventArgs e)
         {
-            Frm_Table frm_table = new Frm_Table();
+            Frm_Table frm_table = new Frm_Table("Readers");
             frm_table.Show();
         }
     }

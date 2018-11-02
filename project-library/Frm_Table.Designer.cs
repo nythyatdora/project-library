@@ -40,8 +40,6 @@
             this.txt_searchby = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label_title = new System.Windows.Forms.Label();
-            this.btn_close = new System.Windows.Forms.Button();
-            this.panel_head.SuspendLayout();
             this.panel_body.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.datagrid_table)).BeginInit();
             this.SuspendLayout();
@@ -50,7 +48,6 @@
             // 
             this.panel_head.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_head.BackgroundImage")));
             this.panel_head.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel_head.Controls.Add(this.btn_close);
             this.panel_head.Location = new System.Drawing.Point(0, 0);
             this.panel_head.Name = "panel_head";
             this.panel_head.Size = new System.Drawing.Size(1000, 6);
@@ -80,7 +77,7 @@
             this.label_delete.BackColor = System.Drawing.Color.Transparent;
             this.label_delete.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_delete.ForeColor = System.Drawing.Color.White;
-            this.label_delete.Location = new System.Drawing.Point(907, 749);
+            this.label_delete.Location = new System.Drawing.Point(901, 749);
             this.label_delete.Name = "label_delete";
             this.label_delete.Size = new System.Drawing.Size(75, 23);
             this.label_delete.TabIndex = 52;
@@ -92,7 +89,7 @@
             this.label_update.BackColor = System.Drawing.Color.Transparent;
             this.label_update.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_update.ForeColor = System.Drawing.Color.White;
-            this.label_update.Location = new System.Drawing.Point(800, 749);
+            this.label_update.Location = new System.Drawing.Point(794, 749);
             this.label_update.Name = "label_update";
             this.label_update.Size = new System.Drawing.Size(78, 23);
             this.label_update.TabIndex = 51;
@@ -104,7 +101,7 @@
             this.label_insert.BackColor = System.Drawing.Color.Transparent;
             this.label_insert.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_insert.ForeColor = System.Drawing.Color.White;
-            this.label_insert.Location = new System.Drawing.Point(697, 749);
+            this.label_insert.Location = new System.Drawing.Point(691, 749);
             this.label_insert.Name = "label_insert";
             this.label_insert.Size = new System.Drawing.Size(72, 23);
             this.label_insert.TabIndex = 50;
@@ -116,7 +113,7 @@
             this.label_view.BackColor = System.Drawing.Color.Transparent;
             this.label_view.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_view.ForeColor = System.Drawing.Color.White;
-            this.label_view.Location = new System.Drawing.Point(613, 749);
+            this.label_view.Location = new System.Drawing.Point(607, 749);
             this.label_view.Name = "label_view";
             this.label_view.Size = new System.Drawing.Size(53, 23);
             this.label_view.TabIndex = 49;
@@ -166,11 +163,11 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(869, 37);
+            this.label1.Location = new System.Drawing.Point(883, 37);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 23);
+            this.label1.Size = new System.Drawing.Size(92, 23);
             this.label1.TabIndex = 5;
-            this.label1.Text = "SEARCH BY";
+            this.label1.Text = "Search by";
             // 
             // label_title
             // 
@@ -184,24 +181,6 @@
             this.label_title.TabIndex = 4;
             this.label_title.Text = "Title";
             // 
-            // btn_close
-            // 
-            this.btn_close.BackColor = System.Drawing.Color.Transparent;
-            this.btn_close.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_close.FlatAppearance.BorderSize = 0;
-            this.btn_close.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_close.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_close.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_close.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_close.Image = ((System.Drawing.Image)(resources.GetObject("btn_close.Image")));
-            this.btn_close.Location = new System.Drawing.Point(949, -1);
-            this.btn_close.Name = "btn_close";
-            this.btn_close.Size = new System.Drawing.Size(50, 6);
-            this.btn_close.TabIndex = 51;
-            this.btn_close.UseVisualStyleBackColor = false;
-            this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
-            // 
             // Frm_Table
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -213,7 +192,6 @@
             this.Name = "Frm_Table";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_Table";
-            this.panel_head.ResumeLayout(false);
             this.panel_body.ResumeLayout(false);
             this.panel_body.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.datagrid_table)).EndInit();
@@ -234,6 +212,5 @@
         private System.Windows.Forms.Label label_insert;
         private System.Windows.Forms.Label label_view;
         private System.Windows.Forms.Label label_refresh;
-        private System.Windows.Forms.Button btn_close;
     }
 }
