@@ -12,13 +12,6 @@ namespace project_library
 {
     public partial class Frm_Main : Form
     {
-        List<Panel> panel_body = new List<Panel>();
-
-        private void setPanelBody()
-        {
-
-        }
-
         public Frm_Main()
         {
             InitializeComponent();

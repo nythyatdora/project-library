@@ -30,15 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Search));
             this.panel_head = new System.Windows.Forms.Panel();
-            this.btn_close = new System.Windows.Forms.Button();
             this.panel_body = new System.Windows.Forms.Panel();
-            this.cbo_gender = new System.Windows.Forms.ComboBox();
-            this.txt_book_title = new System.Windows.Forms.TextBox();
+            this.cbo_filter = new System.Windows.Forms.ComboBox();
+            this.txt_search_by = new System.Windows.Forms.TextBox();
             this.label_search = new System.Windows.Forms.Label();
             this.label_reset = new System.Windows.Forms.Label();
             this.label_filter = new System.Windows.Forms.Label();
-            this.label_book_title = new System.Windows.Forms.Label();
-            this.panel_head.SuspendLayout();
+            this.label_search_by = new System.Windows.Forms.Label();
             this.panel_body.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,62 +44,43 @@
             // 
             this.panel_head.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_head.BackgroundImage")));
             this.panel_head.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel_head.Controls.Add(this.btn_close);
             this.panel_head.Location = new System.Drawing.Point(0, 0);
             this.panel_head.Name = "panel_head";
             this.panel_head.Size = new System.Drawing.Size(900, 6);
             this.panel_head.TabIndex = 0;
             // 
-            // btn_close
-            // 
-            this.btn_close.BackColor = System.Drawing.Color.Transparent;
-            this.btn_close.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_close.FlatAppearance.BorderSize = 0;
-            this.btn_close.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_close.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_close.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_close.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_close.Image = ((System.Drawing.Image)(resources.GetObject("btn_close.Image")));
-            this.btn_close.Location = new System.Drawing.Point(849, -1);
-            this.btn_close.Name = "btn_close";
-            this.btn_close.Size = new System.Drawing.Size(50, 6);
-            this.btn_close.TabIndex = 50;
-            this.btn_close.UseVisualStyleBackColor = false;
-            this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
-            // 
             // panel_body
             // 
             this.panel_body.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_body.BackgroundImage")));
             this.panel_body.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel_body.Controls.Add(this.cbo_gender);
-            this.panel_body.Controls.Add(this.txt_book_title);
+            this.panel_body.Controls.Add(this.cbo_filter);
+            this.panel_body.Controls.Add(this.txt_search_by);
             this.panel_body.Controls.Add(this.label_search);
             this.panel_body.Controls.Add(this.label_reset);
             this.panel_body.Controls.Add(this.label_filter);
-            this.panel_body.Controls.Add(this.label_book_title);
+            this.panel_body.Controls.Add(this.label_search_by);
             this.panel_body.Location = new System.Drawing.Point(0, 0);
             this.panel_body.Name = "panel_body";
             this.panel_body.Size = new System.Drawing.Size(900, 350);
             this.panel_body.TabIndex = 1;
             // 
-            // cbo_gender
+            // cbo_filter
             // 
-            this.cbo_gender.Font = new System.Drawing.Font("Bahnschrift", 15.75F);
-            this.cbo_gender.FormattingEnabled = true;
-            this.cbo_gender.Location = new System.Drawing.Point(50, 225);
-            this.cbo_gender.Name = "cbo_gender";
-            this.cbo_gender.Size = new System.Drawing.Size(280, 33);
-            this.cbo_gender.TabIndex = 49;
+            this.cbo_filter.Font = new System.Drawing.Font("Bahnschrift", 15.75F);
+            this.cbo_filter.FormattingEnabled = true;
+            this.cbo_filter.Location = new System.Drawing.Point(50, 225);
+            this.cbo_filter.Name = "cbo_filter";
+            this.cbo_filter.Size = new System.Drawing.Size(280, 33);
+            this.cbo_filter.TabIndex = 49;
             // 
-            // txt_book_title
+            // txt_search_by
             // 
-            this.txt_book_title.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_book_title.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_book_title.Location = new System.Drawing.Point(50, 138);
-            this.txt_book_title.Name = "txt_book_title";
-            this.txt_book_title.Size = new System.Drawing.Size(800, 33);
-            this.txt_book_title.TabIndex = 7;
+            this.txt_search_by.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_search_by.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_search_by.Location = new System.Drawing.Point(50, 138);
+            this.txt_search_by.Name = "txt_search_by";
+            this.txt_search_by.Size = new System.Drawing.Size(800, 33);
+            this.txt_search_by.TabIndex = 7;
             // 
             // label_search
             // 
@@ -139,17 +118,17 @@
             this.label_filter.TabIndex = 4;
             this.label_filter.Text = "filter";
             // 
-            // label_book_title
+            // label_search_by
             // 
-            this.label_book_title.AutoSize = true;
-            this.label_book_title.BackColor = System.Drawing.Color.Transparent;
-            this.label_book_title.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_book_title.ForeColor = System.Drawing.Color.White;
-            this.label_book_title.Location = new System.Drawing.Point(44, 102);
-            this.label_book_title.Name = "label_book_title";
-            this.label_book_title.Size = new System.Drawing.Size(135, 33);
-            this.label_book_title.TabIndex = 3;
-            this.label_book_title.Text = "Search By";
+            this.label_search_by.AutoSize = true;
+            this.label_search_by.BackColor = System.Drawing.Color.Transparent;
+            this.label_search_by.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_search_by.ForeColor = System.Drawing.Color.White;
+            this.label_search_by.Location = new System.Drawing.Point(44, 102);
+            this.label_search_by.Name = "label_search_by";
+            this.label_search_by.Size = new System.Drawing.Size(135, 33);
+            this.label_search_by.TabIndex = 3;
+            this.label_search_by.Text = "Search By";
             // 
             // Frm_Search
             // 
@@ -162,7 +141,6 @@
             this.Name = "Frm_Search";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_Search";
-            this.panel_head.ResumeLayout(false);
             this.panel_body.ResumeLayout(false);
             this.panel_body.PerformLayout();
             this.ResumeLayout(false);
@@ -176,9 +154,8 @@
         private System.Windows.Forms.Label label_search;
         private System.Windows.Forms.Label label_reset;
         private System.Windows.Forms.Label label_filter;
-        private System.Windows.Forms.Label label_book_title;
-        private System.Windows.Forms.TextBox txt_book_title;
-        private System.Windows.Forms.ComboBox cbo_gender;
-        private System.Windows.Forms.Button btn_close;
+        private System.Windows.Forms.Label label_search_by;
+        private System.Windows.Forms.TextBox txt_search_by;
+        private System.Windows.Forms.ComboBox cbo_filter;
     }
 }

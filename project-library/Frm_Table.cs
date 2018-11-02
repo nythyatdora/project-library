@@ -17,6 +17,12 @@ namespace project_library
             InitializeComponent();
         }
 
+        public Frm_Table(String title)
+        {
+            InitializeComponent();
+            label_title.Text = title;
+        }
+
         private void btn_close_Click(object sender, EventArgs e)
         {
             this.Close();

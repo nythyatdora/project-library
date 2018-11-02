@@ -17,9 +17,14 @@ namespace project_library
             InitializeComponent();
         }
 
-        private void btn_close_Click(object sender, EventArgs e)
+        private void label_confirm_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void label_exit_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
+        }  
     }
 }

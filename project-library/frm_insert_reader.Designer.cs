@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Insert_Reader));
             this.panel_head = new System.Windows.Forms.Panel();
-            this.btn_close = new System.Windows.Forms.Button();
             this.panel_body = new System.Windows.Forms.Panel();
+            this.label_close = new System.Windows.Forms.Label();
             this.label_view_table_readers = new System.Windows.Forms.Label();
             this.label_upload_identification = new System.Windows.Forms.Label();
             this.label_upload_picture = new System.Windows.Forms.Label();
@@ -58,7 +58,6 @@
             this.txt_first_name = new System.Windows.Forms.TextBox();
             this.label_first_name = new System.Windows.Forms.Label();
             this.picbox_title = new System.Windows.Forms.PictureBox();
-            this.panel_head.SuspendLayout();
             this.panel_body.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picbox_identificationid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbox_readerpic)).BeginInit();
@@ -69,34 +68,16 @@
             // 
             this.panel_head.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_head.BackgroundImage")));
             this.panel_head.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel_head.Controls.Add(this.btn_close);
             this.panel_head.Location = new System.Drawing.Point(0, 0);
             this.panel_head.Name = "panel_head";
             this.panel_head.Size = new System.Drawing.Size(900, 6);
             this.panel_head.TabIndex = 0;
             // 
-            // btn_close
-            // 
-            this.btn_close.BackColor = System.Drawing.Color.Transparent;
-            this.btn_close.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_close.FlatAppearance.BorderSize = 0;
-            this.btn_close.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_close.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_close.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_close.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_close.Image = ((System.Drawing.Image)(resources.GetObject("btn_close.Image")));
-            this.btn_close.Location = new System.Drawing.Point(849, -1);
-            this.btn_close.Name = "btn_close";
-            this.btn_close.Size = new System.Drawing.Size(50, 6);
-            this.btn_close.TabIndex = 19;
-            this.btn_close.UseVisualStyleBackColor = false;
-            this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
-            // 
             // panel_body
             // 
             this.panel_body.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_body.BackgroundImage")));
             this.panel_body.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel_body.Controls.Add(this.label_close);
             this.panel_body.Controls.Add(this.label_view_table_readers);
             this.panel_body.Controls.Add(this.label_upload_identification);
             this.panel_body.Controls.Add(this.label_upload_picture);
@@ -127,6 +108,19 @@
             this.panel_body.Name = "panel_body";
             this.panel_body.Size = new System.Drawing.Size(900, 796);
             this.panel_body.TabIndex = 1;
+            // 
+            // label_close
+            // 
+            this.label_close.AutoSize = true;
+            this.label_close.BackColor = System.Drawing.Color.Transparent;
+            this.label_close.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_close.ForeColor = System.Drawing.Color.White;
+            this.label_close.Location = new System.Drawing.Point(23, 13);
+            this.label_close.Name = "label_close";
+            this.label_close.Size = new System.Drawing.Size(55, 23);
+            this.label_close.TabIndex = 57;
+            this.label_close.Text = "close";
+            this.label_close.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label_view_table_readers
             // 
@@ -290,7 +284,7 @@
             this.label_phone_number.BackColor = System.Drawing.Color.Transparent;
             this.label_phone_number.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_phone_number.ForeColor = System.Drawing.Color.White;
-            this.label_phone_number.Location = new System.Drawing.Point(37, 455);
+            this.label_phone_number.Location = new System.Drawing.Point(35, 455);
             this.label_phone_number.Name = "label_phone_number";
             this.label_phone_number.Size = new System.Drawing.Size(194, 33);
             this.label_phone_number.TabIndex = 40;
@@ -332,7 +326,7 @@
             this.label_occupation.BackColor = System.Drawing.Color.Transparent;
             this.label_occupation.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_occupation.ForeColor = System.Drawing.Color.White;
-            this.label_occupation.Location = new System.Drawing.Point(37, 357);
+            this.label_occupation.Location = new System.Drawing.Point(35, 357);
             this.label_occupation.Name = "label_occupation";
             this.label_occupation.Size = new System.Drawing.Size(148, 33);
             this.label_occupation.TabIndex = 36;
@@ -356,7 +350,7 @@
             this.label_gender.BackColor = System.Drawing.Color.Transparent;
             this.label_gender.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_gender.ForeColor = System.Drawing.Color.White;
-            this.label_gender.Location = new System.Drawing.Point(37, 269);
+            this.label_gender.Location = new System.Drawing.Point(35, 269);
             this.label_gender.Name = "label_gender";
             this.label_gender.Size = new System.Drawing.Size(102, 33);
             this.label_gender.TabIndex = 32;
@@ -398,7 +392,7 @@
             this.label_first_name.BackColor = System.Drawing.Color.Transparent;
             this.label_first_name.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_first_name.ForeColor = System.Drawing.Color.White;
-            this.label_first_name.Location = new System.Drawing.Point(37, 186);
+            this.label_first_name.Location = new System.Drawing.Point(35, 186);
             this.label_first_name.Name = "label_first_name";
             this.label_first_name.Size = new System.Drawing.Size(147, 33);
             this.label_first_name.TabIndex = 28;
@@ -426,7 +420,6 @@
             this.Name = "Frm_Insert_Reader";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_Insert_Reader";
-            this.panel_head.ResumeLayout(false);
             this.panel_body.ResumeLayout(false);
             this.panel_body.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picbox_identificationid)).EndInit();
@@ -465,7 +458,7 @@
         private System.Windows.Forms.Label label_first_name;
         private System.Windows.Forms.Label label_upload_identification;
         private System.Windows.Forms.Label label_upload_picture;
-        private System.Windows.Forms.Button btn_close;
         private System.Windows.Forms.Label label_view_table_readers;
+        private System.Windows.Forms.Label label_close;
     }
 }
