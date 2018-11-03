@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Frm_Borrow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Borrow.Designer.cs">
+      <DependentUpon>Frm_Borrow.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Insert_Book.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,12 @@
     </Compile>
     <Compile Include="Frm_Membership.Designer.cs">
       <DependentUpon>Frm_Membership.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Proceed_Borrow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Proceed_Borrow.Designer.cs">
+      <DependentUpon>Frm_Proceed_Borrow.cs</DependentUpon>
     </Compile>
     <Compile Include="Test_Main.cs">
       <SubType>Form</SubType>
@@ -144,6 +156,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Frm_Borrow.resx">
+      <DependentUpon>Frm_Borrow.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_Insert_Book.resx">
       <DependentUpon>Frm_Insert_Book.cs</DependentUpon>
     </EmbeddedResource>
@@ -155,6 +170,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Membership.resx">
       <DependentUpon>Frm_Membership.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Proceed_Borrow.resx">
+      <DependentUpon>Frm_Proceed_Borrow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Test_Main.resx">
       <DependentUpon>Test_Main.cs</DependentUpon>
