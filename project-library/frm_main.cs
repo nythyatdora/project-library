@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace project_library
 {
-    public partial class frm_main : MetroFramework.Forms.MetroForm
+    public partial class Frm_Main : Form
     {
-        public frm_main()
+        public Frm_Main()
         {
             InitializeComponent();
+        }
+
+        private void btn_close_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

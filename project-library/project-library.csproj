@@ -33,15 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
-      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
-      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
-    </Reference>
-    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
-      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -55,16 +46,169 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frm_main.cs">
+    <Compile Include="Frm_Borrow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_main.Designer.cs">
-      <DependentUpon>frm_main.cs</DependentUpon>
+    <Compile Include="Frm_Borrow.Designer.cs">
+      <DependentUpon>Frm_Borrow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Insert_Book.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Insert_Book.Designer.cs">
+      <DependentUpon>Frm_Insert_Book.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Insert_Reader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Insert_Reader.Designer.cs">
+      <DependentUpon>Frm_Insert_Reader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Login.Designer.cs">
+      <DependentUpon>Frm_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Membership.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Membership.Designer.cs">
+      <DependentUpon>Frm_Membership.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Proceed_Borrow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Proceed_Borrow.Designer.cs">
+      <DependentUpon>Frm_Proceed_Borrow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test_Main.Designer.cs">
+      <DependentUpon>Test_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Main.Designer.cs">
+      <DependentUpon>Frm_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Search.Designer.cs">
+      <DependentUpon>Frm_Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Table.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Table.Designer.cs">
+      <DependentUpon>Frm_Table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OverlapPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OverlapPanel.Designer.cs">
+      <DependentUpon>OverlapPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel_Form_Books.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Panel_Form_Books.Designer.cs">
+      <DependentUpon>Panel_Form_Books.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel_Form_Borrow_Return.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Panel_Form_Borrow_Return.Designer.cs">
+      <DependentUpon>Panel_Form_Borrow_Return.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel_Form_Category.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Panel_Form_Category.Designer.cs">
+      <DependentUpon>Panel_Form_Category.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel_Form_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Panel_Form_Main.Designer.cs">
+      <DependentUpon>Panel_Form_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel_Form_MyProfile_One.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Panel_Form_MyProfile_One.Designer.cs">
+      <DependentUpon>Panel_Form_MyProfile_One.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel_Form_MyProfile_Two.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Panel_Form_MyProfile_Two.Designer.cs">
+      <DependentUpon>Panel_Form_MyProfile_Two.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel_Form_Readers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Panel_Form_Readers.Designer.cs">
+      <DependentUpon>Panel_Form_Readers.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frm_main.resx">
-      <DependentUpon>frm_main.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_Borrow.resx">
+      <DependentUpon>Frm_Borrow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Insert_Book.resx">
+      <DependentUpon>Frm_Insert_Book.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Insert_Reader.resx">
+      <DependentUpon>Frm_Insert_Reader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Login.resx">
+      <DependentUpon>Frm_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Membership.resx">
+      <DependentUpon>Frm_Membership.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Proceed_Borrow.resx">
+      <DependentUpon>Frm_Proceed_Borrow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test_Main.resx">
+      <DependentUpon>Test_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Main.resx">
+      <DependentUpon>Frm_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Search.resx">
+      <DependentUpon>Frm_Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Table.resx">
+      <DependentUpon>Frm_Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OverlapPanel.resx">
+      <DependentUpon>OverlapPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel_Form_Books.resx">
+      <DependentUpon>Panel_Form_Books.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel_Form_Borrow_Return.resx">
+      <DependentUpon>Panel_Form_Borrow_Return.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel_Form_Category.resx">
+      <DependentUpon>Panel_Form_Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel_Form_Main.resx">
+      <DependentUpon>Panel_Form_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel_Form_MyProfile_One.resx">
+      <DependentUpon>Panel_Form_MyProfile_One.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel_Form_MyProfile_Two.resx">
+      <DependentUpon>Panel_Form_MyProfile_Two.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel_Form_Readers.resx">
+      <DependentUpon>Panel_Form_Readers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -74,8 +218,8 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -88,6 +232,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
