@@ -388,6 +388,7 @@
             this.Controls.Add(this.panel_body);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Frm_Membership";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_Membership";
             this.panel_body.ResumeLayout(false);
             this.panel_body.PerformLayout();
