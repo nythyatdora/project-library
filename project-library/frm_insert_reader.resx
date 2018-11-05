@@ -865,4 +865,10 @@
         QhaykIUsZCELWchCFrKQhSxkIQtZyEJ+6If+J5+CPhhzHMPWAAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="openFileDialog_ReaderPicture.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="openFileDialog_IdentificationID.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>248, 19</value>
+  </metadata>
 </root>

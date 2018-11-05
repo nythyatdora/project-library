@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\FormReader.cs" />
     <Compile Include="Frm_Borrow.cs">
       <SubType>Form</SubType>
     </Compile>
