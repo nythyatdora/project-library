@@ -49,7 +49,7 @@
             this.txt_full_name = new System.Windows.Forms.TextBox();
             this.label_full_name = new System.Windows.Forms.Label();
             this.label_search = new System.Windows.Forms.Label();
-            this.label_reset_research = new System.Windows.Forms.Label();
+            this.label_reset_search = new System.Windows.Forms.Label();
             this.cbo_filter = new System.Windows.Forms.ComboBox();
             this.txt_searchby = new System.Windows.Forms.TextBox();
             this.label_filter = new System.Windows.Forms.Label();
@@ -91,7 +91,7 @@
             this.panel_body.Controls.Add(this.txt_full_name);
             this.panel_body.Controls.Add(this.label_full_name);
             this.panel_body.Controls.Add(this.label_search);
-            this.panel_body.Controls.Add(this.label_reset_research);
+            this.panel_body.Controls.Add(this.label_reset_search);
             this.panel_body.Controls.Add(this.cbo_filter);
             this.panel_body.Controls.Add(this.txt_searchby);
             this.panel_body.Controls.Add(this.label_filter);
@@ -115,6 +115,8 @@
             this.label_close.TabIndex = 76;
             this.label_close.Text = "close";
             this.label_close.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label_close.MouseEnter += new System.EventHandler(this.label_close_MouseEnter);
+            this.label_close.MouseLeave += new System.EventHandler(this.label_close_MouseLeave);
             // 
             // label_confirm
             // 
@@ -127,6 +129,8 @@
             this.label_confirm.Size = new System.Drawing.Size(90, 23);
             this.label_confirm.TabIndex = 75;
             this.label_confirm.Text = "CONFIRM";
+            this.label_confirm.MouseEnter += new System.EventHandler(this.label_confirm_MouseEnter);
+            this.label_confirm.MouseLeave += new System.EventHandler(this.label_confirm_MouseLeave);
             // 
             // label_reset
             // 
@@ -139,6 +143,8 @@
             this.label_reset.Size = new System.Drawing.Size(65, 23);
             this.label_reset.TabIndex = 74;
             this.label_reset.Text = "RESET";
+            this.label_reset.MouseEnter += new System.EventHandler(this.label_reset_MouseEnter);
+            this.label_reset.MouseLeave += new System.EventHandler(this.label_reset_MouseLeave);
             // 
             // dtp_expire_date
             // 
@@ -180,11 +186,13 @@
             this.label_view_profile.BackColor = System.Drawing.Color.Transparent;
             this.label_view_profile.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_view_profile.ForeColor = System.Drawing.Color.White;
-            this.label_view_profile.Location = new System.Drawing.Point(91, 583);
+            this.label_view_profile.Location = new System.Drawing.Point(90, 569);
             this.label_view_profile.Name = "label_view_profile";
             this.label_view_profile.Size = new System.Drawing.Size(108, 23);
             this.label_view_profile.TabIndex = 69;
             this.label_view_profile.Text = "view profile";
+            this.label_view_profile.MouseEnter += new System.EventHandler(this.label_view_profile_MouseEnter);
+            this.label_view_profile.MouseLeave += new System.EventHandler(this.label_view_profile_MouseLeave);
             // 
             // picbox_readerpic
             // 
@@ -298,18 +306,22 @@
             this.label_search.Size = new System.Drawing.Size(82, 23);
             this.label_search.TabIndex = 55;
             this.label_search.Text = "SEARCH";
+            this.label_search.MouseEnter += new System.EventHandler(this.label_search_MouseEnter);
+            this.label_search.MouseLeave += new System.EventHandler(this.label_search_MouseLeave);
             // 
-            // label_reset_research
+            // label_reset_search
             // 
-            this.label_reset_research.AutoSize = true;
-            this.label_reset_research.BackColor = System.Drawing.Color.Transparent;
-            this.label_reset_research.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_reset_research.ForeColor = System.Drawing.Color.White;
-            this.label_reset_research.Location = new System.Drawing.Point(33, 273);
-            this.label_reset_research.Name = "label_reset_research";
-            this.label_reset_research.Size = new System.Drawing.Size(140, 23);
-            this.label_reset_research.TabIndex = 54;
-            this.label_reset_research.Text = "RESET SEARCH";
+            this.label_reset_search.AutoSize = true;
+            this.label_reset_search.BackColor = System.Drawing.Color.Transparent;
+            this.label_reset_search.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_reset_search.ForeColor = System.Drawing.Color.White;
+            this.label_reset_search.Location = new System.Drawing.Point(33, 273);
+            this.label_reset_search.Name = "label_reset_search";
+            this.label_reset_search.Size = new System.Drawing.Size(140, 23);
+            this.label_reset_search.TabIndex = 54;
+            this.label_reset_search.Text = "RESET SEARCH";
+            this.label_reset_search.MouseEnter += new System.EventHandler(this.label_reset_search_MouseEnter);
+            this.label_reset_search.MouseLeave += new System.EventHandler(this.label_reset_search_MouseLeave);
             // 
             // cbo_filter
             // 
@@ -365,6 +377,8 @@
             this.label_new_reader.TabIndex = 3;
             this.label_new_reader.Text = "add\r\nnew reader\r\n";
             this.label_new_reader.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label_new_reader.MouseEnter += new System.EventHandler(this.label_new_reader_MouseEnter);
+            this.label_new_reader.MouseLeave += new System.EventHandler(this.label_new_reader_MouseLeave);
             // 
             // label_view_table_readers
             // 
@@ -378,6 +392,8 @@
             this.label_view_table_readers.TabIndex = 2;
             this.label_view_table_readers.Text = "view\r\ntable readers";
             this.label_view_table_readers.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label_view_table_readers.MouseEnter += new System.EventHandler(this.label_view_table_readers_MouseEnter);
+            this.label_view_table_readers.MouseLeave += new System.EventHandler(this.label_view_table_readers_MouseLeave);
             // 
             // Frm_Membership
             // 
@@ -408,7 +424,7 @@
         private System.Windows.Forms.Label label_filter;
         private System.Windows.Forms.Label label_book_title;
         private System.Windows.Forms.Label label_search;
-        private System.Windows.Forms.Label label_reset_research;
+        private System.Windows.Forms.Label label_reset_search;
         private System.Windows.Forms.TextBox txt_full_name;
         private System.Windows.Forms.Label label_full_name;
         private System.Windows.Forms.Label label_expire_date;
