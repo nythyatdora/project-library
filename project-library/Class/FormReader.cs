@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace project_library.Class
 {
-    class FormBook
+    class FormReader
     {
         
     }
