@@ -28,11 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Main));
             this.panel_background = new System.Windows.Forms.Panel();
             this.label_membership = new System.Windows.Forms.Label();
             this.label_exit = new System.Windows.Forms.Label();
             this.panel_main = new System.Windows.Forms.Panel();
+            this.panel_main_button_membership = new System.Windows.Forms.Button();
+            this.panel_main_button_return = new System.Windows.Forms.Button();
             this.panel_main_picbox_profile = new System.Windows.Forms.PictureBox();
             this.label_email_address = new System.Windows.Forms.Label();
             this.label_username = new System.Windows.Forms.Label();
@@ -52,11 +55,32 @@
             this.label_books = new System.Windows.Forms.Label();
             this.label_borrow_return = new System.Windows.Forms.Label();
             this.label_home = new System.Windows.Forms.Label();
-            this.panel_main_button_return = new System.Windows.Forms.Button();
-            this.panel_main_button_membership = new System.Windows.Forms.Button();
+            this.contextMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.viewTablesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tableBorrowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tableBooksToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tableCategoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.scienceFictionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dramaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mysteryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.comicsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mathToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.horrorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.historyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fantasyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.adventureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.scienceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tableReadersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tableMembershipToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tableLoginHistoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tutorialsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel_background.SuspendLayout();
             this.panel_main.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panel_main_picbox_profile)).BeginInit();
+            this.contextMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel_background
@@ -92,6 +116,8 @@
             this.label_membership.Size = new System.Drawing.Size(163, 29);
             this.label_membership.TabIndex = 13;
             this.label_membership.Text = "MEMBERSHIP";
+            this.label_membership.MouseEnter += new System.EventHandler(this.label_membership_MouseEnter);
+            this.label_membership.MouseLeave += new System.EventHandler(this.label_membership_MouseLeave);
             // 
             // label_exit
             // 
@@ -104,6 +130,8 @@
             this.label_exit.Size = new System.Drawing.Size(60, 29);
             this.label_exit.TabIndex = 12;
             this.label_exit.Text = "EXIT";
+            this.label_exit.MouseEnter += new System.EventHandler(this.label_exit_MouseEnter);
+            this.label_exit.MouseLeave += new System.EventHandler(this.label_exit_MouseLeave);
             // 
             // panel_main
             // 
@@ -124,6 +152,42 @@
             this.panel_main.Name = "panel_main";
             this.panel_main.Size = new System.Drawing.Size(852, 579);
             this.panel_main.TabIndex = 11;
+            // 
+            // panel_main_button_membership
+            // 
+            this.panel_main_button_membership.BackColor = System.Drawing.Color.Transparent;
+            this.panel_main_button_membership.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel_main_button_membership.FlatAppearance.BorderSize = 0;
+            this.panel_main_button_membership.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.panel_main_button_membership.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.panel_main_button_membership.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.panel_main_button_membership.Font = new System.Drawing.Font("Bahnschrift", 18F);
+            this.panel_main_button_membership.ForeColor = System.Drawing.Color.Transparent;
+            this.panel_main_button_membership.Image = ((System.Drawing.Image)(resources.GetObject("panel_main_button_membership.Image")));
+            this.panel_main_button_membership.Location = new System.Drawing.Point(20, 437);
+            this.panel_main_button_membership.Name = "panel_main_button_membership";
+            this.panel_main_button_membership.Size = new System.Drawing.Size(253, 75);
+            this.panel_main_button_membership.TabIndex = 16;
+            this.panel_main_button_membership.Text = "MEMBERSHIP";
+            this.panel_main_button_membership.UseVisualStyleBackColor = false;
+            // 
+            // panel_main_button_return
+            // 
+            this.panel_main_button_return.BackColor = System.Drawing.Color.Transparent;
+            this.panel_main_button_return.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel_main_button_return.FlatAppearance.BorderSize = 0;
+            this.panel_main_button_return.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.panel_main_button_return.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.panel_main_button_return.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.panel_main_button_return.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel_main_button_return.ForeColor = System.Drawing.Color.Transparent;
+            this.panel_main_button_return.Image = ((System.Drawing.Image)(resources.GetObject("panel_main_button_return.Image")));
+            this.panel_main_button_return.Location = new System.Drawing.Point(20, 258);
+            this.panel_main_button_return.Name = "panel_main_button_return";
+            this.panel_main_button_return.Size = new System.Drawing.Size(253, 75);
+            this.panel_main_button_return.TabIndex = 15;
+            this.panel_main_button_return.Text = "RETURN";
+            this.panel_main_button_return.UseVisualStyleBackColor = false;
             // 
             // panel_main_picbox_profile
             // 
@@ -279,6 +343,9 @@
             this.label_dropmenu.Size = new System.Drawing.Size(34, 29);
             this.label_dropmenu.TabIndex = 10;
             this.label_dropmenu.Text = "•••";
+            this.label_dropmenu.MouseClick += new System.Windows.Forms.MouseEventHandler(this.label_dropmenu_MouseClick);
+            this.label_dropmenu.MouseEnter += new System.EventHandler(this.label_dropmenu_MouseEnter);
+            this.label_dropmenu.MouseLeave += new System.EventHandler(this.label_dropmenu_MouseLeave);
             // 
             // label_date
             // 
@@ -315,6 +382,8 @@
             this.label_report.Size = new System.Drawing.Size(101, 29);
             this.label_report.TabIndex = 7;
             this.label_report.Text = "REPORT";
+            this.label_report.MouseEnter += new System.EventHandler(this.label_report_MouseEnter);
+            this.label_report.MouseLeave += new System.EventHandler(this.label_report_MouseLeave);
             // 
             // label_myprofile
             // 
@@ -327,6 +396,8 @@
             this.label_myprofile.Size = new System.Drawing.Size(142, 29);
             this.label_myprofile.TabIndex = 6;
             this.label_myprofile.Text = "MY PROFILE";
+            this.label_myprofile.MouseEnter += new System.EventHandler(this.label_myprofile_MouseEnter);
+            this.label_myprofile.MouseLeave += new System.EventHandler(this.label_myprofile_MouseLeave);
             // 
             // label_readers
             // 
@@ -339,6 +410,8 @@
             this.label_readers.Size = new System.Drawing.Size(120, 29);
             this.label_readers.TabIndex = 5;
             this.label_readers.Text = "READERS";
+            this.label_readers.MouseEnter += new System.EventHandler(this.label_readers_MouseEnter);
+            this.label_readers.MouseLeave += new System.EventHandler(this.label_readers_MouseLeave);
             // 
             // label_category
             // 
@@ -351,6 +424,8 @@
             this.label_category.Size = new System.Drawing.Size(129, 29);
             this.label_category.TabIndex = 4;
             this.label_category.Text = "CATEGORY";
+            this.label_category.MouseEnter += new System.EventHandler(this.label_category_MouseEnter);
+            this.label_category.MouseLeave += new System.EventHandler(this.label_category_MouseLeave);
             // 
             // label_books
             // 
@@ -363,6 +438,8 @@
             this.label_books.Size = new System.Drawing.Size(88, 29);
             this.label_books.TabIndex = 3;
             this.label_books.Text = "BOOKS";
+            this.label_books.MouseEnter += new System.EventHandler(this.label_books_MouseEnter);
+            this.label_books.MouseLeave += new System.EventHandler(this.label_books_MouseLeave);
             // 
             // label_borrow_return
             // 
@@ -375,6 +452,8 @@
             this.label_borrow_return.Size = new System.Drawing.Size(209, 29);
             this.label_borrow_return.TabIndex = 2;
             this.label_borrow_return.Text = "BORROW/RETURN";
+            this.label_borrow_return.MouseEnter += new System.EventHandler(this.label_borrow_return_MouseEnter);
+            this.label_borrow_return.MouseLeave += new System.EventHandler(this.label_borrow_return_MouseLeave);
             // 
             // label_home
             // 
@@ -387,42 +466,167 @@
             this.label_home.Size = new System.Drawing.Size(77, 29);
             this.label_home.TabIndex = 0;
             this.label_home.Text = "HOME";
+            this.label_home.MouseEnter += new System.EventHandler(this.label_home_MouseEnter);
+            this.label_home.MouseLeave += new System.EventHandler(this.label_home_MouseLeave);
             // 
-            // panel_main_button_return
+            // contextMenuStrip
             // 
-            this.panel_main_button_return.BackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_return.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel_main_button_return.FlatAppearance.BorderSize = 0;
-            this.panel_main_button_return.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_return.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_return.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.panel_main_button_return.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel_main_button_return.ForeColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_return.Image = ((System.Drawing.Image)(resources.GetObject("panel_main_button_return.Image")));
-            this.panel_main_button_return.Location = new System.Drawing.Point(20, 258);
-            this.panel_main_button_return.Name = "panel_main_button_return";
-            this.panel_main_button_return.Size = new System.Drawing.Size(253, 75);
-            this.panel_main_button_return.TabIndex = 15;
-            this.panel_main_button_return.Text = "RETURN";
-            this.panel_main_button_return.UseVisualStyleBackColor = false;
+            this.contextMenuStrip.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.contextMenuStrip.Font = new System.Drawing.Font("Bahnschrift", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.contextMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.viewTablesToolStripMenuItem,
+            this.helpToolStripMenuItem,
+            this.exitToolStripMenuItem});
+            this.contextMenuStrip.Name = "contextMenuStrip";
+            this.contextMenuStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.contextMenuStrip.Size = new System.Drawing.Size(144, 70);
             // 
-            // panel_main_button_membership
+            // viewTablesToolStripMenuItem
             // 
-            this.panel_main_button_membership.BackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_membership.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel_main_button_membership.FlatAppearance.BorderSize = 0;
-            this.panel_main_button_membership.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_membership.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_membership.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.panel_main_button_membership.Font = new System.Drawing.Font("Bahnschrift", 18F);
-            this.panel_main_button_membership.ForeColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_membership.Image = ((System.Drawing.Image)(resources.GetObject("panel_main_button_membership.Image")));
-            this.panel_main_button_membership.Location = new System.Drawing.Point(20, 437);
-            this.panel_main_button_membership.Name = "panel_main_button_membership";
-            this.panel_main_button_membership.Size = new System.Drawing.Size(253, 75);
-            this.panel_main_button_membership.TabIndex = 16;
-            this.panel_main_button_membership.Text = "MEMBERSHIP";
-            this.panel_main_button_membership.UseVisualStyleBackColor = false;
+            this.viewTablesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tableBorrowToolStripMenuItem,
+            this.tableBooksToolStripMenuItem,
+            this.tableCategoryToolStripMenuItem,
+            this.tableReadersToolStripMenuItem,
+            this.tableMembershipToolStripMenuItem,
+            this.tableLoginHistoryToolStripMenuItem});
+            this.viewTablesToolStripMenuItem.Name = "viewTablesToolStripMenuItem";
+            this.viewTablesToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.viewTablesToolStripMenuItem.Text = "View Tables";
+            // 
+            // tableBorrowToolStripMenuItem
+            // 
+            this.tableBorrowToolStripMenuItem.Name = "tableBorrowToolStripMenuItem";
+            this.tableBorrowToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.tableBorrowToolStripMenuItem.Text = "Table Borrow";
+            // 
+            // tableBooksToolStripMenuItem
+            // 
+            this.tableBooksToolStripMenuItem.Name = "tableBooksToolStripMenuItem";
+            this.tableBooksToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.tableBooksToolStripMenuItem.Text = "Table Books";
+            // 
+            // tableCategoryToolStripMenuItem
+            // 
+            this.tableCategoryToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.scienceFictionToolStripMenuItem,
+            this.dramaToolStripMenuItem,
+            this.mysteryToolStripMenuItem,
+            this.comicsToolStripMenuItem,
+            this.mathToolStripMenuItem,
+            this.horrorToolStripMenuItem,
+            this.historyToolStripMenuItem,
+            this.fantasyToolStripMenuItem,
+            this.adventureToolStripMenuItem,
+            this.scienceToolStripMenuItem});
+            this.tableCategoryToolStripMenuItem.Name = "tableCategoryToolStripMenuItem";
+            this.tableCategoryToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.tableCategoryToolStripMenuItem.Text = "Table Category";
+            // 
+            // scienceFictionToolStripMenuItem
+            // 
+            this.scienceFictionToolStripMenuItem.Name = "scienceFictionToolStripMenuItem";
+            this.scienceFictionToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.scienceFictionToolStripMenuItem.Text = "Science Fiction";
+            // 
+            // dramaToolStripMenuItem
+            // 
+            this.dramaToolStripMenuItem.Name = "dramaToolStripMenuItem";
+            this.dramaToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.dramaToolStripMenuItem.Text = "Drama";
+            // 
+            // mysteryToolStripMenuItem
+            // 
+            this.mysteryToolStripMenuItem.Name = "mysteryToolStripMenuItem";
+            this.mysteryToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.mysteryToolStripMenuItem.Text = "Mystery";
+            // 
+            // comicsToolStripMenuItem
+            // 
+            this.comicsToolStripMenuItem.Name = "comicsToolStripMenuItem";
+            this.comicsToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.comicsToolStripMenuItem.Text = "Comics";
+            // 
+            // mathToolStripMenuItem
+            // 
+            this.mathToolStripMenuItem.Name = "mathToolStripMenuItem";
+            this.mathToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.mathToolStripMenuItem.Text = "Math";
+            // 
+            // horrorToolStripMenuItem
+            // 
+            this.horrorToolStripMenuItem.Name = "horrorToolStripMenuItem";
+            this.horrorToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.horrorToolStripMenuItem.Text = "Horror";
+            // 
+            // historyToolStripMenuItem
+            // 
+            this.historyToolStripMenuItem.Name = "historyToolStripMenuItem";
+            this.historyToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.historyToolStripMenuItem.Text = "History";
+            // 
+            // fantasyToolStripMenuItem
+            // 
+            this.fantasyToolStripMenuItem.Name = "fantasyToolStripMenuItem";
+            this.fantasyToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.fantasyToolStripMenuItem.Text = "Fantasy";
+            // 
+            // adventureToolStripMenuItem
+            // 
+            this.adventureToolStripMenuItem.Name = "adventureToolStripMenuItem";
+            this.adventureToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.adventureToolStripMenuItem.Text = "Adventure";
+            // 
+            // scienceToolStripMenuItem
+            // 
+            this.scienceToolStripMenuItem.Name = "scienceToolStripMenuItem";
+            this.scienceToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.scienceToolStripMenuItem.Text = "Science";
+            // 
+            // tableReadersToolStripMenuItem
+            // 
+            this.tableReadersToolStripMenuItem.Name = "tableReadersToolStripMenuItem";
+            this.tableReadersToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.tableReadersToolStripMenuItem.Text = "Table Readers";
+            // 
+            // tableMembershipToolStripMenuItem
+            // 
+            this.tableMembershipToolStripMenuItem.Name = "tableMembershipToolStripMenuItem";
+            this.tableMembershipToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.tableMembershipToolStripMenuItem.Text = "Table Membership";
+            // 
+            // tableLoginHistoryToolStripMenuItem
+            // 
+            this.tableLoginHistoryToolStripMenuItem.Name = "tableLoginHistoryToolStripMenuItem";
+            this.tableLoginHistoryToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.tableLoginHistoryToolStripMenuItem.Text = "Table Login History";
+            // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tutorialsToolStripMenuItem,
+            this.aboutToolStripMenuItem});
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.helpToolStripMenuItem.Text = "Help";
+            // 
+            // tutorialsToolStripMenuItem
+            // 
+            this.tutorialsToolStripMenuItem.Name = "tutorialsToolStripMenuItem";
+            this.tutorialsToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.tutorialsToolStripMenuItem.Text = "Tutorials";
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.aboutToolStripMenuItem.Text = "About";
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.exitToolStripMenuItem.Text = "Exit";
             // 
             // Frm_Main
             // 
@@ -442,6 +646,7 @@
             this.panel_main.ResumeLayout(false);
             this.panel_main.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panel_main_picbox_profile)).EndInit();
+            this.contextMenuStrip.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -473,6 +678,28 @@
         private System.Windows.Forms.Label label_exit;
         private System.Windows.Forms.Button panel_main_button_membership;
         private System.Windows.Forms.Button panel_main_button_return;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip;
+        private System.Windows.Forms.ToolStripMenuItem viewTablesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tableBorrowToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tableBooksToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tableCategoryToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tableReadersToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tableMembershipToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tutorialsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tableLoginHistoryToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem scienceFictionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dramaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mysteryToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem comicsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mathToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem horrorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem historyToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fantasyToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem adventureToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem scienceToolStripMenuItem;
     }
 }
 
