@@ -16,5 +16,55 @@ namespace project_library
         {
             InitializeComponent();
         }
+
+        private void label_add_new_reader_MouseEnter(object sender, EventArgs e)
+        {
+            label_add_new_reader.ForeColor = Color.Green;
+        }
+
+        private void label_add_new_reader_MouseLeave(object sender, EventArgs e)
+        {
+            label_add_new_reader.ForeColor = Color.White;
+        }
+
+        private void label_proceed_MouseEnter(object sender, EventArgs e)
+        {
+            label_proceed.ForeColor = Color.Green;
+        }
+
+        private void label_proceed_MouseLeave(object sender, EventArgs e)
+        {
+            label_proceed.ForeColor = Color.White;
+        }
+
+        private void label_view_profile_MouseEnter(object sender, EventArgs e)
+        {
+            label_view_profile.ForeColor = Color.Green;
+        }
+
+        private void label_view_profile_MouseLeave(object sender, EventArgs e)
+        {
+            label_view_profile.ForeColor = Color.White;
+        }
+
+        private void label_close_MouseEnter(object sender, EventArgs e)
+        {
+            label_close.ForeColor = Color.Green;
+        }
+
+        private void label_close_MouseLeave(object sender, EventArgs e)
+        {
+            label_close.ForeColor = Color.White;
+        }
+
+        private void label_view_book_MouseEnter(object sender, EventArgs e)
+        {
+            label_view_book.ForeColor = Color.Green;
+        }
+
+        private void label_view_book_MouseLeave(object sender, EventArgs e)
+        {
+            label_view_book.ForeColor = Color.White;
+        }
     }
 }
