@@ -21,5 +21,40 @@ namespace project_library
         {
             this.Close();
         }
+
+        private void label_search_MouseEnter(object sender, EventArgs e)
+        {
+            label_search.ForeColor = Color.Green;
+        }
+
+        private void label_search_MouseLeave(object sender, EventArgs e)
+        {
+            label_search.ForeColor = Color.White;
+        }
+
+        private void label_reset_MouseEnter(object sender, EventArgs e)
+        {
+            label_reset.ForeColor = Color.Green;
+        }
+
+        private void label_reset_MouseLeave(object sender, EventArgs e)
+        {
+            label_reset.ForeColor = Color.White;
+        }
+
+        private void label_close_MouseEnter(object sender, EventArgs e)
+        {
+            label_close.ForeColor = Color.Green;
+        }
+
+        private void label_close_MouseLeave(object sender, EventArgs e)
+        {
+            label_close.ForeColor = Color.White;
+        }
+
+        private void label_close_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
