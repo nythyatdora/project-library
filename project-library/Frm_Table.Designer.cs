@@ -40,6 +40,7 @@
             this.txt_searchby = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label_title = new System.Windows.Forms.Label();
+            this.label_close = new System.Windows.Forms.Label();
             this.panel_body.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.datagrid_table)).BeginInit();
             this.SuspendLayout();
@@ -57,6 +58,7 @@
             // 
             this.panel_body.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_body.BackgroundImage")));
             this.panel_body.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel_body.Controls.Add(this.label_close);
             this.panel_body.Controls.Add(this.label_delete);
             this.panel_body.Controls.Add(this.label_update);
             this.panel_body.Controls.Add(this.label_insert);
@@ -82,6 +84,8 @@
             this.label_delete.Size = new System.Drawing.Size(75, 23);
             this.label_delete.TabIndex = 52;
             this.label_delete.Text = "DELETE";
+            this.label_delete.MouseEnter += new System.EventHandler(this.label_delete_MouseEnter);
+            this.label_delete.MouseLeave += new System.EventHandler(this.label_delete_MouseLeave);
             // 
             // label_update
             // 
@@ -94,6 +98,8 @@
             this.label_update.Size = new System.Drawing.Size(78, 23);
             this.label_update.TabIndex = 51;
             this.label_update.Text = "UPDATE";
+            this.label_update.MouseEnter += new System.EventHandler(this.label_update_MouseEnter);
+            this.label_update.MouseLeave += new System.EventHandler(this.label_update_MouseLeave);
             // 
             // label_insert
             // 
@@ -106,6 +112,8 @@
             this.label_insert.Size = new System.Drawing.Size(72, 23);
             this.label_insert.TabIndex = 50;
             this.label_insert.Text = "INSERT";
+            this.label_insert.MouseEnter += new System.EventHandler(this.label_insert_MouseEnter);
+            this.label_insert.MouseLeave += new System.EventHandler(this.label_insert_MouseLeave);
             // 
             // label_view
             // 
@@ -118,6 +126,8 @@
             this.label_view.Size = new System.Drawing.Size(53, 23);
             this.label_view.TabIndex = 49;
             this.label_view.Text = "VIEW";
+            this.label_view.MouseEnter += new System.EventHandler(this.label_view_MouseEnter);
+            this.label_view.MouseLeave += new System.EventHandler(this.label_view_MouseLeave);
             // 
             // label_refresh
             // 
@@ -130,6 +140,8 @@
             this.label_refresh.Size = new System.Drawing.Size(92, 23);
             this.label_refresh.TabIndex = 48;
             this.label_refresh.Text = "REFRESH";
+            this.label_refresh.MouseEnter += new System.EventHandler(this.label_refresh_MouseEnter);
+            this.label_refresh.MouseLeave += new System.EventHandler(this.label_refresh_MouseLeave);
             // 
             // datagrid_table
             // 
@@ -175,11 +187,27 @@
             this.label_title.BackColor = System.Drawing.Color.Transparent;
             this.label_title.Font = new System.Drawing.Font("Bahnschrift", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_title.ForeColor = System.Drawing.Color.White;
-            this.label_title.Location = new System.Drawing.Point(12, 23);
+            this.label_title.Location = new System.Drawing.Point(12, 37);
             this.label_title.Name = "label_title";
             this.label_title.Size = new System.Drawing.Size(154, 77);
             this.label_title.TabIndex = 4;
             this.label_title.Text = "Title";
+            // 
+            // label_close
+            // 
+            this.label_close.AutoSize = true;
+            this.label_close.BackColor = System.Drawing.Color.Transparent;
+            this.label_close.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_close.ForeColor = System.Drawing.Color.White;
+            this.label_close.Location = new System.Drawing.Point(21, 18);
+            this.label_close.Name = "label_close";
+            this.label_close.Size = new System.Drawing.Size(55, 23);
+            this.label_close.TabIndex = 77;
+            this.label_close.Text = "close";
+            this.label_close.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label_close.Click += new System.EventHandler(this.label_close_Click);
+            this.label_close.MouseEnter += new System.EventHandler(this.label_close_MouseEnter);
+            this.label_close.MouseLeave += new System.EventHandler(this.label_close_MouseLeave);
             // 
             // Frm_Table
             // 
@@ -212,5 +240,6 @@
         private System.Windows.Forms.Label label_insert;
         private System.Windows.Forms.Label label_view;
         private System.Windows.Forms.Label label_refresh;
+        private System.Windows.Forms.Label label_close;
     }
 }
