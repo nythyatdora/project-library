@@ -27,5 +27,70 @@ namespace project_library
         {
             this.Close();
         }
+
+        private void label_delete_MouseEnter(object sender, EventArgs e)
+        {
+            label_delete.ForeColor = Color.Green;
+        }
+
+        private void label_delete_MouseLeave(object sender, EventArgs e)
+        {
+            label_delete.ForeColor = Color.White;
+        }
+
+        private void label_update_MouseEnter(object sender, EventArgs e)
+        {
+            label_update.ForeColor = Color.Green;
+        }
+
+        private void label_update_MouseLeave(object sender, EventArgs e)
+        {
+            label_update.ForeColor = Color.White;
+        }
+
+        private void label_insert_MouseEnter(object sender, EventArgs e)
+        {
+            label_insert.ForeColor = Color.Green;
+        }
+
+        private void label_insert_MouseLeave(object sender, EventArgs e)
+        {
+            label_insert.ForeColor = Color.White;
+        }
+
+        private void label_view_MouseEnter(object sender, EventArgs e)
+        {
+            label_view.ForeColor = Color.Green;
+        }
+
+        private void label_view_MouseLeave(object sender, EventArgs e)
+        {
+            label_view.ForeColor = Color.White;
+        }
+
+        private void label_refresh_MouseEnter(object sender, EventArgs e)
+        {
+            label_refresh.ForeColor = Color.Green;
+        }
+
+        private void label_refresh_MouseLeave(object sender, EventArgs e)
+        {
+            label_refresh.ForeColor = Color.White;
+        }
+
+        private void label_close_MouseEnter(object sender, EventArgs e)
+        {
+            label_close.ForeColor = Color.Green;
+        }
+
+        private void label_close_MouseLeave(object sender, EventArgs e)
+        {
+            label_close.ForeColor = Color.White;
+        }
+
+        private void label_close_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

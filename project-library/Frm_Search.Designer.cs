@@ -37,6 +37,7 @@
             this.label_reset = new System.Windows.Forms.Label();
             this.label_filter = new System.Windows.Forms.Label();
             this.label_search_by = new System.Windows.Forms.Label();
+            this.label_close = new System.Windows.Forms.Label();
             this.panel_body.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,6 +54,7 @@
             // 
             this.panel_body.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_body.BackgroundImage")));
             this.panel_body.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel_body.Controls.Add(this.label_close);
             this.panel_body.Controls.Add(this.cbo_filter);
             this.panel_body.Controls.Add(this.txt_search_by);
             this.panel_body.Controls.Add(this.label_search);
@@ -93,6 +95,8 @@
             this.label_search.Size = new System.Drawing.Size(93, 25);
             this.label_search.TabIndex = 6;
             this.label_search.Text = "SEARCH";
+            this.label_search.MouseEnter += new System.EventHandler(this.label_search_MouseEnter);
+            this.label_search.MouseLeave += new System.EventHandler(this.label_search_MouseLeave);
             // 
             // label_reset
             // 
@@ -105,6 +109,8 @@
             this.label_reset.Size = new System.Drawing.Size(75, 25);
             this.label_reset.TabIndex = 5;
             this.label_reset.Text = "RESET";
+            this.label_reset.MouseEnter += new System.EventHandler(this.label_reset_MouseEnter);
+            this.label_reset.MouseLeave += new System.EventHandler(this.label_reset_MouseLeave);
             // 
             // label_filter
             // 
@@ -129,6 +135,22 @@
             this.label_search_by.Size = new System.Drawing.Size(135, 33);
             this.label_search_by.TabIndex = 3;
             this.label_search_by.Text = "Search By";
+            // 
+            // label_close
+            // 
+            this.label_close.AutoSize = true;
+            this.label_close.BackColor = System.Drawing.Color.Transparent;
+            this.label_close.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_close.ForeColor = System.Drawing.Color.White;
+            this.label_close.Location = new System.Drawing.Point(23, 18);
+            this.label_close.Name = "label_close";
+            this.label_close.Size = new System.Drawing.Size(55, 23);
+            this.label_close.TabIndex = 77;
+            this.label_close.Text = "close";
+            this.label_close.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label_close.Click += new System.EventHandler(this.label_close_Click);
+            this.label_close.MouseEnter += new System.EventHandler(this.label_close_MouseEnter);
+            this.label_close.MouseLeave += new System.EventHandler(this.label_close_MouseLeave);
             // 
             // Frm_Search
             // 
@@ -157,5 +179,6 @@
         private System.Windows.Forms.Label label_search_by;
         private System.Windows.Forms.TextBox txt_search_by;
         private System.Windows.Forms.ComboBox cbo_filter;
+        private System.Windows.Forms.Label label_close;
     }
 }

@@ -31,6 +31,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Proceed_Borrow));
             this.panel_head = new System.Windows.Forms.Panel();
             this.panel_body = new System.Windows.Forms.Panel();
+            this.dtp_return_date = new System.Windows.Forms.DateTimePicker();
+            this.dtp_borrow_date = new System.Windows.Forms.DateTimePicker();
+            this.label_return_date = new System.Windows.Forms.Label();
+            this.label_borrow_date = new System.Windows.Forms.Label();
+            this.txt_amount = new System.Windows.Forms.TextBox();
+            this.label_amount = new System.Windows.Forms.Label();
             this.txt_quantity = new System.Windows.Forms.TextBox();
             this.label_quantity = new System.Windows.Forms.Label();
             this.txt_price = new System.Windows.Forms.TextBox();
@@ -43,19 +49,13 @@
             this.label_member_type = new System.Windows.Forms.Label();
             this.txt_full_name = new System.Windows.Forms.TextBox();
             this.label_full_name = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.label_view_book = new System.Windows.Forms.Label();
             this.label_view_profile = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.picbox_readerpic = new System.Windows.Forms.PictureBox();
             this.label_close = new System.Windows.Forms.Label();
             this.label_proceed = new System.Windows.Forms.Label();
             this.label_add_new_reader = new System.Windows.Forms.Label();
-            this.txt_amount = new System.Windows.Forms.TextBox();
-            this.label_amount = new System.Windows.Forms.Label();
-            this.dtp_return_date = new System.Windows.Forms.DateTimePicker();
-            this.dtp_borrow_date = new System.Windows.Forms.DateTimePicker();
-            this.label_return_date = new System.Windows.Forms.Label();
-            this.label_borrow_date = new System.Windows.Forms.Label();
             this.panel_body.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbox_readerpic)).BeginInit();
@@ -92,7 +92,7 @@
             this.panel_body.Controls.Add(this.label_member_type);
             this.panel_body.Controls.Add(this.txt_full_name);
             this.panel_body.Controls.Add(this.label_full_name);
-            this.panel_body.Controls.Add(this.label1);
+            this.panel_body.Controls.Add(this.label_view_book);
             this.panel_body.Controls.Add(this.label_view_profile);
             this.panel_body.Controls.Add(this.pictureBox1);
             this.panel_body.Controls.Add(this.picbox_readerpic);
@@ -103,6 +103,67 @@
             this.panel_body.Name = "panel_body";
             this.panel_body.Size = new System.Drawing.Size(900, 720);
             this.panel_body.TabIndex = 4;
+            // 
+            // dtp_return_date
+            // 
+            this.dtp_return_date.Font = new System.Drawing.Font("Bahnschrift", 15.75F);
+            this.dtp_return_date.Location = new System.Drawing.Point(585, 544);
+            this.dtp_return_date.Name = "dtp_return_date";
+            this.dtp_return_date.Size = new System.Drawing.Size(280, 33);
+            this.dtp_return_date.TabIndex = 102;
+            // 
+            // dtp_borrow_date
+            // 
+            this.dtp_borrow_date.Font = new System.Drawing.Font("Bahnschrift", 15.75F);
+            this.dtp_borrow_date.Location = new System.Drawing.Point(285, 544);
+            this.dtp_borrow_date.Name = "dtp_borrow_date";
+            this.dtp_borrow_date.Size = new System.Drawing.Size(280, 33);
+            this.dtp_borrow_date.TabIndex = 101;
+            // 
+            // label_return_date
+            // 
+            this.label_return_date.AutoSize = true;
+            this.label_return_date.BackColor = System.Drawing.Color.Transparent;
+            this.label_return_date.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_return_date.ForeColor = System.Drawing.Color.White;
+            this.label_return_date.Location = new System.Drawing.Point(579, 508);
+            this.label_return_date.Name = "label_return_date";
+            this.label_return_date.Size = new System.Drawing.Size(157, 33);
+            this.label_return_date.TabIndex = 100;
+            this.label_return_date.Text = "Return Date";
+            // 
+            // label_borrow_date
+            // 
+            this.label_borrow_date.AutoSize = true;
+            this.label_borrow_date.BackColor = System.Drawing.Color.Transparent;
+            this.label_borrow_date.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_borrow_date.ForeColor = System.Drawing.Color.White;
+            this.label_borrow_date.Location = new System.Drawing.Point(279, 508);
+            this.label_borrow_date.Name = "label_borrow_date";
+            this.label_borrow_date.Size = new System.Drawing.Size(167, 33);
+            this.label_borrow_date.TabIndex = 99;
+            this.label_borrow_date.Text = "Borrow Date";
+            // 
+            // txt_amount
+            // 
+            this.txt_amount.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_amount.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_amount.Location = new System.Drawing.Point(285, 456);
+            this.txt_amount.Name = "txt_amount";
+            this.txt_amount.Size = new System.Drawing.Size(280, 33);
+            this.txt_amount.TabIndex = 98;
+            // 
+            // label_amount
+            // 
+            this.label_amount.AutoSize = true;
+            this.label_amount.BackColor = System.Drawing.Color.Transparent;
+            this.label_amount.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_amount.ForeColor = System.Drawing.Color.White;
+            this.label_amount.Location = new System.Drawing.Point(279, 420);
+            this.label_amount.Name = "label_amount";
+            this.label_amount.Size = new System.Drawing.Size(109, 33);
+            this.label_amount.TabIndex = 97;
+            this.label_amount.Text = "Amount";
             // 
             // txt_quantity
             // 
@@ -230,17 +291,19 @@
             this.label_full_name.TabIndex = 85;
             this.label_full_name.Text = "Full Name";
             // 
-            // label1
+            // label_view_book
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(97, 668);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 23);
-            this.label1.TabIndex = 84;
-            this.label1.Text = "view book";
+            this.label_view_book.AutoSize = true;
+            this.label_view_book.BackColor = System.Drawing.Color.Transparent;
+            this.label_view_book.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_view_book.ForeColor = System.Drawing.Color.White;
+            this.label_view_book.Location = new System.Drawing.Point(97, 668);
+            this.label_view_book.Name = "label_view_book";
+            this.label_view_book.Size = new System.Drawing.Size(93, 23);
+            this.label_view_book.TabIndex = 84;
+            this.label_view_book.Text = "view book";
+            this.label_view_book.MouseEnter += new System.EventHandler(this.label_view_book_MouseEnter);
+            this.label_view_book.MouseLeave += new System.EventHandler(this.label_view_book_MouseLeave);
             // 
             // label_view_profile
             // 
@@ -253,6 +316,8 @@
             this.label_view_profile.Size = new System.Drawing.Size(108, 23);
             this.label_view_profile.TabIndex = 83;
             this.label_view_profile.Text = "view profile";
+            this.label_view_profile.MouseEnter += new System.EventHandler(this.label_view_profile_MouseEnter);
+            this.label_view_profile.MouseLeave += new System.EventHandler(this.label_view_profile_MouseLeave);
             // 
             // pictureBox1
             // 
@@ -289,6 +354,8 @@
             this.label_close.TabIndex = 76;
             this.label_close.Text = "close";
             this.label_close.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label_close.MouseEnter += new System.EventHandler(this.label_close_MouseEnter);
+            this.label_close.MouseLeave += new System.EventHandler(this.label_close_MouseLeave);
             // 
             // label_proceed
             // 
@@ -301,6 +368,8 @@
             this.label_proceed.Size = new System.Drawing.Size(92, 23);
             this.label_proceed.TabIndex = 75;
             this.label_proceed.Text = "PROCEED";
+            this.label_proceed.MouseEnter += new System.EventHandler(this.label_proceed_MouseEnter);
+            this.label_proceed.MouseLeave += new System.EventHandler(this.label_proceed_MouseLeave);
             // 
             // label_add_new_reader
             // 
@@ -314,67 +383,8 @@
             this.label_add_new_reader.TabIndex = 2;
             this.label_add_new_reader.Text = "view\r\nproceed table";
             this.label_add_new_reader.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // txt_amount
-            // 
-            this.txt_amount.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_amount.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_amount.Location = new System.Drawing.Point(285, 456);
-            this.txt_amount.Name = "txt_amount";
-            this.txt_amount.Size = new System.Drawing.Size(280, 33);
-            this.txt_amount.TabIndex = 98;
-            // 
-            // label_amount
-            // 
-            this.label_amount.AutoSize = true;
-            this.label_amount.BackColor = System.Drawing.Color.Transparent;
-            this.label_amount.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_amount.ForeColor = System.Drawing.Color.White;
-            this.label_amount.Location = new System.Drawing.Point(279, 420);
-            this.label_amount.Name = "label_amount";
-            this.label_amount.Size = new System.Drawing.Size(109, 33);
-            this.label_amount.TabIndex = 97;
-            this.label_amount.Text = "Amount";
-            // 
-            // dtp_return_date
-            // 
-            this.dtp_return_date.Font = new System.Drawing.Font("Bahnschrift", 15.75F);
-            this.dtp_return_date.Location = new System.Drawing.Point(585, 544);
-            this.dtp_return_date.Name = "dtp_return_date";
-            this.dtp_return_date.Size = new System.Drawing.Size(280, 33);
-            this.dtp_return_date.TabIndex = 102;
-            // 
-            // dtp_borrow_date
-            // 
-            this.dtp_borrow_date.Font = new System.Drawing.Font("Bahnschrift", 15.75F);
-            this.dtp_borrow_date.Location = new System.Drawing.Point(285, 544);
-            this.dtp_borrow_date.Name = "dtp_borrow_date";
-            this.dtp_borrow_date.Size = new System.Drawing.Size(280, 33);
-            this.dtp_borrow_date.TabIndex = 101;
-            // 
-            // label_return_date
-            // 
-            this.label_return_date.AutoSize = true;
-            this.label_return_date.BackColor = System.Drawing.Color.Transparent;
-            this.label_return_date.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_return_date.ForeColor = System.Drawing.Color.White;
-            this.label_return_date.Location = new System.Drawing.Point(579, 508);
-            this.label_return_date.Name = "label_return_date";
-            this.label_return_date.Size = new System.Drawing.Size(157, 33);
-            this.label_return_date.TabIndex = 100;
-            this.label_return_date.Text = "Return Date";
-            // 
-            // label_borrow_date
-            // 
-            this.label_borrow_date.AutoSize = true;
-            this.label_borrow_date.BackColor = System.Drawing.Color.Transparent;
-            this.label_borrow_date.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_borrow_date.ForeColor = System.Drawing.Color.White;
-            this.label_borrow_date.Location = new System.Drawing.Point(279, 508);
-            this.label_borrow_date.Name = "label_borrow_date";
-            this.label_borrow_date.Size = new System.Drawing.Size(167, 33);
-            this.label_borrow_date.TabIndex = 99;
-            this.label_borrow_date.Text = "Borrow Date";
+            this.label_add_new_reader.MouseEnter += new System.EventHandler(this.label_add_new_reader_MouseEnter);
+            this.label_add_new_reader.MouseLeave += new System.EventHandler(this.label_add_new_reader_MouseLeave);
             // 
             // Frm_Proceed_Borrow
             // 
@@ -405,7 +415,7 @@
         private System.Windows.Forms.Label label_add_new_reader;
         private System.Windows.Forms.PictureBox picbox_readerpic;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label_view_book;
         private System.Windows.Forms.Label label_view_profile;
         private System.Windows.Forms.ComboBox cbo_member_type;
         private System.Windows.Forms.Label label_member_type;

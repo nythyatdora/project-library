@@ -17,14 +17,29 @@ namespace project_library
             InitializeComponent();
         }
 
-        private void label_confirm_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void label_exit_Click(object sender, EventArgs e)
         {
             this.Close();
-        }  
+        }
+
+        private void label_confirm_MouseEnter(object sender, EventArgs e)
+        {
+            label_confirm.ForeColor = Color.Green;
+        }
+
+        private void label_confirm_MouseLeave(object sender, EventArgs e)
+        {
+            label_confirm.ForeColor = Color.White;
+        }
+
+        private void label_exit_MouseEnter(object sender, EventArgs e)
+        {
+            label_exit.ForeColor = Color.Green;
+        }
+
+        private void label_exit_MouseLeave(object sender, EventArgs e)
+        {
+            label_exit.ForeColor = Color.White;
+        }
     }
 }
