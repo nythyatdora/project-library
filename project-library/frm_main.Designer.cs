@@ -170,6 +170,8 @@
             this.panel_main_button_membership.TabIndex = 16;
             this.panel_main_button_membership.Text = "MEMBERSHIP";
             this.panel_main_button_membership.UseVisualStyleBackColor = false;
+            this.panel_main_button_membership.MouseEnter += new System.EventHandler(this.panel_main_button_membership_MouseEnter);
+            this.panel_main_button_membership.MouseLeave += new System.EventHandler(this.panel_main_button_membership_MouseLeave);
             // 
             // panel_main_button_return
             // 
@@ -188,6 +190,8 @@
             this.panel_main_button_return.TabIndex = 15;
             this.panel_main_button_return.Text = "RETURN";
             this.panel_main_button_return.UseVisualStyleBackColor = false;
+            this.panel_main_button_return.MouseEnter += new System.EventHandler(this.panel_main_button_return_MouseEnter);
+            this.panel_main_button_return.MouseLeave += new System.EventHandler(this.panel_main_button_return_MouseLeave);
             // 
             // panel_main_picbox_profile
             // 
@@ -241,6 +245,8 @@
             this.panel_main_button_report.TabIndex = 5;
             this.panel_main_button_report.Text = "REPORT";
             this.panel_main_button_report.UseVisualStyleBackColor = false;
+            this.panel_main_button_report.MouseEnter += new System.EventHandler(this.panel_main_button_report_MouseEnter);
+            this.panel_main_button_report.MouseLeave += new System.EventHandler(this.panel_main_button_report_MouseLeave);
             // 
             // panel_main_button_myprofile
             // 
@@ -259,6 +265,8 @@
             this.panel_main_button_myprofile.TabIndex = 4;
             this.panel_main_button_myprofile.Text = "MY PROFILE";
             this.panel_main_button_myprofile.UseVisualStyleBackColor = false;
+            this.panel_main_button_myprofile.MouseEnter += new System.EventHandler(this.panel_main_button_myprofile_MouseEnter);
+            this.panel_main_button_myprofile.MouseLeave += new System.EventHandler(this.panel_main_button_myprofile_MouseLeave);
             // 
             // panel_main_button_readers
             // 
@@ -277,6 +285,8 @@
             this.panel_main_button_readers.TabIndex = 3;
             this.panel_main_button_readers.Text = "READERS";
             this.panel_main_button_readers.UseVisualStyleBackColor = false;
+            this.panel_main_button_readers.MouseEnter += new System.EventHandler(this.panel_main_button_readers_MouseEnter);
+            this.panel_main_button_readers.MouseLeave += new System.EventHandler(this.panel_main_button_readers_MouseLeave);
             // 
             // panel_main_button_category
             // 
@@ -295,6 +305,8 @@
             this.panel_main_button_category.TabIndex = 2;
             this.panel_main_button_category.Text = "CATEGORY";
             this.panel_main_button_category.UseVisualStyleBackColor = false;
+            this.panel_main_button_category.MouseEnter += new System.EventHandler(this.panel_main_button_category_MouseEnter);
+            this.panel_main_button_category.MouseLeave += new System.EventHandler(this.panel_main_button_category_MouseLeave);
             // 
             // panel_main_button_books
             // 
@@ -313,6 +325,8 @@
             this.panel_main_button_books.TabIndex = 1;
             this.panel_main_button_books.Text = "BOOKS";
             this.panel_main_button_books.UseVisualStyleBackColor = false;
+            this.panel_main_button_books.MouseEnter += new System.EventHandler(this.panel_main_button_books_MouseEnter);
+            this.panel_main_button_books.MouseLeave += new System.EventHandler(this.panel_main_button_books_MouseLeave);
             // 
             // panel_main_button_borrow
             // 
@@ -331,6 +345,8 @@
             this.panel_main_button_borrow.TabIndex = 0;
             this.panel_main_button_borrow.Text = "BORROW";
             this.panel_main_button_borrow.UseVisualStyleBackColor = false;
+            this.panel_main_button_borrow.MouseEnter += new System.EventHandler(this.panel_main_button_borrow_MouseEnter);
+            this.panel_main_button_borrow.MouseLeave += new System.EventHandler(this.panel_main_button_borrow_MouseLeave);
             // 
             // label_dropmenu
             // 

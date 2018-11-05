@@ -234,7 +234,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\" />
+    <None Include="Resources\button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button-half.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button-half-mouse-on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button-mouse-on.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
