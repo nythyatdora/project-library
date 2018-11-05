@@ -36,13 +36,12 @@
             this.txt_username = new System.Windows.Forms.TextBox();
             this.picbox_password = new System.Windows.Forms.PictureBox();
             this.picbox_username = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.picbox_login = new System.Windows.Forms.PictureBox();
             this.panel_body = new System.Windows.Forms.Panel();
+            this.panel_head = new System.Windows.Forms.Panel();
             this.panel_background.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picbox_password)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbox_username)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbox_login)).BeginInit();
             this.panel_body.SuspendLayout();
             this.SuspendLayout();
@@ -51,13 +50,13 @@
             // 
             this.panel_background.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_background.BackgroundImage")));
             this.panel_background.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel_background.Controls.Add(this.panel_head);
             this.panel_background.Controls.Add(this.label_exit);
             this.panel_background.Controls.Add(this.label_confirm);
             this.panel_background.Controls.Add(this.txt_password);
             this.panel_background.Controls.Add(this.txt_username);
             this.panel_background.Controls.Add(this.picbox_password);
             this.panel_background.Controls.Add(this.picbox_username);
-            this.panel_background.Controls.Add(this.pictureBox1);
             this.panel_background.Controls.Add(this.picbox_login);
             this.panel_background.Location = new System.Drawing.Point(0, 1);
             this.panel_background.Name = "panel_background";
@@ -76,6 +75,8 @@
             this.label_exit.TabIndex = 9;
             this.label_exit.Text = "exit";
             this.label_exit.Click += new System.EventHandler(this.label_exit_Click);
+            this.label_exit.MouseEnter += new System.EventHandler(this.label_exit_MouseEnter);
+            this.label_exit.MouseLeave += new System.EventHandler(this.label_exit_MouseLeave);
             // 
             // label_confirm
             // 
@@ -88,7 +89,8 @@
             this.label_confirm.Size = new System.Drawing.Size(114, 35);
             this.label_confirm.TabIndex = 8;
             this.label_confirm.Text = "confirm";
-            this.label_confirm.Click += new System.EventHandler(this.label_confirm_Click);
+            this.label_confirm.MouseEnter += new System.EventHandler(this.label_confirm_MouseEnter);
+            this.label_confirm.MouseLeave += new System.EventHandler(this.label_confirm_MouseLeave);
             // 
             // txt_password
             // 
@@ -133,16 +135,6 @@
             this.picbox_username.TabIndex = 2;
             this.picbox_username.TabStop = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, -1);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(400, 5);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
             // picbox_login
             // 
             this.picbox_login.BackColor = System.Drawing.Color.Transparent;
@@ -164,6 +156,16 @@
             this.panel_body.Size = new System.Drawing.Size(400, 400);
             this.panel_body.TabIndex = 1;
             // 
+            // panel_head
+            // 
+            this.panel_head.BackColor = System.Drawing.Color.Transparent;
+            this.panel_head.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_head.BackgroundImage")));
+            this.panel_head.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel_head.Location = new System.Drawing.Point(0, -1);
+            this.panel_head.Name = "panel_head";
+            this.panel_head.Size = new System.Drawing.Size(399, 6);
+            this.panel_head.TabIndex = 10;
+            // 
             // Frm_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -178,7 +180,6 @@
             this.panel_background.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picbox_password)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbox_username)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbox_login)).EndInit();
             this.panel_body.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -190,12 +191,12 @@
         private System.Windows.Forms.Panel panel_background;
         private System.Windows.Forms.Panel panel_body;
         private System.Windows.Forms.PictureBox picbox_login;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox picbox_password;
         private System.Windows.Forms.PictureBox picbox_username;
         private System.Windows.Forms.TextBox txt_username;
         private System.Windows.Forms.TextBox txt_password;
         private System.Windows.Forms.Label label_exit;
         private System.Windows.Forms.Label label_confirm;
+        private System.Windows.Forms.Panel panel_head;
     }
 }
