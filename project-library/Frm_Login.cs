@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using project_library.Class;
 
 namespace project_library
 {
@@ -17,29 +18,24 @@ namespace project_library
             InitializeComponent();
         }
 
-        private void label_exit_Click(object sender, EventArgs e)
+        private void Label_Confirm_MouseEnter(object sender, EventArgs e)
         {
-            this.Close();
+            GraphicInteraction.SetColorLabelGreen(Label_Confirm);
         }
 
-        private void label_confirm_MouseEnter(object sender, EventArgs e)
+        private void Label_Confirm_MouseLeave(object sender, EventArgs e)
         {
-            label_confirm.ForeColor = Color.Green;
+            GraphicInteraction.SetColorLabelWhite(Label_Confirm);
         }
 
-        private void label_confirm_MouseLeave(object sender, EventArgs e)
+        private void Label_Exit_MouseEnter(object sender, EventArgs e)
         {
-            label_confirm.ForeColor = Color.White;
+            GraphicInteraction.SetColorLabelGreen(Label_Exit);
         }
 
-        private void label_exit_MouseEnter(object sender, EventArgs e)
+        private void Label_Exit_MouseLeave(object sender, EventArgs e)
         {
-            label_exit.ForeColor = Color.Green;
-        }
-
-        private void label_exit_MouseLeave(object sender, EventArgs e)
-        {
-            label_exit.ForeColor = Color.White;
+            GraphicInteraction.SetColorLabelWhite(Label_Exit);
         }
     }
 }

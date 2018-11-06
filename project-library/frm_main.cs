@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using project_library.Class;
 
 namespace project_library
 {
@@ -17,229 +18,214 @@ namespace project_library
             InitializeComponent();
         }
 
-        private void btn_close_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void setColorLabelGreen(Label label)
-        {
-            label.ForeColor = Color.Green;
-        }
-
-        private void setColorLabelWhite(Label label)
-        {
-            label.ForeColor = Color.White;
-        }
-
-        private void setImageButtonEnter_Small(Button button)
+        private void SetImageButtonEnter_Small(Button button)
         {
             button.Image = Properties.Resources.imgButtonEntered_Small;
         }
 
-        private void setImageButtonLeave_Small(Button button)
+        private void SetImageButtonLeave_Small(Button button)
         {
             button.Image = Properties.Resources.imgButtonLeft_Small;
         }
 
 
-        private void setImageButtonEnter_Big(Button button)
+        private void SetImageButtonEnter_Big(Button button)
         {
             button.Image = Properties.Resources.imgButtonEntered_Big;
         }
 
-        private void setImageButtonLeave_Big(Button button)
+        private void SetImageButtonLeave_Big(Button button)
         {
             button.Image = Properties.Resources.imgButtonLeft_Big;
         }
 
-        private void label_dropmenu_MouseEnter(object sender, EventArgs e)
+        private void Label_Dropmenu_MouseEnter(object sender, EventArgs e)
         {
-            setColorLabelGreen(label_dropmenu);
+            GraphicInteraction.SetColorLabelGreen(Label_Dropmenu);
         }
 
-        private void label_dropmenu_MouseLeave(object sender, EventArgs e)
+        private void Label_Dropmenu_MouseLeave(object sender, EventArgs e)
         {
-            setColorLabelWhite(label_dropmenu);
+            GraphicInteraction.SetColorLabelWhite(Label_Dropmenu);
         }
 
-        private void label_home_MouseEnter(object sender, EventArgs e)
+        private void Label_Home_MouseEnter(object sender, EventArgs e)
         {
-            setColorLabelGreen(label_home);
+            GraphicInteraction.SetColorLabelGreen(Label_Home);
         }
 
-        private void label_home_MouseLeave(object sender, EventArgs e)
+        private void Label_Home_MouseLeave(object sender, EventArgs e)
         {
-            setColorLabelWhite(label_home);
+            GraphicInteraction.SetColorLabelWhite(Label_Home);
         }
 
-        private void label_borrow_return_MouseEnter(object sender, EventArgs e)
+        private void Label_Borrow_Return_MouseEnter(object sender, EventArgs e)
         {
-            setColorLabelGreen(label_borrow_return);
+            GraphicInteraction.SetColorLabelGreen(Label_Borrow_Return);
         }
 
-        private void label_borrow_return_MouseLeave(object sender, EventArgs e)
+        private void Label_Borrow_Return_MouseLeave(object sender, EventArgs e)
         {
-            setColorLabelWhite(label_borrow_return);
+            GraphicInteraction.SetColorLabelWhite(Label_Borrow_Return);
         }
 
-        private void label_books_MouseEnter(object sender, EventArgs e)
+        private void Label_Books_MouseEnter(object sender, EventArgs e)
         {
-            setColorLabelGreen(label_books);
+            GraphicInteraction.SetColorLabelGreen(Label_Books);
         }
 
-        private void label_books_MouseLeave(object sender, EventArgs e)
+        private void Label_Books_MouseLeave(object sender, EventArgs e)
         {
-            setColorLabelWhite(label_books);
+            GraphicInteraction.SetColorLabelWhite(Label_Books);
         }
 
-        private void label_category_MouseEnter(object sender, EventArgs e)
+        private void Label_Category_MouseEnter(object sender, EventArgs e)
         {
-            setColorLabelGreen(label_category);
+            GraphicInteraction.SetColorLabelGreen(Label_Category);
         }
 
-        private void label_category_MouseLeave(object sender, EventArgs e)
+        private void Label_Category_MouseLeave(object sender, EventArgs e)
         {
-            setColorLabelWhite(label_category);
+            GraphicInteraction.SetColorLabelWhite(Label_Category);
         }
 
-        private void label_readers_MouseEnter(object sender, EventArgs e)
+        private void Label_Readers_MouseEnter(object sender, EventArgs e)
         {
-            setColorLabelGreen(label_readers);
+            GraphicInteraction.SetColorLabelGreen(Label_Readers);
         }
 
-        private void label_readers_MouseLeave(object sender, EventArgs e)
+        private void Label_Readers_MouseLeave(object sender, EventArgs e)
         {
-            setColorLabelWhite(label_readers);
+            GraphicInteraction.SetColorLabelWhite(Label_Readers);
         }
 
-        private void label_membership_MouseEnter(object sender, EventArgs e)
+        private void Label_Membership_MouseEnter(object sender, EventArgs e)
         {
-            setColorLabelGreen(label_membership);
+            GraphicInteraction.SetColorLabelGreen(Label_Membership);
         }
 
-        private void label_membership_MouseLeave(object sender, EventArgs e)
+        private void Label_Membership_MouseLeave(object sender, EventArgs e)
         {
-            setColorLabelWhite(label_membership);
+            GraphicInteraction.SetColorLabelWhite(Label_Membership);
         }
 
-        private void label_myprofile_MouseEnter(object sender, EventArgs e)
+        private void Label_Myprofile_MouseEnter(object sender, EventArgs e)
         {
-            setColorLabelGreen(label_myprofile);
+            GraphicInteraction.SetColorLabelGreen(Label_Myprofile);
         }
 
-        private void label_myprofile_MouseLeave(object sender, EventArgs e)
+        private void Label_Myprofile_MouseLeave(object sender, EventArgs e)
         {
-            setColorLabelWhite(label_myprofile);
+            GraphicInteraction.SetColorLabelWhite(Label_Myprofile);
         }
 
-        private void label_report_MouseEnter(object sender, EventArgs e)
+        private void Label_Report_MouseEnter(object sender, EventArgs e)
         {
-            setColorLabelGreen(label_report);
+            GraphicInteraction.SetColorLabelGreen(Label_Report);
         }
 
-        private void label_report_MouseLeave(object sender, EventArgs e)
+        private void Label_Report_MouseLeave(object sender, EventArgs e)
         {
-            setColorLabelWhite(label_report);
+            GraphicInteraction.SetColorLabelWhite(Label_Report);
         }
 
-        private void label_exit_MouseEnter(object sender, EventArgs e)
+        private void Label_Exit_MouseEnter(object sender, EventArgs e)
         {
-            setColorLabelGreen(label_exit);
+            GraphicInteraction.SetColorLabelGreen(Label_Exit);
         }
 
-        private void label_exit_MouseLeave(object sender, EventArgs e)
+        private void Label_Exit_MouseLeave(object sender, EventArgs e)
         {
-            setColorLabelWhite(label_exit);
+            GraphicInteraction.SetColorLabelWhite(Label_Exit);
         }
 
-        private void label_dropmenu_MouseClick(object sender, MouseEventArgs e)
+        private void Label_Dropmenu_MouseClick(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
             {
-                label_dropmenu.ContextMenuStrip = contextMenuStrip;
-                label_dropmenu.ContextMenuStrip.Show(label_dropmenu,5,25);
+                Label_Dropmenu.ContextMenuStrip = ContextMenuStrip_Main;
+                Label_Dropmenu.ContextMenuStrip.Show(Label_Dropmenu,5,25);
             }
         }
 
-        private void panel_main_button_borrow_MouseEnter(object sender, EventArgs e)
+        private void Button_Borrow_MouseEnter(object sender, EventArgs e)
         {
-            setImageButtonEnter_Small(panel_main_button_borrow);
+            SetImageButtonEnter_Small(Button_Borrow);
         }
 
-        private void panel_main_button_borrow_MouseLeave(object sender, EventArgs e)
+        private void Button_Borrow_MouseLeave(object sender, EventArgs e)
         {
-            setImageButtonLeave_Small(panel_main_button_borrow);
+            SetImageButtonLeave_Small(Button_Borrow);
         }
 
-        private void panel_main_button_return_MouseEnter(object sender, EventArgs e)
+        private void Button_Return_MouseEnter(object sender, EventArgs e)
         {
-            setImageButtonEnter_Small(panel_main_button_return);
+            SetImageButtonEnter_Small(Button_Return);
         }
 
-        private void panel_main_button_return_MouseLeave(object sender, EventArgs e)
+        private void Button_Return_MouseLeave(object sender, EventArgs e)
         {
-            setImageButtonLeave_Small(panel_main_button_return);
+            SetImageButtonLeave_Small(Button_Return);
         }
 
-        private void panel_main_button_books_MouseEnter(object sender, EventArgs e)
+        private void Button_Books_MouseEnter(object sender, EventArgs e)
         {
-            setImageButtonEnter_Big(panel_main_button_books);
+            SetImageButtonEnter_Big(Button_Books);
         }
 
-        private void panel_main_button_books_MouseLeave(object sender, EventArgs e)
+        private void Button_Books_MouseLeave(object sender, EventArgs e)
         {
-            setImageButtonLeave_Big(panel_main_button_books);
+            SetImageButtonLeave_Big(Button_Books);
         }
 
-        private void panel_main_button_category_MouseEnter(object sender, EventArgs e)
+        private void Button_Category_MouseEnter(object sender, EventArgs e)
         {
-            setImageButtonEnter_Big(panel_main_button_category);
+            SetImageButtonEnter_Big(Button_Category);
         }
 
-        private void panel_main_button_category_MouseLeave(object sender, EventArgs e)
+        private void Button_Category_MouseLeave(object sender, EventArgs e)
         {
-            setImageButtonLeave_Big(panel_main_button_category);
+            SetImageButtonLeave_Big(Button_Category);
         }
 
-        private void panel_main_button_readers_MouseEnter(object sender, EventArgs e)
+        private void Button_Readers_MouseEnter(object sender, EventArgs e)
         {
-            setImageButtonEnter_Small(panel_main_button_readers);
+            SetImageButtonEnter_Small(Button_Readers);
         }
 
-        private void panel_main_button_readers_MouseLeave(object sender, EventArgs e)
+        private void Button_Readers_MouseLeave(object sender, EventArgs e)
         {
-            setImageButtonLeave_Small(panel_main_button_readers);
+            SetImageButtonLeave_Small(Button_Readers);
         }
 
-        private void panel_main_button_membership_MouseEnter(object sender, EventArgs e)
+        private void Button_Membership_MouseEnter(object sender, EventArgs e)
         {
-            setImageButtonEnter_Small(panel_main_button_membership);
+            SetImageButtonEnter_Small(Button_Membership);
         }
 
-        private void panel_main_button_membership_MouseLeave(object sender, EventArgs e)
+        private void Button_Membership_MouseLeave(object sender, EventArgs e)
         {
-            setImageButtonLeave_Small(panel_main_button_membership);
+            SetImageButtonLeave_Small(Button_Membership);
         }
 
-        private void panel_main_button_myprofile_MouseEnter(object sender, EventArgs e)
+        private void Button_Myprofile_MouseEnter(object sender, EventArgs e)
         {
-            setImageButtonEnter_Big(panel_main_button_myprofile);
+            SetImageButtonEnter_Big(Button_Myprofile);
         }
 
-        private void panel_main_button_myprofile_MouseLeave(object sender, EventArgs e)
+        private void Button_Myprofile_MouseLeave(object sender, EventArgs e)
         {
-            setImageButtonLeave_Big(panel_main_button_myprofile);
+            SetImageButtonLeave_Big(Button_Myprofile);
         }
 
-        private void panel_main_button_report_MouseEnter(object sender, EventArgs e)
+        private void Button_Report_MouseEnter(object sender, EventArgs e)
         {
-            setImageButtonEnter_Big(panel_main_button_report);
+            SetImageButtonEnter_Big(Button_Report);
         }
 
-        private void panel_main_button_report_MouseLeave(object sender, EventArgs e)
+        private void Button_Report_MouseLeave(object sender, EventArgs e)
         {
-            setImageButtonLeave_Big(panel_main_button_report);
+            SetImageButtonLeave_Big(Button_Report);
         }
     }
 }

@@ -29,174 +29,170 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Insert_Reader));
-            this.panel_head = new System.Windows.Forms.Panel();
-            this.panel_body = new System.Windows.Forms.Panel();
-            this.label_close = new System.Windows.Forms.Label();
-            this.label_view_table_readers = new System.Windows.Forms.Label();
-            this.label_upload_identification = new System.Windows.Forms.Label();
-            this.label_upload_picture = new System.Windows.Forms.Label();
-            this.picbox_identificationid = new System.Windows.Forms.PictureBox();
-            this.picbox_readerpic = new System.Windows.Forms.PictureBox();
+            this.Panel_Head = new System.Windows.Forms.Panel();
+            this.Panel_Body = new System.Windows.Forms.Panel();
+            this.Label_Close = new System.Windows.Forms.Label();
+            this.Label_View_Table_Readers = new System.Windows.Forms.Label();
+            this.Label_Upload_Identification = new System.Windows.Forms.Label();
+            this.Label_Upload_Picture = new System.Windows.Forms.Label();
+            this.Picbox_IdentificationID = new System.Windows.Forms.PictureBox();
+            this.Picbox_Reader_Picture = new System.Windows.Forms.PictureBox();
             this.dtp_dateofbirth = new System.Windows.Forms.DateTimePicker();
             this.cbo_gender = new System.Windows.Forms.ComboBox();
-            this.label_confirm = new System.Windows.Forms.Label();
-            this.label_reset = new System.Windows.Forms.Label();
-            this.txt_address = new System.Windows.Forms.TextBox();
-            this.label_address = new System.Windows.Forms.Label();
-            this.txt_email_address = new System.Windows.Forms.TextBox();
-            this.label_email_address = new System.Windows.Forms.Label();
-            this.txt_phone_number = new System.Windows.Forms.TextBox();
-            this.label_phone_number = new System.Windows.Forms.Label();
-            this.txt_organization = new System.Windows.Forms.TextBox();
-            this.label_organization = new System.Windows.Forms.Label();
-            this.txt_occupation = new System.Windows.Forms.TextBox();
-            this.label_occupation = new System.Windows.Forms.Label();
-            this.label_dateofbirth = new System.Windows.Forms.Label();
-            this.label_gender = new System.Windows.Forms.Label();
-            this.txt_last_name = new System.Windows.Forms.TextBox();
-            this.label_last_name = new System.Windows.Forms.Label();
-            this.txt_first_name = new System.Windows.Forms.TextBox();
-            this.label_first_name = new System.Windows.Forms.Label();
-            this.picbox_title = new System.Windows.Forms.PictureBox();
-            this.openFileDialog_ReaderPicture = new System.Windows.Forms.OpenFileDialog();
-            this.openFileDialog_IdentificationID = new System.Windows.Forms.OpenFileDialog();
-            this.panel_body.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picbox_identificationid)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picbox_readerpic)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picbox_title)).BeginInit();
+            this.Label_Confirm = new System.Windows.Forms.Label();
+            this.Label_Reset = new System.Windows.Forms.Label();
+            this.Text_Address = new System.Windows.Forms.TextBox();
+            this.Label_Address = new System.Windows.Forms.Label();
+            this.Text_Email_Address = new System.Windows.Forms.TextBox();
+            this.Label_Email_Address = new System.Windows.Forms.Label();
+            this.Text_Phone_Number = new System.Windows.Forms.TextBox();
+            this.Label_Phone_Number = new System.Windows.Forms.Label();
+            this.Text_Organization = new System.Windows.Forms.TextBox();
+            this.Label_Organization = new System.Windows.Forms.Label();
+            this.Text_Occupation = new System.Windows.Forms.TextBox();
+            this.Label_Occupation = new System.Windows.Forms.Label();
+            this.Label_Date_of_Birth = new System.Windows.Forms.Label();
+            this.Label_Gender = new System.Windows.Forms.Label();
+            this.Text_Last_Name = new System.Windows.Forms.TextBox();
+            this.Label_Last_Name = new System.Windows.Forms.Label();
+            this.Text_First_Name = new System.Windows.Forms.TextBox();
+            this.Label_First_Name = new System.Windows.Forms.Label();
+            this.Picbox_Title = new System.Windows.Forms.PictureBox();
+            this.OpenFileDialog_Reader_Picture = new System.Windows.Forms.OpenFileDialog();
+            this.OpenFileDialog_IdentificationID = new System.Windows.Forms.OpenFileDialog();
+            this.Panel_Body.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Picbox_IdentificationID)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Picbox_Reader_Picture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Picbox_Title)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel_head
+            // Panel_Head
             // 
-            this.panel_head.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_head.BackgroundImage")));
-            this.panel_head.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel_head.Location = new System.Drawing.Point(0, 0);
-            this.panel_head.Name = "panel_head";
-            this.panel_head.Size = new System.Drawing.Size(900, 6);
-            this.panel_head.TabIndex = 0;
+            this.Panel_Head.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel_Head.BackgroundImage")));
+            this.Panel_Head.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Panel_Head.Location = new System.Drawing.Point(0, 0);
+            this.Panel_Head.Name = "Panel_Head";
+            this.Panel_Head.Size = new System.Drawing.Size(900, 6);
+            this.Panel_Head.TabIndex = 0;
             // 
-            // panel_body
+            // Panel_Body
             // 
-            this.panel_body.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_body.BackgroundImage")));
-            this.panel_body.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel_body.Controls.Add(this.label_close);
-            this.panel_body.Controls.Add(this.label_view_table_readers);
-            this.panel_body.Controls.Add(this.label_upload_identification);
-            this.panel_body.Controls.Add(this.label_upload_picture);
-            this.panel_body.Controls.Add(this.picbox_identificationid);
-            this.panel_body.Controls.Add(this.picbox_readerpic);
-            this.panel_body.Controls.Add(this.dtp_dateofbirth);
-            this.panel_body.Controls.Add(this.cbo_gender);
-            this.panel_body.Controls.Add(this.label_confirm);
-            this.panel_body.Controls.Add(this.label_reset);
-            this.panel_body.Controls.Add(this.txt_address);
-            this.panel_body.Controls.Add(this.label_address);
-            this.panel_body.Controls.Add(this.txt_email_address);
-            this.panel_body.Controls.Add(this.label_email_address);
-            this.panel_body.Controls.Add(this.txt_phone_number);
-            this.panel_body.Controls.Add(this.label_phone_number);
-            this.panel_body.Controls.Add(this.txt_organization);
-            this.panel_body.Controls.Add(this.label_organization);
-            this.panel_body.Controls.Add(this.txt_occupation);
-            this.panel_body.Controls.Add(this.label_occupation);
-            this.panel_body.Controls.Add(this.label_dateofbirth);
-            this.panel_body.Controls.Add(this.label_gender);
-            this.panel_body.Controls.Add(this.txt_last_name);
-            this.panel_body.Controls.Add(this.label_last_name);
-            this.panel_body.Controls.Add(this.txt_first_name);
-            this.panel_body.Controls.Add(this.label_first_name);
-            this.panel_body.Controls.Add(this.picbox_title);
-            this.panel_body.Location = new System.Drawing.Point(0, 6);
-            this.panel_body.Name = "panel_body";
-            this.panel_body.Size = new System.Drawing.Size(900, 796);
-            this.panel_body.TabIndex = 1;
+            this.Panel_Body.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel_Body.BackgroundImage")));
+            this.Panel_Body.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Panel_Body.Controls.Add(this.Label_Close);
+            this.Panel_Body.Controls.Add(this.Label_View_Table_Readers);
+            this.Panel_Body.Controls.Add(this.Label_Upload_Identification);
+            this.Panel_Body.Controls.Add(this.Label_Upload_Picture);
+            this.Panel_Body.Controls.Add(this.Picbox_IdentificationID);
+            this.Panel_Body.Controls.Add(this.Picbox_Reader_Picture);
+            this.Panel_Body.Controls.Add(this.dtp_dateofbirth);
+            this.Panel_Body.Controls.Add(this.cbo_gender);
+            this.Panel_Body.Controls.Add(this.Label_Confirm);
+            this.Panel_Body.Controls.Add(this.Label_Reset);
+            this.Panel_Body.Controls.Add(this.Text_Address);
+            this.Panel_Body.Controls.Add(this.Label_Address);
+            this.Panel_Body.Controls.Add(this.Text_Email_Address);
+            this.Panel_Body.Controls.Add(this.Label_Email_Address);
+            this.Panel_Body.Controls.Add(this.Text_Phone_Number);
+            this.Panel_Body.Controls.Add(this.Label_Phone_Number);
+            this.Panel_Body.Controls.Add(this.Text_Organization);
+            this.Panel_Body.Controls.Add(this.Label_Organization);
+            this.Panel_Body.Controls.Add(this.Text_Occupation);
+            this.Panel_Body.Controls.Add(this.Label_Occupation);
+            this.Panel_Body.Controls.Add(this.Label_Date_of_Birth);
+            this.Panel_Body.Controls.Add(this.Label_Gender);
+            this.Panel_Body.Controls.Add(this.Text_Last_Name);
+            this.Panel_Body.Controls.Add(this.Label_Last_Name);
+            this.Panel_Body.Controls.Add(this.Text_First_Name);
+            this.Panel_Body.Controls.Add(this.Label_First_Name);
+            this.Panel_Body.Controls.Add(this.Picbox_Title);
+            this.Panel_Body.Location = new System.Drawing.Point(0, 6);
+            this.Panel_Body.Name = "Panel_Body";
+            this.Panel_Body.Size = new System.Drawing.Size(900, 796);
+            this.Panel_Body.TabIndex = 1;
             // 
-            // label_close
+            // Label_Close
             // 
-            this.label_close.AutoSize = true;
-            this.label_close.BackColor = System.Drawing.Color.Transparent;
-            this.label_close.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_close.ForeColor = System.Drawing.Color.White;
-            this.label_close.Location = new System.Drawing.Point(23, 13);
-            this.label_close.Name = "label_close";
-            this.label_close.Size = new System.Drawing.Size(55, 23);
-            this.label_close.TabIndex = 57;
-            this.label_close.Text = "close";
-            this.label_close.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label_close.Click += new System.EventHandler(this.label_close_Click);
-            this.label_close.MouseEnter += new System.EventHandler(this.label_close_MouseEnter);
-            this.label_close.MouseLeave += new System.EventHandler(this.label_close_MouseLeave);
+            this.Label_Close.AutoSize = true;
+            this.Label_Close.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Close.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Close.ForeColor = System.Drawing.Color.White;
+            this.Label_Close.Location = new System.Drawing.Point(23, 13);
+            this.Label_Close.Name = "Label_Close";
+            this.Label_Close.Size = new System.Drawing.Size(55, 23);
+            this.Label_Close.TabIndex = 57;
+            this.Label_Close.Text = "close";
+            this.Label_Close.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Label_Close.MouseEnter += new System.EventHandler(this.Label_Close_MouseEnter);
+            this.Label_Close.MouseLeave += new System.EventHandler(this.Label_Close_MouseLeave);
             // 
-            // label_view_table_readers
+            // Label_View_Table_Readers
             // 
-            this.label_view_table_readers.AutoSize = true;
-            this.label_view_table_readers.BackColor = System.Drawing.Color.Transparent;
-            this.label_view_table_readers.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_view_table_readers.ForeColor = System.Drawing.Color.White;
-            this.label_view_table_readers.Location = new System.Drawing.Point(754, 40);
-            this.label_view_table_readers.Name = "label_view_table_readers";
-            this.label_view_table_readers.Size = new System.Drawing.Size(121, 69);
-            this.label_view_table_readers.TabIndex = 54;
-            this.label_view_table_readers.Text = "view\r\ntable readers\r\n\r\n";
-            this.label_view_table_readers.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label_view_table_readers.Click += new System.EventHandler(this.label_view_table_readers_Click);
-            this.label_view_table_readers.MouseEnter += new System.EventHandler(this.label_view_table_readers_MouseEnter);
-            this.label_view_table_readers.MouseLeave += new System.EventHandler(this.label_view_table_readers_MouseLeave);
+            this.Label_View_Table_Readers.AutoSize = true;
+            this.Label_View_Table_Readers.BackColor = System.Drawing.Color.Transparent;
+            this.Label_View_Table_Readers.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_View_Table_Readers.ForeColor = System.Drawing.Color.White;
+            this.Label_View_Table_Readers.Location = new System.Drawing.Point(754, 40);
+            this.Label_View_Table_Readers.Name = "Label_View_Table_Readers";
+            this.Label_View_Table_Readers.Size = new System.Drawing.Size(121, 69);
+            this.Label_View_Table_Readers.TabIndex = 54;
+            this.Label_View_Table_Readers.Text = "view\r\ntable readers\r\n\r\n";
+            this.Label_View_Table_Readers.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Label_View_Table_Readers.MouseEnter += new System.EventHandler(this.Label_View_Table_Readers_MouseEnter);
+            this.Label_View_Table_Readers.MouseLeave += new System.EventHandler(this.Label_View_Table_Readers_MouseLeave);
             // 
-            // label_upload_identification
+            // Label_Upload_Identification
             // 
-            this.label_upload_identification.AutoSize = true;
-            this.label_upload_identification.BackColor = System.Drawing.Color.Transparent;
-            this.label_upload_identification.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_upload_identification.ForeColor = System.Drawing.Color.White;
-            this.label_upload_identification.Location = new System.Drawing.Point(701, 666);
-            this.label_upload_identification.Name = "label_upload_identification";
-            this.label_upload_identification.Size = new System.Drawing.Size(139, 69);
-            this.label_upload_identification.TabIndex = 53;
-            this.label_upload_identification.Text = "Upload\r\nIdentification ID\r\n\r\n";
-            this.label_upload_identification.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label_upload_identification.Click += new System.EventHandler(this.label_upload_identification_Click);
-            this.label_upload_identification.MouseEnter += new System.EventHandler(this.label_upload_identification_MouseEnter);
-            this.label_upload_identification.MouseLeave += new System.EventHandler(this.label_upload_identification_MouseLeave);
+            this.Label_Upload_Identification.AutoSize = true;
+            this.Label_Upload_Identification.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Upload_Identification.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Upload_Identification.ForeColor = System.Drawing.Color.White;
+            this.Label_Upload_Identification.Location = new System.Drawing.Point(701, 666);
+            this.Label_Upload_Identification.Name = "Label_Upload_Identification";
+            this.Label_Upload_Identification.Size = new System.Drawing.Size(139, 69);
+            this.Label_Upload_Identification.TabIndex = 53;
+            this.Label_Upload_Identification.Text = "Upload\r\nIdentification ID\r\n\r\n";
+            this.Label_Upload_Identification.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label_Upload_Identification.MouseEnter += new System.EventHandler(this.Label_Upload_Identification_MouseEnter);
+            this.Label_Upload_Identification.MouseLeave += new System.EventHandler(this.Label_Upload_Identification_MouseLeave);
             // 
-            // label_upload_picture
+            // Label_Upload_Picture
             // 
-            this.label_upload_picture.AutoSize = true;
-            this.label_upload_picture.BackColor = System.Drawing.Color.Transparent;
-            this.label_upload_picture.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_upload_picture.ForeColor = System.Drawing.Color.White;
-            this.label_upload_picture.Location = new System.Drawing.Point(704, 383);
-            this.label_upload_picture.Name = "label_upload_picture";
-            this.label_upload_picture.Size = new System.Drawing.Size(132, 23);
-            this.label_upload_picture.TabIndex = 52;
-            this.label_upload_picture.Text = "Upload Picture";
-            this.label_upload_picture.Click += new System.EventHandler(this.label_upload_picture_Click);
-            this.label_upload_picture.MouseEnter += new System.EventHandler(this.label_upload_picture_MouseEnter);
-            this.label_upload_picture.MouseLeave += new System.EventHandler(this.label_upload_picture_MouseLeave);
+            this.Label_Upload_Picture.AutoSize = true;
+            this.Label_Upload_Picture.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Upload_Picture.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Upload_Picture.ForeColor = System.Drawing.Color.White;
+            this.Label_Upload_Picture.Location = new System.Drawing.Point(704, 383);
+            this.Label_Upload_Picture.Name = "Label_Upload_Picture";
+            this.Label_Upload_Picture.Size = new System.Drawing.Size(132, 23);
+            this.Label_Upload_Picture.TabIndex = 52;
+            this.Label_Upload_Picture.Text = "Upload Picture";
+            this.Label_Upload_Picture.MouseEnter += new System.EventHandler(this.Label_Upload_Picture_MouseEnter);
+            this.Label_Upload_Picture.MouseLeave += new System.EventHandler(this.Label_Upload_Picture_MouseLeave);
             // 
-            // picbox_identificationid
+            // Picbox_IdentificationID
             // 
-            this.picbox_identificationid.BackColor = System.Drawing.Color.Transparent;
-            this.picbox_identificationid.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picbox_identificationid.BackgroundImage")));
-            this.picbox_identificationid.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.picbox_identificationid.Location = new System.Drawing.Point(663, 435);
-            this.picbox_identificationid.Name = "picbox_identificationid";
-            this.picbox_identificationid.Size = new System.Drawing.Size(205, 219);
-            this.picbox_identificationid.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.picbox_identificationid.TabIndex = 51;
-            this.picbox_identificationid.TabStop = false;
+            this.Picbox_IdentificationID.BackColor = System.Drawing.Color.Transparent;
+            this.Picbox_IdentificationID.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Picbox_IdentificationID.BackgroundImage")));
+            this.Picbox_IdentificationID.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Picbox_IdentificationID.Location = new System.Drawing.Point(663, 435);
+            this.Picbox_IdentificationID.Name = "Picbox_IdentificationID";
+            this.Picbox_IdentificationID.Size = new System.Drawing.Size(205, 219);
+            this.Picbox_IdentificationID.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.Picbox_IdentificationID.TabIndex = 51;
+            this.Picbox_IdentificationID.TabStop = false;
             // 
-            // picbox_readerpic
+            // Picbox_Reader_Picture
             // 
-            this.picbox_readerpic.BackColor = System.Drawing.Color.Transparent;
-            this.picbox_readerpic.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picbox_readerpic.BackgroundImage")));
-            this.picbox_readerpic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.picbox_readerpic.Location = new System.Drawing.Point(656, 156);
-            this.picbox_readerpic.Name = "picbox_readerpic";
-            this.picbox_readerpic.Size = new System.Drawing.Size(219, 219);
-            this.picbox_readerpic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.picbox_readerpic.TabIndex = 50;
-            this.picbox_readerpic.TabStop = false;
+            this.Picbox_Reader_Picture.BackColor = System.Drawing.Color.Transparent;
+            this.Picbox_Reader_Picture.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Picbox_Reader_Picture.BackgroundImage")));
+            this.Picbox_Reader_Picture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Picbox_Reader_Picture.Location = new System.Drawing.Point(656, 156);
+            this.Picbox_Reader_Picture.Name = "Picbox_Reader_Picture";
+            this.Picbox_Reader_Picture.Size = new System.Drawing.Size(219, 219);
+            this.Picbox_Reader_Picture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.Picbox_Reader_Picture.TabIndex = 50;
+            this.Picbox_Reader_Picture.TabStop = false;
             // 
             // dtp_dateofbirth
             // 
@@ -215,269 +211,269 @@
             this.cbo_gender.Size = new System.Drawing.Size(280, 33);
             this.cbo_gender.TabIndex = 48;
             // 
-            // label_confirm
+            // Label_Confirm
             // 
-            this.label_confirm.AutoSize = true;
-            this.label_confirm.BackColor = System.Drawing.Color.Transparent;
-            this.label_confirm.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_confirm.ForeColor = System.Drawing.Color.White;
-            this.label_confirm.Location = new System.Drawing.Point(541, 736);
-            this.label_confirm.Name = "label_confirm";
-            this.label_confirm.Size = new System.Drawing.Size(90, 23);
-            this.label_confirm.TabIndex = 47;
-            this.label_confirm.Text = "CONFIRM";
-            this.label_confirm.MouseEnter += new System.EventHandler(this.label_confirm_MouseEnter);
-            this.label_confirm.MouseLeave += new System.EventHandler(this.label_confirm_MouseLeave);
+            this.Label_Confirm.AutoSize = true;
+            this.Label_Confirm.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Confirm.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Confirm.ForeColor = System.Drawing.Color.White;
+            this.Label_Confirm.Location = new System.Drawing.Point(541, 736);
+            this.Label_Confirm.Name = "Label_Confirm";
+            this.Label_Confirm.Size = new System.Drawing.Size(90, 23);
+            this.Label_Confirm.TabIndex = 47;
+            this.Label_Confirm.Text = "CONFIRM";
+            this.Label_Confirm.MouseEnter += new System.EventHandler(this.Label_Confirm_MouseEnter);
+            this.Label_Confirm.MouseLeave += new System.EventHandler(this.Label_Confirm_MouseLeave);
             // 
-            // label_reset
+            // Label_Reset
             // 
-            this.label_reset.AutoSize = true;
-            this.label_reset.BackColor = System.Drawing.Color.Transparent;
-            this.label_reset.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_reset.ForeColor = System.Drawing.Color.White;
-            this.label_reset.Location = new System.Drawing.Point(37, 736);
-            this.label_reset.Name = "label_reset";
-            this.label_reset.Size = new System.Drawing.Size(65, 23);
-            this.label_reset.TabIndex = 46;
-            this.label_reset.Text = "RESET";
-            this.label_reset.MouseEnter += new System.EventHandler(this.label_reset_MouseEnter);
-            this.label_reset.MouseLeave += new System.EventHandler(this.label_reset_MouseLeave);
+            this.Label_Reset.AutoSize = true;
+            this.Label_Reset.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Reset.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Reset.ForeColor = System.Drawing.Color.White;
+            this.Label_Reset.Location = new System.Drawing.Point(37, 736);
+            this.Label_Reset.Name = "Label_Reset";
+            this.Label_Reset.Size = new System.Drawing.Size(65, 23);
+            this.Label_Reset.TabIndex = 46;
+            this.Label_Reset.Text = "RESET";
+            this.Label_Reset.MouseEnter += new System.EventHandler(this.Label_Reset_MouseEnter);
+            this.Label_Reset.MouseLeave += new System.EventHandler(this.Label_Reset_MouseLeave);
             // 
-            // txt_address
+            // Text_Address
             // 
-            this.txt_address.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_address.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_address.Location = new System.Drawing.Point(41, 579);
-            this.txt_address.Multiline = true;
-            this.txt_address.Name = "txt_address";
-            this.txt_address.Size = new System.Drawing.Size(585, 130);
-            this.txt_address.TabIndex = 45;
+            this.Text_Address.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Text_Address.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_Address.Location = new System.Drawing.Point(41, 579);
+            this.Text_Address.Multiline = true;
+            this.Text_Address.Name = "Text_Address";
+            this.Text_Address.Size = new System.Drawing.Size(585, 130);
+            this.Text_Address.TabIndex = 45;
             // 
-            // label_address
+            // Label_Address
             // 
-            this.label_address.AutoSize = true;
-            this.label_address.BackColor = System.Drawing.Color.Transparent;
-            this.label_address.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_address.ForeColor = System.Drawing.Color.White;
-            this.label_address.Location = new System.Drawing.Point(37, 543);
-            this.label_address.Name = "label_address";
-            this.label_address.Size = new System.Drawing.Size(116, 33);
-            this.label_address.TabIndex = 44;
-            this.label_address.Text = "Address";
+            this.Label_Address.AutoSize = true;
+            this.Label_Address.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Address.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Address.ForeColor = System.Drawing.Color.White;
+            this.Label_Address.Location = new System.Drawing.Point(37, 543);
+            this.Label_Address.Name = "Label_Address";
+            this.Label_Address.Size = new System.Drawing.Size(116, 33);
+            this.Label_Address.TabIndex = 44;
+            this.Label_Address.Text = "Address";
             // 
-            // txt_email_address
+            // Text_Email_Address
             // 
-            this.txt_email_address.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_email_address.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_email_address.Location = new System.Drawing.Point(348, 491);
-            this.txt_email_address.Name = "txt_email_address";
-            this.txt_email_address.Size = new System.Drawing.Size(280, 33);
-            this.txt_email_address.TabIndex = 43;
+            this.Text_Email_Address.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Text_Email_Address.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_Email_Address.Location = new System.Drawing.Point(348, 491);
+            this.Text_Email_Address.Name = "Text_Email_Address";
+            this.Text_Email_Address.Size = new System.Drawing.Size(280, 33);
+            this.Text_Email_Address.TabIndex = 43;
             // 
-            // label_email_address
+            // Label_Email_Address
             // 
-            this.label_email_address.AutoSize = true;
-            this.label_email_address.BackColor = System.Drawing.Color.Transparent;
-            this.label_email_address.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_email_address.ForeColor = System.Drawing.Color.White;
-            this.label_email_address.Location = new System.Drawing.Point(342, 455);
-            this.label_email_address.Name = "label_email_address";
-            this.label_email_address.Size = new System.Drawing.Size(189, 33);
-            this.label_email_address.TabIndex = 42;
-            this.label_email_address.Text = "Email Address";
+            this.Label_Email_Address.AutoSize = true;
+            this.Label_Email_Address.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Email_Address.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Email_Address.ForeColor = System.Drawing.Color.White;
+            this.Label_Email_Address.Location = new System.Drawing.Point(342, 455);
+            this.Label_Email_Address.Name = "Label_Email_Address";
+            this.Label_Email_Address.Size = new System.Drawing.Size(189, 33);
+            this.Label_Email_Address.TabIndex = 42;
+            this.Label_Email_Address.Text = "Email Address";
             // 
-            // txt_phone_number
+            // Text_Phone_Number
             // 
-            this.txt_phone_number.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_phone_number.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_phone_number.Location = new System.Drawing.Point(41, 491);
-            this.txt_phone_number.Name = "txt_phone_number";
-            this.txt_phone_number.Size = new System.Drawing.Size(280, 33);
-            this.txt_phone_number.TabIndex = 41;
+            this.Text_Phone_Number.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Text_Phone_Number.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_Phone_Number.Location = new System.Drawing.Point(41, 491);
+            this.Text_Phone_Number.Name = "Text_Phone_Number";
+            this.Text_Phone_Number.Size = new System.Drawing.Size(280, 33);
+            this.Text_Phone_Number.TabIndex = 41;
             // 
-            // label_phone_number
+            // Label_Phone_Number
             // 
-            this.label_phone_number.AutoSize = true;
-            this.label_phone_number.BackColor = System.Drawing.Color.Transparent;
-            this.label_phone_number.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_phone_number.ForeColor = System.Drawing.Color.White;
-            this.label_phone_number.Location = new System.Drawing.Point(35, 455);
-            this.label_phone_number.Name = "label_phone_number";
-            this.label_phone_number.Size = new System.Drawing.Size(194, 33);
-            this.label_phone_number.TabIndex = 40;
-            this.label_phone_number.Text = "Phone Number";
+            this.Label_Phone_Number.AutoSize = true;
+            this.Label_Phone_Number.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Phone_Number.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Phone_Number.ForeColor = System.Drawing.Color.White;
+            this.Label_Phone_Number.Location = new System.Drawing.Point(35, 455);
+            this.Label_Phone_Number.Name = "Label_Phone_Number";
+            this.Label_Phone_Number.Size = new System.Drawing.Size(194, 33);
+            this.Label_Phone_Number.TabIndex = 40;
+            this.Label_Phone_Number.Text = "Phone Number";
             // 
-            // txt_organization
+            // Text_Organization
             // 
-            this.txt_organization.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_organization.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_organization.Location = new System.Drawing.Point(348, 393);
-            this.txt_organization.Name = "txt_organization";
-            this.txt_organization.Size = new System.Drawing.Size(280, 33);
-            this.txt_organization.TabIndex = 39;
+            this.Text_Organization.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Text_Organization.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_Organization.Location = new System.Drawing.Point(348, 393);
+            this.Text_Organization.Name = "Text_Organization";
+            this.Text_Organization.Size = new System.Drawing.Size(280, 33);
+            this.Text_Organization.TabIndex = 39;
             // 
-            // label_organization
+            // Label_Organization
             // 
-            this.label_organization.AutoSize = true;
-            this.label_organization.BackColor = System.Drawing.Color.Transparent;
-            this.label_organization.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_organization.ForeColor = System.Drawing.Color.White;
-            this.label_organization.Location = new System.Drawing.Point(342, 357);
-            this.label_organization.Name = "label_organization";
-            this.label_organization.Size = new System.Drawing.Size(168, 33);
-            this.label_organization.TabIndex = 38;
-            this.label_organization.Text = "Organization";
+            this.Label_Organization.AutoSize = true;
+            this.Label_Organization.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Organization.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Organization.ForeColor = System.Drawing.Color.White;
+            this.Label_Organization.Location = new System.Drawing.Point(342, 357);
+            this.Label_Organization.Name = "Label_Organization";
+            this.Label_Organization.Size = new System.Drawing.Size(168, 33);
+            this.Label_Organization.TabIndex = 38;
+            this.Label_Organization.Text = "Organization";
             // 
-            // txt_occupation
+            // Text_Occupation
             // 
-            this.txt_occupation.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_occupation.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_occupation.Location = new System.Drawing.Point(41, 393);
-            this.txt_occupation.Name = "txt_occupation";
-            this.txt_occupation.Size = new System.Drawing.Size(280, 33);
-            this.txt_occupation.TabIndex = 37;
+            this.Text_Occupation.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Text_Occupation.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_Occupation.Location = new System.Drawing.Point(41, 393);
+            this.Text_Occupation.Name = "Text_Occupation";
+            this.Text_Occupation.Size = new System.Drawing.Size(280, 33);
+            this.Text_Occupation.TabIndex = 37;
             // 
-            // label_occupation
+            // Label_Occupation
             // 
-            this.label_occupation.AutoSize = true;
-            this.label_occupation.BackColor = System.Drawing.Color.Transparent;
-            this.label_occupation.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_occupation.ForeColor = System.Drawing.Color.White;
-            this.label_occupation.Location = new System.Drawing.Point(35, 357);
-            this.label_occupation.Name = "label_occupation";
-            this.label_occupation.Size = new System.Drawing.Size(148, 33);
-            this.label_occupation.TabIndex = 36;
-            this.label_occupation.Text = "Occupation";
+            this.Label_Occupation.AutoSize = true;
+            this.Label_Occupation.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Occupation.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Occupation.ForeColor = System.Drawing.Color.White;
+            this.Label_Occupation.Location = new System.Drawing.Point(35, 357);
+            this.Label_Occupation.Name = "Label_Occupation";
+            this.Label_Occupation.Size = new System.Drawing.Size(148, 33);
+            this.Label_Occupation.TabIndex = 36;
+            this.Label_Occupation.Text = "Occupation";
             // 
-            // label_dateofbirth
+            // Label_Date_of_Birth
             // 
-            this.label_dateofbirth.AutoSize = true;
-            this.label_dateofbirth.BackColor = System.Drawing.Color.Transparent;
-            this.label_dateofbirth.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_dateofbirth.ForeColor = System.Drawing.Color.White;
-            this.label_dateofbirth.Location = new System.Drawing.Point(342, 269);
-            this.label_dateofbirth.Name = "label_dateofbirth";
-            this.label_dateofbirth.Size = new System.Drawing.Size(164, 33);
-            this.label_dateofbirth.TabIndex = 34;
-            this.label_dateofbirth.Text = "Date of Birth";
+            this.Label_Date_of_Birth.AutoSize = true;
+            this.Label_Date_of_Birth.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Date_of_Birth.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Date_of_Birth.ForeColor = System.Drawing.Color.White;
+            this.Label_Date_of_Birth.Location = new System.Drawing.Point(342, 269);
+            this.Label_Date_of_Birth.Name = "Label_Date_of_Birth";
+            this.Label_Date_of_Birth.Size = new System.Drawing.Size(164, 33);
+            this.Label_Date_of_Birth.TabIndex = 34;
+            this.Label_Date_of_Birth.Text = "Date of Birth";
             // 
-            // label_gender
+            // Label_Gender
             // 
-            this.label_gender.AutoSize = true;
-            this.label_gender.BackColor = System.Drawing.Color.Transparent;
-            this.label_gender.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_gender.ForeColor = System.Drawing.Color.White;
-            this.label_gender.Location = new System.Drawing.Point(35, 269);
-            this.label_gender.Name = "label_gender";
-            this.label_gender.Size = new System.Drawing.Size(102, 33);
-            this.label_gender.TabIndex = 32;
-            this.label_gender.Text = "Gender";
+            this.Label_Gender.AutoSize = true;
+            this.Label_Gender.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Gender.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Gender.ForeColor = System.Drawing.Color.White;
+            this.Label_Gender.Location = new System.Drawing.Point(35, 269);
+            this.Label_Gender.Name = "Label_Gender";
+            this.Label_Gender.Size = new System.Drawing.Size(102, 33);
+            this.Label_Gender.TabIndex = 32;
+            this.Label_Gender.Text = "Gender";
             // 
-            // txt_last_name
+            // Text_Last_Name
             // 
-            this.txt_last_name.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_last_name.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_last_name.Location = new System.Drawing.Point(348, 222);
-            this.txt_last_name.Name = "txt_last_name";
-            this.txt_last_name.Size = new System.Drawing.Size(280, 33);
-            this.txt_last_name.TabIndex = 31;
+            this.Text_Last_Name.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Text_Last_Name.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_Last_Name.Location = new System.Drawing.Point(348, 222);
+            this.Text_Last_Name.Name = "Text_Last_Name";
+            this.Text_Last_Name.Size = new System.Drawing.Size(280, 33);
+            this.Text_Last_Name.TabIndex = 31;
             // 
-            // label_last_name
+            // Label_Last_Name
             // 
-            this.label_last_name.AutoSize = true;
-            this.label_last_name.BackColor = System.Drawing.Color.Transparent;
-            this.label_last_name.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_last_name.ForeColor = System.Drawing.Color.White;
-            this.label_last_name.Location = new System.Drawing.Point(342, 186);
-            this.label_last_name.Name = "label_last_name";
-            this.label_last_name.Size = new System.Drawing.Size(142, 33);
-            this.label_last_name.TabIndex = 30;
-            this.label_last_name.Text = "Last Name";
+            this.Label_Last_Name.AutoSize = true;
+            this.Label_Last_Name.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Last_Name.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Last_Name.ForeColor = System.Drawing.Color.White;
+            this.Label_Last_Name.Location = new System.Drawing.Point(342, 186);
+            this.Label_Last_Name.Name = "Label_Last_Name";
+            this.Label_Last_Name.Size = new System.Drawing.Size(142, 33);
+            this.Label_Last_Name.TabIndex = 30;
+            this.Label_Last_Name.Text = "Last Name";
             // 
-            // txt_first_name
+            // Text_First_Name
             // 
-            this.txt_first_name.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_first_name.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_first_name.Location = new System.Drawing.Point(41, 222);
-            this.txt_first_name.Name = "txt_first_name";
-            this.txt_first_name.Size = new System.Drawing.Size(280, 33);
-            this.txt_first_name.TabIndex = 29;
+            this.Text_First_Name.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Text_First_Name.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_First_Name.Location = new System.Drawing.Point(41, 222);
+            this.Text_First_Name.Name = "Text_First_Name";
+            this.Text_First_Name.Size = new System.Drawing.Size(280, 33);
+            this.Text_First_Name.TabIndex = 29;
             // 
-            // label_first_name
+            // Label_First_Name
             // 
-            this.label_first_name.AutoSize = true;
-            this.label_first_name.BackColor = System.Drawing.Color.Transparent;
-            this.label_first_name.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_first_name.ForeColor = System.Drawing.Color.White;
-            this.label_first_name.Location = new System.Drawing.Point(35, 186);
-            this.label_first_name.Name = "label_first_name";
-            this.label_first_name.Size = new System.Drawing.Size(147, 33);
-            this.label_first_name.TabIndex = 28;
-            this.label_first_name.Text = "First Name";
+            this.Label_First_Name.AutoSize = true;
+            this.Label_First_Name.BackColor = System.Drawing.Color.Transparent;
+            this.Label_First_Name.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_First_Name.ForeColor = System.Drawing.Color.White;
+            this.Label_First_Name.Location = new System.Drawing.Point(35, 186);
+            this.Label_First_Name.Name = "Label_First_Name";
+            this.Label_First_Name.Size = new System.Drawing.Size(147, 33);
+            this.Label_First_Name.TabIndex = 28;
+            this.Label_First_Name.Text = "First Name";
             // 
-            // picbox_title
+            // Picbox_Title
             // 
-            this.picbox_title.BackColor = System.Drawing.Color.Transparent;
-            this.picbox_title.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picbox_title.BackgroundImage")));
-            this.picbox_title.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.picbox_title.Location = new System.Drawing.Point(27, 58);
-            this.picbox_title.Name = "picbox_title";
-            this.picbox_title.Size = new System.Drawing.Size(400, 72);
-            this.picbox_title.TabIndex = 0;
-            this.picbox_title.TabStop = false;
+            this.Picbox_Title.BackColor = System.Drawing.Color.Transparent;
+            this.Picbox_Title.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Picbox_Title.BackgroundImage")));
+            this.Picbox_Title.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Picbox_Title.Location = new System.Drawing.Point(27, 58);
+            this.Picbox_Title.Name = "Picbox_Title";
+            this.Picbox_Title.Size = new System.Drawing.Size(400, 72);
+            this.Picbox_Title.TabIndex = 0;
+            this.Picbox_Title.TabStop = false;
             // 
             // Frm_Insert_Reader
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(900, 796);
-            this.Controls.Add(this.panel_head);
-            this.Controls.Add(this.panel_body);
+            this.Controls.Add(this.Panel_Head);
+            this.Controls.Add(this.Panel_Body);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Frm_Insert_Reader";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_Insert_Reader";
-            this.panel_body.ResumeLayout(false);
-            this.panel_body.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picbox_identificationid)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picbox_readerpic)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picbox_title)).EndInit();
+            this.Panel_Body.ResumeLayout(false);
+            this.Panel_Body.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Picbox_IdentificationID)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Picbox_Reader_Picture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Picbox_Title)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel_head;
-        private System.Windows.Forms.Panel panel_body;
-        private System.Windows.Forms.PictureBox picbox_title;
-        private System.Windows.Forms.PictureBox picbox_identificationid;
-        private System.Windows.Forms.PictureBox picbox_readerpic;
+        private System.Windows.Forms.Panel Panel_Head;
+        private System.Windows.Forms.Panel Panel_Body;
+        private System.Windows.Forms.PictureBox Picbox_Title;
+        private System.Windows.Forms.PictureBox Picbox_IdentificationID;
+        private System.Windows.Forms.PictureBox Picbox_Reader_Picture;
         private System.Windows.Forms.DateTimePicker dtp_dateofbirth;
         private System.Windows.Forms.ComboBox cbo_gender;
-        private System.Windows.Forms.Label label_confirm;
-        private System.Windows.Forms.Label label_reset;
-        private System.Windows.Forms.TextBox txt_address;
-        private System.Windows.Forms.Label label_address;
-        private System.Windows.Forms.TextBox txt_email_address;
-        private System.Windows.Forms.Label label_email_address;
-        private System.Windows.Forms.TextBox txt_phone_number;
-        private System.Windows.Forms.Label label_phone_number;
-        private System.Windows.Forms.TextBox txt_organization;
-        private System.Windows.Forms.Label label_organization;
-        private System.Windows.Forms.TextBox txt_occupation;
-        private System.Windows.Forms.Label label_occupation;
-        private System.Windows.Forms.Label label_dateofbirth;
-        private System.Windows.Forms.Label label_gender;
-        private System.Windows.Forms.TextBox txt_last_name;
-        private System.Windows.Forms.Label label_last_name;
-        private System.Windows.Forms.TextBox txt_first_name;
-        private System.Windows.Forms.Label label_first_name;
-        private System.Windows.Forms.Label label_upload_identification;
-        private System.Windows.Forms.Label label_upload_picture;
-        private System.Windows.Forms.Label label_view_table_readers;
-        private System.Windows.Forms.Label label_close;
-        private System.Windows.Forms.OpenFileDialog openFileDialog_ReaderPicture;
-        private System.Windows.Forms.OpenFileDialog openFileDialog_IdentificationID;
+        private System.Windows.Forms.Label Label_Confirm;
+        private System.Windows.Forms.Label Label_Reset;
+        private System.Windows.Forms.TextBox Text_Address;
+        private System.Windows.Forms.Label Label_Address;
+        private System.Windows.Forms.TextBox Text_Email_Address;
+        private System.Windows.Forms.Label Label_Email_Address;
+        private System.Windows.Forms.TextBox Text_Phone_Number;
+        private System.Windows.Forms.Label Label_Phone_Number;
+        private System.Windows.Forms.TextBox Text_Organization;
+        private System.Windows.Forms.Label Label_Organization;
+        private System.Windows.Forms.TextBox Text_Occupation;
+        private System.Windows.Forms.Label Label_Occupation;
+        private System.Windows.Forms.Label Label_Date_of_Birth;
+        private System.Windows.Forms.Label Label_Gender;
+        private System.Windows.Forms.TextBox Text_Last_Name;
+        private System.Windows.Forms.Label Label_Last_Name;
+        private System.Windows.Forms.TextBox Text_First_Name;
+        private System.Windows.Forms.Label Label_First_Name;
+        private System.Windows.Forms.Label Label_Upload_Identification;
+        private System.Windows.Forms.Label Label_Upload_Picture;
+        private System.Windows.Forms.Label Label_View_Table_Readers;
+        private System.Windows.Forms.Label Label_Close;
+        private System.Windows.Forms.OpenFileDialog OpenFileDialog_Reader_Picture;
+        private System.Windows.Forms.OpenFileDialog OpenFileDialog_IdentificationID;
     }
 }

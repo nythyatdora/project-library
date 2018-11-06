@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using project_library.Class;
 
 namespace project_library
 {
@@ -17,84 +18,84 @@ namespace project_library
             InitializeComponent();
         }
 
-        private void label_view_table_readers_MouseEnter(object sender, EventArgs e)
+        private void Label_View_Table_Readers_MouseEnter(object sender, EventArgs e)
         {
-            label_view_table_readers.ForeColor = Color.Green;
+            GraphicInteraction.SetColorLabelGreen(Label_View_Table_Readers);
         }
 
-        private void label_view_table_readers_MouseLeave(object sender, EventArgs e)
+        private void Label_View_Table_Readers_MouseLeave(object sender, EventArgs e)
         {
-            label_view_table_readers.ForeColor = Color.White;
+            GraphicInteraction.SetColorLabelWhite(Label_View_Table_Readers);
         }
 
-        private void label_new_reader_MouseEnter(object sender, EventArgs e)
+        private void Label_New_Reader_MouseEnter(object sender, EventArgs e)
         {
-            label_new_reader.ForeColor = Color.Green;
+            GraphicInteraction.SetColorLabelGreen(Label_New_Reader);
         }
 
-        private void label_new_reader_MouseLeave(object sender, EventArgs e)
+        private void Label_New_Reader_MouseLeave(object sender, EventArgs e)
         {
-            label_new_reader.ForeColor = Color.White;
+            GraphicInteraction.SetColorLabelWhite(Label_New_Reader);
         }
 
-        private void label_search_MouseEnter(object sender, EventArgs e)
+        private void Label_Search_MouseEnter(object sender, EventArgs e)
         {
-            label_search.ForeColor = Color.Green;
+            GraphicInteraction.SetColorLabelGreen(Label_Search);
         }
 
-        private void label_search_MouseLeave(object sender, EventArgs e)
+        private void Label_Search_MouseLeave(object sender, EventArgs e)
         {
-            label_search.ForeColor = Color.White;
+            GraphicInteraction.SetColorLabelWhite(Label_Search);
         }
 
-        private void label_reset_search_MouseEnter(object sender, EventArgs e)
+        private void Label_Reset_Search_MouseEnter(object sender, EventArgs e)
         {
-            label_reset_search.ForeColor = Color.Green;
+            GraphicInteraction.SetColorLabelGreen(Label_Reset);
         }
 
-        private void label_reset_search_MouseLeave(object sender, EventArgs e)
+        private void Label_Reset_Search_MouseLeave(object sender, EventArgs e)
         {
-            label_reset_search.ForeColor = Color.White;
+            GraphicInteraction.SetColorLabelWhite(Label_Reset);
         }
 
-        private void label_confirm_MouseEnter(object sender, EventArgs e)
+        private void Label_Confirm_MouseEnter(object sender, EventArgs e)
         {
-            label_confirm.ForeColor = Color.Green;
+            GraphicInteraction.SetColorLabelGreen(Label_Confirm);
         }
 
-        private void label_confirm_MouseLeave(object sender, EventArgs e)
+        private void Label_Confirm_MouseLeave(object sender, EventArgs e)
         {
-            label_confirm.ForeColor = Color.White;
+            GraphicInteraction.SetColorLabelWhite(Label_Confirm);
         }
 
-        private void label_reset_MouseEnter(object sender, EventArgs e)
+        private void Label_Reset_MouseEnter(object sender, EventArgs e)
         {
-            label_reset.ForeColor = Color.Green;
+            GraphicInteraction.SetColorLabelGreen(Label_Reset);
         }
 
-        private void label_reset_MouseLeave(object sender, EventArgs e)
+        private void Label_Reset_MouseLeave(object sender, EventArgs e)
         {
-            label_reset.ForeColor = Color.White;
+            GraphicInteraction.SetColorLabelWhite(Label_Reset);
         }
 
-        private void label_view_profile_MouseEnter(object sender, EventArgs e)
+        private void Label_View_Profile_MouseEnter(object sender, EventArgs e)
         {
-            label_view_profile.ForeColor = Color.Green;
+            GraphicInteraction.SetColorLabelGreen(Label_View_Profile);
         }
 
-        private void label_view_profile_MouseLeave(object sender, EventArgs e)
+        private void Label_View_Profile_MouseLeave(object sender, EventArgs e)
         {
-            label_view_profile.ForeColor = Color.White;
+            GraphicInteraction.SetColorLabelWhite(Label_View_Profile);
         }
 
-        private void label_close_MouseEnter(object sender, EventArgs e)
+        private void Label_Close_MouseEnter(object sender, EventArgs e)
         {
-            label_close.ForeColor = Color.Green;
+            GraphicInteraction.SetColorLabelGreen(Label_Close);
         }
 
-        private void label_close_MouseLeave(object sender, EventArgs e)
+        private void Label_Close_MouseLeave(object sender, EventArgs e)
         {
-            label_close.ForeColor = Color.White;
+            GraphicInteraction.SetColorLabelWhite(Label_Close);
         }
     }
 }
