@@ -92,6 +92,8 @@
             this.label_back.Size = new System.Drawing.Size(58, 23);
             this.label_back.TabIndex = 80;
             this.label_back.Text = "BACK";
+            this.label_back.MouseEnter += new System.EventHandler(this.label_back_MouseEnter);
+            this.label_back.MouseLeave += new System.EventHandler(this.label_back_MouseLeave);
             // 
             // datagrid_table
             // 
@@ -122,6 +124,8 @@
             this.label_view_table_books.TabIndex = 78;
             this.label_view_table_books.Text = "view\r\ntable books";
             this.label_view_table_books.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label_view_table_books.MouseEnter += new System.EventHandler(this.label_view_table_books_MouseEnter);
+            this.label_view_table_books.MouseLeave += new System.EventHandler(this.label_view_table_books_MouseLeave);
             // 
             // label_view_table_readers
             // 
@@ -135,6 +139,8 @@
             this.label_view_table_readers.TabIndex = 77;
             this.label_view_table_readers.Text = "view\r\ntable readers";
             this.label_view_table_readers.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label_view_table_readers.MouseEnter += new System.EventHandler(this.label_view_table_readers_MouseEnter);
+            this.label_view_table_readers.MouseLeave += new System.EventHandler(this.label_view_table_readers_MouseLeave);
             // 
             // label_close
             // 
@@ -148,6 +154,8 @@
             this.label_close.TabIndex = 76;
             this.label_close.Text = "close";
             this.label_close.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label_close.MouseEnter += new System.EventHandler(this.label_close_MouseEnter);
+            this.label_close.MouseLeave += new System.EventHandler(this.label_close_MouseLeave);
             // 
             // label_next
             // 
@@ -160,6 +168,8 @@
             this.label_next.Size = new System.Drawing.Size(54, 23);
             this.label_next.TabIndex = 75;
             this.label_next.Text = "NEXT";
+            this.label_next.MouseEnter += new System.EventHandler(this.label_next_MouseEnter);
+            this.label_next.MouseLeave += new System.EventHandler(this.label_next_MouseLeave);
             // 
             // label_search
             // 
@@ -172,6 +182,8 @@
             this.label_search.Size = new System.Drawing.Size(82, 23);
             this.label_search.TabIndex = 55;
             this.label_search.Text = "SEARCH";
+            this.label_search.MouseEnter += new System.EventHandler(this.label_search_MouseEnter);
+            this.label_search.MouseLeave += new System.EventHandler(this.label_search_MouseLeave);
             // 
             // label_reset_research
             // 
@@ -184,6 +196,8 @@
             this.label_reset_research.Size = new System.Drawing.Size(140, 23);
             this.label_reset_research.TabIndex = 54;
             this.label_reset_research.Text = "RESET SEARCH";
+            this.label_reset_research.MouseEnter += new System.EventHandler(this.label_reset_research_MouseEnter);
+            this.label_reset_research.MouseLeave += new System.EventHandler(this.label_reset_research_MouseLeave);
             // 
             // cbo_filter
             // 
@@ -239,6 +253,8 @@
             this.label_add_new_book.TabIndex = 3;
             this.label_add_new_book.Text = "add\r\nnew book";
             this.label_add_new_book.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label_add_new_book.MouseEnter += new System.EventHandler(this.label_add_new_book_MouseEnter);
+            this.label_add_new_book.MouseLeave += new System.EventHandler(this.label_add_new_book_MouseLeave);
             // 
             // label_add_new_reader
             // 
@@ -252,6 +268,8 @@
             this.label_add_new_reader.TabIndex = 2;
             this.label_add_new_reader.Text = "add\r\nnew reader";
             this.label_add_new_reader.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label_add_new_reader.MouseEnter += new System.EventHandler(this.label_add_new_reader_MouseEnter);
+            this.label_add_new_reader.MouseLeave += new System.EventHandler(this.label_add_new_reader_MouseLeave);
             // 
             // Frm_Borrow
             // 

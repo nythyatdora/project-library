@@ -120,9 +120,9 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="panel_head.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAA4QAAAAGCAYAAACb3lB1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAABESURBVHhe7ddBDQAgEMTAk4Ec1ODfwcILEztNRkTnFQAAACpN9lkAAAAUMYQAAAClDCEAAEAp
-        QwgAAFDqDyEAAABtJhcMNm6qd/WVkQAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAA4QAAAAGCAYAAACb3lB1AAAABGdBTUEAALGPC/xhBQAAAERJREFUeF7t
+        10ENACAQxMCTgRzU4N/BwgsTO01GROcVAAAAKk32WQAAABQxhAAAAKUMIQAAQClDCAAAUOoPIQAAAG0m
+        Fww2bqp39ZWRAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="panel_body.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
