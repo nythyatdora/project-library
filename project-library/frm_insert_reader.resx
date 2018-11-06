@@ -118,14 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="panel_head.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Panel_Head.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAA4QAAAAGCAYAAACb3lB1AAAABGdBTUEAALGPC/xhBQAAAERJREFUeF7t
         10ENACAQxMCTgRzU4N/BwgsTO01GROcVAAAAKk32WQAAABQxhAAAAKUMIQAAQClDCAAAUOoPIQAAAG0m
         Fww2bqp39ZWRAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="panel_body.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Panel_Body.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAA4QAAAMWCAYAAACp4EhzAAAABGdBTUEAALGPC/xhBQAAEYJJREFUeF7t
         18EJwDAMBEE3o/5LdAJ5xhV4RzAgroNd720AAACSjiMAAAD3+56ZAQAAIEAQAgAARAlCAACAKEEIAAAQ
@@ -205,7 +205,7 @@
         AIgShAAAAFGCEAAAIEoQAgAARP2CEAAAgJzjCAAAwNXWfgCwljexlbj3lgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="picbox_identificationid.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Picbox_IdentificationID.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAMgAAADhCAYAAACN+/pgAAAABGdBTUEAALGPC/xhBQAAAltJREFUeF7t
         08EJwDAMBEH337QT8COPyFvBDBwI/Xe9tpldNz7N7OwcwEcgEAQCQSAQBAJBIBAEAkEgEAQCQSAQBAJB
@@ -221,7 +221,7 @@
         5lZA2wAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="picbox_readerpic.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Picbox_Reader_Picture.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAANsAAADbCAYAAADkg+RAAAAABGdBTUEAALGPC/xhBQAANZJJREFUeF7t
         3Qm8ZmV9H3AZlE3cIiIIbcMiaZPWpUCatsqmIKIDiGWTxiZqCGKB1qqgaBITE0xcIihqKpUdGbQgFBMD
@@ -455,7 +455,7 @@
         AfSeY14nzwX+V9qqUCgUCoVCoVCYLXjc4/4/PtlWQBy9TFAAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="picbox_title.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Picbox_Title.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAZAAAABICAYAAADYpaM6AAAABGdBTUEAALGPC/xhBQAAXtNJREFUeF7t
         3QnYpVV1J/rcHtLpKZ1OJ92xb3f6ppM2dm5ud3I7ndykk8BFAogGaRVt1MhUQiFDFVMVUxWFyBA16YgS
@@ -865,10 +865,10 @@
         QhaykIUsZCELWchCFrKQhSxkIQtZyEJ+6If+J5+CPhhzHMPWAAAAAElFTkSuQmCC
 </value>
   </data>
-  <metadata name="openFileDialog_ReaderPicture.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="OpenFileDialog_Reader_Picture.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <metadata name="openFileDialog_IdentificationID.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="OpenFileDialog_IdentificationID.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>248, 19</value>
   </metadata>
 </root>

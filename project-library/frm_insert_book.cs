@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using project_library.Class;
 
 namespace project_library
 {
@@ -19,52 +20,62 @@ namespace project_library
 
         private void label_import_external_MouseEnter(object sender, EventArgs e)
         {
-            label_import_external.ForeColor = Color.Green;
+            GraphicInteraction.SetColorLabelGreen(Label_Import_External);
         }
 
         private void label_import_external_MouseLeave(object sender, EventArgs e)
         {
-            label_import_external.ForeColor = Color.White;
+            GraphicInteraction.SetColorLabelWhite(Label_Import_External);
         }
 
         private void label_view_table_book_MouseEnter(object sender, EventArgs e)
         {
-            label_view_table_book.ForeColor = Color.Green;
+            GraphicInteraction.SetColorLabelGreen(Label_View_Table_Book);
         }
 
         private void label_view_table_book_MouseLeave(object sender, EventArgs e)
         {
-            label_view_table_book.ForeColor = Color.White;
+            GraphicInteraction.SetColorLabelWhite(Label_View_Table_Book);
         }
 
         private void label_upload_bookcover_MouseEnter(object sender, EventArgs e)
         {
-            label_upload_bookcover.ForeColor = Color.Green;
+            GraphicInteraction.SetColorLabelGreen(Label_Upload_Bookcover);
         }
 
         private void label_upload_bookcover_MouseLeave(object sender, EventArgs e)
         {
-            label_upload_bookcover.ForeColor = Color.White;
+            GraphicInteraction.SetColorLabelWhite(Label_Upload_Bookcover);
         }
 
         private void label_reset_MouseEnter(object sender, EventArgs e)
         {
-            label_reset.ForeColor = Color.Green;
+            GraphicInteraction.SetColorLabelGreen(Label_Reset);
         }
 
         private void label_reset_MouseLeave(object sender, EventArgs e)
         {
-            label_reset.ForeColor = Color.White;
+            GraphicInteraction.SetColorLabelWhite(Label_Reset);
         }
 
         private void label_confirm_MouseEnter(object sender, EventArgs e)
         {
-            label_confirm.ForeColor = Color.Green;
+            GraphicInteraction.SetColorLabelGreen(Label_Confirm);
         }
 
         private void label_confirm_MouseLeave(object sender, EventArgs e)
         {
-            label_confirm.ForeColor = Color.White;
+            GraphicInteraction.SetColorLabelWhite(Label_Confirm);
+        }
+
+        private void label_close_MouseEnter(object sender, EventArgs e)
+        {
+            GraphicInteraction.SetColorLabelGreen(Label_Close);
+        }
+
+        private void label_close_MouseLeave(object sender, EventArgs e)
+        {
+            GraphicInteraction.SetColorLabelWhite(Label_Close);
         }
 
         private void label_close_Click(object sender, EventArgs e)
@@ -72,19 +83,9 @@ namespace project_library
             this.Close();
         }
 
-        private void label_close_MouseEnter(object sender, EventArgs e)
-        {
-            label_close.ForeColor = Color.Green;
-        }
-
-        private void label_close_MouseLeave(object sender, EventArgs e)
-        {
-            label_close.ForeColor = Color.White;
-        }
-
         private void label_upload_bookcover_Click(object sender, EventArgs e)
         {
-            openFileDialog_bookcover.ShowDialog();
+            OpenFileDialog_Bookcover.ShowDialog();
         }
     }
 }

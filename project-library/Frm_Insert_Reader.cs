@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using project_library.Class;
 
 namespace project_library
 {
@@ -17,84 +18,64 @@ namespace project_library
             InitializeComponent();
         }
 
-        private void label_view_table_readers_Click(object sender, EventArgs e)
+        private void Label_View_Table_Readers_MouseEnter(object sender, EventArgs e)
         {
-
+            GraphicInteraction.SetColorLabelGreen(Label_View_Table_Readers);
         }
 
-        private void label_view_table_readers_MouseEnter(object sender, EventArgs e)
+        private void Label_View_Table_Readers_MouseLeave(object sender, EventArgs e)
         {
-            label_view_table_readers.ForeColor = Color.Green;
+            GraphicInteraction.SetColorLabelWhite(Label_View_Table_Readers);
         }
 
-        private void label_view_table_readers_MouseLeave(object sender, EventArgs e)
+        private void Label_Upload_Picture_MouseEnter(object sender, EventArgs e)
         {
-            label_view_table_readers.ForeColor = Color.White;
+            GraphicInteraction.SetColorLabelGreen(Label_Upload_Picture);
         }
 
-        private void label_upload_picture_MouseEnter(object sender, EventArgs e)
+        private void Label_Upload_Picture_MouseLeave(object sender, EventArgs e)
         {
-            label_upload_picture.ForeColor = Color.Green;
+            GraphicInteraction.SetColorLabelWhite(Label_Upload_Picture);
         }
 
-        private void label_upload_picture_MouseLeave(object sender, EventArgs e)
+        private void Label_Upload_Identification_MouseEnter(object sender, EventArgs e)
         {
-            label_upload_picture.ForeColor = Color.White;
+            GraphicInteraction.SetColorLabelGreen(Label_Upload_Identification);
         }
 
-        private void label_upload_identification_MouseEnter(object sender, EventArgs e)
+        private void Label_Upload_Identification_MouseLeave(object sender, EventArgs e)
         {
-            label_upload_identification.ForeColor = Color.Green;
+            GraphicInteraction.SetColorLabelWhite(Label_Upload_Identification);
         }
 
-        private void label_upload_identification_MouseLeave(object sender, EventArgs e)
+        private void Label_Confirm_MouseEnter(object sender, EventArgs e)
         {
-            label_upload_identification.ForeColor = Color.White;
+            GraphicInteraction.SetColorLabelGreen(Label_Confirm);
         }
 
-        private void label_reset_MouseEnter(object sender, EventArgs e)
+        private void Label_Confirm_MouseLeave(object sender, EventArgs e)
         {
-            label_reset.ForeColor = Color.Green;
+            GraphicInteraction.SetColorLabelWhite(Label_Confirm);
         }
 
-        private void label_reset_MouseLeave(object sender, EventArgs e)
+        private void Label_Reset_MouseEnter(object sender, EventArgs e)
         {
-            label_reset.ForeColor = Color.White;
+            GraphicInteraction.SetColorLabelGreen(Label_Reset);
         }
 
-        private void label_confirm_MouseEnter(object sender, EventArgs e)
+        private void Label_Reset_MouseLeave(object sender, EventArgs e)
         {
-            label_confirm.ForeColor = Color.Green;
+            GraphicInteraction.SetColorLabelWhite(Label_Reset);
         }
 
-        private void label_confirm_MouseLeave(object sender, EventArgs e)
+        private void Label_Close_MouseEnter(object sender, EventArgs e)
         {
-            label_confirm.ForeColor = Color.White;
+            GraphicInteraction.SetColorLabelGreen(Label_Close);
         }
 
-        private void label_close_MouseEnter(object sender, EventArgs e)
+        private void Label_Close_MouseLeave(object sender, EventArgs e)
         {
-            label_close.ForeColor = Color.Green;
-        }
-
-        private void label_close_MouseLeave(object sender, EventArgs e)
-        {
-            label_close.ForeColor = Color.White;
-        }
-
-        private void label_close_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void label_upload_picture_Click(object sender, EventArgs e)
-        {
-            openFileDialog_ReaderPicture.ShowDialog();
-        }
-
-        private void label_upload_identification_Click(object sender, EventArgs e)
-        {
-            openFileDialog_IdentificationID.ShowDialog();
+            GraphicInteraction.SetColorLabelWhite(Label_Close);
         }
     }
 }

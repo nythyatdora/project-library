@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using project_library.Class;
 
 namespace project_library
 {
@@ -20,75 +21,70 @@ namespace project_library
         public Frm_Table(String title)
         {
             InitializeComponent();
-            label_title.Text = title;
+            Label_Title.Text = title;
         }
 
-        private void btn_close_Click(object sender, EventArgs e)
+        private void Label_Delete_MouseEnter(object sender, EventArgs e)
         {
-            this.Close();
+            GraphicInteraction.SetColorLabelGreen(Label_Delete);
         }
 
-        private void label_delete_MouseEnter(object sender, EventArgs e)
+        private void Label_Delete_MouseLeave(object sender, EventArgs e)
         {
-            label_delete.ForeColor = Color.Green;
+            GraphicInteraction.SetColorLabelWhite(Label_Delete);
         }
 
-        private void label_delete_MouseLeave(object sender, EventArgs e)
+        private void Label_Update_MouseEnter(object sender, EventArgs e)
         {
-            label_delete.ForeColor = Color.White;
+            GraphicInteraction.SetColorLabelGreen(Label_Update);
         }
 
-        private void label_update_MouseEnter(object sender, EventArgs e)
+        private void Label_Update_MouseLeave(object sender, EventArgs e)
         {
-            label_update.ForeColor = Color.Green;
+            GraphicInteraction.SetColorLabelWhite(Label_Update);
         }
 
-        private void label_update_MouseLeave(object sender, EventArgs e)
+        private void Label_Insert_MouseEnter(object sender, EventArgs e)
         {
-            label_update.ForeColor = Color.White;
+            GraphicInteraction.SetColorLabelGreen(Label_Insert);
         }
 
-        private void label_insert_MouseEnter(object sender, EventArgs e)
+        private void Label_Insert_MouseLeave(object sender, EventArgs e)
         {
-            label_insert.ForeColor = Color.Green;
+            GraphicInteraction.SetColorLabelWhite(Label_Insert);
         }
 
-        private void label_insert_MouseLeave(object sender, EventArgs e)
+        private void Label_View_MouseEnter(object sender, EventArgs e)
         {
-            label_insert.ForeColor = Color.White;
+            GraphicInteraction.SetColorLabelGreen(Label_View);
         }
 
-        private void label_view_MouseEnter(object sender, EventArgs e)
+        private void Label_View_MouseLeave(object sender, EventArgs e)
         {
-            label_view.ForeColor = Color.Green;
+            GraphicInteraction.SetColorLabelWhite(Label_View);
         }
 
-        private void label_view_MouseLeave(object sender, EventArgs e)
+        private void Label_Refresh_MouseEnter(object sender, EventArgs e)
         {
-            label_view.ForeColor = Color.White;
+            GraphicInteraction.SetColorLabelGreen(Label_Refresh);
         }
 
-        private void label_refresh_MouseEnter(object sender, EventArgs e)
+        private void Label_Refresh_MouseLeave(object sender, EventArgs e)
         {
-            label_refresh.ForeColor = Color.Green;
+            GraphicInteraction.SetColorLabelWhite(Label_Refresh);
         }
 
-        private void label_refresh_MouseLeave(object sender, EventArgs e)
+        private void Label_Close_MouseEnter(object sender, EventArgs e)
         {
-            label_refresh.ForeColor = Color.White;
+            GraphicInteraction.SetColorLabelGreen(Label_Close);
         }
 
-        private void label_close_MouseEnter(object sender, EventArgs e)
+        private void Label_Close_MouseLeave(object sender, EventArgs e)
         {
-            label_close.ForeColor = Color.Green;
+            GraphicInteraction.SetColorLabelWhite(Label_Close);
         }
 
-        private void label_close_MouseLeave(object sender, EventArgs e)
-        {
-            label_close.ForeColor = Color.White;
-        }
-
-        private void label_close_Click(object sender, EventArgs e)
+        private void Label_Close_Click(object sender, EventArgs e)
         {
             this.Close();
         }

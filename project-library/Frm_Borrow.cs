@@ -18,94 +18,94 @@ namespace project_library
             InitializeComponent();
         }
 
-        private void label_add_new_reader_MouseEnter(object sender, EventArgs e)
+        private void Label_Add_New_Reader_MouseEnter(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelGreen(label_add_new_reader);
+            GraphicInteraction.SetColorLabelGreen(Label_Add_New_Reader);
         }
 
-        private void label_add_new_reader_MouseLeave(object sender, EventArgs e)
+        private void Label_Add_New_Reader_MouseLeave(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelWhite(label_add_new_reader);
+            GraphicInteraction.SetColorLabelWhite(Label_Add_New_Reader);
         }
 
-        private void label_add_new_book_MouseEnter(object sender, EventArgs e)
+        private void Label_Add_New_Book_MouseEnter(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelGreen(label_add_new_book);
+            GraphicInteraction.SetColorLabelGreen(Label_Add_New_Book);
         }
 
-        private void label_add_new_book_MouseLeave(object sender, EventArgs e)
+        private void Label_Add_New_Book_MouseLeave(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelWhite(label_add_new_book);
+            GraphicInteraction.SetColorLabelWhite(Label_Add_New_Book);
         }
 
-        private void label_view_table_readers_MouseEnter(object sender, EventArgs e)
+        private void Label_View_Table_Readers_MouseEnter(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelGreen(label_view_table_readers);
+            GraphicInteraction.SetColorLabelGreen(Label_View_Table_Readers);
         }
 
-        private void label_view_table_readers_MouseLeave(object sender, EventArgs e)
+        private void Label_View_Table_Readers_MouseLeave(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelWhite(label_view_table_readers);
+            GraphicInteraction.SetColorLabelWhite(Label_View_Table_Readers);
         }
 
-        private void label_view_table_books_MouseEnter(object sender, EventArgs e)
+        private void Label_View_Table_Books_MouseEnter(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelGreen(label_view_table_books);
+            GraphicInteraction.SetColorLabelGreen(Label_View_Table_Books);
         }
 
-        private void label_view_table_books_MouseLeave(object sender, EventArgs e)
+        private void Label_View_Table_Books_MouseLeave(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelWhite(label_view_table_books);
+            GraphicInteraction.SetColorLabelWhite(Label_View_Table_Books);
         }
 
-        private void label_search_MouseEnter(object sender, EventArgs e)
+        private void Label_Search_MouseEnter(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelGreen(label_search);
+            GraphicInteraction.SetColorLabelGreen(Label_Search);
         }
 
-        private void label_search_MouseLeave(object sender, EventArgs e)
+        private void Label_Search_MouseLeave(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelWhite(label_search);
+            GraphicInteraction.SetColorLabelWhite(Label_Search);
         }
 
-        private void label_reset_research_MouseEnter(object sender, EventArgs e)
+        private void Label_Reset_Search_MouseEnter(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelGreen(label_reset_research);
+            GraphicInteraction.SetColorLabelGreen(Label_Reset_Search);
         }
 
-        private void label_reset_research_MouseLeave(object sender, EventArgs e)
+        private void Label_Reset_Search_MouseLeave(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelWhite(label_reset_research);
+            GraphicInteraction.SetColorLabelWhite(Label_Reset_Search);
         }
 
-        private void label_next_MouseEnter(object sender, EventArgs e)
+        private void Label_Next_MouseEnter(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelGreen(label_next);
+            GraphicInteraction.SetColorLabelGreen(Label_Next);
         }
 
-        private void label_next_MouseLeave(object sender, EventArgs e)
+        private void Label_Next_MouseLeave(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelWhite(label_next);
+            GraphicInteraction.SetColorLabelWhite(Label_Next);
         }
 
-        private void label_back_MouseEnter(object sender, EventArgs e)
+        private void Label_Back_MouseEnter(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelGreen(label_back);
+            GraphicInteraction.SetColorLabelGreen(Label_Back);
         }
 
-        private void label_back_MouseLeave(object sender, EventArgs e)
+        private void Label_Back_MouseLeave(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelWhite(label_back);
+            GraphicInteraction.SetColorLabelWhite(Label_Back);
         }
 
-        private void label_close_MouseEnter(object sender, EventArgs e)
+        private void Label_Close_MouseEnter(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelGreen(label_close);
+            GraphicInteraction.SetColorLabelGreen(Label_Close);
         }
 
-        private void label_close_MouseLeave(object sender, EventArgs e)
+        private void Label_Close_MouseLeave(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelWhite(label_close);
+            GraphicInteraction.SetColorLabelWhite(Label_Close);
         }
     }
 }

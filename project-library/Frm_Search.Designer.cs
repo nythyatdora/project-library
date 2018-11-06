@@ -30,15 +30,15 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Search));
             this.panel_head = new System.Windows.Forms.Panel();
-            this.panel_body = new System.Windows.Forms.Panel();
-            this.cbo_filter = new System.Windows.Forms.ComboBox();
-            this.txt_search_by = new System.Windows.Forms.TextBox();
-            this.label_search = new System.Windows.Forms.Label();
-            this.label_reset = new System.Windows.Forms.Label();
-            this.label_filter = new System.Windows.Forms.Label();
-            this.label_search_by = new System.Windows.Forms.Label();
-            this.label_close = new System.Windows.Forms.Label();
-            this.panel_body.SuspendLayout();
+            this.Panel_Body = new System.Windows.Forms.Panel();
+            this.Label_Close = new System.Windows.Forms.Label();
+            this.Combo_Filter = new System.Windows.Forms.ComboBox();
+            this.Text_Searchby = new System.Windows.Forms.TextBox();
+            this.Label_Search = new System.Windows.Forms.Label();
+            this.Label_Reset = new System.Windows.Forms.Label();
+            this.Label_Filter = new System.Windows.Forms.Label();
+            this.Label_Searchby = new System.Windows.Forms.Label();
+            this.Panel_Body.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel_head
@@ -50,107 +50,107 @@
             this.panel_head.Size = new System.Drawing.Size(900, 6);
             this.panel_head.TabIndex = 0;
             // 
-            // panel_body
+            // Panel_Body
             // 
-            this.panel_body.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_body.BackgroundImage")));
-            this.panel_body.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel_body.Controls.Add(this.label_close);
-            this.panel_body.Controls.Add(this.cbo_filter);
-            this.panel_body.Controls.Add(this.txt_search_by);
-            this.panel_body.Controls.Add(this.label_search);
-            this.panel_body.Controls.Add(this.label_reset);
-            this.panel_body.Controls.Add(this.label_filter);
-            this.panel_body.Controls.Add(this.label_search_by);
-            this.panel_body.Location = new System.Drawing.Point(0, 0);
-            this.panel_body.Name = "panel_body";
-            this.panel_body.Size = new System.Drawing.Size(900, 350);
-            this.panel_body.TabIndex = 1;
+            this.Panel_Body.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel_Body.BackgroundImage")));
+            this.Panel_Body.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Panel_Body.Controls.Add(this.Label_Close);
+            this.Panel_Body.Controls.Add(this.Combo_Filter);
+            this.Panel_Body.Controls.Add(this.Text_Searchby);
+            this.Panel_Body.Controls.Add(this.Label_Search);
+            this.Panel_Body.Controls.Add(this.Label_Reset);
+            this.Panel_Body.Controls.Add(this.Label_Filter);
+            this.Panel_Body.Controls.Add(this.Label_Searchby);
+            this.Panel_Body.Location = new System.Drawing.Point(0, 0);
+            this.Panel_Body.Name = "Panel_Body";
+            this.Panel_Body.Size = new System.Drawing.Size(900, 350);
+            this.Panel_Body.TabIndex = 1;
             // 
-            // cbo_filter
+            // Label_Close
             // 
-            this.cbo_filter.Font = new System.Drawing.Font("Bahnschrift", 15.75F);
-            this.cbo_filter.FormattingEnabled = true;
-            this.cbo_filter.Location = new System.Drawing.Point(50, 225);
-            this.cbo_filter.Name = "cbo_filter";
-            this.cbo_filter.Size = new System.Drawing.Size(280, 33);
-            this.cbo_filter.TabIndex = 49;
+            this.Label_Close.AutoSize = true;
+            this.Label_Close.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Close.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Close.ForeColor = System.Drawing.Color.White;
+            this.Label_Close.Location = new System.Drawing.Point(23, 18);
+            this.Label_Close.Name = "Label_Close";
+            this.Label_Close.Size = new System.Drawing.Size(55, 23);
+            this.Label_Close.TabIndex = 77;
+            this.Label_Close.Text = "close";
+            this.Label_Close.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Label_Close.Click += new System.EventHandler(this.Label_Close_Click);
+            this.Label_Close.MouseEnter += new System.EventHandler(this.Label_Close_MouseEnter);
+            this.Label_Close.MouseLeave += new System.EventHandler(this.Label_Close_MouseLeave);
             // 
-            // txt_search_by
+            // Combo_Filter
             // 
-            this.txt_search_by.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_search_by.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_search_by.Location = new System.Drawing.Point(50, 138);
-            this.txt_search_by.Name = "txt_search_by";
-            this.txt_search_by.Size = new System.Drawing.Size(800, 33);
-            this.txt_search_by.TabIndex = 7;
+            this.Combo_Filter.Font = new System.Drawing.Font("Bahnschrift", 15.75F);
+            this.Combo_Filter.FormattingEnabled = true;
+            this.Combo_Filter.Location = new System.Drawing.Point(50, 225);
+            this.Combo_Filter.Name = "Combo_Filter";
+            this.Combo_Filter.Size = new System.Drawing.Size(280, 33);
+            this.Combo_Filter.TabIndex = 49;
             // 
-            // label_search
+            // Text_Searchby
             // 
-            this.label_search.AutoSize = true;
-            this.label_search.BackColor = System.Drawing.Color.Transparent;
-            this.label_search.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_search.ForeColor = System.Drawing.Color.White;
-            this.label_search.Location = new System.Drawing.Point(753, 299);
-            this.label_search.Name = "label_search";
-            this.label_search.Size = new System.Drawing.Size(93, 25);
-            this.label_search.TabIndex = 6;
-            this.label_search.Text = "SEARCH";
-            this.label_search.MouseEnter += new System.EventHandler(this.label_search_MouseEnter);
-            this.label_search.MouseLeave += new System.EventHandler(this.label_search_MouseLeave);
+            this.Text_Searchby.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Text_Searchby.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_Searchby.Location = new System.Drawing.Point(50, 138);
+            this.Text_Searchby.Name = "Text_Searchby";
+            this.Text_Searchby.Size = new System.Drawing.Size(800, 33);
+            this.Text_Searchby.TabIndex = 7;
             // 
-            // label_reset
+            // Label_Search
             // 
-            this.label_reset.AutoSize = true;
-            this.label_reset.BackColor = System.Drawing.Color.Transparent;
-            this.label_reset.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_reset.ForeColor = System.Drawing.Color.White;
-            this.label_reset.Location = new System.Drawing.Point(48, 299);
-            this.label_reset.Name = "label_reset";
-            this.label_reset.Size = new System.Drawing.Size(75, 25);
-            this.label_reset.TabIndex = 5;
-            this.label_reset.Text = "RESET";
-            this.label_reset.MouseEnter += new System.EventHandler(this.label_reset_MouseEnter);
-            this.label_reset.MouseLeave += new System.EventHandler(this.label_reset_MouseLeave);
+            this.Label_Search.AutoSize = true;
+            this.Label_Search.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Search.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Search.ForeColor = System.Drawing.Color.White;
+            this.Label_Search.Location = new System.Drawing.Point(753, 299);
+            this.Label_Search.Name = "Label_Search";
+            this.Label_Search.Size = new System.Drawing.Size(93, 25);
+            this.Label_Search.TabIndex = 6;
+            this.Label_Search.Text = "SEARCH";
+            this.Label_Search.MouseEnter += new System.EventHandler(this.Label_Search_MouseEnter);
+            this.Label_Search.MouseLeave += new System.EventHandler(this.Label_Search_MouseLeave);
             // 
-            // label_filter
+            // Label_Reset
             // 
-            this.label_filter.AutoSize = true;
-            this.label_filter.BackColor = System.Drawing.Color.Transparent;
-            this.label_filter.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_filter.ForeColor = System.Drawing.Color.White;
-            this.label_filter.Location = new System.Drawing.Point(44, 189);
-            this.label_filter.Name = "label_filter";
-            this.label_filter.Size = new System.Drawing.Size(74, 33);
-            this.label_filter.TabIndex = 4;
-            this.label_filter.Text = "filter";
+            this.Label_Reset.AutoSize = true;
+            this.Label_Reset.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Reset.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Reset.ForeColor = System.Drawing.Color.White;
+            this.Label_Reset.Location = new System.Drawing.Point(48, 299);
+            this.Label_Reset.Name = "Label_Reset";
+            this.Label_Reset.Size = new System.Drawing.Size(75, 25);
+            this.Label_Reset.TabIndex = 5;
+            this.Label_Reset.Text = "RESET";
+            this.Label_Reset.MouseEnter += new System.EventHandler(this.Label_Reset_MouseEnter);
+            this.Label_Reset.MouseLeave += new System.EventHandler(this.Label_Reset_MouseLeave);
             // 
-            // label_search_by
+            // Label_Filter
             // 
-            this.label_search_by.AutoSize = true;
-            this.label_search_by.BackColor = System.Drawing.Color.Transparent;
-            this.label_search_by.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_search_by.ForeColor = System.Drawing.Color.White;
-            this.label_search_by.Location = new System.Drawing.Point(44, 102);
-            this.label_search_by.Name = "label_search_by";
-            this.label_search_by.Size = new System.Drawing.Size(135, 33);
-            this.label_search_by.TabIndex = 3;
-            this.label_search_by.Text = "Search By";
+            this.Label_Filter.AutoSize = true;
+            this.Label_Filter.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Filter.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Filter.ForeColor = System.Drawing.Color.White;
+            this.Label_Filter.Location = new System.Drawing.Point(44, 189);
+            this.Label_Filter.Name = "Label_Filter";
+            this.Label_Filter.Size = new System.Drawing.Size(74, 33);
+            this.Label_Filter.TabIndex = 4;
+            this.Label_Filter.Text = "filter";
             // 
-            // label_close
+            // Label_Searchby
             // 
-            this.label_close.AutoSize = true;
-            this.label_close.BackColor = System.Drawing.Color.Transparent;
-            this.label_close.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_close.ForeColor = System.Drawing.Color.White;
-            this.label_close.Location = new System.Drawing.Point(23, 18);
-            this.label_close.Name = "label_close";
-            this.label_close.Size = new System.Drawing.Size(55, 23);
-            this.label_close.TabIndex = 77;
-            this.label_close.Text = "close";
-            this.label_close.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label_close.Click += new System.EventHandler(this.label_close_Click);
-            this.label_close.MouseEnter += new System.EventHandler(this.label_close_MouseEnter);
-            this.label_close.MouseLeave += new System.EventHandler(this.label_close_MouseLeave);
+            this.Label_Searchby.AutoSize = true;
+            this.Label_Searchby.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Searchby.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Searchby.ForeColor = System.Drawing.Color.White;
+            this.Label_Searchby.Location = new System.Drawing.Point(44, 102);
+            this.Label_Searchby.Name = "Label_Searchby";
+            this.Label_Searchby.Size = new System.Drawing.Size(135, 33);
+            this.Label_Searchby.TabIndex = 3;
+            this.Label_Searchby.Text = "Search By";
             // 
             // Frm_Search
             // 
@@ -158,13 +158,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(900, 350);
             this.Controls.Add(this.panel_head);
-            this.Controls.Add(this.panel_body);
+            this.Controls.Add(this.Panel_Body);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Frm_Search";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_Search";
-            this.panel_body.ResumeLayout(false);
-            this.panel_body.PerformLayout();
+            this.Panel_Body.ResumeLayout(false);
+            this.Panel_Body.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -172,13 +172,13 @@
         #endregion
 
         private System.Windows.Forms.Panel panel_head;
-        private System.Windows.Forms.Panel panel_body;
-        private System.Windows.Forms.Label label_search;
-        private System.Windows.Forms.Label label_reset;
-        private System.Windows.Forms.Label label_filter;
-        private System.Windows.Forms.Label label_search_by;
-        private System.Windows.Forms.TextBox txt_search_by;
-        private System.Windows.Forms.ComboBox cbo_filter;
-        private System.Windows.Forms.Label label_close;
+        private System.Windows.Forms.Panel Panel_Body;
+        private System.Windows.Forms.Label Label_Search;
+        private System.Windows.Forms.Label Label_Reset;
+        private System.Windows.Forms.Label Label_Filter;
+        private System.Windows.Forms.Label Label_Searchby;
+        private System.Windows.Forms.TextBox Text_Searchby;
+        private System.Windows.Forms.ComboBox Combo_Filter;
+        private System.Windows.Forms.Label Label_Close;
     }
 }

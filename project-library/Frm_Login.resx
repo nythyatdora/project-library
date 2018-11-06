@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="panel_background.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Panel_Background.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQCAYAAACAvzbMAAAABGdBTUEAALGPC/xhBQAA/8dJREFUeF7s
         /WeUVkXbLQqfM8bZ+zt7v48CnXPOuZumCQ10Q+ecu6GbnJGgIAgqKEjOOYkIKKJi1secyYgBA2YxEEQB
@@ -3664,14 +3664,14 @@
         AvLkyZMnT568jf/35/8Hjl+yeie2Xi8AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="panel_head.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Panel_Head.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAZAAAAAFCAYAAABrY7qIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAySURBVGhD7dVBDQAwDAOx0BuoYW8HYcrbJxnD5TUAUMjcAwD/DASAioEAUDEQACpJZgH0vZg1
-        wTOG9AAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAAZAAAAAFCAYAAABrY7qIAAAABGdBTUEAALGPC/xhBQAAADJJREFUaEPt
+        1UENADAMA7HQG6hhbwdhytsnGcPlNQBQyNwDAP8MBICKgQBQMRAAKklmAfS9mDXBM4b0AAAAAElFTkSu
+        QmCC
 </value>
   </data>
-  <data name="picbox_password.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Picbox_Password.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAH8AAAAdCAYAAACDgbNCAAAABGdBTUEAALGPC/xhBQAABQlJREFUaEPt
         mYuR1DoQRTcFUiAFUiAFUiAFUiAFUiAFUiAFUiCF5R5Pt+uq1fLMLq9eAfapUq3V+vfPGu/Txbl4fn5+
@@ -3698,7 +3698,7 @@
         xj8rMvhl/LMig+etfn0rvPgHeXr6BfdoVRIAp5T8AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="picbox_username.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Picbox_Username.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIQAAAARCAYAAAAc7wRXAAAABGdBTUEAALGPC/xhBQAAA5NJREFUaEPt
         mYFV5CAURaeFbcEWbMEWbMEWbMEWbMEWbMEWtgVbmH2XwOyDAIExmjl79p7DGD4f8vl5ISSezufzvcpD
@@ -3719,7 +3719,7 @@
         1//51zmd/gBl97t7b4vtXAAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="picbox_login.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Picbox_Login.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIUAAAA2CAYAAADphFrnAAAABGdBTUEAALGPC/xhBQAAGKNJREFUeF7t
         2wnQntVVB3BUrFbFhdIWLAXFCt0LlK1lbyEkDVggoCgYoUJnOhZs1bFY1BGtop2KVRS0uCDgCDVshVGG
@@ -3830,7 +3830,7 @@
         dQx7EM1mHg8AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="panel_body.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Panel_Body.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQCAYAAACAvzbMAAAABGdBTUEAALGPC/xhBQAABaBJREFUeF7t
         1cEJgDAQRcE0k/5LjIJHg8F3noWB5Tfwxn0LAILtCAAnzzPnBIAjAQEgERAAEgEBIBEQABIBASAREAAS
