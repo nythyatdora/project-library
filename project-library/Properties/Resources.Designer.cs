@@ -73,6 +73,16 @@ namespace project_library.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap imgButtonEntered_Round {
+            get {
+                object obj = ResourceManager.GetObject("imgButtonEntered_Round", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imgButtonEntered_Small {
             get {
                 object obj = ResourceManager.GetObject("imgButtonEntered_Small", resourceCulture);
@@ -86,6 +96,16 @@ namespace project_library.Properties {
         internal static System.Drawing.Bitmap imgButtonLeft_Big {
             get {
                 object obj = ResourceManager.GetObject("imgButtonLeft_Big", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgButtonLeft_Round {
+            get {
+                object obj = ResourceManager.GetObject("imgButtonLeft_Round", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

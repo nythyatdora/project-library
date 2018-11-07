@@ -151,6 +151,11 @@ namespace project_library
             }
         }
 
+        private void Form_Main_Load(object sender, EventArgs e)
+        {
+            SetUserControlOnPanel(List_Panels["Panel_Home"]);
+        }
+
         private void Label_Home_Click(object sender, EventArgs e)
         {
             SetUserControlOnPanel(List_Panels["Panel_Home"]);
@@ -178,7 +183,7 @@ namespace project_library
 
         private void Label_Membership_Click(object sender, EventArgs e)
         {
-            SetUserControlOnPanel(List_Panels["Panel_Membership"]);
+
         }
 
         private void Label_Myprofile_Click(object sender, EventArgs e)
@@ -188,6 +193,7 @@ namespace project_library
 
         private void Label_Report_Click(object sender, EventArgs e)
         {
+
         }
     }
 }

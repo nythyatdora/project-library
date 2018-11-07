@@ -127,6 +127,12 @@
     <Compile Include="Panel_Category.Designer.cs">
       <DependentUpon>Panel_Category.cs</DependentUpon>
     </Compile>
+    <Compile Include="Panel_Books.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panel_Books.Designer.cs">
+      <DependentUpon>Panel_Books.cs</DependentUpon>
+    </Compile>
     <Compile Include="Panel_Home.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -191,6 +197,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Panel_Category.resx">
       <DependentUpon>Panel_Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel_Books.resx">
+      <DependentUpon>Panel_Books.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Panel_Home.resx">
       <DependentUpon>Panel_Home.cs</DependentUpon>
