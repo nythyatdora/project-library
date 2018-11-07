@@ -29,321 +29,321 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Panel_Form_Category));
-            this.panel_category = new System.Windows.Forms.Panel();
-            this.label_search = new System.Windows.Forms.Label();
-            this.panel_category_txt_searchby = new System.Windows.Forms.TextBox();
-            this.btn_science = new System.Windows.Forms.Button();
-            this.btn_adventure = new System.Windows.Forms.Button();
-            this.btn_fantasy = new System.Windows.Forms.Button();
-            this.btn_history = new System.Windows.Forms.Button();
-            this.btn_horror = new System.Windows.Forms.Button();
-            this.btn_math = new System.Windows.Forms.Button();
-            this.btn_comics = new System.Windows.Forms.Button();
-            this.btn_mystery = new System.Windows.Forms.Button();
-            this.btn_drama = new System.Windows.Forms.Button();
-            this.panel_category_picbox_profile = new System.Windows.Forms.PictureBox();
-            this.panel_category_label_email_address = new System.Windows.Forms.Label();
-            this.panel_category_label_username = new System.Windows.Forms.Label();
-            this.btn_science_fiction = new System.Windows.Forms.Button();
-            this.panel_category.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.panel_category_picbox_profile)).BeginInit();
+            this.Panel_Body = new System.Windows.Forms.Panel();
+            this.Label_Search = new System.Windows.Forms.Label();
+            this.Text_Searchby = new System.Windows.Forms.TextBox();
+            this.Button_Science = new System.Windows.Forms.Button();
+            this.Button_Adventure = new System.Windows.Forms.Button();
+            this.Button_Fantasy = new System.Windows.Forms.Button();
+            this.Button_History = new System.Windows.Forms.Button();
+            this.Button_Horror = new System.Windows.Forms.Button();
+            this.Button_Math = new System.Windows.Forms.Button();
+            this.Button_Comics = new System.Windows.Forms.Button();
+            this.Button_Mystery = new System.Windows.Forms.Button();
+            this.Button_Drama = new System.Windows.Forms.Button();
+            this.Picbox_Profile = new System.Windows.Forms.PictureBox();
+            this.Label_Email_Address = new System.Windows.Forms.Label();
+            this.Label_Username = new System.Windows.Forms.Label();
+            this.Button_Science_Fiction = new System.Windows.Forms.Button();
+            this.Panel_Body.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Picbox_Profile)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel_category
+            // Panel_Body
             // 
-            this.panel_category.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_category.BackgroundImage")));
-            this.panel_category.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel_category.Controls.Add(this.label_search);
-            this.panel_category.Controls.Add(this.panel_category_txt_searchby);
-            this.panel_category.Controls.Add(this.btn_science);
-            this.panel_category.Controls.Add(this.btn_adventure);
-            this.panel_category.Controls.Add(this.btn_fantasy);
-            this.panel_category.Controls.Add(this.btn_history);
-            this.panel_category.Controls.Add(this.btn_horror);
-            this.panel_category.Controls.Add(this.btn_math);
-            this.panel_category.Controls.Add(this.btn_comics);
-            this.panel_category.Controls.Add(this.btn_mystery);
-            this.panel_category.Controls.Add(this.btn_drama);
-            this.panel_category.Controls.Add(this.panel_category_picbox_profile);
-            this.panel_category.Controls.Add(this.panel_category_label_email_address);
-            this.panel_category.Controls.Add(this.panel_category_label_username);
-            this.panel_category.Controls.Add(this.btn_science_fiction);
-            this.panel_category.Location = new System.Drawing.Point(0, 0);
-            this.panel_category.Name = "panel_category";
-            this.panel_category.Size = new System.Drawing.Size(852, 579);
-            this.panel_category.TabIndex = 13;
+            this.Panel_Body.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel_Body.BackgroundImage")));
+            this.Panel_Body.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Panel_Body.Controls.Add(this.Label_Search);
+            this.Panel_Body.Controls.Add(this.Text_Searchby);
+            this.Panel_Body.Controls.Add(this.Button_Science);
+            this.Panel_Body.Controls.Add(this.Button_Adventure);
+            this.Panel_Body.Controls.Add(this.Button_Fantasy);
+            this.Panel_Body.Controls.Add(this.Button_History);
+            this.Panel_Body.Controls.Add(this.Button_Horror);
+            this.Panel_Body.Controls.Add(this.Button_Math);
+            this.Panel_Body.Controls.Add(this.Button_Comics);
+            this.Panel_Body.Controls.Add(this.Button_Mystery);
+            this.Panel_Body.Controls.Add(this.Button_Drama);
+            this.Panel_Body.Controls.Add(this.Picbox_Profile);
+            this.Panel_Body.Controls.Add(this.Label_Email_Address);
+            this.Panel_Body.Controls.Add(this.Label_Username);
+            this.Panel_Body.Controls.Add(this.Button_Science_Fiction);
+            this.Panel_Body.Location = new System.Drawing.Point(0, 0);
+            this.Panel_Body.Name = "Panel_Body";
+            this.Panel_Body.Size = new System.Drawing.Size(852, 579);
+            this.Panel_Body.TabIndex = 13;
             // 
-            // label_search
+            // Label_Search
             // 
-            this.label_search.AutoSize = true;
-            this.label_search.BackColor = System.Drawing.Color.Transparent;
-            this.label_search.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_search.ForeColor = System.Drawing.Color.White;
-            this.label_search.Location = new System.Drawing.Point(647, 130);
-            this.label_search.Name = "label_search";
-            this.label_search.Size = new System.Drawing.Size(193, 25);
-            this.label_search.TabIndex = 25;
-            this.label_search.Text = "Search By Category";
-            this.label_search.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Label_Search.AutoSize = true;
+            this.Label_Search.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Search.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Search.ForeColor = System.Drawing.Color.White;
+            this.Label_Search.Location = new System.Drawing.Point(647, 130);
+            this.Label_Search.Name = "Label_Search";
+            this.Label_Search.Size = new System.Drawing.Size(193, 25);
+            this.Label_Search.TabIndex = 25;
+            this.Label_Search.Text = "Search By Category";
+            this.Label_Search.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // panel_category_txt_searchby
+            // Text_Searchby
             // 
-            this.panel_category_txt_searchby.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.panel_category_txt_searchby.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel_category_txt_searchby.Location = new System.Drawing.Point(532, 158);
-            this.panel_category_txt_searchby.Name = "panel_category_txt_searchby";
-            this.panel_category_txt_searchby.Size = new System.Drawing.Size(300, 30);
-            this.panel_category_txt_searchby.TabIndex = 24;
+            this.Text_Searchby.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Text_Searchby.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_Searchby.Location = new System.Drawing.Point(532, 158);
+            this.Text_Searchby.Name = "Text_Searchby";
+            this.Text_Searchby.Size = new System.Drawing.Size(300, 30);
+            this.Text_Searchby.TabIndex = 24;
             // 
-            // btn_science
+            // Button_Science
             // 
-            this.btn_science.BackColor = System.Drawing.Color.Transparent;
-            this.btn_science.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_science.FlatAppearance.BorderSize = 0;
-            this.btn_science.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_science.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_science.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_science.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_science.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_science.Image = ((System.Drawing.Image)(resources.GetObject("btn_science.Image")));
-            this.btn_science.Location = new System.Drawing.Point(678, 375);
-            this.btn_science.Name = "btn_science";
-            this.btn_science.Size = new System.Drawing.Size(153, 155);
-            this.btn_science.TabIndex = 23;
-            this.btn_science.Text = "Science";
-            this.btn_science.UseVisualStyleBackColor = false;
+            this.Button_Science.BackColor = System.Drawing.Color.Transparent;
+            this.Button_Science.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Science.FlatAppearance.BorderSize = 0;
+            this.Button_Science.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Button_Science.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Science.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_Science.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button_Science.ForeColor = System.Drawing.Color.Transparent;
+            this.Button_Science.Image = ((System.Drawing.Image)(resources.GetObject("Button_Science.Image")));
+            this.Button_Science.Location = new System.Drawing.Point(678, 375);
+            this.Button_Science.Name = "Button_Science";
+            this.Button_Science.Size = new System.Drawing.Size(153, 155);
+            this.Button_Science.TabIndex = 23;
+            this.Button_Science.Text = "Science";
+            this.Button_Science.UseVisualStyleBackColor = false;
             // 
-            // btn_adventure
+            // Button_Adventure
             // 
-            this.btn_adventure.BackColor = System.Drawing.Color.Transparent;
-            this.btn_adventure.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_adventure.FlatAppearance.BorderSize = 0;
-            this.btn_adventure.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_adventure.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_adventure.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_adventure.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_adventure.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_adventure.Image = ((System.Drawing.Image)(resources.GetObject("btn_adventure.Image")));
-            this.btn_adventure.Location = new System.Drawing.Point(517, 375);
-            this.btn_adventure.Name = "btn_adventure";
-            this.btn_adventure.Size = new System.Drawing.Size(153, 155);
-            this.btn_adventure.TabIndex = 22;
-            this.btn_adventure.Text = "Adventure";
-            this.btn_adventure.UseVisualStyleBackColor = false;
+            this.Button_Adventure.BackColor = System.Drawing.Color.Transparent;
+            this.Button_Adventure.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Adventure.FlatAppearance.BorderSize = 0;
+            this.Button_Adventure.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Button_Adventure.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Adventure.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_Adventure.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button_Adventure.ForeColor = System.Drawing.Color.Transparent;
+            this.Button_Adventure.Image = ((System.Drawing.Image)(resources.GetObject("Button_Adventure.Image")));
+            this.Button_Adventure.Location = new System.Drawing.Point(517, 375);
+            this.Button_Adventure.Name = "Button_Adventure";
+            this.Button_Adventure.Size = new System.Drawing.Size(153, 155);
+            this.Button_Adventure.TabIndex = 22;
+            this.Button_Adventure.Text = "Adventure";
+            this.Button_Adventure.UseVisualStyleBackColor = false;
             // 
-            // btn_fantasy
+            // Button_Fantasy
             // 
-            this.btn_fantasy.BackColor = System.Drawing.Color.Transparent;
-            this.btn_fantasy.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_fantasy.FlatAppearance.BorderSize = 0;
-            this.btn_fantasy.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_fantasy.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_fantasy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_fantasy.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_fantasy.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_fantasy.Image = ((System.Drawing.Image)(resources.GetObject("btn_fantasy.Image")));
-            this.btn_fantasy.Location = new System.Drawing.Point(355, 375);
-            this.btn_fantasy.Name = "btn_fantasy";
-            this.btn_fantasy.Size = new System.Drawing.Size(153, 155);
-            this.btn_fantasy.TabIndex = 21;
-            this.btn_fantasy.Text = "Fantasy";
-            this.btn_fantasy.UseVisualStyleBackColor = false;
+            this.Button_Fantasy.BackColor = System.Drawing.Color.Transparent;
+            this.Button_Fantasy.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Fantasy.FlatAppearance.BorderSize = 0;
+            this.Button_Fantasy.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Button_Fantasy.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Fantasy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_Fantasy.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button_Fantasy.ForeColor = System.Drawing.Color.Transparent;
+            this.Button_Fantasy.Image = ((System.Drawing.Image)(resources.GetObject("Button_Fantasy.Image")));
+            this.Button_Fantasy.Location = new System.Drawing.Point(355, 375);
+            this.Button_Fantasy.Name = "Button_Fantasy";
+            this.Button_Fantasy.Size = new System.Drawing.Size(153, 155);
+            this.Button_Fantasy.TabIndex = 21;
+            this.Button_Fantasy.Text = "Fantasy";
+            this.Button_Fantasy.UseVisualStyleBackColor = false;
             // 
-            // btn_history
+            // Button_History
             // 
-            this.btn_history.BackColor = System.Drawing.Color.Transparent;
-            this.btn_history.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_history.FlatAppearance.BorderSize = 0;
-            this.btn_history.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_history.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_history.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_history.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_history.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_history.Image = ((System.Drawing.Image)(resources.GetObject("btn_history.Image")));
-            this.btn_history.Location = new System.Drawing.Point(188, 375);
-            this.btn_history.Name = "btn_history";
-            this.btn_history.Size = new System.Drawing.Size(153, 155);
-            this.btn_history.TabIndex = 20;
-            this.btn_history.Text = "History";
-            this.btn_history.UseVisualStyleBackColor = false;
+            this.Button_History.BackColor = System.Drawing.Color.Transparent;
+            this.Button_History.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_History.FlatAppearance.BorderSize = 0;
+            this.Button_History.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Button_History.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_History.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_History.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button_History.ForeColor = System.Drawing.Color.Transparent;
+            this.Button_History.Image = ((System.Drawing.Image)(resources.GetObject("Button_History.Image")));
+            this.Button_History.Location = new System.Drawing.Point(188, 375);
+            this.Button_History.Name = "Button_History";
+            this.Button_History.Size = new System.Drawing.Size(153, 155);
+            this.Button_History.TabIndex = 20;
+            this.Button_History.Text = "History";
+            this.Button_History.UseVisualStyleBackColor = false;
             // 
-            // btn_horror
+            // Button_Horror
             // 
-            this.btn_horror.BackColor = System.Drawing.Color.Transparent;
-            this.btn_horror.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_horror.FlatAppearance.BorderSize = 0;
-            this.btn_horror.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_horror.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_horror.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_horror.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_horror.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_horror.Image = ((System.Drawing.Image)(resources.GetObject("btn_horror.Image")));
-            this.btn_horror.Location = new System.Drawing.Point(21, 375);
-            this.btn_horror.Name = "btn_horror";
-            this.btn_horror.Size = new System.Drawing.Size(153, 155);
-            this.btn_horror.TabIndex = 19;
-            this.btn_horror.Text = "Horror";
-            this.btn_horror.UseVisualStyleBackColor = false;
+            this.Button_Horror.BackColor = System.Drawing.Color.Transparent;
+            this.Button_Horror.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Horror.FlatAppearance.BorderSize = 0;
+            this.Button_Horror.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Button_Horror.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Horror.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_Horror.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button_Horror.ForeColor = System.Drawing.Color.Transparent;
+            this.Button_Horror.Image = ((System.Drawing.Image)(resources.GetObject("Button_Horror.Image")));
+            this.Button_Horror.Location = new System.Drawing.Point(21, 375);
+            this.Button_Horror.Name = "Button_Horror";
+            this.Button_Horror.Size = new System.Drawing.Size(153, 155);
+            this.Button_Horror.TabIndex = 19;
+            this.Button_Horror.Text = "Horror";
+            this.Button_Horror.UseVisualStyleBackColor = false;
             // 
-            // btn_math
+            // Button_Math
             // 
-            this.btn_math.BackColor = System.Drawing.Color.Transparent;
-            this.btn_math.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_math.FlatAppearance.BorderSize = 0;
-            this.btn_math.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_math.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_math.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_math.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_math.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_math.Image = ((System.Drawing.Image)(resources.GetObject("btn_math.Image")));
-            this.btn_math.Location = new System.Drawing.Point(679, 205);
-            this.btn_math.Name = "btn_math";
-            this.btn_math.Size = new System.Drawing.Size(153, 155);
-            this.btn_math.TabIndex = 18;
-            this.btn_math.Text = "Math";
-            this.btn_math.UseVisualStyleBackColor = false;
+            this.Button_Math.BackColor = System.Drawing.Color.Transparent;
+            this.Button_Math.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Math.FlatAppearance.BorderSize = 0;
+            this.Button_Math.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Button_Math.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Math.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_Math.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button_Math.ForeColor = System.Drawing.Color.Transparent;
+            this.Button_Math.Image = ((System.Drawing.Image)(resources.GetObject("Button_Math.Image")));
+            this.Button_Math.Location = new System.Drawing.Point(679, 205);
+            this.Button_Math.Name = "Button_Math";
+            this.Button_Math.Size = new System.Drawing.Size(153, 155);
+            this.Button_Math.TabIndex = 18;
+            this.Button_Math.Text = "Math";
+            this.Button_Math.UseVisualStyleBackColor = false;
             // 
-            // btn_comics
+            // Button_Comics
             // 
-            this.btn_comics.BackColor = System.Drawing.Color.Transparent;
-            this.btn_comics.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_comics.FlatAppearance.BorderSize = 0;
-            this.btn_comics.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_comics.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_comics.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_comics.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_comics.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_comics.Image = ((System.Drawing.Image)(resources.GetObject("btn_comics.Image")));
-            this.btn_comics.Location = new System.Drawing.Point(517, 205);
-            this.btn_comics.Name = "btn_comics";
-            this.btn_comics.Size = new System.Drawing.Size(153, 155);
-            this.btn_comics.TabIndex = 17;
-            this.btn_comics.Text = "Comics";
-            this.btn_comics.UseVisualStyleBackColor = false;
+            this.Button_Comics.BackColor = System.Drawing.Color.Transparent;
+            this.Button_Comics.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Comics.FlatAppearance.BorderSize = 0;
+            this.Button_Comics.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Button_Comics.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Comics.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_Comics.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button_Comics.ForeColor = System.Drawing.Color.Transparent;
+            this.Button_Comics.Image = ((System.Drawing.Image)(resources.GetObject("Button_Comics.Image")));
+            this.Button_Comics.Location = new System.Drawing.Point(517, 205);
+            this.Button_Comics.Name = "Button_Comics";
+            this.Button_Comics.Size = new System.Drawing.Size(153, 155);
+            this.Button_Comics.TabIndex = 17;
+            this.Button_Comics.Text = "Comics";
+            this.Button_Comics.UseVisualStyleBackColor = false;
             // 
-            // btn_mystery
+            // Button_Mystery
             // 
-            this.btn_mystery.BackColor = System.Drawing.Color.Transparent;
-            this.btn_mystery.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_mystery.FlatAppearance.BorderSize = 0;
-            this.btn_mystery.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_mystery.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_mystery.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_mystery.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_mystery.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_mystery.Image = ((System.Drawing.Image)(resources.GetObject("btn_mystery.Image")));
-            this.btn_mystery.Location = new System.Drawing.Point(355, 205);
-            this.btn_mystery.Name = "btn_mystery";
-            this.btn_mystery.Size = new System.Drawing.Size(153, 155);
-            this.btn_mystery.TabIndex = 16;
-            this.btn_mystery.Text = "Mystery";
-            this.btn_mystery.UseVisualStyleBackColor = false;
+            this.Button_Mystery.BackColor = System.Drawing.Color.Transparent;
+            this.Button_Mystery.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Mystery.FlatAppearance.BorderSize = 0;
+            this.Button_Mystery.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Button_Mystery.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Mystery.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_Mystery.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button_Mystery.ForeColor = System.Drawing.Color.Transparent;
+            this.Button_Mystery.Image = ((System.Drawing.Image)(resources.GetObject("Button_Mystery.Image")));
+            this.Button_Mystery.Location = new System.Drawing.Point(355, 205);
+            this.Button_Mystery.Name = "Button_Mystery";
+            this.Button_Mystery.Size = new System.Drawing.Size(153, 155);
+            this.Button_Mystery.TabIndex = 16;
+            this.Button_Mystery.Text = "Mystery";
+            this.Button_Mystery.UseVisualStyleBackColor = false;
             // 
-            // btn_drama
+            // Button_Drama
             // 
-            this.btn_drama.BackColor = System.Drawing.Color.Transparent;
-            this.btn_drama.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_drama.FlatAppearance.BorderSize = 0;
-            this.btn_drama.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_drama.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_drama.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_drama.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_drama.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_drama.Image = ((System.Drawing.Image)(resources.GetObject("btn_drama.Image")));
-            this.btn_drama.Location = new System.Drawing.Point(188, 205);
-            this.btn_drama.Name = "btn_drama";
-            this.btn_drama.Size = new System.Drawing.Size(153, 155);
-            this.btn_drama.TabIndex = 15;
-            this.btn_drama.Text = "Drama";
-            this.btn_drama.UseVisualStyleBackColor = false;
+            this.Button_Drama.BackColor = System.Drawing.Color.Transparent;
+            this.Button_Drama.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Drama.FlatAppearance.BorderSize = 0;
+            this.Button_Drama.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Button_Drama.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Drama.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_Drama.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button_Drama.ForeColor = System.Drawing.Color.Transparent;
+            this.Button_Drama.Image = ((System.Drawing.Image)(resources.GetObject("Button_Drama.Image")));
+            this.Button_Drama.Location = new System.Drawing.Point(188, 205);
+            this.Button_Drama.Name = "Button_Drama";
+            this.Button_Drama.Size = new System.Drawing.Size(153, 155);
+            this.Button_Drama.TabIndex = 15;
+            this.Button_Drama.Text = "Drama";
+            this.Button_Drama.UseVisualStyleBackColor = false;
             // 
-            // panel_category_picbox_profile
+            // Picbox_Profile
             // 
-            this.panel_category_picbox_profile.BackColor = System.Drawing.Color.Transparent;
-            this.panel_category_picbox_profile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel_category_picbox_profile.Location = new System.Drawing.Point(764, 21);
-            this.panel_category_picbox_profile.Name = "panel_category_picbox_profile";
-            this.panel_category_picbox_profile.Size = new System.Drawing.Size(63, 65);
-            this.panel_category_picbox_profile.TabIndex = 14;
-            this.panel_category_picbox_profile.TabStop = false;
+            this.Picbox_Profile.BackColor = System.Drawing.Color.Transparent;
+            this.Picbox_Profile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Picbox_Profile.Location = new System.Drawing.Point(764, 21);
+            this.Picbox_Profile.Name = "Picbox_Profile";
+            this.Picbox_Profile.Size = new System.Drawing.Size(63, 65);
+            this.Picbox_Profile.TabIndex = 14;
+            this.Picbox_Profile.TabStop = false;
             // 
-            // panel_category_label_email_address
+            // Label_Email_Address
             // 
-            this.panel_category_label_email_address.AutoSize = true;
-            this.panel_category_label_email_address.BackColor = System.Drawing.Color.Transparent;
-            this.panel_category_label_email_address.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel_category_label_email_address.ForeColor = System.Drawing.Color.White;
-            this.panel_category_label_email_address.Location = new System.Drawing.Point(599, 53);
-            this.panel_category_label_email_address.Name = "panel_category_label_email_address";
-            this.panel_category_label_email_address.Size = new System.Drawing.Size(158, 19);
-            this.panel_category_label_email_address.TabIndex = 13;
-            this.panel_category_label_email_address.Text = "email@address.com";
-            this.panel_category_label_email_address.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Label_Email_Address.AutoSize = true;
+            this.Label_Email_Address.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Email_Address.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Email_Address.ForeColor = System.Drawing.Color.White;
+            this.Label_Email_Address.Location = new System.Drawing.Point(599, 53);
+            this.Label_Email_Address.Name = "Label_Email_Address";
+            this.Label_Email_Address.Size = new System.Drawing.Size(158, 19);
+            this.Label_Email_Address.TabIndex = 13;
+            this.Label_Email_Address.Text = "email@address.com";
+            this.Label_Email_Address.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // panel_category_label_username
+            // Label_Username
             // 
-            this.panel_category_label_username.AutoSize = true;
-            this.panel_category_label_username.BackColor = System.Drawing.Color.Transparent;
-            this.panel_category_label_username.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel_category_label_username.ForeColor = System.Drawing.Color.White;
-            this.panel_category_label_username.Location = new System.Drawing.Point(674, 34);
-            this.panel_category_label_username.Name = "panel_category_label_username";
-            this.panel_category_label_username.Size = new System.Drawing.Size(83, 19);
-            this.panel_category_label_username.TabIndex = 12;
-            this.panel_category_label_username.Text = "username";
-            this.panel_category_label_username.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Label_Username.AutoSize = true;
+            this.Label_Username.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Username.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Username.ForeColor = System.Drawing.Color.White;
+            this.Label_Username.Location = new System.Drawing.Point(674, 34);
+            this.Label_Username.Name = "Label_Username";
+            this.Label_Username.Size = new System.Drawing.Size(83, 19);
+            this.Label_Username.TabIndex = 12;
+            this.Label_Username.Text = "username";
+            this.Label_Username.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // btn_science_fiction
+            // Button_Science_Fiction
             // 
-            this.btn_science_fiction.BackColor = System.Drawing.Color.Transparent;
-            this.btn_science_fiction.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_science_fiction.FlatAppearance.BorderSize = 0;
-            this.btn_science_fiction.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_science_fiction.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_science_fiction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_science_fiction.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_science_fiction.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_science_fiction.Image = ((System.Drawing.Image)(resources.GetObject("btn_science_fiction.Image")));
-            this.btn_science_fiction.Location = new System.Drawing.Point(21, 205);
-            this.btn_science_fiction.Name = "btn_science_fiction";
-            this.btn_science_fiction.Size = new System.Drawing.Size(153, 155);
-            this.btn_science_fiction.TabIndex = 0;
-            this.btn_science_fiction.Text = "Science\r\nFiction\r\n";
-            this.btn_science_fiction.UseVisualStyleBackColor = false;
+            this.Button_Science_Fiction.BackColor = System.Drawing.Color.Transparent;
+            this.Button_Science_Fiction.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Science_Fiction.FlatAppearance.BorderSize = 0;
+            this.Button_Science_Fiction.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Button_Science_Fiction.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Science_Fiction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_Science_Fiction.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button_Science_Fiction.ForeColor = System.Drawing.Color.Transparent;
+            this.Button_Science_Fiction.Image = ((System.Drawing.Image)(resources.GetObject("Button_Science_Fiction.Image")));
+            this.Button_Science_Fiction.Location = new System.Drawing.Point(21, 205);
+            this.Button_Science_Fiction.Name = "Button_Science_Fiction";
+            this.Button_Science_Fiction.Size = new System.Drawing.Size(153, 155);
+            this.Button_Science_Fiction.TabIndex = 0;
+            this.Button_Science_Fiction.Text = "Science\r\nFiction\r\n";
+            this.Button_Science_Fiction.UseVisualStyleBackColor = false;
             // 
             // Panel_Form_Category
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(852, 579);
-            this.Controls.Add(this.panel_category);
+            this.Controls.Add(this.Panel_Body);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Panel_Form_Category";
             this.Text = "Panel_Form_Category";
-            this.panel_category.ResumeLayout(false);
-            this.panel_category.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.panel_category_picbox_profile)).EndInit();
+            this.Panel_Body.ResumeLayout(false);
+            this.Panel_Body.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Picbox_Profile)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel_category;
-        private System.Windows.Forms.Button btn_science;
-        private System.Windows.Forms.Button btn_adventure;
-        private System.Windows.Forms.Button btn_fantasy;
-        private System.Windows.Forms.Button btn_history;
-        private System.Windows.Forms.Button btn_horror;
-        private System.Windows.Forms.Button btn_math;
-        private System.Windows.Forms.Button btn_comics;
-        private System.Windows.Forms.Button btn_mystery;
-        private System.Windows.Forms.Button btn_drama;
-        private System.Windows.Forms.PictureBox panel_category_picbox_profile;
-        private System.Windows.Forms.Label panel_category_label_email_address;
-        private System.Windows.Forms.Label panel_category_label_username;
-        private System.Windows.Forms.Button btn_science_fiction;
-        private System.Windows.Forms.Label label_search;
-        private System.Windows.Forms.TextBox panel_category_txt_searchby;
+        private System.Windows.Forms.Panel Panel_Body;
+        private System.Windows.Forms.Button Button_Science;
+        private System.Windows.Forms.Button Button_Adventure;
+        private System.Windows.Forms.Button Button_Fantasy;
+        private System.Windows.Forms.Button Button_History;
+        private System.Windows.Forms.Button Button_Horror;
+        private System.Windows.Forms.Button Button_Math;
+        private System.Windows.Forms.Button Button_Comics;
+        private System.Windows.Forms.Button Button_Mystery;
+        private System.Windows.Forms.Button Button_Drama;
+        private System.Windows.Forms.PictureBox Picbox_Profile;
+        private System.Windows.Forms.Label Label_Email_Address;
+        private System.Windows.Forms.Label Label_Username;
+        private System.Windows.Forms.Button Button_Science_Fiction;
+        private System.Windows.Forms.Label Label_Search;
+        private System.Windows.Forms.TextBox Text_Searchby;
     }
 }
