@@ -431,7 +431,7 @@
             this.ExitToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.ExitToolStripMenuItem.Text = "Exit";
             // 
-            // Frm_Main
+            // Form_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -440,10 +440,11 @@
             this.Controls.Add(this.Panel_Background);
             this.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Frm_Main";
+            this.Name = "Form_Main";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.Form_Main_Load);
             this.Panel_Background.ResumeLayout(false);
             this.Panel_Background.PerformLayout();
             this.ContextMenuStrip_Main.ResumeLayout(false);

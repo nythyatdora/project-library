@@ -20,7 +20,7 @@ namespace project_library
             InitializeComponent();
             list.AddControl(new CustomUserControl("Panel_Home", new Panel_Home()));
             list.AddControl(new CustomUserControl("Panel_Borrow_Return", new Panel_Borrow_Return()));
-            list.AddControl(new CustomUserControl("Panel_Books", new Panel_Form_Books()));
+            list.AddControl(new CustomUserControl("Panel_Books", new Panel_Books()));
             list.AddControl(new CustomUserControl("Panel_Category", new Panel_Category()));
             list.AddControl(new CustomUserControl("Panel_Readers", new Panel_Readers()));
         }
