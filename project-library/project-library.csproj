@@ -237,16 +237,28 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\button.png" />
+    <None Include="Resources\imgButtonEntered_Full.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\button-half.png" />
+    <None Include="Resources\imgButtonEntered_Half.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\button-half-mouse-on.png" />
+    <None Include="Resources\imgButtonLeft_Full.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\button-mouse-on.png" />
+    <None Include="Resources\imgButtonLeft_Half.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgButtonEntered_Square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgButtonLeft_Square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgButtonEntered_Round.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgButtonLeft_Round.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

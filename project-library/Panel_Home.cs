@@ -18,105 +18,84 @@ namespace project_library
             InitializeComponent();
         }
 
-        private void SetImageButtonEnter_Small(Button button)
-        {
-            button.Image = Properties.Resources.imgButtonEntered_Small;
-        }
-
-        private void SetImageButtonLeave_Small(Button button)
-        {
-            button.Image = Properties.Resources.imgButtonLeft_Small;
-        }
-
-
-        private void SetImageButtonEnter_Big(Button button)
-        {
-            button.Image = Properties.Resources.imgButtonEntered_Big;
-        }
-
-        private void SetImageButtonLeave_Big(Button button)
-        {
-            button.Image = Properties.Resources.imgButtonLeft_Big;
-        }
-
         private void Button_Borrow_MouseEnter(object sender, EventArgs e)
         {
-            SetImageButtonEnter_Small(Button_Borrow);
+            GraphicInteraction.SetImageButtonEnter_Half(Button_Borrow);
         }
 
         private void Button_Borrow_MouseLeave(object sender, EventArgs e)
         {
-            SetImageButtonLeave_Small(Button_Borrow);
+            GraphicInteraction.SetImageButtonLeave_Half(Button_Borrow);
         }
 
         private void Button_Return_MouseEnter(object sender, EventArgs e)
         {
-            SetImageButtonEnter_Small(Button_Return);
+            GraphicInteraction.SetImageButtonEnter_Half(Button_Return);
         }
 
         private void Button_Return_MouseLeave(object sender, EventArgs e)
         {
-            SetImageButtonLeave_Small(Button_Return);
+            GraphicInteraction.SetImageButtonLeave_Half(Button_Return);
         }
 
         private void Button_Books_MouseEnter(object sender, EventArgs e)
         {
-            SetImageButtonEnter_Big(Button_Books);
+            GraphicInteraction.SetImageButtonEnter_Full(Button_Books);
         }
 
         private void Button_Books_MouseLeave(object sender, EventArgs e)
         {
-            SetImageButtonLeave_Big(Button_Books);
+            GraphicInteraction.SetImageButtonLeave_Full(Button_Books);
         }
 
         private void Button_Category_MouseEnter(object sender, EventArgs e)
         {
-            SetImageButtonEnter_Big(Button_Category);
+            GraphicInteraction.SetImageButtonEnter_Full(Button_Category);
         }
 
         private void Button_Category_MouseLeave(object sender, EventArgs e)
         {
-            SetImageButtonLeave_Big(Button_Category);
+            GraphicInteraction.SetImageButtonLeave_Full(Button_Category);
         }
 
         private void Button_Readers_MouseEnter(object sender, EventArgs e)
         {
-            SetImageButtonEnter_Small(Button_Readers);
+            GraphicInteraction.SetImageButtonEnter_Half(Button_Readers);
         }
 
         private void Button_Readers_MouseLeave(object sender, EventArgs e)
         {
-            SetImageButtonLeave_Small(Button_Readers);
+            GraphicInteraction.SetImageButtonLeave_Half(Button_Readers);
         }
 
         private void Button_Membership_MouseEnter(object sender, EventArgs e)
         {
-            SetImageButtonEnter_Small(Button_Membership);
+            GraphicInteraction.SetImageButtonEnter_Half(Button_Membership);
         }
 
         private void Button_Membership_MouseLeave(object sender, EventArgs e)
         {
-            SetImageButtonLeave_Small(Button_Membership);
+            GraphicInteraction.SetImageButtonLeave_Half(Button_Membership);
         }
 
         private void Button_Myprofile_MouseEnter(object sender, EventArgs e)
         {
-            SetImageButtonEnter_Big(Button_Myprofile);
+            GraphicInteraction.SetImageButtonEnter_Full(Button_Myprofile);
         }
 
         private void Button_Myprofile_MouseLeave(object sender, EventArgs e)
         {
-            SetImageButtonLeave_Big(Button_Myprofile);
+            GraphicInteraction.SetImageButtonLeave_Full(Button_Myprofile);
         }
 
         private void Button_Report_MouseEnter(object sender, EventArgs e)
         {
-            SetImageButtonEnter_Big(Button_Report);
+            GraphicInteraction.SetImageButtonEnter_Full(Button_Report);
         }
 
         private void Button_Report_MouseLeave(object sender, EventArgs e)
         {
-            SetImageButtonLeave_Big(Button_Report);
+            GraphicInteraction.SetImageButtonLeave_Full(Button_Report);
         }
     }
 }

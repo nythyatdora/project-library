@@ -105,13 +105,15 @@
             this.Button_Science.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Science.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Science.ForeColor = System.Drawing.Color.Transparent;
-            this.Button_Science.Image = ((System.Drawing.Image)(resources.GetObject("Button_Science.Image")));
+            this.Button_Science.Image = global::project_library.Properties.Resources.imgButtonLeft_Square;
             this.Button_Science.Location = new System.Drawing.Point(678, 375);
             this.Button_Science.Name = "Button_Science";
             this.Button_Science.Size = new System.Drawing.Size(153, 155);
             this.Button_Science.TabIndex = 23;
             this.Button_Science.Text = "Science";
             this.Button_Science.UseVisualStyleBackColor = false;
+            this.Button_Science.MouseEnter += new System.EventHandler(this.Button_Science_MouseEnter);
+            this.Button_Science.MouseLeave += new System.EventHandler(this.Button_Science_MouseLeave);
             // 
             // Button_Adventure
             // 
@@ -123,13 +125,15 @@
             this.Button_Adventure.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Adventure.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Adventure.ForeColor = System.Drawing.Color.Transparent;
-            this.Button_Adventure.Image = ((System.Drawing.Image)(resources.GetObject("Button_Adventure.Image")));
+            this.Button_Adventure.Image = global::project_library.Properties.Resources.imgButtonLeft_Square;
             this.Button_Adventure.Location = new System.Drawing.Point(517, 375);
             this.Button_Adventure.Name = "Button_Adventure";
             this.Button_Adventure.Size = new System.Drawing.Size(153, 155);
             this.Button_Adventure.TabIndex = 22;
             this.Button_Adventure.Text = "Adventure";
             this.Button_Adventure.UseVisualStyleBackColor = false;
+            this.Button_Adventure.MouseEnter += new System.EventHandler(this.Button_Adventure_MouseEnter);
+            this.Button_Adventure.MouseLeave += new System.EventHandler(this.Button_Adventure_MouseLeave);
             // 
             // Button_Fantasy
             // 
@@ -141,13 +145,15 @@
             this.Button_Fantasy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Fantasy.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Fantasy.ForeColor = System.Drawing.Color.Transparent;
-            this.Button_Fantasy.Image = ((System.Drawing.Image)(resources.GetObject("Button_Fantasy.Image")));
+            this.Button_Fantasy.Image = global::project_library.Properties.Resources.imgButtonLeft_Square;
             this.Button_Fantasy.Location = new System.Drawing.Point(355, 375);
             this.Button_Fantasy.Name = "Button_Fantasy";
             this.Button_Fantasy.Size = new System.Drawing.Size(153, 155);
             this.Button_Fantasy.TabIndex = 21;
             this.Button_Fantasy.Text = "Fantasy";
             this.Button_Fantasy.UseVisualStyleBackColor = false;
+            this.Button_Fantasy.MouseEnter += new System.EventHandler(this.Button_Fantasy_MouseEnter);
+            this.Button_Fantasy.MouseLeave += new System.EventHandler(this.Button_Fantasy_MouseLeave);
             // 
             // Button_History
             // 
@@ -159,13 +165,15 @@
             this.Button_History.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_History.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_History.ForeColor = System.Drawing.Color.Transparent;
-            this.Button_History.Image = ((System.Drawing.Image)(resources.GetObject("Button_History.Image")));
+            this.Button_History.Image = global::project_library.Properties.Resources.imgButtonLeft_Square;
             this.Button_History.Location = new System.Drawing.Point(188, 375);
             this.Button_History.Name = "Button_History";
             this.Button_History.Size = new System.Drawing.Size(153, 155);
             this.Button_History.TabIndex = 20;
             this.Button_History.Text = "History";
             this.Button_History.UseVisualStyleBackColor = false;
+            this.Button_History.MouseEnter += new System.EventHandler(this.Button_History_MouseEnter);
+            this.Button_History.MouseLeave += new System.EventHandler(this.Button_History_MouseLeave);
             // 
             // Button_Horror
             // 
@@ -177,13 +185,15 @@
             this.Button_Horror.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Horror.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Horror.ForeColor = System.Drawing.Color.Transparent;
-            this.Button_Horror.Image = ((System.Drawing.Image)(resources.GetObject("Button_Horror.Image")));
+            this.Button_Horror.Image = global::project_library.Properties.Resources.imgButtonLeft_Square;
             this.Button_Horror.Location = new System.Drawing.Point(21, 375);
             this.Button_Horror.Name = "Button_Horror";
             this.Button_Horror.Size = new System.Drawing.Size(153, 155);
             this.Button_Horror.TabIndex = 19;
             this.Button_Horror.Text = "Horror";
             this.Button_Horror.UseVisualStyleBackColor = false;
+            this.Button_Horror.MouseEnter += new System.EventHandler(this.Button_Horror_MouseEnter);
+            this.Button_Horror.MouseLeave += new System.EventHandler(this.Button_Horror_MouseLeave);
             // 
             // Button_Math
             // 
@@ -195,13 +205,15 @@
             this.Button_Math.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Math.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Math.ForeColor = System.Drawing.Color.Transparent;
-            this.Button_Math.Image = ((System.Drawing.Image)(resources.GetObject("Button_Math.Image")));
+            this.Button_Math.Image = global::project_library.Properties.Resources.imgButtonLeft_Square;
             this.Button_Math.Location = new System.Drawing.Point(679, 205);
             this.Button_Math.Name = "Button_Math";
             this.Button_Math.Size = new System.Drawing.Size(153, 155);
             this.Button_Math.TabIndex = 18;
             this.Button_Math.Text = "Math";
             this.Button_Math.UseVisualStyleBackColor = false;
+            this.Button_Math.MouseEnter += new System.EventHandler(this.Button_Math_MouseEnter);
+            this.Button_Math.MouseLeave += new System.EventHandler(this.Button_Math_MouseLeave);
             // 
             // Button_Comics
             // 
@@ -213,13 +225,15 @@
             this.Button_Comics.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Comics.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Comics.ForeColor = System.Drawing.Color.Transparent;
-            this.Button_Comics.Image = ((System.Drawing.Image)(resources.GetObject("Button_Comics.Image")));
+            this.Button_Comics.Image = global::project_library.Properties.Resources.imgButtonLeft_Square;
             this.Button_Comics.Location = new System.Drawing.Point(517, 205);
             this.Button_Comics.Name = "Button_Comics";
             this.Button_Comics.Size = new System.Drawing.Size(153, 155);
             this.Button_Comics.TabIndex = 17;
             this.Button_Comics.Text = "Comics";
             this.Button_Comics.UseVisualStyleBackColor = false;
+            this.Button_Comics.MouseEnter += new System.EventHandler(this.Button_Comics_MouseEnter);
+            this.Button_Comics.MouseLeave += new System.EventHandler(this.Button_Comics_MouseLeave);
             // 
             // Button_Mystery
             // 
@@ -231,13 +245,15 @@
             this.Button_Mystery.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Mystery.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Mystery.ForeColor = System.Drawing.Color.Transparent;
-            this.Button_Mystery.Image = ((System.Drawing.Image)(resources.GetObject("Button_Mystery.Image")));
+            this.Button_Mystery.Image = global::project_library.Properties.Resources.imgButtonLeft_Square;
             this.Button_Mystery.Location = new System.Drawing.Point(355, 205);
             this.Button_Mystery.Name = "Button_Mystery";
             this.Button_Mystery.Size = new System.Drawing.Size(153, 155);
             this.Button_Mystery.TabIndex = 16;
             this.Button_Mystery.Text = "Mystery";
             this.Button_Mystery.UseVisualStyleBackColor = false;
+            this.Button_Mystery.MouseEnter += new System.EventHandler(this.Button_Mystery_MouseEnter);
+            this.Button_Mystery.MouseLeave += new System.EventHandler(this.Button_Mystery_MouseLeave);
             // 
             // Button_Drama
             // 
@@ -249,13 +265,15 @@
             this.Button_Drama.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Drama.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Drama.ForeColor = System.Drawing.Color.Transparent;
-            this.Button_Drama.Image = ((System.Drawing.Image)(resources.GetObject("Button_Drama.Image")));
+            this.Button_Drama.Image = global::project_library.Properties.Resources.imgButtonLeft_Square;
             this.Button_Drama.Location = new System.Drawing.Point(188, 205);
             this.Button_Drama.Name = "Button_Drama";
             this.Button_Drama.Size = new System.Drawing.Size(153, 155);
             this.Button_Drama.TabIndex = 15;
             this.Button_Drama.Text = "Drama";
             this.Button_Drama.UseVisualStyleBackColor = false;
+            this.Button_Drama.MouseEnter += new System.EventHandler(this.Button_Drama_MouseEnter);
+            this.Button_Drama.MouseLeave += new System.EventHandler(this.Button_Drama_MouseLeave);
             // 
             // Picbox_Profile
             // 
@@ -303,22 +321,23 @@
             this.Button_Science_Fiction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Science_Fiction.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Science_Fiction.ForeColor = System.Drawing.Color.Transparent;
-            this.Button_Science_Fiction.Image = ((System.Drawing.Image)(resources.GetObject("Button_Science_Fiction.Image")));
+            this.Button_Science_Fiction.Image = global::project_library.Properties.Resources.imgButtonLeft_Square;
             this.Button_Science_Fiction.Location = new System.Drawing.Point(21, 205);
             this.Button_Science_Fiction.Name = "Button_Science_Fiction";
             this.Button_Science_Fiction.Size = new System.Drawing.Size(153, 155);
             this.Button_Science_Fiction.TabIndex = 0;
             this.Button_Science_Fiction.Text = "Science\r\nFiction\r\n";
             this.Button_Science_Fiction.UseVisualStyleBackColor = false;
+            this.Button_Science_Fiction.MouseEnter += new System.EventHandler(this.Button_Science_Fiction_MouseEnter);
+            this.Button_Science_Fiction.MouseLeave += new System.EventHandler(this.Button_Science_Fiction_MouseLeave);
             // 
-            // Panel_Form_Category
+            // Panel_Category
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(852, 579);
             this.Controls.Add(this.Panel_Body);
-            this.Name = "Panel_Form_Category";
-            this.Text = "Panel_Form_Category";
+            this.Name = "Panel_Category";
+            this.Size = new System.Drawing.Size(852, 579);
             this.Panel_Body.ResumeLayout(false);
             this.Panel_Body.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Picbox_Profile)).EndInit();

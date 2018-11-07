@@ -75,7 +75,7 @@
             this.Button_Membership.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Membership.Font = new System.Drawing.Font("Bahnschrift", 18F);
             this.Button_Membership.ForeColor = System.Drawing.Color.Transparent;
-            this.Button_Membership.Image = ((System.Drawing.Image)(resources.GetObject("Button_Membership.Image")));
+            this.Button_Membership.Image = global::project_library.Properties.Resources.imgButtonLeft_Half;
             this.Button_Membership.Location = new System.Drawing.Point(20, 437);
             this.Button_Membership.Name = "Button_Membership";
             this.Button_Membership.Size = new System.Drawing.Size(253, 75);
@@ -95,7 +95,7 @@
             this.Button_Return.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Return.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Return.ForeColor = System.Drawing.Color.Transparent;
-            this.Button_Return.Image = ((System.Drawing.Image)(resources.GetObject("Button_Return.Image")));
+            this.Button_Return.Image = global::project_library.Properties.Resources.imgButtonLeft_Half;
             this.Button_Return.Location = new System.Drawing.Point(20, 258);
             this.Button_Return.Name = "Button_Return";
             this.Button_Return.Size = new System.Drawing.Size(253, 75);
@@ -150,7 +150,7 @@
             this.Button_Report.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Report.Font = new System.Drawing.Font("Bahnschrift", 18F);
             this.Button_Report.ForeColor = System.Drawing.Color.Transparent;
-            this.Button_Report.Image = ((System.Drawing.Image)(resources.GetObject("Button_Report.Image")));
+            this.Button_Report.Image = global::project_library.Properties.Resources.imgButtonLeft_Full;
             this.Button_Report.Location = new System.Drawing.Point(577, 357);
             this.Button_Report.Name = "Button_Report";
             this.Button_Report.Size = new System.Drawing.Size(253, 155);
@@ -170,7 +170,7 @@
             this.Button_Myprofile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Myprofile.Font = new System.Drawing.Font("Bahnschrift", 18F);
             this.Button_Myprofile.ForeColor = System.Drawing.Color.Transparent;
-            this.Button_Myprofile.Image = ((System.Drawing.Image)(resources.GetObject("Button_Myprofile.Image")));
+            this.Button_Myprofile.Image = global::project_library.Properties.Resources.imgButtonLeft_Full;
             this.Button_Myprofile.Location = new System.Drawing.Point(298, 357);
             this.Button_Myprofile.Name = "Button_Myprofile";
             this.Button_Myprofile.Size = new System.Drawing.Size(253, 155);
@@ -190,7 +190,7 @@
             this.Button_Readers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Readers.Font = new System.Drawing.Font("Bahnschrift", 18F);
             this.Button_Readers.ForeColor = System.Drawing.Color.Transparent;
-            this.Button_Readers.Image = ((System.Drawing.Image)(resources.GetObject("Button_Readers.Image")));
+            this.Button_Readers.Image = global::project_library.Properties.Resources.imgButtonLeft_Half;
             this.Button_Readers.Location = new System.Drawing.Point(20, 357);
             this.Button_Readers.Name = "Button_Readers";
             this.Button_Readers.Size = new System.Drawing.Size(253, 75);
@@ -210,7 +210,7 @@
             this.Button_Category.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Category.Font = new System.Drawing.Font("Bahnschrift", 18F);
             this.Button_Category.ForeColor = System.Drawing.Color.Transparent;
-            this.Button_Category.Image = ((System.Drawing.Image)(resources.GetObject("Button_Category.Image")));
+            this.Button_Category.Image = global::project_library.Properties.Resources.imgButtonLeft_Full;
             this.Button_Category.Location = new System.Drawing.Point(577, 178);
             this.Button_Category.Name = "Button_Category";
             this.Button_Category.Size = new System.Drawing.Size(253, 155);
@@ -230,7 +230,7 @@
             this.Button_Books.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Books.Font = new System.Drawing.Font("Bahnschrift", 18F);
             this.Button_Books.ForeColor = System.Drawing.Color.Transparent;
-            this.Button_Books.Image = ((System.Drawing.Image)(resources.GetObject("Button_Books.Image")));
+            this.Button_Books.Image = global::project_library.Properties.Resources.imgButtonLeft_Full;
             this.Button_Books.Location = new System.Drawing.Point(298, 178);
             this.Button_Books.Name = "Button_Books";
             this.Button_Books.Size = new System.Drawing.Size(253, 155);
@@ -250,7 +250,7 @@
             this.Button_Borrow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Borrow.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Borrow.ForeColor = System.Drawing.Color.Transparent;
-            this.Button_Borrow.Image = ((System.Drawing.Image)(resources.GetObject("Button_Borrow.Image")));
+            this.Button_Borrow.Image = global::project_library.Properties.Resources.imgButtonLeft_Half;
             this.Button_Borrow.Location = new System.Drawing.Point(20, 178);
             this.Button_Borrow.Name = "Button_Borrow";
             this.Button_Borrow.Size = new System.Drawing.Size(253, 75);
@@ -260,12 +260,12 @@
             this.Button_Borrow.MouseEnter += new System.EventHandler(this.Button_Borrow_MouseEnter);
             this.Button_Borrow.MouseLeave += new System.EventHandler(this.Button_Borrow_MouseLeave);
             // 
-            // Panel_Form_Main
+            // Panel_Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.Panel_Main);
-            this.Name = "Panel_Form_Main";
+            this.Name = "Panel_Home";
             this.Size = new System.Drawing.Size(852, 579);
             this.Panel_Main.ResumeLayout(false);
             this.Panel_Main.PerformLayout();

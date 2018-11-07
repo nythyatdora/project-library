@@ -43,7 +43,7 @@
             // 
             this.Panel_Body.BackColor = System.Drawing.Color.Transparent;
             this.Panel_Body.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel_Body.BackgroundImage")));
-            this.Panel_Body.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Panel_Body.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Panel_Body.Controls.Add(this.Button_Find_Reader);
             this.Panel_Body.Controls.Add(this.Picbox_Profile);
             this.Panel_Body.Controls.Add(this.Label_Email_Address);
@@ -64,13 +64,15 @@
             this.Button_Find_Reader.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Find_Reader.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Find_Reader.ForeColor = System.Drawing.Color.Transparent;
-            this.Button_Find_Reader.Image = ((System.Drawing.Image)(resources.GetObject("Button_Find_Reader.Image")));
+            this.Button_Find_Reader.Image = global::project_library.Properties.Resources.imgButtonLeft_Round;
             this.Button_Find_Reader.Location = new System.Drawing.Point(474, 183);
             this.Button_Find_Reader.Name = "Button_Find_Reader";
             this.Button_Find_Reader.Size = new System.Drawing.Size(283, 285);
             this.Button_Find_Reader.TabIndex = 15;
             this.Button_Find_Reader.Text = "FIND READER";
             this.Button_Find_Reader.UseVisualStyleBackColor = false;
+            this.Button_Find_Reader.MouseEnter += new System.EventHandler(this.Button_Find_Reader_MouseEnter);
+            this.Button_Find_Reader.MouseLeave += new System.EventHandler(this.Button_Find_Reader_MouseLeave);
             // 
             // Picbox_Profile
             // 
@@ -118,22 +120,23 @@
             this.Button_Insert_Reader.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Insert_Reader.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Insert_Reader.ForeColor = System.Drawing.Color.Transparent;
-            this.Button_Insert_Reader.Image = ((System.Drawing.Image)(resources.GetObject("Button_Insert_Reader.Image")));
+            this.Button_Insert_Reader.Image = global::project_library.Properties.Resources.imgButtonLeft_Round;
             this.Button_Insert_Reader.Location = new System.Drawing.Point(81, 183);
             this.Button_Insert_Reader.Name = "Button_Insert_Reader";
             this.Button_Insert_Reader.Size = new System.Drawing.Size(283, 285);
             this.Button_Insert_Reader.TabIndex = 0;
             this.Button_Insert_Reader.Text = "INSERT\r\nNEW READER";
             this.Button_Insert_Reader.UseVisualStyleBackColor = false;
+            this.Button_Insert_Reader.MouseEnter += new System.EventHandler(this.Button_Insert_Reader_MouseEnter);
+            this.Button_Insert_Reader.MouseLeave += new System.EventHandler(this.Button_Insert_Reader_MouseLeave);
             // 
-            // Panel_Form_Readers
+            // Panel_Readers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(852, 579);
             this.Controls.Add(this.Panel_Body);
-            this.Name = "Panel_Form_Readers";
-            this.Text = "Panel_Form_Readers";
+            this.Name = "Panel_Readers";
+            this.Size = new System.Drawing.Size(852, 579);
             this.Panel_Body.ResumeLayout(false);
             this.Panel_Body.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Picbox_Profile)).EndInit();
