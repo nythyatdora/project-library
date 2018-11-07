@@ -8,18 +8,18 @@ namespace project_library.Class
 {
     public class FormBook
     {
-        Int64 id_;
-        String book_title_;
-        String author_;
-        String publisher_;
-        String language_;
-        String paperback_;
-        Double price_;
-        Int64 quantity_;
-        String isbn10_;
-        String isbn13_;
-        String description_;
-        String location_bookcover_;
+        private Int64 id_;
+        private String book_title_;
+        private String author_;
+        private String publisher_;
+        private String language_;
+        private String paperback_;
+        private Double price_;
+        private Int64 quantity_;
+        private String isbn10_;
+        private String isbn13_;
+        private String description_;
+        private String location_bookcover_;
         public FormBook(Int64 id, String book_title, String author, String publisher, String language, String paperback, Double price, Int64 quantity, String isbn10, String isbn13, String description, String location_bookcover)
         {
             id_ = id;
