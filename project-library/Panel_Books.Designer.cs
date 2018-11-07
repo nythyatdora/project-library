@@ -42,7 +42,7 @@
             // Panel_Body
             // 
             this.Panel_Body.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel_Body.BackgroundImage")));
-            this.Panel_Body.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Panel_Body.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Panel_Body.Controls.Add(this.Button_Find_Book);
             this.Panel_Body.Controls.Add(this.Picbox_Profile);
             this.Panel_Body.Controls.Add(this.Label_Email_Address);
@@ -63,13 +63,15 @@
             this.Button_Find_Book.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Find_Book.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Find_Book.ForeColor = System.Drawing.Color.Transparent;
-            this.Button_Find_Book.Image = ((System.Drawing.Image)(resources.GetObject("Button_Find_Book.Image")));
+            this.Button_Find_Book.Image = global::project_library.Properties.Resources.imgButtonLeft_Round;
             this.Button_Find_Book.Location = new System.Drawing.Point(474, 183);
             this.Button_Find_Book.Name = "Button_Find_Book";
             this.Button_Find_Book.Size = new System.Drawing.Size(283, 285);
             this.Button_Find_Book.TabIndex = 15;
             this.Button_Find_Book.Text = "FIND BOOK";
             this.Button_Find_Book.UseVisualStyleBackColor = false;
+            this.Button_Find_Book.MouseEnter += new System.EventHandler(this.Button_Find_Book_MouseEnter);
+            this.Button_Find_Book.MouseLeave += new System.EventHandler(this.Button_Find_Book_MouseLeave);
             // 
             // Picbox_Profile
             // 
@@ -117,22 +119,23 @@
             this.Button_Insert_Book.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Insert_Book.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Insert_Book.ForeColor = System.Drawing.Color.Transparent;
-            this.Button_Insert_Book.Image = ((System.Drawing.Image)(resources.GetObject("Button_Insert_Book.Image")));
+            this.Button_Insert_Book.Image = global::project_library.Properties.Resources.imgButtonLeft_Round;
             this.Button_Insert_Book.Location = new System.Drawing.Point(81, 183);
             this.Button_Insert_Book.Name = "Button_Insert_Book";
             this.Button_Insert_Book.Size = new System.Drawing.Size(283, 285);
             this.Button_Insert_Book.TabIndex = 0;
             this.Button_Insert_Book.Text = "INPUT/INSERT\r\nNEW BOOK";
             this.Button_Insert_Book.UseVisualStyleBackColor = false;
+            this.Button_Insert_Book.MouseEnter += new System.EventHandler(this.Button_Insert_Book_MouseEnter);
+            this.Button_Insert_Book.MouseLeave += new System.EventHandler(this.Button_Insert_Book_MouseLeave);
             // 
-            // Panel_Form_Books
+            // Panel_Books
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(852, 579);
             this.Controls.Add(this.Panel_Body);
-            this.Name = "Panel_Form_Books";
-            this.Text = "Panel_Form_Books";
+            this.Name = "Panel_Books";
+            this.Size = new System.Drawing.Size(852, 579);
             this.Panel_Body.ResumeLayout(false);
             this.Panel_Body.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Picbox_Profile)).EndInit();
