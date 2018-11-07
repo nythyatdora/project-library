@@ -71,7 +71,6 @@
             this.Button_Find_Reader.TabIndex = 15;
             this.Button_Find_Reader.Text = "FIND READER";
             this.Button_Find_Reader.UseVisualStyleBackColor = false;
-            this.Button_Find_Reader.Click += new System.EventHandler(this.btn_find_reader_Click);
             // 
             // Picbox_Profile
             // 
@@ -126,7 +125,6 @@
             this.Button_Insert_Reader.TabIndex = 0;
             this.Button_Insert_Reader.Text = "INSERT\r\nNEW READER";
             this.Button_Insert_Reader.UseVisualStyleBackColor = false;
-            this.Button_Insert_Reader.Click += new System.EventHandler(this.btn_insert_reader_Click);
             // 
             // Panel_Form_Readers
             // 
@@ -134,9 +132,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(852, 579);
             this.Controls.Add(this.Panel_Body);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Panel_Form_Readers";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Panel_Form_Readers";
             this.Panel_Body.ResumeLayout(false);
             this.Panel_Body.PerformLayout();

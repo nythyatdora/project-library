@@ -131,7 +131,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(852, 579);
             this.Controls.Add(this.Panel_Body);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Panel_Form_Borrow_Return";
             this.Text = "Panel_Form_Borrow_Return";
             this.Panel_Body.ResumeLayout(false);
