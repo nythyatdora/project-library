@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="panel_borrow_return.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Panel_Body.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAA1MAAAJECAYAAADzHH4LAAAABGdBTUEAALGPC/xhBQAA/8dJREFUeF7s
         /ddzJemW5YnV9Ayrq67IDAmtjtZa4OBAa6211hqBAAKhtRYZkRmZkTqvquou9nSTMzTyhTSa8Y1/2OJv
@@ -10312,7 +10312,7 @@
         0/dACBe6mjnSp2TKH1zpvsyXtThWmbmYTCkNmfpfP/5/RtMXh+65PEgAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btn_return.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Button_Return.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAARsAAAEdCAYAAAA8dMM8AAAABGdBTUEAALGPC/xhBQAAJEZJREFUeF7t
         3XmUXFWdB/Cu6n1f0+mQrel0tiZJhyydrdNxTGQJoAiYYBAJJIiDioCIO67jwjCDMg4ijuA5g6DHBRAX
@@ -10472,7 +10472,7 @@
         Sr9KxtnpUq/x3xFXEuDf8j34XnxPvjc/g5/Fz+Rnsw2Kiouqqv8H/h7fTRERXdIAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btn_borrow.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Button_Borrow.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAARsAAAEdCAYAAAA8dMM8AAAABGdBTUEAALGPC/xhBQAAJEZJREFUeF7t
         3XmUXFWdB/Cu6n1f0+mQrel0tiZJhyydrdNxTGQJoAiYYBAJJIiDioCIO67jwjCDMg4ijuA5g6DHBRAX

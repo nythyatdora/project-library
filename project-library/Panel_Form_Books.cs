@@ -16,17 +16,5 @@ namespace project_library
         {
             InitializeComponent();
         }
-
-        private void btn_insert_book_Click(object sender, EventArgs e)
-        {
-            Frm_Insert_Book frm_insert_book = new Frm_Insert_Book();
-            frm_insert_book.Show();
-        }
-
-        private void btn_find_book_Click(object sender, EventArgs e)
-        {
-            Frm_Search frm_search = new Frm_Search();
-            frm_search.Show();
-        }
     }
 }

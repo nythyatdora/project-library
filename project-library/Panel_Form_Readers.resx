@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="panel_readers.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Panel_Body.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAA1MAAAJECAYAAADzHH4LAAAABGdBTUEAALGPC/xhBQAA/8dJREFUeF7s
         /VeTZse13w3q6LznkOiuqsd7V/WU993V3jugG2i4hgdIGILwaKBhutEN7w1BeA8SIGEIkLAEaI+TYiIm
@@ -10393,7 +10393,7 @@
         f/5/su2CiZF1bAkAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btn_find_reader.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Button_Find_Reader.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAARsAAAEdCAYAAAA8dMM8AAAABGdBTUEAALGPC/xhBQAAJEZJREFUeF7t
         3XmUXFWdB/Cu6n1f0+mQrel0tiZJhyydrdNxTGQJoAiYYBAJJIiDioCIO67jwjCDMg4ijuA5g6DHBRAX
@@ -10553,7 +10553,7 @@
         Sr9KxtnpUq/x3xFXEuDf8j34XnxPvjc/g5/Fz+Rnsw2Kiouqqv8H/h7fTRERXdIAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btn_insert_reader.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Button_Insert_Reader.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAARsAAAEdCAYAAAA8dMM8AAAABGdBTUEAALGPC/xhBQAAJEZJREFUeF7t
         3XmUXFWdB/Cu6n1f0+mQrel0tiZJhyydrdNxTGQJoAiYYBAJJIiDioCIO67jwjCDMg4ijuA5g6DHBRAX
