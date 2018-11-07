@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace project_library
 {
-    public partial class Panel_Form_Borrow_Return : Form
+    public partial class Panel_Form_Borrow_Return : OverlapUserControl
     {
         public Panel_Form_Borrow_Return()
         {

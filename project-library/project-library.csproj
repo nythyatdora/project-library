@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UserControlList.cs" />
     <Compile Include="Class\FormReader.cs" />
     <Compile Include="Class\GraphicInteraction.cs" />
     <Compile Include="Frm_Borrow.cs">
@@ -84,12 +85,6 @@
     <Compile Include="Frm_Proceed_Borrow.Designer.cs">
       <DependentUpon>Frm_Proceed_Borrow.cs</DependentUpon>
     </Compile>
-    <Compile Include="Test_Main.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Test_Main.Designer.cs">
-      <DependentUpon>Test_Main.cs</DependentUpon>
-    </Compile>
     <Compile Include="Frm_Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,50 +103,56 @@
     <Compile Include="Frm_Table.Designer.cs">
       <DependentUpon>Frm_Table.cs</DependentUpon>
     </Compile>
-    <Compile Include="OverlapPanel.cs">
+    <Compile Include="OverlapUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OverlapUserControl.Designer.cs">
+      <DependentUpon>OverlapUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Overlap_Dynamic.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OverlapPanel.Designer.cs">
-      <DependentUpon>OverlapPanel.cs</DependentUpon>
+    <Compile Include="Overlap_Dynamic.Designer.cs">
+      <DependentUpon>Overlap_Dynamic.cs</DependentUpon>
     </Compile>
     <Compile Include="Panel_Form_Books.cs">
-      <SubType>Form</SubType>
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Panel_Form_Books.Designer.cs">
       <DependentUpon>Panel_Form_Books.cs</DependentUpon>
     </Compile>
     <Compile Include="Panel_Form_Borrow_Return.cs">
-      <SubType>Form</SubType>
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Panel_Form_Borrow_Return.Designer.cs">
       <DependentUpon>Panel_Form_Borrow_Return.cs</DependentUpon>
     </Compile>
     <Compile Include="Panel_Form_Category.cs">
-      <SubType>Form</SubType>
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Panel_Form_Category.Designer.cs">
       <DependentUpon>Panel_Form_Category.cs</DependentUpon>
     </Compile>
     <Compile Include="Panel_Form_Main.cs">
-      <SubType>Form</SubType>
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Panel_Form_Main.Designer.cs">
       <DependentUpon>Panel_Form_Main.cs</DependentUpon>
     </Compile>
     <Compile Include="Panel_Form_MyProfile_One.cs">
-      <SubType>Form</SubType>
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Panel_Form_MyProfile_One.Designer.cs">
       <DependentUpon>Panel_Form_MyProfile_One.cs</DependentUpon>
     </Compile>
     <Compile Include="Panel_Form_MyProfile_Two.cs">
-      <SubType>Form</SubType>
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Panel_Form_MyProfile_Two.Designer.cs">
       <DependentUpon>Panel_Form_MyProfile_Two.cs</DependentUpon>
     </Compile>
     <Compile Include="Panel_Form_Readers.cs">
-      <SubType>Form</SubType>
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Panel_Form_Readers.Designer.cs">
       <DependentUpon>Panel_Form_Readers.cs</DependentUpon>
@@ -176,9 +177,6 @@
     <EmbeddedResource Include="Frm_Proceed_Borrow.resx">
       <DependentUpon>Frm_Proceed_Borrow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Test_Main.resx">
-      <DependentUpon>Test_Main.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Frm_Main.resx">
       <DependentUpon>Frm_Main.cs</DependentUpon>
     </EmbeddedResource>
@@ -188,8 +186,11 @@
     <EmbeddedResource Include="Frm_Table.resx">
       <DependentUpon>Frm_Table.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OverlapPanel.resx">
-      <DependentUpon>OverlapPanel.cs</DependentUpon>
+    <EmbeddedResource Include="OverlapUserControl.resx">
+      <DependentUpon>OverlapUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Overlap_Dynamic.resx">
+      <DependentUpon>Overlap_Dynamic.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Panel_Form_Books.resx">
       <DependentUpon>Panel_Form_Books.cs</DependentUpon>

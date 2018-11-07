@@ -29,250 +29,248 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Panel_Form_Main));
-            this.panel_main = new System.Windows.Forms.Panel();
-            this.panel_main_button_membership = new System.Windows.Forms.Button();
-            this.panel_main_button_return = new System.Windows.Forms.Button();
-            this.panel_main_picbox_profile = new System.Windows.Forms.PictureBox();
-            this.label_email_address = new System.Windows.Forms.Label();
-            this.label_username = new System.Windows.Forms.Label();
-            this.panel_main_button_report = new System.Windows.Forms.Button();
-            this.panel_main_button_myprofile = new System.Windows.Forms.Button();
-            this.panel_main_button_readers = new System.Windows.Forms.Button();
-            this.panel_main_button_category = new System.Windows.Forms.Button();
-            this.panel_main_button_books = new System.Windows.Forms.Button();
-            this.panel_main_button_borrow = new System.Windows.Forms.Button();
-            this.panel_main.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.panel_main_picbox_profile)).BeginInit();
+            this.Panel_Main = new System.Windows.Forms.Panel();
+            this.Button_Membership = new System.Windows.Forms.Button();
+            this.Button_Return = new System.Windows.Forms.Button();
+            this.Picbox_Profile = new System.Windows.Forms.PictureBox();
+            this.Label_Email_Address = new System.Windows.Forms.Label();
+            this.Label_Username = new System.Windows.Forms.Label();
+            this.Button_Report = new System.Windows.Forms.Button();
+            this.Button_Myprofile = new System.Windows.Forms.Button();
+            this.Button_Readers = new System.Windows.Forms.Button();
+            this.Button_Category = new System.Windows.Forms.Button();
+            this.Button_Books = new System.Windows.Forms.Button();
+            this.Button_Borrow = new System.Windows.Forms.Button();
+            this.Panel_Main.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Picbox_Profile)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel_main
+            // Panel_Main
             // 
-            this.panel_main.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_main.BackgroundImage")));
-            this.panel_main.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel_main.Controls.Add(this.panel_main_button_membership);
-            this.panel_main.Controls.Add(this.panel_main_button_return);
-            this.panel_main.Controls.Add(this.panel_main_picbox_profile);
-            this.panel_main.Controls.Add(this.label_email_address);
-            this.panel_main.Controls.Add(this.label_username);
-            this.panel_main.Controls.Add(this.panel_main_button_report);
-            this.panel_main.Controls.Add(this.panel_main_button_myprofile);
-            this.panel_main.Controls.Add(this.panel_main_button_readers);
-            this.panel_main.Controls.Add(this.panel_main_button_category);
-            this.panel_main.Controls.Add(this.panel_main_button_books);
-            this.panel_main.Controls.Add(this.panel_main_button_borrow);
-            this.panel_main.Location = new System.Drawing.Point(0, 0);
-            this.panel_main.Name = "panel_main";
-            this.panel_main.Size = new System.Drawing.Size(852, 579);
-            this.panel_main.TabIndex = 12;
+            this.Panel_Main.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel_Main.BackgroundImage")));
+            this.Panel_Main.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Panel_Main.Controls.Add(this.Button_Membership);
+            this.Panel_Main.Controls.Add(this.Button_Return);
+            this.Panel_Main.Controls.Add(this.Picbox_Profile);
+            this.Panel_Main.Controls.Add(this.Label_Email_Address);
+            this.Panel_Main.Controls.Add(this.Label_Username);
+            this.Panel_Main.Controls.Add(this.Button_Report);
+            this.Panel_Main.Controls.Add(this.Button_Myprofile);
+            this.Panel_Main.Controls.Add(this.Button_Readers);
+            this.Panel_Main.Controls.Add(this.Button_Category);
+            this.Panel_Main.Controls.Add(this.Button_Books);
+            this.Panel_Main.Controls.Add(this.Button_Borrow);
+            this.Panel_Main.Location = new System.Drawing.Point(0, 0);
+            this.Panel_Main.Name = "Panel_Main";
+            this.Panel_Main.Size = new System.Drawing.Size(852, 579);
+            this.Panel_Main.TabIndex = 12;
             // 
-            // panel_main_button_membership
+            // Button_Membership
             // 
-            this.panel_main_button_membership.BackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_membership.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel_main_button_membership.FlatAppearance.BorderSize = 0;
-            this.panel_main_button_membership.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_membership.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_membership.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.panel_main_button_membership.Font = new System.Drawing.Font("Bahnschrift", 18F);
-            this.panel_main_button_membership.ForeColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_membership.Image = ((System.Drawing.Image)(resources.GetObject("panel_main_button_membership.Image")));
-            this.panel_main_button_membership.Location = new System.Drawing.Point(20, 437);
-            this.panel_main_button_membership.Name = "panel_main_button_membership";
-            this.panel_main_button_membership.Size = new System.Drawing.Size(253, 75);
-            this.panel_main_button_membership.TabIndex = 16;
-            this.panel_main_button_membership.Text = "MEMBERSHIP";
-            this.panel_main_button_membership.UseVisualStyleBackColor = false;
+            this.Button_Membership.BackColor = System.Drawing.Color.Transparent;
+            this.Button_Membership.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Membership.FlatAppearance.BorderSize = 0;
+            this.Button_Membership.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Button_Membership.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Membership.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_Membership.Font = new System.Drawing.Font("Bahnschrift", 18F);
+            this.Button_Membership.ForeColor = System.Drawing.Color.Transparent;
+            this.Button_Membership.Image = ((System.Drawing.Image)(resources.GetObject("Button_Membership.Image")));
+            this.Button_Membership.Location = new System.Drawing.Point(20, 437);
+            this.Button_Membership.Name = "Button_Membership";
+            this.Button_Membership.Size = new System.Drawing.Size(253, 75);
+            this.Button_Membership.TabIndex = 16;
+            this.Button_Membership.Text = "MEMBERSHIP";
+            this.Button_Membership.UseVisualStyleBackColor = false;
             // 
-            // panel_main_button_return
+            // Button_Return
             // 
-            this.panel_main_button_return.BackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_return.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel_main_button_return.FlatAppearance.BorderSize = 0;
-            this.panel_main_button_return.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_return.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_return.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.panel_main_button_return.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel_main_button_return.ForeColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_return.Image = ((System.Drawing.Image)(resources.GetObject("panel_main_button_return.Image")));
-            this.panel_main_button_return.Location = new System.Drawing.Point(20, 258);
-            this.panel_main_button_return.Name = "panel_main_button_return";
-            this.panel_main_button_return.Size = new System.Drawing.Size(253, 75);
-            this.panel_main_button_return.TabIndex = 15;
-            this.panel_main_button_return.Text = "RETURN";
-            this.panel_main_button_return.UseVisualStyleBackColor = false;
+            this.Button_Return.BackColor = System.Drawing.Color.Transparent;
+            this.Button_Return.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Return.FlatAppearance.BorderSize = 0;
+            this.Button_Return.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Button_Return.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Return.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_Return.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button_Return.ForeColor = System.Drawing.Color.Transparent;
+            this.Button_Return.Image = ((System.Drawing.Image)(resources.GetObject("Button_Return.Image")));
+            this.Button_Return.Location = new System.Drawing.Point(20, 258);
+            this.Button_Return.Name = "Button_Return";
+            this.Button_Return.Size = new System.Drawing.Size(253, 75);
+            this.Button_Return.TabIndex = 15;
+            this.Button_Return.Text = "RETURN";
+            this.Button_Return.UseVisualStyleBackColor = false;
             // 
-            // panel_main_picbox_profile
+            // Picbox_Profile
             // 
-            this.panel_main_picbox_profile.BackColor = System.Drawing.Color.Transparent;
-            this.panel_main_picbox_profile.Location = new System.Drawing.Point(764, 21);
-            this.panel_main_picbox_profile.Name = "panel_main_picbox_profile";
-            this.panel_main_picbox_profile.Size = new System.Drawing.Size(63, 65);
-            this.panel_main_picbox_profile.TabIndex = 14;
-            this.panel_main_picbox_profile.TabStop = false;
+            this.Picbox_Profile.BackColor = System.Drawing.Color.Transparent;
+            this.Picbox_Profile.Location = new System.Drawing.Point(764, 21);
+            this.Picbox_Profile.Name = "Picbox_Profile";
+            this.Picbox_Profile.Size = new System.Drawing.Size(63, 65);
+            this.Picbox_Profile.TabIndex = 14;
+            this.Picbox_Profile.TabStop = false;
             // 
-            // label_email_address
+            // Label_Email_Address
             // 
-            this.label_email_address.AutoSize = true;
-            this.label_email_address.BackColor = System.Drawing.Color.Transparent;
-            this.label_email_address.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_email_address.ForeColor = System.Drawing.Color.White;
-            this.label_email_address.Location = new System.Drawing.Point(599, 53);
-            this.label_email_address.Name = "label_email_address";
-            this.label_email_address.Size = new System.Drawing.Size(158, 19);
-            this.label_email_address.TabIndex = 13;
-            this.label_email_address.Text = "email@address.com";
-            this.label_email_address.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Label_Email_Address.AutoSize = true;
+            this.Label_Email_Address.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Email_Address.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Email_Address.ForeColor = System.Drawing.Color.White;
+            this.Label_Email_Address.Location = new System.Drawing.Point(599, 53);
+            this.Label_Email_Address.Name = "Label_Email_Address";
+            this.Label_Email_Address.Size = new System.Drawing.Size(158, 19);
+            this.Label_Email_Address.TabIndex = 13;
+            this.Label_Email_Address.Text = "email@address.com";
+            this.Label_Email_Address.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // label_username
+            // Label_Username
             // 
-            this.label_username.AutoSize = true;
-            this.label_username.BackColor = System.Drawing.Color.Transparent;
-            this.label_username.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_username.ForeColor = System.Drawing.Color.White;
-            this.label_username.Location = new System.Drawing.Point(674, 34);
-            this.label_username.Name = "label_username";
-            this.label_username.Size = new System.Drawing.Size(83, 19);
-            this.label_username.TabIndex = 12;
-            this.label_username.Text = "username";
-            this.label_username.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Label_Username.AutoSize = true;
+            this.Label_Username.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Username.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Username.ForeColor = System.Drawing.Color.White;
+            this.Label_Username.Location = new System.Drawing.Point(674, 34);
+            this.Label_Username.Name = "Label_Username";
+            this.Label_Username.Size = new System.Drawing.Size(83, 19);
+            this.Label_Username.TabIndex = 12;
+            this.Label_Username.Text = "username";
+            this.Label_Username.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // panel_main_button_report
+            // Button_Report
             // 
-            this.panel_main_button_report.BackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_report.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel_main_button_report.FlatAppearance.BorderSize = 0;
-            this.panel_main_button_report.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_report.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_report.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.panel_main_button_report.Font = new System.Drawing.Font("Bahnschrift", 18F);
-            this.panel_main_button_report.ForeColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_report.Image = ((System.Drawing.Image)(resources.GetObject("panel_main_button_report.Image")));
-            this.panel_main_button_report.Location = new System.Drawing.Point(577, 357);
-            this.panel_main_button_report.Name = "panel_main_button_report";
-            this.panel_main_button_report.Size = new System.Drawing.Size(253, 155);
-            this.panel_main_button_report.TabIndex = 5;
-            this.panel_main_button_report.Text = "REPORT";
-            this.panel_main_button_report.UseVisualStyleBackColor = false;
+            this.Button_Report.BackColor = System.Drawing.Color.Transparent;
+            this.Button_Report.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Report.FlatAppearance.BorderSize = 0;
+            this.Button_Report.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Button_Report.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Report.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_Report.Font = new System.Drawing.Font("Bahnschrift", 18F);
+            this.Button_Report.ForeColor = System.Drawing.Color.Transparent;
+            this.Button_Report.Image = ((System.Drawing.Image)(resources.GetObject("Button_Report.Image")));
+            this.Button_Report.Location = new System.Drawing.Point(577, 357);
+            this.Button_Report.Name = "Button_Report";
+            this.Button_Report.Size = new System.Drawing.Size(253, 155);
+            this.Button_Report.TabIndex = 5;
+            this.Button_Report.Text = "REPORT";
+            this.Button_Report.UseVisualStyleBackColor = false;
             // 
-            // panel_main_button_myprofile
+            // Button_Myprofile
             // 
-            this.panel_main_button_myprofile.BackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_myprofile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel_main_button_myprofile.FlatAppearance.BorderSize = 0;
-            this.panel_main_button_myprofile.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_myprofile.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_myprofile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.panel_main_button_myprofile.Font = new System.Drawing.Font("Bahnschrift", 18F);
-            this.panel_main_button_myprofile.ForeColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_myprofile.Image = ((System.Drawing.Image)(resources.GetObject("panel_main_button_myprofile.Image")));
-            this.panel_main_button_myprofile.Location = new System.Drawing.Point(298, 357);
-            this.panel_main_button_myprofile.Name = "panel_main_button_myprofile";
-            this.panel_main_button_myprofile.Size = new System.Drawing.Size(253, 155);
-            this.panel_main_button_myprofile.TabIndex = 4;
-            this.panel_main_button_myprofile.Text = "MY PROFILE";
-            this.panel_main_button_myprofile.UseVisualStyleBackColor = false;
+            this.Button_Myprofile.BackColor = System.Drawing.Color.Transparent;
+            this.Button_Myprofile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Myprofile.FlatAppearance.BorderSize = 0;
+            this.Button_Myprofile.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Button_Myprofile.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Myprofile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_Myprofile.Font = new System.Drawing.Font("Bahnschrift", 18F);
+            this.Button_Myprofile.ForeColor = System.Drawing.Color.Transparent;
+            this.Button_Myprofile.Image = ((System.Drawing.Image)(resources.GetObject("Button_Myprofile.Image")));
+            this.Button_Myprofile.Location = new System.Drawing.Point(298, 357);
+            this.Button_Myprofile.Name = "Button_Myprofile";
+            this.Button_Myprofile.Size = new System.Drawing.Size(253, 155);
+            this.Button_Myprofile.TabIndex = 4;
+            this.Button_Myprofile.Text = "MY PROFILE";
+            this.Button_Myprofile.UseVisualStyleBackColor = false;
             // 
-            // panel_main_button_readers
+            // Button_Readers
             // 
-            this.panel_main_button_readers.BackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_readers.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel_main_button_readers.FlatAppearance.BorderSize = 0;
-            this.panel_main_button_readers.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_readers.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_readers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.panel_main_button_readers.Font = new System.Drawing.Font("Bahnschrift", 18F);
-            this.panel_main_button_readers.ForeColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_readers.Image = ((System.Drawing.Image)(resources.GetObject("panel_main_button_readers.Image")));
-            this.panel_main_button_readers.Location = new System.Drawing.Point(20, 357);
-            this.panel_main_button_readers.Name = "panel_main_button_readers";
-            this.panel_main_button_readers.Size = new System.Drawing.Size(253, 75);
-            this.panel_main_button_readers.TabIndex = 3;
-            this.panel_main_button_readers.Text = "READERS";
-            this.panel_main_button_readers.UseVisualStyleBackColor = false;
+            this.Button_Readers.BackColor = System.Drawing.Color.Transparent;
+            this.Button_Readers.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Readers.FlatAppearance.BorderSize = 0;
+            this.Button_Readers.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Button_Readers.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Readers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_Readers.Font = new System.Drawing.Font("Bahnschrift", 18F);
+            this.Button_Readers.ForeColor = System.Drawing.Color.Transparent;
+            this.Button_Readers.Image = ((System.Drawing.Image)(resources.GetObject("Button_Readers.Image")));
+            this.Button_Readers.Location = new System.Drawing.Point(20, 357);
+            this.Button_Readers.Name = "Button_Readers";
+            this.Button_Readers.Size = new System.Drawing.Size(253, 75);
+            this.Button_Readers.TabIndex = 3;
+            this.Button_Readers.Text = "READERS";
+            this.Button_Readers.UseVisualStyleBackColor = false;
             // 
-            // panel_main_button_category
+            // Button_Category
             // 
-            this.panel_main_button_category.BackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_category.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel_main_button_category.FlatAppearance.BorderSize = 0;
-            this.panel_main_button_category.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_category.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_category.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.panel_main_button_category.Font = new System.Drawing.Font("Bahnschrift", 18F);
-            this.panel_main_button_category.ForeColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_category.Image = ((System.Drawing.Image)(resources.GetObject("panel_main_button_category.Image")));
-            this.panel_main_button_category.Location = new System.Drawing.Point(577, 178);
-            this.panel_main_button_category.Name = "panel_main_button_category";
-            this.panel_main_button_category.Size = new System.Drawing.Size(253, 155);
-            this.panel_main_button_category.TabIndex = 2;
-            this.panel_main_button_category.Text = "CATEGORY";
-            this.panel_main_button_category.UseVisualStyleBackColor = false;
+            this.Button_Category.BackColor = System.Drawing.Color.Transparent;
+            this.Button_Category.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Category.FlatAppearance.BorderSize = 0;
+            this.Button_Category.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Button_Category.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Category.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_Category.Font = new System.Drawing.Font("Bahnschrift", 18F);
+            this.Button_Category.ForeColor = System.Drawing.Color.Transparent;
+            this.Button_Category.Image = ((System.Drawing.Image)(resources.GetObject("Button_Category.Image")));
+            this.Button_Category.Location = new System.Drawing.Point(577, 178);
+            this.Button_Category.Name = "Button_Category";
+            this.Button_Category.Size = new System.Drawing.Size(253, 155);
+            this.Button_Category.TabIndex = 2;
+            this.Button_Category.Text = "CATEGORY";
+            this.Button_Category.UseVisualStyleBackColor = false;
             // 
-            // panel_main_button_books
+            // Button_Books
             // 
-            this.panel_main_button_books.BackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_books.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel_main_button_books.FlatAppearance.BorderSize = 0;
-            this.panel_main_button_books.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_books.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_books.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.panel_main_button_books.Font = new System.Drawing.Font("Bahnschrift", 18F);
-            this.panel_main_button_books.ForeColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_books.Image = ((System.Drawing.Image)(resources.GetObject("panel_main_button_books.Image")));
-            this.panel_main_button_books.Location = new System.Drawing.Point(298, 178);
-            this.panel_main_button_books.Name = "panel_main_button_books";
-            this.panel_main_button_books.Size = new System.Drawing.Size(253, 155);
-            this.panel_main_button_books.TabIndex = 1;
-            this.panel_main_button_books.Text = "BOOKS";
-            this.panel_main_button_books.UseVisualStyleBackColor = false;
+            this.Button_Books.BackColor = System.Drawing.Color.Transparent;
+            this.Button_Books.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Books.FlatAppearance.BorderSize = 0;
+            this.Button_Books.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Button_Books.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Books.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_Books.Font = new System.Drawing.Font("Bahnschrift", 18F);
+            this.Button_Books.ForeColor = System.Drawing.Color.Transparent;
+            this.Button_Books.Image = ((System.Drawing.Image)(resources.GetObject("Button_Books.Image")));
+            this.Button_Books.Location = new System.Drawing.Point(298, 178);
+            this.Button_Books.Name = "Button_Books";
+            this.Button_Books.Size = new System.Drawing.Size(253, 155);
+            this.Button_Books.TabIndex = 1;
+            this.Button_Books.Text = "BOOKS";
+            this.Button_Books.UseVisualStyleBackColor = false;
             // 
-            // panel_main_button_borrow
+            // Button_Borrow
             // 
-            this.panel_main_button_borrow.BackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_borrow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel_main_button_borrow.FlatAppearance.BorderSize = 0;
-            this.panel_main_button_borrow.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_borrow.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_borrow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.panel_main_button_borrow.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel_main_button_borrow.ForeColor = System.Drawing.Color.Transparent;
-            this.panel_main_button_borrow.Image = ((System.Drawing.Image)(resources.GetObject("panel_main_button_borrow.Image")));
-            this.panel_main_button_borrow.Location = new System.Drawing.Point(20, 178);
-            this.panel_main_button_borrow.Name = "panel_main_button_borrow";
-            this.panel_main_button_borrow.Size = new System.Drawing.Size(253, 75);
-            this.panel_main_button_borrow.TabIndex = 0;
-            this.panel_main_button_borrow.Text = "BORROW";
-            this.panel_main_button_borrow.UseVisualStyleBackColor = false;
+            this.Button_Borrow.BackColor = System.Drawing.Color.Transparent;
+            this.Button_Borrow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Borrow.FlatAppearance.BorderSize = 0;
+            this.Button_Borrow.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Button_Borrow.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Borrow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_Borrow.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button_Borrow.ForeColor = System.Drawing.Color.Transparent;
+            this.Button_Borrow.Image = ((System.Drawing.Image)(resources.GetObject("Button_Borrow.Image")));
+            this.Button_Borrow.Location = new System.Drawing.Point(20, 178);
+            this.Button_Borrow.Name = "Button_Borrow";
+            this.Button_Borrow.Size = new System.Drawing.Size(253, 75);
+            this.Button_Borrow.TabIndex = 0;
+            this.Button_Borrow.Text = "BORROW";
+            this.Button_Borrow.UseVisualStyleBackColor = false;
             // 
             // Panel_Form_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(852, 579);
-            this.Controls.Add(this.panel_main);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Controls.Add(this.Panel_Main);
             this.Name = "Panel_Form_Main";
-            this.Text = "Panel_Form_Main";
-            this.panel_main.ResumeLayout(false);
-            this.panel_main.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.panel_main_picbox_profile)).EndInit();
+            this.Size = new System.Drawing.Size(852, 579);
+            this.Panel_Main.ResumeLayout(false);
+            this.Panel_Main.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Picbox_Profile)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel_main;
-        private System.Windows.Forms.Button panel_main_button_membership;
-        private System.Windows.Forms.Button panel_main_button_return;
-        private System.Windows.Forms.PictureBox panel_main_picbox_profile;
-        private System.Windows.Forms.Label label_email_address;
-        private System.Windows.Forms.Label label_username;
-        private System.Windows.Forms.Button panel_main_button_report;
-        private System.Windows.Forms.Button panel_main_button_myprofile;
-        private System.Windows.Forms.Button panel_main_button_readers;
-        private System.Windows.Forms.Button panel_main_button_category;
-        private System.Windows.Forms.Button panel_main_button_books;
-        private System.Windows.Forms.Button panel_main_button_borrow;
+        private System.Windows.Forms.Panel Panel_Main;
+        private System.Windows.Forms.Button Button_Membership;
+        private System.Windows.Forms.Button Button_Return;
+        private System.Windows.Forms.PictureBox Picbox_Profile;
+        private System.Windows.Forms.Label Label_Email_Address;
+        private System.Windows.Forms.Label Label_Username;
+        private System.Windows.Forms.Button Button_Report;
+        private System.Windows.Forms.Button Button_Myprofile;
+        private System.Windows.Forms.Button Button_Readers;
+        private System.Windows.Forms.Button Button_Category;
+        private System.Windows.Forms.Button Button_Books;
+        private System.Windows.Forms.Button Button_Borrow;
     }
 }
