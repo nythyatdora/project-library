@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Insert_Book));
             this.panel_head = new System.Windows.Forms.Panel();
             this.panel_body = new System.Windows.Forms.Panel();
+            this.label_close = new System.Windows.Forms.Label();
             this.label_view_table_book = new System.Windows.Forms.Label();
             this.label_confirm = new System.Windows.Forms.Label();
             this.label_reset = new System.Windows.Forms.Label();
@@ -58,7 +59,7 @@
             this.label_book_title = new System.Windows.Forms.Label();
             this.label_import_external = new System.Windows.Forms.Label();
             this.panel_title = new System.Windows.Forms.Panel();
-            this.label_close = new System.Windows.Forms.Label();
+            this.openFileDialog_bookcover = new System.Windows.Forms.OpenFileDialog();
             this.panel_body.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picbox_bookcover)).BeginInit();
             this.SuspendLayout();
@@ -109,6 +110,22 @@
             this.panel_body.Size = new System.Drawing.Size(900, 869);
             this.panel_body.TabIndex = 1;
             // 
+            // label_close
+            // 
+            this.label_close.AutoSize = true;
+            this.label_close.BackColor = System.Drawing.Color.Transparent;
+            this.label_close.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_close.ForeColor = System.Drawing.Color.White;
+            this.label_close.Location = new System.Drawing.Point(23, 18);
+            this.label_close.Name = "label_close";
+            this.label_close.Size = new System.Drawing.Size(55, 23);
+            this.label_close.TabIndex = 56;
+            this.label_close.Text = "close";
+            this.label_close.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label_close.Click += new System.EventHandler(this.label_close_Click);
+            this.label_close.MouseEnter += new System.EventHandler(this.label_close_MouseEnter);
+            this.label_close.MouseLeave += new System.EventHandler(this.label_close_MouseLeave);
+            // 
             // label_view_table_book
             // 
             this.label_view_table_book.AutoSize = true;
@@ -121,7 +138,8 @@
             this.label_view_table_book.TabIndex = 55;
             this.label_view_table_book.Text = "view\r\ntable books";
             this.label_view_table_book.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label_view_table_book.Click += new System.EventHandler(this.label_view_table_book_Click);
+            this.label_view_table_book.MouseEnter += new System.EventHandler(this.label_view_table_book_MouseEnter);
+            this.label_view_table_book.MouseLeave += new System.EventHandler(this.label_view_table_book_MouseLeave);
             // 
             // label_confirm
             // 
@@ -129,11 +147,13 @@
             this.label_confirm.BackColor = System.Drawing.Color.Transparent;
             this.label_confirm.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_confirm.ForeColor = System.Drawing.Color.White;
-            this.label_confirm.Location = new System.Drawing.Point(543, 825);
+            this.label_confirm.Location = new System.Drawing.Point(535, 825);
             this.label_confirm.Name = "label_confirm";
             this.label_confirm.Size = new System.Drawing.Size(90, 23);
             this.label_confirm.TabIndex = 27;
             this.label_confirm.Text = "CONFIRM";
+            this.label_confirm.MouseEnter += new System.EventHandler(this.label_confirm_MouseEnter);
+            this.label_confirm.MouseLeave += new System.EventHandler(this.label_confirm_MouseLeave);
             // 
             // label_reset
             // 
@@ -141,11 +161,13 @@
             this.label_reset.BackColor = System.Drawing.Color.Transparent;
             this.label_reset.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_reset.ForeColor = System.Drawing.Color.White;
-            this.label_reset.Location = new System.Drawing.Point(38, 825);
+            this.label_reset.Location = new System.Drawing.Point(36, 825);
             this.label_reset.Name = "label_reset";
             this.label_reset.Size = new System.Drawing.Size(65, 23);
             this.label_reset.TabIndex = 26;
             this.label_reset.Text = "RESET";
+            this.label_reset.MouseEnter += new System.EventHandler(this.label_reset_MouseEnter);
+            this.label_reset.MouseLeave += new System.EventHandler(this.label_reset_MouseLeave);
             // 
             // label_upload_bookcover
             // 
@@ -159,6 +181,9 @@
             this.label_upload_bookcover.TabIndex = 25;
             this.label_upload_bookcover.Text = "Upload\r\nBook Cover\r\n";
             this.label_upload_bookcover.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label_upload_bookcover.Click += new System.EventHandler(this.label_upload_bookcover_Click);
+            this.label_upload_bookcover.MouseEnter += new System.EventHandler(this.label_upload_bookcover_MouseEnter);
+            this.label_upload_bookcover.MouseLeave += new System.EventHandler(this.label_upload_bookcover_MouseLeave);
             // 
             // picbox_bookcover
             // 
@@ -250,7 +275,7 @@
             this.label_quantity.BackColor = System.Drawing.Color.Transparent;
             this.label_quantity.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_quantity.ForeColor = System.Drawing.Color.White;
-            this.label_quantity.Location = new System.Drawing.Point(339, 445);
+            this.label_quantity.Location = new System.Drawing.Point(339, 455);
             this.label_quantity.Name = "label_quantity";
             this.label_quantity.Size = new System.Drawing.Size(115, 33);
             this.label_quantity.TabIndex = 16;
@@ -271,7 +296,7 @@
             this.label_price.BackColor = System.Drawing.Color.Transparent;
             this.label_price.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_price.ForeColor = System.Drawing.Color.White;
-            this.label_price.Location = new System.Drawing.Point(34, 445);
+            this.label_price.Location = new System.Drawing.Point(34, 455);
             this.label_price.Name = "label_price";
             this.label_price.Size = new System.Drawing.Size(77, 33);
             this.label_price.TabIndex = 14;
@@ -394,6 +419,8 @@
             this.label_import_external.TabIndex = 1;
             this.label_import_external.Text = "import \r\nfrom external source";
             this.label_import_external.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label_import_external.MouseEnter += new System.EventHandler(this.label_import_external_MouseEnter);
+            this.label_import_external.MouseLeave += new System.EventHandler(this.label_import_external_MouseLeave);
             // 
             // panel_title
             // 
@@ -405,18 +432,9 @@
             this.panel_title.Size = new System.Drawing.Size(378, 71);
             this.panel_title.TabIndex = 0;
             // 
-            // label_close
+            // openFileDialog_bookcover
             // 
-            this.label_close.AutoSize = true;
-            this.label_close.BackColor = System.Drawing.Color.Transparent;
-            this.label_close.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_close.ForeColor = System.Drawing.Color.White;
-            this.label_close.Location = new System.Drawing.Point(23, 18);
-            this.label_close.Name = "label_close";
-            this.label_close.Size = new System.Drawing.Size(55, 23);
-            this.label_close.TabIndex = 56;
-            this.label_close.Text = "close";
-            this.label_close.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.openFileDialog_bookcover.Filter = "ImageFile|*.png;";
             // 
             // Frm_Insert_Book
             // 
@@ -468,5 +486,6 @@
         private System.Windows.Forms.Label label_upload_bookcover;
         private System.Windows.Forms.Label label_view_table_book;
         private System.Windows.Forms.Label label_close;
+        private System.Windows.Forms.OpenFileDialog openFileDialog_bookcover;
     }
 }
