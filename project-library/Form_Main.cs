@@ -35,26 +35,6 @@ namespace project_library
             GraphicInteraction.SetColorLabelGreen(Label_Dropmenu);
         }
 
-        private void SetUserControlOnPanel(OverlapUserControl overlap)
-        {
-            Panel_Main.Controls.Clear();
-            if (!Panel_Main.Controls.Contains(overlap))
-            {
-                Panel_Main.Controls.Add(overlap);
-                overlap.Dock = DockStyle.Fill;
-                overlap.BringToFront();
-            }
-            else
-            {
-                overlap.BringToFront();
-            }
-        }
-
-        private void SetFormLoad(Form form)
-        {
-            form.Show();
-        }
-
         private void Label_Dropmenu_MouseLeave(object sender, EventArgs e)
         {
             GraphicInteraction.SetColorLabelWhite(Label_Dropmenu);
@@ -161,42 +141,42 @@ namespace project_library
 
         private void Form_Main_Load(object sender, EventArgs e)
         {
-            SetUserControlOnPanel(List_Panels["Panel_Home"]);
+            ControlMethod.SetUserControlOnPanel(Panel_Main,List_Panels["Panel_Home"]);
         }
 
         private void Label_Home_Click(object sender, EventArgs e)
         {
-            SetUserControlOnPanel(List_Panels["Panel_Home"]);
+            ControlMethod.SetUserControlOnPanel(Panel_Main, List_Panels["Panel_Home"]);
         }
 
         private void Label_Borrow_Return_Click(object sender, EventArgs e)
         {
-            SetUserControlOnPanel(List_Panels["Panel_Borrow_Return"]);
+            ControlMethod.SetUserControlOnPanel(Panel_Main, List_Panels["Panel_Borrow_Return"]);
         }
 
         private void Label_Books_Click(object sender, EventArgs e)
         {
-            SetUserControlOnPanel(List_Panels["Panel_Books"]);
+            ControlMethod.SetUserControlOnPanel(Panel_Main, List_Panels["Panel_Books"]);
         }
 
         private void Label_Category_Click(object sender, EventArgs e)
         {
-            SetUserControlOnPanel(List_Panels["Panel_Category"]);
+            ControlMethod.SetUserControlOnPanel(Panel_Main, List_Panels["Panel_Category"]);
         }
 
         private void Label_Readers_Click(object sender, EventArgs e)
         {
-            SetUserControlOnPanel(List_Panels["Panel_Readers"]);
+            ControlMethod.SetUserControlOnPanel(Panel_Main, List_Panels["Panel_Readers"]);
         }
 
         private void Label_Membership_Click(object sender, EventArgs e)
         {
-            SetFormLoad(frm_membership.Obj_Form);
+            ControlMethod.SetFormLoad(frm_membership.Obj_Form);
         }
 
         private void Label_Myprofile_Click(object sender, EventArgs e)
         {
-            SetUserControlOnPanel(List_Panels["Panel_Myprofile"]);
+            ControlMethod.SetUserControlOnPanel(Panel_Main, List_Panels["Panel_Myprofile"]);
         }
 
         private void Label_Report_Click(object sender, EventArgs e)

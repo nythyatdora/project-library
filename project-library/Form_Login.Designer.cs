@@ -84,6 +84,7 @@
             this.Label_Exit.Size = new System.Drawing.Size(62, 35);
             this.Label_Exit.TabIndex = 9;
             this.Label_Exit.Text = "exit";
+            this.Label_Exit.Click += new System.EventHandler(this.Label_Exit_Click);
             this.Label_Exit.MouseEnter += new System.EventHandler(this.Label_Exit_MouseEnter);
             this.Label_Exit.MouseLeave += new System.EventHandler(this.Label_Exit_MouseLeave);
             // 
@@ -165,14 +166,14 @@
             this.Panel_Body.Size = new System.Drawing.Size(400, 400);
             this.Panel_Body.TabIndex = 1;
             // 
-            // Frm_Login
+            // Form_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(400, 400);
             this.Controls.Add(this.Panel_Body);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Frm_Login";
+            this.Name = "Form_Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_login";
             this.Panel_Background.ResumeLayout(false);

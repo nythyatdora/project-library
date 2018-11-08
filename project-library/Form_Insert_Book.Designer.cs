@@ -122,9 +122,9 @@
             this.Label_Close.TabIndex = 56;
             this.Label_Close.Text = "close";
             this.Label_Close.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.Label_Close.Click += new System.EventHandler(this.label_close_Click);
-            this.Label_Close.MouseEnter += new System.EventHandler(this.label_close_MouseEnter);
-            this.Label_Close.MouseLeave += new System.EventHandler(this.label_close_MouseLeave);
+            this.Label_Close.Click += new System.EventHandler(this.Label_Close_Click);
+            this.Label_Close.MouseEnter += new System.EventHandler(this.Label_Close_MouseEnter);
+            this.Label_Close.MouseLeave += new System.EventHandler(this.Label_Close_MouseLeave);
             // 
             // Label_View_Table_Book
             // 
@@ -138,8 +138,8 @@
             this.Label_View_Table_Book.TabIndex = 55;
             this.Label_View_Table_Book.Text = "view\r\ntable books";
             this.Label_View_Table_Book.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.Label_View_Table_Book.MouseEnter += new System.EventHandler(this.label_view_table_book_MouseEnter);
-            this.Label_View_Table_Book.MouseLeave += new System.EventHandler(this.label_view_table_book_MouseLeave);
+            this.Label_View_Table_Book.MouseEnter += new System.EventHandler(this.Label_View_Table_Book_MouseEnter);
+            this.Label_View_Table_Book.MouseLeave += new System.EventHandler(this.Label_View_Table_Book_MouseLeave);
             // 
             // Label_Confirm
             // 
@@ -152,8 +152,8 @@
             this.Label_Confirm.Size = new System.Drawing.Size(90, 23);
             this.Label_Confirm.TabIndex = 27;
             this.Label_Confirm.Text = "CONFIRM";
-            this.Label_Confirm.MouseEnter += new System.EventHandler(this.label_confirm_MouseEnter);
-            this.Label_Confirm.MouseLeave += new System.EventHandler(this.label_confirm_MouseLeave);
+            this.Label_Confirm.MouseEnter += new System.EventHandler(this.Label_Confirm_MouseEnter);
+            this.Label_Confirm.MouseLeave += new System.EventHandler(this.Label_Confirm_MouseLeave);
             // 
             // Label_Reset
             // 
@@ -166,8 +166,8 @@
             this.Label_Reset.Size = new System.Drawing.Size(65, 23);
             this.Label_Reset.TabIndex = 26;
             this.Label_Reset.Text = "RESET";
-            this.Label_Reset.MouseEnter += new System.EventHandler(this.label_reset_MouseEnter);
-            this.Label_Reset.MouseLeave += new System.EventHandler(this.label_reset_MouseLeave);
+            this.Label_Reset.MouseEnter += new System.EventHandler(this.Label_Reset_MouseEnter);
+            this.Label_Reset.MouseLeave += new System.EventHandler(this.Label_Reset_MouseLeave);
             // 
             // Label_Upload_Bookcover
             // 
@@ -181,9 +181,9 @@
             this.Label_Upload_Bookcover.TabIndex = 25;
             this.Label_Upload_Bookcover.Text = "Upload\r\nBook Cover\r\n";
             this.Label_Upload_Bookcover.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.Label_Upload_Bookcover.Click += new System.EventHandler(this.label_upload_bookcover_Click);
-            this.Label_Upload_Bookcover.MouseEnter += new System.EventHandler(this.label_upload_bookcover_MouseEnter);
-            this.Label_Upload_Bookcover.MouseLeave += new System.EventHandler(this.label_upload_bookcover_MouseLeave);
+            this.Label_Upload_Bookcover.Click += new System.EventHandler(this.Label_Upload_Bookcover_Click);
+            this.Label_Upload_Bookcover.MouseEnter += new System.EventHandler(this.Label_Upload_Bookcover_MouseEnter);
+            this.Label_Upload_Bookcover.MouseLeave += new System.EventHandler(this.Label_Upload_Bookcover_MouseLeave);
             // 
             // Picbox_Bookcover
             // 
@@ -419,8 +419,8 @@
             this.Label_Import_External.TabIndex = 1;
             this.Label_Import_External.Text = "import \r\nfrom external source";
             this.Label_Import_External.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.Label_Import_External.MouseEnter += new System.EventHandler(this.label_import_external_MouseEnter);
-            this.Label_Import_External.MouseLeave += new System.EventHandler(this.label_import_external_MouseLeave);
+            this.Label_Import_External.MouseEnter += new System.EventHandler(this.Label_Import_External_MouseEnter);
+            this.Label_Import_External.MouseLeave += new System.EventHandler(this.Label_Import_External_MouseLeave);
             // 
             // Panel_Title
             // 

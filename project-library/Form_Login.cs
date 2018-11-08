@@ -37,5 +37,10 @@ namespace project_library
         {
             GraphicInteraction.SetColorLabelWhite(Label_Exit);
         }
+
+        private void Label_Exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

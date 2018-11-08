@@ -156,6 +156,7 @@ namespace project_library
             this.Label_Close.TabIndex = 76;
             this.Label_Close.Text = "close";
             this.Label_Close.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Label_Close.Click += new System.EventHandler(this.Label_Close_Click);
             this.Label_Close.MouseEnter += new System.EventHandler(this.Label_Close_MouseEnter);
             this.Label_Close.MouseLeave += new System.EventHandler(this.Label_Close_MouseLeave);
             // 
@@ -273,7 +274,7 @@ namespace project_library
             this.Label_Add_New_Reader.MouseEnter += new System.EventHandler(this.Label_Add_New_Reader_MouseEnter);
             this.Label_Add_New_Reader.MouseLeave += new System.EventHandler(this.Label_Add_New_Reader_MouseLeave);
             // 
-            // Frm_Borrow
+            // Form_Borrow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -281,7 +282,7 @@ namespace project_library
             this.Controls.Add(this.Panel_Head);
             this.Controls.Add(this.Panel_Body);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Frm_Borrow";
+            this.Name = "Form_Borrow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form_Borrow";
             this.Panel_Body.ResumeLayout(false);
