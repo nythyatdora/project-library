@@ -58,6 +58,8 @@
             this.txt_first_name = new System.Windows.Forms.TextBox();
             this.label_first_name = new System.Windows.Forms.Label();
             this.picbox_title = new System.Windows.Forms.PictureBox();
+            this.openFileDialog_ReaderPicture = new System.Windows.Forms.OpenFileDialog();
+            this.openFileDialog_IdentificationID = new System.Windows.Forms.OpenFileDialog();
             this.panel_body.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picbox_identificationid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbox_readerpic)).BeginInit();
@@ -121,6 +123,9 @@
             this.label_close.TabIndex = 57;
             this.label_close.Text = "close";
             this.label_close.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label_close.Click += new System.EventHandler(this.label_close_Click);
+            this.label_close.MouseEnter += new System.EventHandler(this.label_close_MouseEnter);
+            this.label_close.MouseLeave += new System.EventHandler(this.label_close_MouseLeave);
             // 
             // label_view_table_readers
             // 
@@ -135,6 +140,8 @@
             this.label_view_table_readers.Text = "view\r\ntable readers\r\n\r\n";
             this.label_view_table_readers.TextAlign = System.Drawing.ContentAlignment.TopRight;
             this.label_view_table_readers.Click += new System.EventHandler(this.label_view_table_readers_Click);
+            this.label_view_table_readers.MouseEnter += new System.EventHandler(this.label_view_table_readers_MouseEnter);
+            this.label_view_table_readers.MouseLeave += new System.EventHandler(this.label_view_table_readers_MouseLeave);
             // 
             // label_upload_identification
             // 
@@ -142,12 +149,15 @@
             this.label_upload_identification.BackColor = System.Drawing.Color.Transparent;
             this.label_upload_identification.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_upload_identification.ForeColor = System.Drawing.Color.White;
-            this.label_upload_identification.Location = new System.Drawing.Point(701, 671);
+            this.label_upload_identification.Location = new System.Drawing.Point(701, 666);
             this.label_upload_identification.Name = "label_upload_identification";
             this.label_upload_identification.Size = new System.Drawing.Size(139, 69);
             this.label_upload_identification.TabIndex = 53;
             this.label_upload_identification.Text = "Upload\r\nIdentification ID\r\n\r\n";
             this.label_upload_identification.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label_upload_identification.Click += new System.EventHandler(this.label_upload_identification_Click);
+            this.label_upload_identification.MouseEnter += new System.EventHandler(this.label_upload_identification_MouseEnter);
+            this.label_upload_identification.MouseLeave += new System.EventHandler(this.label_upload_identification_MouseLeave);
             // 
             // label_upload_picture
             // 
@@ -160,6 +170,9 @@
             this.label_upload_picture.Size = new System.Drawing.Size(132, 23);
             this.label_upload_picture.TabIndex = 52;
             this.label_upload_picture.Text = "Upload Picture";
+            this.label_upload_picture.Click += new System.EventHandler(this.label_upload_picture_Click);
+            this.label_upload_picture.MouseEnter += new System.EventHandler(this.label_upload_picture_MouseEnter);
+            this.label_upload_picture.MouseLeave += new System.EventHandler(this.label_upload_picture_MouseLeave);
             // 
             // picbox_identificationid
             // 
@@ -213,6 +226,8 @@
             this.label_confirm.Size = new System.Drawing.Size(90, 23);
             this.label_confirm.TabIndex = 47;
             this.label_confirm.Text = "CONFIRM";
+            this.label_confirm.MouseEnter += new System.EventHandler(this.label_confirm_MouseEnter);
+            this.label_confirm.MouseLeave += new System.EventHandler(this.label_confirm_MouseLeave);
             // 
             // label_reset
             // 
@@ -225,6 +240,8 @@
             this.label_reset.Size = new System.Drawing.Size(65, 23);
             this.label_reset.TabIndex = 46;
             this.label_reset.Text = "RESET";
+            this.label_reset.MouseEnter += new System.EventHandler(this.label_reset_MouseEnter);
+            this.label_reset.MouseLeave += new System.EventHandler(this.label_reset_MouseLeave);
             // 
             // txt_address
             // 
@@ -460,5 +477,7 @@
         private System.Windows.Forms.Label label_upload_picture;
         private System.Windows.Forms.Label label_view_table_readers;
         private System.Windows.Forms.Label label_close;
+        private System.Windows.Forms.OpenFileDialog openFileDialog_ReaderPicture;
+        private System.Windows.Forms.OpenFileDialog openFileDialog_IdentificationID;
     }
 }
