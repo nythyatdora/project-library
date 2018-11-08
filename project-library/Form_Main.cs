@@ -14,17 +14,20 @@ namespace project_library
     public partial class Form_Main : Form
     {
         private UserControlList List_Panels = new UserControlList();
+        private FormObject frm_membership;
 
         public Form_Main()
         {
             InitializeComponent();
 
-            List_Panels.AddControl(new CustomUserControl("Panel_Home", new Panel_Home()));
-            List_Panels.AddControl(new CustomUserControl("Panel_Borrow_Return", new Panel_Borrow_Return()));
-            List_Panels.AddControl(new CustomUserControl("Panel_Books", new Panel_Books()));
-            List_Panels.AddControl(new CustomUserControl("Panel_Category", new Panel_Category()));
-            List_Panels.AddControl(new CustomUserControl("Panel_Readers", new Panel_Readers()));
-            List_Panels.AddControl(new CustomUserControl("Panel_Myprofile", new Panel_MyProfile_One()));
+            List_Panels.AddControl(new UserControlObject("Panel_Home", new Panel_Home()));
+            List_Panels.AddControl(new UserControlObject("Panel_Borrow_Return", new Panel_Borrow_Return()));
+            List_Panels.AddControl(new UserControlObject("Panel_Books", new Panel_Books()));
+            List_Panels.AddControl(new UserControlObject("Panel_Category", new Panel_Category()));
+            List_Panels.AddControl(new UserControlObject("Panel_Readers", new Panel_Readers()));
+            List_Panels.AddControl(new UserControlObject("Panel_Myprofile", new Panel_MyProfile_One()));
+
+            frm_membership = new FormObject("Form_Membership", new Form_Membership());
         }
 
         private void Label_Dropmenu_MouseEnter(object sender, EventArgs e)
@@ -45,6 +48,11 @@ namespace project_library
             {
                 overlap.BringToFront();
             }
+        }
+
+        private void SetFormLoad(Form form)
+        {
+            form.Show();
         }
 
         private void Label_Dropmenu_MouseLeave(object sender, EventArgs e)
@@ -183,7 +191,7 @@ namespace project_library
 
         private void Label_Membership_Click(object sender, EventArgs e)
         {
-
+            SetFormLoad(frm_membership.Obj_Form);
         }
 
         private void Label_Myprofile_Click(object sender, EventArgs e)
@@ -194,6 +202,16 @@ namespace project_library
         private void Label_Report_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Label_Exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void ExitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
