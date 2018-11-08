@@ -15,7 +15,6 @@ Our members include:
 | :----: | --------------- | ------ | -------------- |
 | 1      | Ny Thyatdora    | Male   | Project Leader |
 | 2      | Tang Hangkheang | Male   | Member         |
-| 3      | Chea Sopheakdey | Male   | Member         |
 | 3      | Sry Bora        | Male   | Member         |
 | 4      | Tha Theara      | Male   | Member         |
  
