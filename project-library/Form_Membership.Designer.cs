@@ -115,6 +115,7 @@
             this.Label_Close.TabIndex = 76;
             this.Label_Close.Text = "close";
             this.Label_Close.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Label_Close.Click += new System.EventHandler(this.Label_Close_Click);
             this.Label_Close.MouseEnter += new System.EventHandler(this.Label_Close_MouseEnter);
             this.Label_Close.MouseLeave += new System.EventHandler(this.Label_Close_MouseLeave);
             // 
@@ -395,7 +396,7 @@
             this.Label_View_Table_Readers.MouseEnter += new System.EventHandler(this.Label_View_Table_Readers_MouseEnter);
             this.Label_View_Table_Readers.MouseLeave += new System.EventHandler(this.Label_View_Table_Readers_MouseLeave);
             // 
-            // Frm_Membership
+            // Form_Membership
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -403,7 +404,7 @@
             this.Controls.Add(this.Panel_Head);
             this.Controls.Add(this.Panel_Body);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Frm_Membership";
+            this.Name = "Form_Membership";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_Membership";
             this.Panel_Body.ResumeLayout(false);

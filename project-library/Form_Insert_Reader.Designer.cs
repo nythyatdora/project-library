@@ -123,6 +123,7 @@
             this.Label_Close.TabIndex = 57;
             this.Label_Close.Text = "close";
             this.Label_Close.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Label_Close.Click += new System.EventHandler(this.Label_Close_Click);
             this.Label_Close.MouseEnter += new System.EventHandler(this.Label_Close_MouseEnter);
             this.Label_Close.MouseLeave += new System.EventHandler(this.Label_Close_MouseLeave);
             // 
@@ -422,7 +423,7 @@
             this.Picbox_Title.TabIndex = 0;
             this.Picbox_Title.TabStop = false;
             // 
-            // Frm_Insert_Reader
+            // Form_Insert_Reader
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -430,7 +431,7 @@
             this.Controls.Add(this.Panel_Head);
             this.Controls.Add(this.Panel_Body);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Frm_Insert_Reader";
+            this.Name = "Form_Insert_Reader";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_Insert_Reader";
             this.Panel_Body.ResumeLayout(false);

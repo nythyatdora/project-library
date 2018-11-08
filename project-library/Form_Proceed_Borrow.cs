@@ -67,5 +67,10 @@ namespace project_library
         {
             GraphicInteraction.SetColorLabelWhite(Label_View_Book);
         }
+
+        private void Label_Close_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

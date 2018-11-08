@@ -354,6 +354,7 @@
             this.Label_Close.TabIndex = 76;
             this.Label_Close.Text = "close";
             this.Label_Close.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Label_Close.Click += new System.EventHandler(this.Label_Close_Click);
             this.Label_Close.MouseEnter += new System.EventHandler(this.Label_Close_MouseEnter);
             this.Label_Close.MouseLeave += new System.EventHandler(this.Label_Close_MouseLeave);
             // 
@@ -386,7 +387,7 @@
             this.Label_Add_New_Reader.MouseEnter += new System.EventHandler(this.Label_Add_New_Reader_MouseEnter);
             this.Label_Add_New_Reader.MouseLeave += new System.EventHandler(this.Label_Add_New_Reader_MouseLeave);
             // 
-            // Frm_Proceed_Borrow
+            // Form_Proceed_Borrow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -395,7 +396,7 @@
             this.Controls.Add(this.Panel_Body);
             this.Controls.Add(this.Panel_Head);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Frm_Proceed_Borrow";
+            this.Name = "Form_Proceed_Borrow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_Proceed_Borrow";
             this.Panel_Body.ResumeLayout(false);
