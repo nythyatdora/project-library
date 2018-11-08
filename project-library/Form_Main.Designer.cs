@@ -125,6 +125,7 @@
             this.Label_Exit.Size = new System.Drawing.Size(60, 29);
             this.Label_Exit.TabIndex = 12;
             this.Label_Exit.Text = "EXIT";
+            this.Label_Exit.Click += new System.EventHandler(this.Label_Exit_Click);
             this.Label_Exit.MouseEnter += new System.EventHandler(this.Label_Exit_MouseEnter);
             this.Label_Exit.MouseLeave += new System.EventHandler(this.Label_Exit_MouseLeave);
             // 
@@ -430,6 +431,7 @@
             this.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem";
             this.ExitToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.ExitToolStripMenuItem.Text = "Exit";
+            this.ExitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolStripMenuItem_Click);
             // 
             // Form_Main
             // 

@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class\UserControlList.cs" />
+    <Compile Include="Class\ControlList.cs" />
     <Compile Include="Class\FormReader.cs" />
     <Compile Include="Class\GraphicInteraction.cs" />
     <Compile Include="Form_Borrow.cs">
