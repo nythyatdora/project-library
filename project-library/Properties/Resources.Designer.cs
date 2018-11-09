@@ -63,9 +63,9 @@ namespace project_library.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap imgButtonEntered_Big {
+        internal static System.Drawing.Bitmap imgButtonEntered_Full {
             get {
-                object obj = ResourceManager.GetObject("imgButtonEntered_Big", resourceCulture);
+                object obj = ResourceManager.GetObject("imgButtonEntered_Full", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace project_library.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap imgButtonEntered_Small {
+        internal static System.Drawing.Bitmap imgButtonEntered_Half {
             get {
-                object obj = ResourceManager.GetObject("imgButtonEntered_Small", resourceCulture);
+                object obj = ResourceManager.GetObject("imgButtonEntered_Half", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace project_library.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap imgButtonLeft_Big {
+        internal static System.Drawing.Bitmap imgButtonEntered_Round {
             get {
-                object obj = ResourceManager.GetObject("imgButtonLeft_Big", resourceCulture);
+                object obj = ResourceManager.GetObject("imgButtonEntered_Round", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,49 @@ namespace project_library.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap imgButtonLeft_Small {
+        internal static System.Drawing.Bitmap imgButtonEntered_Square {
             get {
-                object obj = ResourceManager.GetObject("imgButtonLeft_Small", resourceCulture);
+                object obj = ResourceManager.GetObject("imgButtonEntered_Square", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgButtonLeft_Full {
+            get {
+                object obj = ResourceManager.GetObject("imgButtonLeft_Full", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgButtonLeft_Half {
+            get {
+                object obj = ResourceManager.GetObject("imgButtonLeft_Half", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgButtonLeft_Round {
+            get {
+                object obj = ResourceManager.GetObject("imgButtonLeft_Round", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgButtonLeft_Square {
+            get {
+                object obj = ResourceManager.GetObject("imgButtonLeft_Square", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
