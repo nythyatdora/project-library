@@ -170,7 +170,7 @@ namespace project_library
         }
 
         private void Label_Membership_Click(object sender, EventArgs e)
-        {
+        {   
             ControlMethod.SetFormLoad(frm_membership.Obj_Form);
         }
 

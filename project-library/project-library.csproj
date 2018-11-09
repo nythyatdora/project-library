@@ -48,9 +48,12 @@
   <ItemGroup>
     <Compile Include="Class\ControlList.cs" />
     <Compile Include="Class\ControlMethod.cs" />
-    <Compile Include="Class\FormBook.cs" />
-    <Compile Include="Class\FormReader.cs" />
+    <Compile Include="Class\Book.cs" />
+    <Compile Include="Class\CustomObject.cs" />
+    <Compile Include="Class\FormObject.cs" />
+    <Compile Include="Class\Reader.cs" />
     <Compile Include="Class\GraphicInteraction.cs" />
+    <Compile Include="Class\UserControlObject.cs" />
     <Compile Include="Form_Borrow.cs">
       <SubType>Form</SubType>
     </Compile>

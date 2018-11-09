@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace project_library.Class
 {
-    public class FormBook
+    public class Book
     {
         private Int32 id_;
         private String book_title_;
@@ -21,7 +21,7 @@ namespace project_library.Class
         private String description_;
         private String location_bookcover_;
 
-        public FormBook(String book_title, String author, String publisher, String language, String paperback, 
+        public Book(String book_title, String author, String publisher, String language, String paperback, 
                         Double price, Int32 quantity, String isbn10, String isbn13, String description, String location_bookcover)
         {
             book_title_ = book_title;

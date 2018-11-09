@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace project_library.Class
 {
-    public class FormReader
+    public class Reader
     {
         private Int32 id_;
         private String first_name_;
@@ -25,7 +25,7 @@ namespace project_library.Class
         private DateTime membership_startdate_;
         private DateTime membership_expiredate_;
         
-        public FormReader(String first_name, String last_name, Char gender, DateTime date_of_birth, String occupation, String organization, String phone_number, String email_address, String address, String location_picture, String location_identification, Int32 membership_duration, String membership_type, DateTime membership_startdate, DateTime membership_expiredate)
+        public Reader(String first_name, String last_name, Char gender, DateTime date_of_birth, String occupation, String organization, String phone_number, String email_address, String address, String location_picture, String location_identification, Int32 membership_duration, String membership_type, DateTime membership_startdate, DateTime membership_expiredate)
         {
             first_name_ = first_name;
             last_name_ = last_name;

@@ -28,5 +28,16 @@ namespace project_library.Class
         {
             form.Show();
         }
+
+        public static void SetTextboxEmpty(Form form)
+        {
+            foreach(Control control in form.Controls)
+            {
+                if (control.GetType().ToString() == "System.Windows.Textbox")
+                {
+                    control.Text = "";
+                }
+            }
+        }
     }
 }
