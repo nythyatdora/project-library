@@ -491,7 +491,7 @@
         private System.Windows.Forms.ToolStripMenuItem FantasyToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem AdventureToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ScienceToolStripMenuItem;
-        private System.Windows.Forms.Panel Panel_Main;
+        public System.Windows.Forms.Panel Panel_Main;
     }
 }
 

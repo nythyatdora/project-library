@@ -114,12 +114,6 @@
     <Compile Include="Class\OverlapUserControl.Designer.cs">
       <DependentUpon>OverlapUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Overlap_Dynamic.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Overlap_Dynamic.Designer.cs">
-      <DependentUpon>Overlap_Dynamic.cs</DependentUpon>
-    </Compile>
     <Compile Include="Panel_Borrow_Return.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -193,9 +187,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Class\OverlapUserControl.resx">
       <DependentUpon>OverlapUserControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Overlap_Dynamic.resx">
-      <DependentUpon>Overlap_Dynamic.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Panel_Borrow_Return.resx">
       <DependentUpon>Panel_Borrow_Return.cs</DependentUpon>

@@ -14,20 +14,31 @@ namespace project_library
     public partial class Form_Main : Form
     {
         private UserControlList List_Panels = new UserControlList();
-        private FormObject frm_membership;
+        private FormList List_Forms = new FormList();
 
         public Form_Main()
         {
             InitializeComponent();
 
-            List_Panels.AddControl(new UserControlObject("Panel_Home", new Panel_Home()));
+            List_Panels.AddControl(new UserControlObject("Panel_Home", new Panel_Home(this)));
             List_Panels.AddControl(new UserControlObject("Panel_Borrow_Return", new Panel_Borrow_Return()));
             List_Panels.AddControl(new UserControlObject("Panel_Books", new Panel_Books()));
             List_Panels.AddControl(new UserControlObject("Panel_Category", new Panel_Category()));
             List_Panels.AddControl(new UserControlObject("Panel_Readers", new Panel_Readers()));
             List_Panels.AddControl(new UserControlObject("Panel_Myprofile", new Panel_MyProfile_One()));
 
-            frm_membership = new FormObject("Form_Membership", new Form_Membership());
+            List_Forms.AddForm(new FormObject("Form_Borrow", new Form_Borrow()));
+            List_Forms.AddForm(new FormObject("Form_Membership", new Form_Membership()));
+        }
+
+        public OverlapUserControl GetPanel(String str)
+        {
+            return List_Panels[str];
+        }
+
+        public Form GetForm(String str)
+        {
+            return List_Forms[str];
         }
 
         private void Label_Dropmenu_MouseEnter(object sender, EventArgs e)
@@ -171,7 +182,7 @@ namespace project_library
 
         private void Label_Membership_Click(object sender, EventArgs e)
         {   
-            ControlMethod.SetFormLoad(frm_membership.Obj_Form);
+            ControlMethod.SetFormLoad(List_Forms["Form_Membership"]);
         }
 
         private void Label_Myprofile_Click(object sender, EventArgs e)

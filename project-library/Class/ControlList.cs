@@ -37,7 +37,7 @@ namespace project_library
     {
         private List<FormObject> list = new List<FormObject>();
 
-        public void AddControl(FormObject item)
+        public void AddForm(FormObject item)
         {
             list.Add(item);
         }

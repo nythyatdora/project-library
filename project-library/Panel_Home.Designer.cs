@@ -82,6 +82,7 @@
             this.Button_Membership.TabIndex = 16;
             this.Button_Membership.Text = "MEMBERSHIP";
             this.Button_Membership.UseVisualStyleBackColor = false;
+            this.Button_Membership.Click += new System.EventHandler(this.Button_Membership_Click);
             this.Button_Membership.MouseEnter += new System.EventHandler(this.Button_Membership_MouseEnter);
             this.Button_Membership.MouseLeave += new System.EventHandler(this.Button_Membership_MouseLeave);
             // 
@@ -102,6 +103,7 @@
             this.Button_Return.TabIndex = 15;
             this.Button_Return.Text = "RETURN";
             this.Button_Return.UseVisualStyleBackColor = false;
+            this.Button_Return.Click += new System.EventHandler(this.Button_Return_Click);
             this.Button_Return.MouseEnter += new System.EventHandler(this.Button_Return_MouseEnter);
             this.Button_Return.MouseLeave += new System.EventHandler(this.Button_Return_MouseLeave);
             // 
@@ -157,6 +159,7 @@
             this.Button_Report.TabIndex = 5;
             this.Button_Report.Text = "REPORT";
             this.Button_Report.UseVisualStyleBackColor = false;
+            this.Button_Report.Click += new System.EventHandler(this.Button_Report_Click);
             this.Button_Report.MouseEnter += new System.EventHandler(this.Button_Report_MouseEnter);
             this.Button_Report.MouseLeave += new System.EventHandler(this.Button_Report_MouseLeave);
             // 
@@ -177,6 +180,7 @@
             this.Button_Myprofile.TabIndex = 4;
             this.Button_Myprofile.Text = "MY PROFILE";
             this.Button_Myprofile.UseVisualStyleBackColor = false;
+            this.Button_Myprofile.Click += new System.EventHandler(this.Button_Myprofile_Click);
             this.Button_Myprofile.MouseEnter += new System.EventHandler(this.Button_Myprofile_MouseEnter);
             this.Button_Myprofile.MouseLeave += new System.EventHandler(this.Button_Myprofile_MouseLeave);
             // 
@@ -197,6 +201,7 @@
             this.Button_Readers.TabIndex = 3;
             this.Button_Readers.Text = "READERS";
             this.Button_Readers.UseVisualStyleBackColor = false;
+            this.Button_Readers.Click += new System.EventHandler(this.Button_Readers_Click);
             this.Button_Readers.MouseEnter += new System.EventHandler(this.Button_Readers_MouseEnter);
             this.Button_Readers.MouseLeave += new System.EventHandler(this.Button_Readers_MouseLeave);
             // 
@@ -217,6 +222,7 @@
             this.Button_Category.TabIndex = 2;
             this.Button_Category.Text = "CATEGORY";
             this.Button_Category.UseVisualStyleBackColor = false;
+            this.Button_Category.Click += new System.EventHandler(this.Button_Category_Click);
             this.Button_Category.MouseEnter += new System.EventHandler(this.Button_Category_MouseEnter);
             this.Button_Category.MouseLeave += new System.EventHandler(this.Button_Category_MouseLeave);
             // 
@@ -237,6 +243,7 @@
             this.Button_Books.TabIndex = 1;
             this.Button_Books.Text = "BOOKS";
             this.Button_Books.UseVisualStyleBackColor = false;
+            this.Button_Books.Click += new System.EventHandler(this.Button_Books_Click);
             this.Button_Books.MouseEnter += new System.EventHandler(this.Button_Books_MouseEnter);
             this.Button_Books.MouseLeave += new System.EventHandler(this.Button_Books_MouseLeave);
             // 
@@ -257,6 +264,7 @@
             this.Button_Borrow.TabIndex = 0;
             this.Button_Borrow.Text = "BORROW";
             this.Button_Borrow.UseVisualStyleBackColor = false;
+            this.Button_Borrow.Click += new System.EventHandler(this.Button_Borrow_Click);
             this.Button_Borrow.MouseEnter += new System.EventHandler(this.Button_Borrow_MouseEnter);
             this.Button_Borrow.MouseLeave += new System.EventHandler(this.Button_Borrow_MouseLeave);
             // 

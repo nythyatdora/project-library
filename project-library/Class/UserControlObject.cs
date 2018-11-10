@@ -9,24 +9,24 @@ namespace project_library.Class
 {
     public class UserControlObject : CustomObject
     {
-        protected OverlapUserControl object_usercontrol_;
+        protected OverlapUserControl _object_usercontrol;
 
         public UserControlObject(String object_name, OverlapUserControl user_control)
         {
             _object_name = object_name;
-            object_usercontrol_ = user_control;
+            _object_usercontrol = user_control;
         }
 
         public OverlapUserControl Obj_UserControl
         {
             set
             {
-                object_usercontrol_ = value;
+                _object_usercontrol = value;
             }
 
             get
             {
-                return object_usercontrol_;
+                return _object_usercontrol;
             }
         }
     }

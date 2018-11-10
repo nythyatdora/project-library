@@ -13,9 +13,12 @@ namespace project_library
 {
     public partial class Panel_Home : OverlapUserControl
     {
-        public Panel_Home()
+        private Form_Main _form_main;
+        public Panel_Home(Form_Main form_main)
         {
             InitializeComponent();
+            _form_main = form_main;
+            Button_Borrow.Click += new EventHandler(Button_Borrow_Click);
         }
 
         private void Button_Borrow_MouseEnter(object sender, EventArgs e)
@@ -92,10 +95,50 @@ namespace project_library
         {
             GraphicInteraction.SetImageButtonEnter_Full(Button_Report);
         }
-
+        
         private void Button_Report_MouseLeave(object sender, EventArgs e)
         {
             GraphicInteraction.SetImageButtonLeave_Full(Button_Report);
+        }
+
+        private void Button_Borrow_Click(object sender, EventArgs e)
+        {
+            ControlMethod.SetFormLoad(_form_main.GetForm("Form_Borrow"));
+        } 
+
+        private void Button_Return_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Button_Books_Click(object sender, EventArgs e)
+        {
+            ControlMethod.SetUserControlOnPanel(_form_main.Panel_Main, _form_main.GetPanel("Panel_Books"));
+        }
+
+        private void Button_Category_Click(object sender, EventArgs e)
+        {
+            ControlMethod.SetUserControlOnPanel(_form_main.Panel_Main, _form_main.GetPanel("Panel_Category"));
+        }
+
+        private void Button_Readers_Click(object sender, EventArgs e)
+        {
+            ControlMethod.SetUserControlOnPanel(_form_main.Panel_Main, _form_main.GetPanel("Panel_Readers"));
+        }
+
+        private void Button_Membership_Click(object sender, EventArgs e)
+        {
+            ControlMethod.SetFormLoad(_form_main.GetForm("Form_Membership"));
+        }
+
+        private void Button_Myprofile_Click(object sender, EventArgs e)
+        {
+            ControlMethod.SetUserControlOnPanel(_form_main.Panel_Main, _form_main.GetPanel("Panel_Myprofile"));
+        }
+
+        private void Button_Report_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
