@@ -60,6 +60,12 @@
     <Compile Include="Form_Borrow.Designer.cs">
       <DependentUpon>Form_Borrow.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_Return_Table.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Return_Table.Designer.cs">
+      <DependentUpon>Form_Return_Table.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Insert_Book.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,12 @@
     </Compile>
     <Compile Include="Form_Main.Designer.cs">
       <DependentUpon>Form_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Return.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Return.Designer.cs">
+      <DependentUpon>Form_Return.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_Search.cs">
       <SubType>Form</SubType>
@@ -161,6 +173,9 @@
     <EmbeddedResource Include="Form_Borrow.resx">
       <DependentUpon>Form_Borrow.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_Return_Table.resx">
+      <DependentUpon>Form_Return_Table.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_Insert_Book.resx">
       <DependentUpon>Form_Insert_Book.cs</DependentUpon>
     </EmbeddedResource>
@@ -178,6 +193,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Main.resx">
       <DependentUpon>Form_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Return.resx">
+      <DependentUpon>Form_Return.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Search.resx">
       <DependentUpon>Form_Search.cs</DependentUpon>

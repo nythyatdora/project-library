@@ -11,31 +11,11 @@ using project_library.Class;
 
 namespace project_library
 {
-    public partial class Form_Borrow : Form
+    public partial class Form_Return : Form
     {
-        public Form_Borrow()
+        public Form_Return()
         {
             InitializeComponent();
-        }
-
-        private void Label_Add_New_Reader_MouseEnter(object sender, EventArgs e)
-        {
-            GraphicInteraction.SetColorLabelGreen(Label_Add_New_Reader);
-        }
-
-        private void Label_Add_New_Reader_MouseLeave(object sender, EventArgs e)
-        {
-            GraphicInteraction.SetColorLabelWhite(Label_Add_New_Reader);
-        }
-
-        private void Label_Add_New_Book_MouseEnter(object sender, EventArgs e)
-        {
-            GraphicInteraction.SetColorLabelGreen(Label_Add_New_Book);
-        }
-
-        private void Label_Add_New_Book_MouseLeave(object sender, EventArgs e)
-        {
-            GraphicInteraction.SetColorLabelWhite(Label_Add_New_Book);
         }
 
         private void Label_View_Table_Readers_MouseEnter(object sender, EventArgs e)
@@ -86,16 +66,6 @@ namespace project_library
         private void Label_Next_MouseLeave(object sender, EventArgs e)
         {
             GraphicInteraction.SetColorLabelWhite(Label_Next);
-        }
-
-        private void Label_Back_MouseEnter(object sender, EventArgs e)
-        {
-            GraphicInteraction.SetColorLabelGreen(Label_Back);
-        }
-
-        private void Label_Back_MouseLeave(object sender, EventArgs e)
-        {
-            GraphicInteraction.SetColorLabelWhite(Label_Back);
         }
 
         private void Label_Close_MouseEnter(object sender, EventArgs e)

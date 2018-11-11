@@ -11,27 +11,27 @@ using project_library.Class;
 
 namespace project_library
 {
-    public partial class Form_Table : Form
+    public partial class Form_Return_Table : Form
     {
-        public Form_Table()
+        public Form_Return_Table()
         {
             InitializeComponent();
         }
 
-        public Form_Table(String title)
+        public Form_Return_Table(String title)
         {
             InitializeComponent();
-            Label_Title.Text = title;
+            Label_Reader_Name.Text = title;
         }
 
-        private void Label_Delete_MouseEnter(object sender, EventArgs e)
+        private void Label_Return_Book_MouseEnter(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelGreen(Label_Delete);
+            GraphicInteraction.SetColorLabelGreen(Label_Return_Book);
         }
 
-        private void Label_Delete_MouseLeave(object sender, EventArgs e)
+        private void Label_Return_Book_MouseLeave(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelWhite(Label_Delete);
+            GraphicInteraction.SetColorLabelWhite(Label_Return_Book);
         }
 
         private void Label_Update_MouseEnter(object sender, EventArgs e)
@@ -44,14 +44,14 @@ namespace project_library
             GraphicInteraction.SetColorLabelWhite(Label_Update);
         }
 
-        private void Label_Insert_MouseEnter(object sender, EventArgs e)
+        private void Label_Borrow_MouseEnter(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelGreen(Label_Insert);
+            GraphicInteraction.SetColorLabelGreen(Label_Borrow);
         }
 
-        private void Label_Insert_MouseLeave(object sender, EventArgs e)
+        private void Label_Borrow_MouseLeave(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelWhite(Label_Insert);
+            GraphicInteraction.SetColorLabelWhite(Label_Borrow);
         }
 
         private void Label_View_MouseEnter(object sender, EventArgs e)
