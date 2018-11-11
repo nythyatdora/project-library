@@ -70,6 +70,7 @@
             this.Button_Return.TabIndex = 15;
             this.Button_Return.Text = "RETURN";
             this.Button_Return.UseVisualStyleBackColor = false;
+            this.Button_Return.Click += new System.EventHandler(this.Button_Return_Click);
             this.Button_Return.MouseEnter += new System.EventHandler(this.Button_Return_MouseEnter);
             this.Button_Return.MouseLeave += new System.EventHandler(this.Button_Return_MouseLeave);
             // 
@@ -126,6 +127,7 @@
             this.Button_Borrow.TabIndex = 0;
             this.Button_Borrow.Text = "BORROW";
             this.Button_Borrow.UseVisualStyleBackColor = false;
+            this.Button_Borrow.Click += new System.EventHandler(this.Button_Borrow_Click);
             this.Button_Borrow.MouseEnter += new System.EventHandler(this.Button_Borrow_MouseEnter);
             this.Button_Borrow.MouseLeave += new System.EventHandler(this.Button_Borrow_MouseLeave);
             // 

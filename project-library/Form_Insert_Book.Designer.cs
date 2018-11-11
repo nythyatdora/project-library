@@ -138,6 +138,7 @@
             this.Label_View_Table_Book.TabIndex = 55;
             this.Label_View_Table_Book.Text = "view\r\ntable books";
             this.Label_View_Table_Book.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Label_View_Table_Book.Click += new System.EventHandler(this.Label_View_Table_Book_Click);
             this.Label_View_Table_Book.MouseEnter += new System.EventHandler(this.Label_View_Table_Book_MouseEnter);
             this.Label_View_Table_Book.MouseLeave += new System.EventHandler(this.Label_View_Table_Book_MouseLeave);
             // 
@@ -419,6 +420,7 @@
             this.Label_Import_External.TabIndex = 1;
             this.Label_Import_External.Text = "import \r\nfrom external source";
             this.Label_Import_External.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Label_Import_External.Click += new System.EventHandler(this.Label_Import_External_Click);
             this.Label_Import_External.MouseEnter += new System.EventHandler(this.Label_Import_External_MouseEnter);
             this.Label_Import_External.MouseLeave += new System.EventHandler(this.Label_Import_External_MouseLeave);
             // 
@@ -436,7 +438,7 @@
             // 
             this.OpenFileDialog_Bookcover.Filter = "ImageFile|*.png;";
             // 
-            // Frm_Insert_Book
+            // Form_Insert_Book
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -444,7 +446,7 @@
             this.Controls.Add(this.Panel_Head);
             this.Controls.Add(this.Panel_Body);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Frm_Insert_Book";
+            this.Name = "Form_Insert_Book";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_insert_book";
             this.Panel_Body.ResumeLayout(false);

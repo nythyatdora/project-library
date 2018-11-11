@@ -24,7 +24,7 @@ namespace project_library.Class
             }
         }
 
-        public static void SetFormLoad(Form form)
+        public static void LoadForm(Form form)
         {
             form.Show();
         }

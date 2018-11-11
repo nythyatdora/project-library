@@ -378,6 +378,7 @@
             this.Label_New_Reader.TabIndex = 3;
             this.Label_New_Reader.Text = "add\r\nnew reader\r\n";
             this.Label_New_Reader.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Label_New_Reader.Click += new System.EventHandler(this.Label_New_Reader_Click);
             this.Label_New_Reader.MouseEnter += new System.EventHandler(this.Label_New_Reader_MouseEnter);
             this.Label_New_Reader.MouseLeave += new System.EventHandler(this.Label_New_Reader_MouseLeave);
             // 
@@ -393,6 +394,7 @@
             this.Label_View_Table_Readers.TabIndex = 2;
             this.Label_View_Table_Readers.Text = "view\r\ntable readers";
             this.Label_View_Table_Readers.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Label_View_Table_Readers.Click += new System.EventHandler(this.Label_View_Table_Readers_Click);
             this.Label_View_Table_Readers.MouseEnter += new System.EventHandler(this.Label_View_Table_Readers_MouseEnter);
             this.Label_View_Table_Readers.MouseLeave += new System.EventHandler(this.Label_View_Table_Readers_MouseLeave);
             // 

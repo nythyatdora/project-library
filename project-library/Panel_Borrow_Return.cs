@@ -13,9 +13,11 @@ namespace project_library
 {
     public partial class Panel_Borrow_Return : OverlapUserControl
     {
-        public Panel_Borrow_Return()
+        private Form_Main _form_main;
+        public Panel_Borrow_Return(Form_Main form_main)
         {
             InitializeComponent();
+            _form_main = form_main;
         }
 
         private void Button_Borrow_MouseEnter(object sender, EventArgs e)
@@ -36,6 +38,16 @@ namespace project_library
         private void Button_Return_MouseLeave(object sender, EventArgs e)
         {
             GraphicInteraction.SetImageButtonLeave_Round(Button_Return);
+        }
+
+        private void Button_Borrow_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(_form_main.GetForm("Form_Borrow"));
+        }
+
+        private void Button_Return_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(_form_main.GetForm("Form_Return"));
         }
     }
 }

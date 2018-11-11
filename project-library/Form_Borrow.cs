@@ -13,9 +13,11 @@ namespace project_library
 {
     public partial class Form_Borrow : Form
     {
-        public Form_Borrow()
+        private Form_Main _form_main;
+        public Form_Borrow(Form_Main form_main)
         {
             InitializeComponent();
+            _form_main = form_main;
         }
 
         private void Label_Add_New_Reader_MouseEnter(object sender, EventArgs e)
@@ -111,6 +113,26 @@ namespace project_library
         private void Label_Close_Click(object sender, EventArgs e)
         {
             this.Hide();
+        }
+
+        private void Label_Add_New_Reader_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(_form_main.GetForm("Form_Insert_Reader"));
+        }
+
+        private void Label_Add_New_Book_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(_form_main.GetForm("Form_Insert_Book"));
+        }
+
+        private void Label_View_Table_Readers_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(_form_main.GetForm("Form_Table_Readers"));
+        }
+
+        private void Label_View_Table_Books_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(_form_main.GetForm("Form_Table_Books"));
         }
     }
 }

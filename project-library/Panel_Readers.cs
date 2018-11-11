@@ -13,9 +13,12 @@ namespace project_library
 {
     public partial class Panel_Readers : OverlapUserControl
     {
-        public Panel_Readers()
+        private Form_Main _form_main;
+
+        public Panel_Readers(Form_Main form_main)
         {
             InitializeComponent();
+            _form_main = form_main;
         }
 
         private void Button_Insert_Reader_MouseEnter(object sender, EventArgs e)
@@ -36,6 +39,16 @@ namespace project_library
         private void Button_Find_Reader_MouseLeave(object sender, EventArgs e)
         {
             GraphicInteraction.SetImageButtonLeave_Round(Button_Find_Reader);
+        }
+
+        private void Button_Insert_Reader_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(_form_main.GetForm("Form_Insert_Reader"));
+        }
+
+        private void Button_Find_Reader_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(_form_main.GetForm("Form_Search"));
         }
     }
 }

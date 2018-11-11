@@ -104,6 +104,7 @@
             this.Label_View_Table_Books.TabIndex = 78;
             this.Label_View_Table_Books.Text = "view\r\ntable books";
             this.Label_View_Table_Books.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Label_View_Table_Books.Click += new System.EventHandler(this.Label_View_Table_Books_Click);
             this.Label_View_Table_Books.MouseEnter += new System.EventHandler(this.Label_View_Table_Books_MouseEnter);
             this.Label_View_Table_Books.MouseLeave += new System.EventHandler(this.Label_View_Table_Books_MouseLeave);
             // 
@@ -119,6 +120,7 @@
             this.Label_View_Table_Readers.TabIndex = 77;
             this.Label_View_Table_Readers.Text = "view\r\ntable readers";
             this.Label_View_Table_Readers.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Label_View_Table_Readers.Click += new System.EventHandler(this.Label_View_Table_Readers_Click);
             this.Label_View_Table_Readers.MouseEnter += new System.EventHandler(this.Label_View_Table_Readers_MouseEnter);
             this.Label_View_Table_Readers.MouseLeave += new System.EventHandler(this.Label_View_Table_Readers_MouseLeave);
             // 

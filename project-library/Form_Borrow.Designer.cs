@@ -126,6 +126,7 @@ namespace project_library
             this.Label_View_Table_Books.TabIndex = 78;
             this.Label_View_Table_Books.Text = "view\r\ntable books";
             this.Label_View_Table_Books.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Label_View_Table_Books.Click += new System.EventHandler(this.Label_View_Table_Books_Click);
             this.Label_View_Table_Books.MouseEnter += new System.EventHandler(this.Label_View_Table_Books_MouseEnter);
             this.Label_View_Table_Books.MouseLeave += new System.EventHandler(this.Label_View_Table_Books_MouseLeave);
             // 
@@ -141,6 +142,7 @@ namespace project_library
             this.Label_View_Table_Readers.TabIndex = 77;
             this.Label_View_Table_Readers.Text = "view\r\ntable readers";
             this.Label_View_Table_Readers.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Label_View_Table_Readers.Click += new System.EventHandler(this.Label_View_Table_Readers_Click);
             this.Label_View_Table_Readers.MouseEnter += new System.EventHandler(this.Label_View_Table_Readers_MouseEnter);
             this.Label_View_Table_Readers.MouseLeave += new System.EventHandler(this.Label_View_Table_Readers_MouseLeave);
             // 
@@ -256,6 +258,7 @@ namespace project_library
             this.Label_Add_New_Book.TabIndex = 3;
             this.Label_Add_New_Book.Text = "add\r\nnew book";
             this.Label_Add_New_Book.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Label_Add_New_Book.Click += new System.EventHandler(this.Label_Add_New_Book_Click);
             this.Label_Add_New_Book.MouseEnter += new System.EventHandler(this.Label_Add_New_Book_MouseEnter);
             this.Label_Add_New_Book.MouseLeave += new System.EventHandler(this.Label_Add_New_Book_MouseLeave);
             // 
@@ -271,6 +274,7 @@ namespace project_library
             this.Label_Add_New_Reader.TabIndex = 2;
             this.Label_Add_New_Reader.Text = "add\r\nnew reader";
             this.Label_Add_New_Reader.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Label_Add_New_Reader.Click += new System.EventHandler(this.Label_Add_New_Reader_Click);
             this.Label_Add_New_Reader.MouseEnter += new System.EventHandler(this.Label_Add_New_Reader_MouseEnter);
             this.Label_Add_New_Reader.MouseLeave += new System.EventHandler(this.Label_Add_New_Reader_MouseLeave);
             // 

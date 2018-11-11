@@ -71,6 +71,7 @@
             this.Button_Find_Reader.TabIndex = 15;
             this.Button_Find_Reader.Text = "FIND READER";
             this.Button_Find_Reader.UseVisualStyleBackColor = false;
+            this.Button_Find_Reader.Click += new System.EventHandler(this.Button_Find_Reader_Click);
             this.Button_Find_Reader.MouseEnter += new System.EventHandler(this.Button_Find_Reader_MouseEnter);
             this.Button_Find_Reader.MouseLeave += new System.EventHandler(this.Button_Find_Reader_MouseLeave);
             // 
@@ -127,6 +128,7 @@
             this.Button_Insert_Reader.TabIndex = 0;
             this.Button_Insert_Reader.Text = "INSERT\r\nNEW READER";
             this.Button_Insert_Reader.UseVisualStyleBackColor = false;
+            this.Button_Insert_Reader.Click += new System.EventHandler(this.Button_Insert_Reader_Click);
             this.Button_Insert_Reader.MouseEnter += new System.EventHandler(this.Button_Insert_Reader_MouseEnter);
             this.Button_Insert_Reader.MouseLeave += new System.EventHandler(this.Button_Insert_Reader_MouseLeave);
             // 

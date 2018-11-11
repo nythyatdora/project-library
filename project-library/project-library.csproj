@@ -60,6 +60,12 @@
     <Compile Include="Form_Borrow.Designer.cs">
       <DependentUpon>Form_Borrow.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_Import_Text.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Import_Text.Designer.cs">
+      <DependentUpon>Form_Import_Text.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Return_Table.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -172,6 +178,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form_Borrow.resx">
       <DependentUpon>Form_Borrow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Import_Text.resx">
+      <DependentUpon>Form_Import_Text.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Return_Table.resx">
       <DependentUpon>Form_Return_Table.cs</DependentUpon>

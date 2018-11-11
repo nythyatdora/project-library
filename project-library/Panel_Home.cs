@@ -103,12 +103,12 @@ namespace project_library
 
         private void Button_Borrow_Click(object sender, EventArgs e)
         {
-            ControlMethod.SetFormLoad(_form_main.GetForm("Form_Borrow"));
+            ControlMethod.LoadForm(_form_main.GetForm("Form_Borrow"));
         } 
 
         private void Button_Return_Click(object sender, EventArgs e)
         {
-            
+            ControlMethod.LoadForm(_form_main.GetForm("Form_Return"));
         }
 
         private void Button_Books_Click(object sender, EventArgs e)
@@ -128,7 +128,7 @@ namespace project_library
 
         private void Button_Membership_Click(object sender, EventArgs e)
         {
-            ControlMethod.SetFormLoad(_form_main.GetForm("Form_Membership"));
+            ControlMethod.LoadForm(_form_main.GetForm("Form_Membership"));
         }
 
         private void Button_Myprofile_Click(object sender, EventArgs e)
