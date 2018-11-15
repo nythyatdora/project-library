@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace project_library
 {
-    public partial class OverlapUserControl : UserControl
+    public partial class CustomForm : Form
     {
-        private static OverlapUserControl _instance;
+        private static CustomForm _instance;
 
-        public static OverlapUserControl Instance
+        public static CustomForm Instance
         {
             get
             {
                 if (_instance == null)
-                    _instance = new OverlapUserControl();
+                    _instance = new CustomForm();
                 return _instance;
             }
         }

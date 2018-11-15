@@ -11,10 +11,10 @@ using project_library.Class;
 
 namespace project_library
 {
-    public partial class Panel_Home : OverlapUserControl
+    public partial class Form_Home : CustomForm
     {
         private Form_Main _form_main;
-        public Panel_Home(Form_Main form_main)
+        public Form_Home(Form_Main form_main)
         {
             InitializeComponent();
             _form_main = form_main;
@@ -113,17 +113,17 @@ namespace project_library
 
         private void Button_Books_Click(object sender, EventArgs e)
         {
-            ControlMethod.SetUserControlOnPanel(_form_main.Panel_Main, _form_main.GetPanel("Panel_Books"));
+            ControlMethod.SetFormOnPanel(_form_main.Panel_Main, _form_main.GetForm("Form_Books"));
         }
 
         private void Button_Category_Click(object sender, EventArgs e)
         {
-            ControlMethod.SetUserControlOnPanel(_form_main.Panel_Main, _form_main.GetPanel("Panel_Category"));
+            ControlMethod.SetFormOnPanel(_form_main.Panel_Main, _form_main.GetForm("Form_Category"));
         }
 
         private void Button_Readers_Click(object sender, EventArgs e)
         {
-            ControlMethod.SetUserControlOnPanel(_form_main.Panel_Main, _form_main.GetPanel("Panel_Readers"));
+            ControlMethod.SetFormOnPanel(_form_main.Panel_Main, _form_main.GetForm("Form_Readers"));
         }
 
         private void Button_Membership_Click(object sender, EventArgs e)
@@ -133,7 +133,7 @@ namespace project_library
 
         private void Button_Myprofile_Click(object sender, EventArgs e)
         {
-            ControlMethod.SetUserControlOnPanel(_form_main.Panel_Main, _form_main.GetPanel("Panel_Myprofile"));
+            ControlMethod.SetFormOnPanel(_form_main.Panel_Main, _form_main.GetForm("Form_Myprofile"));
         }
 
         private void Button_Report_Click(object sender, EventArgs e)

@@ -11,10 +11,10 @@ using project_library.Class;
 
 namespace project_library
 {
-    public partial class Panel_Borrow_Return : OverlapUserControl
+    public partial class Form_Borrow_Return : CustomForm
     {
         private Form_Main _form_main;
-        public Panel_Borrow_Return(Form_Main form_main)
+        public Form_Borrow_Return(Form_Main form_main)
         {
             InitializeComponent();
             _form_main = form_main;

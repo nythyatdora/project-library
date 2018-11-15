@@ -53,7 +53,6 @@
     <Compile Include="Class\FormObject.cs" />
     <Compile Include="Class\Reader.cs" />
     <Compile Include="Class\GraphicInteraction.cs" />
-    <Compile Include="Class\UserControlObject.cs" />
     <Compile Include="Form_Borrow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,53 +125,53 @@
     <Compile Include="Form_Table.Designer.cs">
       <DependentUpon>Form_Table.cs</DependentUpon>
     </Compile>
-    <Compile Include="Class\OverlapUserControl.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="Class\CustomForm.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Class\OverlapUserControl.Designer.cs">
-      <DependentUpon>OverlapUserControl.cs</DependentUpon>
+    <Compile Include="Class\CustomForm.Designer.cs">
+      <DependentUpon>CustomForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Panel_Borrow_Return.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="Form_Borrow_Return.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Panel_Borrow_Return.Designer.cs">
-      <DependentUpon>Panel_Borrow_Return.cs</DependentUpon>
+    <Compile Include="Form_Borrow_Return.Designer.cs">
+      <DependentUpon>Form_Borrow_Return.cs</DependentUpon>
     </Compile>
-    <Compile Include="Panel_Category.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="Form_Category.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Panel_Category.Designer.cs">
-      <DependentUpon>Panel_Category.cs</DependentUpon>
+    <Compile Include="Form_Category.Designer.cs">
+      <DependentUpon>Form_Category.cs</DependentUpon>
     </Compile>
-    <Compile Include="Panel_Books.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="Form_Books.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Panel_Books.Designer.cs">
-      <DependentUpon>Panel_Books.cs</DependentUpon>
+    <Compile Include="Form_Books.Designer.cs">
+      <DependentUpon>Form_Books.cs</DependentUpon>
     </Compile>
-    <Compile Include="Panel_Home.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="Form_Home.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Panel_Home.Designer.cs">
-      <DependentUpon>Panel_Home.cs</DependentUpon>
+    <Compile Include="Form_Home.Designer.cs">
+      <DependentUpon>Form_Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="Panel_MyProfile_One.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="Form_MyProfile_One.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Panel_MyProfile_One.Designer.cs">
-      <DependentUpon>Panel_MyProfile_One.cs</DependentUpon>
+    <Compile Include="Form_MyProfile_One.Designer.cs">
+      <DependentUpon>Form_MyProfile_One.cs</DependentUpon>
     </Compile>
-    <Compile Include="Panel_MyProfile_Two.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="Form_MyProfile_Two.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Panel_MyProfile_Two.Designer.cs">
-      <DependentUpon>Panel_MyProfile_Two.cs</DependentUpon>
+    <Compile Include="Form_MyProfile_Two.Designer.cs">
+      <DependentUpon>Form_MyProfile_Two.cs</DependentUpon>
     </Compile>
-    <Compile Include="Panel_Readers.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="Form_Readers.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Panel_Readers.Designer.cs">
-      <DependentUpon>Panel_Readers.cs</DependentUpon>
+    <Compile Include="Form_Readers.Designer.cs">
+      <DependentUpon>Form_Readers.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -212,29 +211,29 @@
     <EmbeddedResource Include="Form_Table.resx">
       <DependentUpon>Form_Table.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Class\OverlapUserControl.resx">
-      <DependentUpon>OverlapUserControl.cs</DependentUpon>
+    <EmbeddedResource Include="Class\CustomForm.resx">
+      <DependentUpon>CustomForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Panel_Borrow_Return.resx">
-      <DependentUpon>Panel_Borrow_Return.cs</DependentUpon>
+    <EmbeddedResource Include="Form_Borrow_Return.resx">
+      <DependentUpon>Form_Borrow_Return.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Panel_Category.resx">
-      <DependentUpon>Panel_Category.cs</DependentUpon>
+    <EmbeddedResource Include="Form_Category.resx">
+      <DependentUpon>Form_Category.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Panel_Books.resx">
-      <DependentUpon>Panel_Books.cs</DependentUpon>
+    <EmbeddedResource Include="Form_Books.resx">
+      <DependentUpon>Form_Books.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Panel_Home.resx">
-      <DependentUpon>Panel_Home.cs</DependentUpon>
+    <EmbeddedResource Include="Form_Home.resx">
+      <DependentUpon>Form_Home.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Panel_MyProfile_One.resx">
-      <DependentUpon>Panel_MyProfile_One.cs</DependentUpon>
+    <EmbeddedResource Include="Form_MyProfile_One.resx">
+      <DependentUpon>Form_MyProfile_One.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Panel_MyProfile_Two.resx">
-      <DependentUpon>Panel_MyProfile_Two.cs</DependentUpon>
+    <EmbeddedResource Include="Form_MyProfile_Two.resx">
+      <DependentUpon>Form_MyProfile_Two.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Panel_Readers.resx">
-      <DependentUpon>Panel_Readers.cs</DependentUpon>
+    <EmbeddedResource Include="Form_Readers.resx">
+      <DependentUpon>Form_Readers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -13,19 +13,18 @@ namespace project_library
 {
     public partial class Form_Main : Form
     {
-        private UserControlList List_Panels = new UserControlList();
         private FormList List_Forms = new FormList();
 
         public Form_Main()
         {
             InitializeComponent();
 
-            List_Panels.AddControl(new UserControlObject("Panel_Home", new Panel_Home(this)));
-            List_Panels.AddControl(new UserControlObject("Panel_Borrow_Return", new Panel_Borrow_Return(this)));
-            List_Panels.AddControl(new UserControlObject("Panel_Books", new Panel_Books(this)));
-            List_Panels.AddControl(new UserControlObject("Panel_Category", new Panel_Category()));
-            List_Panels.AddControl(new UserControlObject("Panel_Readers", new Panel_Readers(this)));
-            List_Panels.AddControl(new UserControlObject("Panel_Myprofile", new Panel_MyProfile_One()));
+            List_Forms.AddForm(new FormObject("Form_Home", new Form_Home(this)));
+            List_Forms.AddForm(new FormObject("Form_Borrow_Return", new Form_Borrow_Return(this)));
+            List_Forms.AddForm(new FormObject("Form_Books", new Form_Books(this)));
+            List_Forms.AddForm(new FormObject("Form_Category", new Form_Category()));
+            List_Forms.AddForm(new FormObject("Form_Readers", new Form_Readers(this)));
+            List_Forms.AddForm(new FormObject("Form_Myprofile", new Form_MyProfile_One()));
 
             List_Forms.AddForm(new FormObject("Form_Borrow", new Form_Borrow(this)));
             List_Forms.AddForm(new FormObject("Form_Return", new Form_Return(this)));
@@ -36,11 +35,6 @@ namespace project_library
             List_Forms.AddForm(new FormObject("Form_Import_Text", new Form_Import_Text()));
             List_Forms.AddForm(new FormObject("Form_Table_Books", new Form_Table("Books")));
             List_Forms.AddForm(new FormObject("Form_Search", new Form_Search()));
-        }
-
-        public OverlapUserControl GetPanel(String str)
-        {
-            return List_Panels[str];
         }
 
         public Form GetForm(String str)
@@ -159,32 +153,32 @@ namespace project_library
 
         private void Form_Main_Load(object sender, EventArgs e)
         {
-            ControlMethod.SetUserControlOnPanel(Panel_Main,List_Panels["Panel_Home"]);
+            ControlMethod.SetFormOnPanel(Panel_Main,List_Forms["Form_Home"]);
         }
 
         private void Label_Home_Click(object sender, EventArgs e)
         {
-            ControlMethod.SetUserControlOnPanel(Panel_Main, List_Panels["Panel_Home"]);
+            ControlMethod.SetFormOnPanel(Panel_Main, List_Forms["Form_Home"]);
         }
 
         private void Label_Borrow_Return_Click(object sender, EventArgs e)
         {
-            ControlMethod.SetUserControlOnPanel(Panel_Main, List_Panels["Panel_Borrow_Return"]);
+            ControlMethod.SetFormOnPanel(Panel_Main, List_Forms["Form_Borrow_Return"]);
         }
 
         private void Label_Books_Click(object sender, EventArgs e)
         {
-            ControlMethod.SetUserControlOnPanel(Panel_Main, List_Panels["Panel_Books"]);
+            ControlMethod.SetFormOnPanel(Panel_Main, List_Forms["Form_Books"]);
         }
 
         private void Label_Category_Click(object sender, EventArgs e)
         {
-            ControlMethod.SetUserControlOnPanel(Panel_Main, List_Panels["Panel_Category"]);
+            ControlMethod.SetFormOnPanel(Panel_Main, List_Forms["Form_Category"]);
         }
 
         private void Label_Readers_Click(object sender, EventArgs e)
         {
-            ControlMethod.SetUserControlOnPanel(Panel_Main, List_Panels["Panel_Readers"]);
+            ControlMethod.SetFormOnPanel(Panel_Main, List_Forms["Form_Readers"]);
         }
 
         private void Label_Membership_Click(object sender, EventArgs e)
@@ -194,7 +188,7 @@ namespace project_library
 
         private void Label_Myprofile_Click(object sender, EventArgs e)
         {
-            ControlMethod.SetUserControlOnPanel(Panel_Main, List_Panels["Panel_Myprofile"]);
+            ControlMethod.SetFormOnPanel(Panel_Main, List_Forms["Form_Myprofile"]);
         }
 
         private void Label_Report_Click(object sender, EventArgs e)

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace project_library
 {
-    public partial class Panel_MyProfile_One : OverlapUserControl
+    public partial class Form_MyProfile_One : CustomForm
     {
-        public Panel_MyProfile_One()
+        public Form_MyProfile_One()
         {
             InitializeComponent();
         }

@@ -11,9 +11,9 @@ using project_library.Class;
 
 namespace project_library
 {
-    public partial class Panel_Category : OverlapUserControl
+    public partial class Form_Category : CustomForm
     {
-        public Panel_Category()
+        public Form_Category()
         {
             InitializeComponent();
         }

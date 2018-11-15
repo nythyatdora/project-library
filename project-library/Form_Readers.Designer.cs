@@ -1,6 +1,6 @@
 ﻿namespace project_library
 {
-    partial class Panel_Readers
+    partial class Form_Readers
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Panel_Readers));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Readers));
             this.Panel_Body = new System.Windows.Forms.Panel();
             this.Button_Find_Reader = new System.Windows.Forms.Button();
             this.Picbox_Profile = new System.Windows.Forms.PictureBox();

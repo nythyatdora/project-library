@@ -1,6 +1,6 @@
 ﻿namespace project_library
 {
-    partial class Panel_Category
+    partial class Form_Category
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Panel_Category));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Category));
             this.Panel_Body = new System.Windows.Forms.Panel();
             this.Label_Search = new System.Windows.Forms.Label();
             this.Text_Searchby = new System.Windows.Forms.TextBox();

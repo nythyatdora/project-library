@@ -11,11 +11,11 @@ using project_library.Class;
 
 namespace project_library
 {
-    public partial class Panel_Books : OverlapUserControl
+    public partial class Form_Books : CustomForm
     {
         private Form_Main _form_main;
 
-        public Panel_Books(Form_Main form_main)
+        public Form_Books(Form_Main form_main)
         {
             InitializeComponent();
             _form_main = form_main;

@@ -1,6 +1,6 @@
 ﻿namespace project_library
 {
-    partial class Panel_Home
+    partial class Form_Home
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Panel_Home));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Home));
             this.Panel_Main = new System.Windows.Forms.Panel();
             this.Button_Membership = new System.Windows.Forms.Button();
             this.Button_Return = new System.Windows.Forms.Button();

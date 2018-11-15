@@ -1,6 +1,6 @@
 ﻿namespace project_library
 {
-    partial class Panel_MyProfile_Two
+    partial class Form_MyProfile_Two
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Panel_MyProfile_Two));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_MyProfile_Two));
             this.Panel_Body = new System.Windows.Forms.Panel();
             this.Text_Confirm_Password = new System.Windows.Forms.TextBox();
             this.Label_Confirm_Password = new System.Windows.Forms.Label();

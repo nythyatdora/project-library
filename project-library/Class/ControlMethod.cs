@@ -9,18 +9,21 @@ namespace project_library.Class
 {
     class ControlMethod
     {
-        public static void SetUserControlOnPanel(Panel panel, OverlapUserControl overlap)
+        public static void SetFormOnPanel(Panel panel, Form form)
         {
+            form.TopLevel = false;
             panel.Controls.Clear();
-            if (!panel.Controls.Contains(overlap))
+
+            if (!panel.Controls.Contains(form))
             {
-                panel.Controls.Add(overlap);
-                overlap.Dock = DockStyle.Fill;
-                overlap.BringToFront();
+                panel.Controls.Add(form);
+                form.FormBorderStyle = FormBorderStyle.None;
+                form.Dock = DockStyle.Fill;
+                form.Show();
             }
             else
             {
-                overlap.BringToFront();
+                form.Show();
             }
         }
 

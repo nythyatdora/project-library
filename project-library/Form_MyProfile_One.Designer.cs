@@ -1,6 +1,6 @@
 ﻿namespace project_library
 {
-    partial class Panel_MyProfile_One
+    partial class Form_MyProfile_One
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Panel_MyProfile_One));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_MyProfile_One));
             this.Panel_Body = new System.Windows.Forms.Panel();
             this.Label_Email_Address = new System.Windows.Forms.Label();
             this.Label_Username = new System.Windows.Forms.Label();

@@ -1,6 +1,6 @@
 ﻿namespace project_library
 {
-    partial class OverlapUserControl
+    partial class CustomForm
     {
         /// <summary> 
         /// Required designer variable.
