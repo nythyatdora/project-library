@@ -270,13 +270,14 @@
             this.Label_Full_Name.TabIndex = 49;
             this.Label_Full_Name.Text = "Full Name";
             // 
-            // Panel_Form_MyProfile_Two
+            // Form_MyProfile_Two
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(852, 579);
             this.Controls.Add(this.Panel_Body);
-            this.Name = "Panel_Form_MyProfile_Two";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Form_MyProfile_Two";
             this.Text = "Panel_Form_MyProfile_Two";
             this.Panel_Body.ResumeLayout(false);
             this.Panel_Body.PerformLayout();

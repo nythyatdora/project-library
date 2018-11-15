@@ -11,7 +11,7 @@ using project_library.Class;
 
 namespace project_library
 {
-    public partial class Form_Borrow_Return : CustomForm
+    public partial class Form_Borrow_Return : Form
     {
         private Form_Main _form_main;
         public Form_Borrow_Return(Form_Main form_main)

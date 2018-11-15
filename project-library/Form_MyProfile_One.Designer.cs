@@ -85,13 +85,14 @@
             this.Picbox_Profile.TabIndex = 15;
             this.Picbox_Profile.TabStop = false;
             // 
-            // Panel_Form_MyProfile_One
+            // Form_MyProfile_One
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(852, 579);
             this.Controls.Add(this.Panel_Body);
-            this.Name = "Panel_Form_MyProfile_One";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Form_MyProfile_One";
             this.Text = "Panel_Form_MyProfile_One";
             this.Panel_Body.ResumeLayout(false);
             this.Panel_Body.PerformLayout();

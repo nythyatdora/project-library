@@ -132,13 +132,14 @@
             this.Button_Insert_Reader.MouseEnter += new System.EventHandler(this.Button_Insert_Reader_MouseEnter);
             this.Button_Insert_Reader.MouseLeave += new System.EventHandler(this.Button_Insert_Reader_MouseLeave);
             // 
-            // Panel_Readers
+            // Form_Readers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(852, 579);
             this.Controls.Add(this.Panel_Body);
-            this.Name = "Panel_Readers";
-            this.Size = new System.Drawing.Size(852, 579);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Form_Readers";
             this.Panel_Body.ResumeLayout(false);
             this.Panel_Body.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Picbox_Profile)).EndInit();

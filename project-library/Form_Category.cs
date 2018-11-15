@@ -11,7 +11,7 @@ using project_library.Class;
 
 namespace project_library
 {
-    public partial class Form_Category : CustomForm
+    public partial class Form_Category : Form
     {
         public Form_Category()
         {

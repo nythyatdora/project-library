@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace project_library
 {
-    public partial class Form_MyProfile_One : CustomForm
+    public partial class Form_MyProfile_One : Form
     {
         public Form_MyProfile_One()
         {

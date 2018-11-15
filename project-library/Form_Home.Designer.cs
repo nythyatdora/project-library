@@ -69,6 +69,7 @@
             // 
             this.Button_Membership.BackColor = System.Drawing.Color.Transparent;
             this.Button_Membership.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Membership.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.Button_Membership.FlatAppearance.BorderSize = 0;
             this.Button_Membership.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Button_Membership.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -90,6 +91,7 @@
             // 
             this.Button_Return.BackColor = System.Drawing.Color.Transparent;
             this.Button_Return.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Return.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.Button_Return.FlatAppearance.BorderSize = 0;
             this.Button_Return.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Button_Return.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -146,6 +148,7 @@
             // 
             this.Button_Report.BackColor = System.Drawing.Color.Transparent;
             this.Button_Report.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Report.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.Button_Report.FlatAppearance.BorderSize = 0;
             this.Button_Report.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Button_Report.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -167,6 +170,7 @@
             // 
             this.Button_Myprofile.BackColor = System.Drawing.Color.Transparent;
             this.Button_Myprofile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Myprofile.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.Button_Myprofile.FlatAppearance.BorderSize = 0;
             this.Button_Myprofile.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Button_Myprofile.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -188,6 +192,7 @@
             // 
             this.Button_Readers.BackColor = System.Drawing.Color.Transparent;
             this.Button_Readers.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Readers.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.Button_Readers.FlatAppearance.BorderSize = 0;
             this.Button_Readers.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Button_Readers.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -209,6 +214,7 @@
             // 
             this.Button_Category.BackColor = System.Drawing.Color.Transparent;
             this.Button_Category.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Category.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.Button_Category.FlatAppearance.BorderSize = 0;
             this.Button_Category.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Button_Category.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -230,6 +236,7 @@
             // 
             this.Button_Books.BackColor = System.Drawing.Color.Transparent;
             this.Button_Books.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Books.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.Button_Books.FlatAppearance.BorderSize = 0;
             this.Button_Books.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Button_Books.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -251,6 +258,7 @@
             // 
             this.Button_Borrow.BackColor = System.Drawing.Color.Transparent;
             this.Button_Borrow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Borrow.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.Button_Borrow.FlatAppearance.BorderSize = 0;
             this.Button_Borrow.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Button_Borrow.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -268,13 +276,14 @@
             this.Button_Borrow.MouseEnter += new System.EventHandler(this.Button_Borrow_MouseEnter);
             this.Button_Borrow.MouseLeave += new System.EventHandler(this.Button_Borrow_MouseLeave);
             // 
-            // Panel_Home
+            // Form_Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(852, 579);
             this.Controls.Add(this.Panel_Main);
-            this.Name = "Panel_Home";
-            this.Size = new System.Drawing.Size(852, 579);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Form_Home";
             this.Panel_Main.ResumeLayout(false);
             this.Panel_Main.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Picbox_Profile)).EndInit();

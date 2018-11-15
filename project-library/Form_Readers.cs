@@ -11,7 +11,7 @@ using project_library.Class;
 
 namespace project_library
 {
-    public partial class Form_Readers : CustomForm
+    public partial class Form_Readers : Form
     {
         private Form_Main _form_main;
 

@@ -131,13 +131,14 @@
             this.Button_Insert_Book.MouseEnter += new System.EventHandler(this.Button_Insert_Book_MouseEnter);
             this.Button_Insert_Book.MouseLeave += new System.EventHandler(this.Button_Insert_Book_MouseLeave);
             // 
-            // Panel_Books
+            // Form_Books
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(852, 579);
             this.Controls.Add(this.Panel_Body);
-            this.Name = "Panel_Books";
-            this.Size = new System.Drawing.Size(852, 579);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Form_Books";
             this.Panel_Body.ResumeLayout(false);
             this.Panel_Body.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Picbox_Profile)).EndInit();

@@ -11,7 +11,7 @@ using project_library.Class;
 
 namespace project_library
 {
-    public partial class Form_Home : CustomForm
+    public partial class Form_Home : Form
     {
         private Form_Main _form_main;
         public Form_Home(Form_Main form_main)
