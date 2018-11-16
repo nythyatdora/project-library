@@ -1,4 +1,6 @@
-﻿namespace project_library
+﻿using System.Drawing;
+
+namespace project_library
 {
     partial class Form_Books
     {
@@ -60,6 +62,7 @@
             this.Button_Find_Book.FlatAppearance.BorderSize = 0;
             this.Button_Find_Book.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Button_Find_Book.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Find_Book.FlatAppearance.BorderColor = Color.FromArgb(0, 255, 255, 255);
             this.Button_Find_Book.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Find_Book.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Find_Book.ForeColor = System.Drawing.Color.Transparent;
@@ -117,6 +120,7 @@
             this.Button_Insert_Book.FlatAppearance.BorderSize = 0;
             this.Button_Insert_Book.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Button_Insert_Book.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Insert_Book.FlatAppearance.BorderColor = Color.FromArgb(0, 255, 255, 255);
             this.Button_Insert_Book.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Insert_Book.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Insert_Book.ForeColor = System.Drawing.Color.Transparent;

@@ -1,4 +1,6 @@
-﻿namespace project_library
+﻿using System.Drawing;
+
+namespace project_library
 {
     partial class Form_Category
     {
@@ -102,6 +104,7 @@
             this.Button_Science.FlatAppearance.BorderSize = 0;
             this.Button_Science.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Button_Science.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Science.FlatAppearance.BorderColor = Color.FromArgb(0, 255, 255, 255);
             this.Button_Science.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Science.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Science.ForeColor = System.Drawing.Color.Transparent;
@@ -122,6 +125,7 @@
             this.Button_Adventure.FlatAppearance.BorderSize = 0;
             this.Button_Adventure.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Button_Adventure.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Adventure.FlatAppearance.BorderColor = Color.FromArgb(0, 255, 255, 255);
             this.Button_Adventure.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Adventure.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Adventure.ForeColor = System.Drawing.Color.Transparent;
@@ -142,6 +146,7 @@
             this.Button_Fantasy.FlatAppearance.BorderSize = 0;
             this.Button_Fantasy.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Button_Fantasy.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Fantasy.FlatAppearance.BorderColor = Color.FromArgb(0, 255, 255, 255);
             this.Button_Fantasy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Fantasy.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Fantasy.ForeColor = System.Drawing.Color.Transparent;
@@ -162,6 +167,7 @@
             this.Button_History.FlatAppearance.BorderSize = 0;
             this.Button_History.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Button_History.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_History.FlatAppearance.BorderColor = Color.FromArgb(0, 255, 255, 255);
             this.Button_History.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_History.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_History.ForeColor = System.Drawing.Color.Transparent;
@@ -182,6 +188,7 @@
             this.Button_Horror.FlatAppearance.BorderSize = 0;
             this.Button_Horror.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Button_Horror.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Horror.FlatAppearance.BorderColor = Color.FromArgb(0, 255, 255, 255);
             this.Button_Horror.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Horror.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Horror.ForeColor = System.Drawing.Color.Transparent;
@@ -202,6 +209,7 @@
             this.Button_Math.FlatAppearance.BorderSize = 0;
             this.Button_Math.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Button_Math.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Math.FlatAppearance.BorderColor = Color.FromArgb(0, 255, 255, 255);
             this.Button_Math.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Math.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Math.ForeColor = System.Drawing.Color.Transparent;
@@ -222,6 +230,7 @@
             this.Button_Comics.FlatAppearance.BorderSize = 0;
             this.Button_Comics.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Button_Comics.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Comics.FlatAppearance.BorderColor = Color.FromArgb(0, 255, 255, 255);
             this.Button_Comics.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Comics.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Comics.ForeColor = System.Drawing.Color.Transparent;
@@ -242,6 +251,7 @@
             this.Button_Mystery.FlatAppearance.BorderSize = 0;
             this.Button_Mystery.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Button_Mystery.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Mystery.FlatAppearance.BorderColor = Color.FromArgb(0, 255, 255, 255);
             this.Button_Mystery.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Mystery.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Mystery.ForeColor = System.Drawing.Color.Transparent;
@@ -262,6 +272,7 @@
             this.Button_Drama.FlatAppearance.BorderSize = 0;
             this.Button_Drama.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Button_Drama.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Drama.FlatAppearance.BorderColor = Color.FromArgb(0, 255, 255, 255);
             this.Button_Drama.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Drama.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Drama.ForeColor = System.Drawing.Color.Transparent;
@@ -318,6 +329,7 @@
             this.Button_Science_Fiction.FlatAppearance.BorderSize = 0;
             this.Button_Science_Fiction.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Button_Science_Fiction.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Science_Fiction.FlatAppearance.BorderColor = Color.FromArgb(0, 255, 255, 255);
             this.Button_Science_Fiction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Science_Fiction.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Science_Fiction.ForeColor = System.Drawing.Color.Transparent;

@@ -1,4 +1,6 @@
-﻿namespace project_library
+﻿using System.Drawing;
+
+namespace project_library
 {
     partial class Form_Readers
     {
@@ -61,6 +63,7 @@
             this.Button_Find_Reader.FlatAppearance.BorderSize = 0;
             this.Button_Find_Reader.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Button_Find_Reader.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Find_Reader.FlatAppearance.BorderColor = Color.FromArgb(0, 255, 255, 255);
             this.Button_Find_Reader.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Find_Reader.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Find_Reader.ForeColor = System.Drawing.Color.Transparent;
@@ -118,6 +121,7 @@
             this.Button_Insert_Reader.FlatAppearance.BorderSize = 0;
             this.Button_Insert_Reader.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Button_Insert_Reader.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Insert_Reader.FlatAppearance.BorderColor = Color.FromArgb(0, 255, 255, 255);
             this.Button_Insert_Reader.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Insert_Reader.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Insert_Reader.ForeColor = System.Drawing.Color.Transparent;

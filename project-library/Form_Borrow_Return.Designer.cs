@@ -1,4 +1,6 @@
-﻿namespace project_library
+﻿using System.Drawing;
+
+namespace project_library
 {
     partial class Form_Borrow_Return
     {
@@ -60,6 +62,7 @@
             this.Button_Return.FlatAppearance.BorderSize = 0;
             this.Button_Return.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Button_Return.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Return.FlatAppearance.BorderColor = Color.FromArgb(0, 255, 255, 255);
             this.Button_Return.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Return.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Return.ForeColor = System.Drawing.Color.Transparent;
@@ -117,6 +120,7 @@
             this.Button_Borrow.FlatAppearance.BorderSize = 0;
             this.Button_Borrow.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Button_Borrow.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Borrow.FlatAppearance.BorderColor = Color.FromArgb(0, 255, 255, 255);
             this.Button_Borrow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Borrow.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button_Borrow.ForeColor = System.Drawing.Color.Transparent;
