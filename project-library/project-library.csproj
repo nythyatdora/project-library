@@ -53,6 +53,7 @@
     <Compile Include="Class\FormObject.cs" />
     <Compile Include="Class\Reader.cs" />
     <Compile Include="Class\GraphicInteraction.cs" />
+    <Compile Include="Class\User.cs" />
     <Compile Include="Form_Borrow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,10 +126,10 @@
     <Compile Include="Form_Table.Designer.cs">
       <DependentUpon>Form_Table.cs</DependentUpon>
     </Compile>
-    <Compile Include="Class\CustomForm.cs">
+    <Compile Include="CustomForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Class\CustomForm.Designer.cs">
+    <Compile Include="CustomForm.Designer.cs">
       <DependentUpon>CustomForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_Borrow_Return.cs">
@@ -211,7 +212,7 @@
     <EmbeddedResource Include="Form_Table.resx">
       <DependentUpon>Form_Table.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Class\CustomForm.resx">
+    <EmbeddedResource Include="CustomForm.resx">
       <DependentUpon>CustomForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Borrow_Return.resx">

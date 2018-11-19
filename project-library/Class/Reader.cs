@@ -8,136 +8,136 @@ namespace project_library.Class
 {
     public class Reader
     {
-        private Int32 id_;
-        private String first_name_;
-        private String last_name_;
-        private Char gender_;
-        private DateTime date_of_birth_;
-        private String occupation_;
-        private String organization_;
-        private String phone_number_;
-        private String email_address_;
-        private String address_;
-        private String location_picture_;
-        private String location_identification_;
-        private Int32 membership_duration_;
-        private String membership_type_;
-        private DateTime membership_startdate_;
-        private DateTime membership_expiredate_;
+        private Int32 _id;
+        private String _first_name;
+        private String _last_name;
+        private Char _gender;
+        private DateTime _date_of_birth;
+        private String _occupation;
+        private String _organization;
+        private String _phone_number;
+        private String _email_address;
+        private String _address;
+        private String _location_picture;
+        private String _location_identification;
+        private Int32 _membership_duration;
+        private String _membership_type;
+        private DateTime _membership_startdate;
+        private DateTime _membership_expiredate;
         
         public Reader(String first_name, String last_name, Char gender, DateTime date_of_birth, String occupation, String organization, String phone_number, String email_address, String address, String location_picture, String location_identification, Int32 membership_duration, String membership_type, DateTime membership_startdate, DateTime membership_expiredate)
         {
-            first_name_ = first_name;
-            last_name_ = last_name;
-            gender_ = gender;
-            date_of_birth_ = date_of_birth;
-            occupation_ = occupation;
-            organization_ = organization;
-            phone_number_ = phone_number;
-            email_address_ = email_address;
-            address_ = address;
-            location_picture_ = location_picture;
-            location_identification_ = location_identification;
-            membership_duration_ = membership_duration;
-            membership_type_ = membership_type;
-            membership_startdate_ = membership_startdate;
-            membership_expiredate_ = membership_expiredate;
+            _first_name = first_name;
+            _last_name = last_name;
+            _gender = gender;
+            _date_of_birth = date_of_birth;
+            _occupation = occupation;
+            _organization = organization;
+            _phone_number = phone_number;
+            _email_address = email_address;
+            _address = address;
+            _location_picture = location_picture;
+            _location_identification = location_identification;
+            _membership_duration = membership_duration;
+            _membership_type = membership_type;
+            _membership_startdate = membership_startdate;
+            _membership_expiredate = membership_expiredate;
         }
 
         public Int32 ID
         {
-            set { id_ = value; }
-            get { return id_; }
+            set { _id = value; }
+            get { return _id; }
         }
 
         public String First_Name
         {
-            set { first_name_ = value; }
-            get { return first_name_; }
+            set { _first_name = value; }
+            get { return _first_name; }
         }
 
         public String Last_Name
         {
-            set { last_name_ = value; }
-            get { return last_name_; }
+            set { _last_name = value; }
+            get { return _last_name; }
         }
 
         public Char Gender
         {
-            set { gender_ = value; }
-            get { return gender_; }
+            set { _gender = value; }
+            get { return _gender; }
         }
 
         public DateTime Date_of_Birth
         {
-            set { date_of_birth_ = value; }
-            get { return date_of_birth_; }
+            set { _date_of_birth = value; }
+            get { return _date_of_birth; }
         }
 
         public String Occupation
         {
-            set { occupation_ = value; }
-            get { return occupation_; }
+            set { _occupation = value; }
+            get { return _occupation; }
         }
 
         public String Organization
         {
-            set { organization_ = value; }
-            get { return organization_; }
+            set { _organization = value; }
+            get { return _organization; }
         }
 
         public String Phone_Number
         {
-            set { phone_number_ = value; }
-            get { return phone_number_; }
+            set { _phone_number = value; }
+            get { return _phone_number; }
         }
 
         public String Email_Address
         {
-            set { email_address_ = value; }
-            get { return email_address_; }
+            set { _email_address = value; }
+            get { return _email_address; }
         }
 
         public String Address
         {
-            set { address_ = value; }
-            get { return address_; }
+            set { _address = value; }
+            get { return _address; }
         }
 
         public String Location_Picture
         {
-            set { location_picture_ = value; }
-            get { return location_picture_; }
+            set { _location_picture = value; }
+            get { return _location_picture; }
         }
 
         public String Location_Identification
         {
-            set { location_identification_ = value; }
-            get { return location_identification_; }
+            set { _location_identification = value; }
+            get { return _location_identification; }
         }
 
         public Int32 Membership_Duration
         {
-            set { membership_duration_ = value; }
-            get { return membership_duration_; }
+            set { _membership_duration = value; }
+            get { return _membership_duration; }
         }
 
         public String Membership_Type
         {
-            set { membership_type_ = value; }
-            get { return membership_type_; }
+            set { _membership_type = value; }
+            get { return _membership_type; }
         }
 
         public DateTime Membership_Startdate
         {
-            set { membership_startdate_ = value; }
-            get { return membership_startdate_; }
+            set { _membership_startdate = value; }
+            get { return _membership_startdate; }
         }
         
         public DateTime Membership_Expiredate
         {
-            set { membership_expiredate_ = value; }
-            get { return membership_expiredate_; }
+            set { _membership_expiredate = value; }
+            get { return _membership_expiredate; }
         }
     }
 }

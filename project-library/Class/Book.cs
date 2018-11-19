@@ -8,105 +8,105 @@ namespace project_library.Class
 {
     public class Book
     {
-        private Int32 id_;
-        private String book_title_;
-        private String author_;
-        private String publisher_;
-        private String language_;
-        private String paperback_;
-        private Double price_;
-        private Int32 quantity_;
-        private String isbn10_;
-        private String isbn13_;
-        private String description_;
-        private String location_bookcover_;
+        private Int32 _id;
+        private String _book_title;
+        private String _author;
+        private String _publisher_;
+        private String _language;
+        private String _paperback;
+        private Double _price;
+        private Int32 _quantity;
+        private String _isbn10;
+        private String _isbn13;
+        private String _description;
+        private String _location_bookcover;
 
-        public Book(String book_title, String author, String publisher, String language, String paperback, 
+        public Book(String book_title, String author, String _publisher, String language, String paperback, 
                         Double price, Int32 quantity, String isbn10, String isbn13, String description, String location_bookcover)
         {
-            book_title_ = book_title;
-            author_ = author;
-            publisher_ = publisher;
-            language_ = language;
-            paperback_ = paperback;
-            price_ = price;
-            quantity_ = quantity;
-            isbn10_ = isbn10;
-            isbn13_ = isbn13;
-            description_ = description;
-            location_bookcover_ = location_bookcover;
+            _book_title = book_title;
+            _author = author;
+            _publisher_ = _publisher;
+            _language = language;
+            _paperback = paperback;
+            _price = price;
+            _quantity = quantity;
+            _isbn10 = isbn10;
+            _isbn13 = isbn13;
+            _description = description;
+            _location_bookcover = location_bookcover;
         }
 
         public Int32 ID
         {
-            set { id_ = value; }
-            get { return id_; }
+            set { _id = value; }
+            get { return _id; }
         }
 
         public String Book_Title
         {
-            set { book_title_ = value; }
-            get { return book_title_; }
+            set { _book_title = value; }
+            get { return _book_title; }
         }
 
         public String Author
         {
-            set { author_ = value; }
-            get { return author_; }
+            set { _author = value; }
+            get { return _author; }
         }
 
         public String Publisher
         {
-            set { publisher_ = value; }
-            get { return publisher_; }
+            set { _publisher_ = value; }
+            get { return _publisher_; }
         }
 
         public String Language
         {
-            set { language_ = value; }
-            get { return language_; }
+            set { _language = value; }
+            get { return _language; }
         }
 
         public String Paperback
         {
-            set { paperback_ = value; }
-            get { return paperback_; }
+            set { _paperback = value; }
+            get { return _paperback; }
         }
 
         public Double Price
         {
-            set { price_ = value; }
-            get { return price_; }
+            set { _price = value; }
+            get { return _price; }
         }
 
         public Int32 Quantity
         {
-            set { quantity_ = value; }
-            get { return quantity_; }
+            set { _quantity = value; }
+            get { return _quantity; }
         }
 
         public String ISBN10
         {
-            set { isbn10_ = value; }
-            get { return isbn10_; }
+            set { _isbn10 = value; }
+            get { return _isbn10; }
         }
 
         public String ISBN13
         {
-            set { isbn13_ = value; }
-            get { return isbn13_; }
+            set { _isbn13 = value; }
+            get { return _isbn13; }
         }
 
         public String Description
         {
-            set { description_ = value; }
-            get { return description_; }
+            set { _description = value; }
+            get { return _description; }
         }
 
         public String Location_Bookcover
         {
-            set { location_bookcover_ = value; }
-            get { return location_bookcover_; }
+            set { _location_bookcover = value; }
+            get { return _location_bookcover; }
         }
     }
 }
