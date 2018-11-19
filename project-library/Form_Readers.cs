@@ -15,6 +15,11 @@ namespace project_library
     {
         private Form_Main _form_main;
 
+        public Form_Readers()
+        {
+            InitializeComponent();
+        }
+
         public Form_Readers(Form_Main form_main)
         {
             InitializeComponent();
@@ -43,12 +48,14 @@ namespace project_library
 
         private void Button_Insert_Reader_Click(object sender, EventArgs e)
         {
-            ControlMethod.LoadForm(_form_main.GetForm("Form_Insert_Reader"));
+            //ControlMethod.LoadForm(_form_main.GetForm("Form_Insert_Reader"));
+            ControlMethod.LoadForm(new Form_Insert_Reader());
         }
 
         private void Button_Find_Reader_Click(object sender, EventArgs e)
         {
-            ControlMethod.LoadForm(_form_main.GetForm("Form_Search"));
+            //ControlMethod.LoadForm(_form_main.GetForm("Form_Search"));
+            ControlMethod.LoadForm(new Form_Search());
         }
     }
 }

@@ -15,6 +15,11 @@ namespace project_library
     {
         private Form_Main _form_main;
 
+        public Form_Insert_Book()
+        {
+            InitializeComponent();
+        }
+
         public Form_Insert_Book(Form_Main form_main)
         {
             InitializeComponent();
@@ -83,7 +88,7 @@ namespace project_library
 
         private void Label_Close_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            ControlMethod.CloseForm(this);
         }
 
         private void Label_Upload_Bookcover_Click(object sender, EventArgs e)
@@ -93,12 +98,14 @@ namespace project_library
 
         private void Label_Import_External_Click(object sender, EventArgs e)
         {
-            ControlMethod.LoadForm(_form_main.GetForm("Form_Import_Text"));
+            //ControlMethod.LoadForm(_form_main.GetForm("Form_Import_Text"));
+            ControlMethod.LoadForm(new Form_Import_Text());
         }
 
         private void Label_View_Table_Book_Click(object sender, EventArgs e)
         {
-            ControlMethod.LoadForm(_form_main.GetForm("Form_Table_Books"));
+            //ControlMethod.LoadForm(_form_main.GetForm("Form_Table_Books"));
+            ControlMethod.LoadForm(new Form_Table("Books"));
         }
     }
 }

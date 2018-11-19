@@ -14,11 +14,11 @@ namespace project_library
     public partial class Form_Home : Form
     {
         private Form_Main _form_main;
+
         public Form_Home(Form_Main form_main)
         {
             InitializeComponent();
             _form_main = form_main;
-            Button_Borrow.Click += new EventHandler(Button_Borrow_Click);
         }
 
         private void Button_Borrow_MouseEnter(object sender, EventArgs e)
@@ -103,12 +103,14 @@ namespace project_library
 
         private void Button_Borrow_Click(object sender, EventArgs e)
         {
-            ControlMethod.LoadForm(_form_main.GetForm("Form_Borrow"));
+            //ControlMethod.LoadForm(_form_main.GetForm("Form_Borrow"));
+            ControlMethod.LoadForm(new Form_Borrow());
         } 
 
         private void Button_Return_Click(object sender, EventArgs e)
         {
-            ControlMethod.LoadForm(_form_main.GetForm("Form_Return"));
+            //ControlMethod.LoadForm(_form_main.GetForm("Form_Return"));
+            ControlMethod.LoadForm(new Form_Return());
         }
 
         private void Button_Books_Click(object sender, EventArgs e)
@@ -128,7 +130,8 @@ namespace project_library
 
         private void Button_Membership_Click(object sender, EventArgs e)
         {
-            ControlMethod.LoadForm(_form_main.GetForm("Form_Membership"));
+            //ControlMethod.LoadForm(_form_main.GetForm("Form_Membership"));
+            ControlMethod.LoadForm(new Form_Membership());
         }
 
         private void Button_Myprofile_Click(object sender, EventArgs e)

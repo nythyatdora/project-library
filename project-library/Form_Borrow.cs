@@ -14,6 +14,12 @@ namespace project_library
     public partial class Form_Borrow : Form
     {
         private Form_Main _form_main;
+
+        public Form_Borrow()
+        {
+            InitializeComponent();
+        }
+
         public Form_Borrow(Form_Main form_main)
         {
             InitializeComponent();
@@ -117,22 +123,26 @@ namespace project_library
 
         private void Label_Add_New_Reader_Click(object sender, EventArgs e)
         {
-            ControlMethod.LoadForm(_form_main.GetForm("Form_Insert_Reader"));
+            //ControlMethod.LoadForm(_form_main.GetForm("Form_Insert_Reader"));
+            ControlMethod.LoadForm(new Form_Insert_Reader());
         }
 
         private void Label_Add_New_Book_Click(object sender, EventArgs e)
         {
-            ControlMethod.LoadForm(_form_main.GetForm("Form_Insert_Book"));
+            //ControlMethod.LoadForm(_form_main.GetForm("Form_Insert_Book"));
+            ControlMethod.LoadForm(new Form_Insert_Book());
         }
 
         private void Label_View_Table_Readers_Click(object sender, EventArgs e)
         {
-            ControlMethod.LoadForm(_form_main.GetForm("Form_Table_Readers"));
+            //ControlMethod.LoadForm(_form_main.GetForm("Form_Table_Readers"));
+            ControlMethod.LoadForm(new Form_Table("Readers"));
         }
 
         private void Label_View_Table_Books_Click(object sender, EventArgs e)
         {
-            ControlMethod.LoadForm(_form_main.GetForm("Form_Table_Books"));
+            //ControlMethod.LoadForm(_form_main.GetForm("Form_Table_Books"));
+            ControlMethod.LoadForm(new Form_Table("Books"));
         }
     }
 }

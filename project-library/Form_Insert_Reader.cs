@@ -15,6 +15,11 @@ namespace project_library
     {
         private Form_Main _form_main;
 
+        public Form_Insert_Reader()
+        {
+            InitializeComponent();
+        }
+
         public Form_Insert_Reader(Form_Main form_main)
         {
             InitializeComponent();
@@ -83,12 +88,13 @@ namespace project_library
 
         private void Label_Close_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            ControlMethod.CloseForm(this);
         }
 
         private void Label_View_Table_Readers_Click(object sender, EventArgs e)
         {
-            ControlMethod.LoadForm(_form_main.GetForm("Form_Table_Readers"));
+            //ControlMethod.LoadForm(_form_main.GetForm("Form_Table_Readers"));
+            ControlMethod.LoadForm(new Form_Table("Readers"));
         }
     }
 }

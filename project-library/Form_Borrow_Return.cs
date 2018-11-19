@@ -14,6 +14,12 @@ namespace project_library
     public partial class Form_Borrow_Return : Form
     {
         private Form_Main _form_main;
+
+        public Form_Borrow_Return()
+        {
+            InitializeComponent();
+        }
+
         public Form_Borrow_Return(Form_Main form_main)
         {
             InitializeComponent();
@@ -42,12 +48,14 @@ namespace project_library
 
         private void Button_Borrow_Click(object sender, EventArgs e)
         {
-            ControlMethod.LoadForm(_form_main.GetForm("Form_Borrow"));
+            //ControlMethod.LoadForm(_form_main.GetForm("Form_Borrow"));
+            ControlMethod.LoadForm(new Form_Borrow());
         }
 
         private void Button_Return_Click(object sender, EventArgs e)
         {
-            ControlMethod.LoadForm(_form_main.GetForm("Form_Return"));
+            //ControlMethod.LoadForm(_form_main.GetForm("Form_Return"));
+            ControlMethod.LoadForm(new Form_Return());
         }
     }
 }

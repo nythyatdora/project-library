@@ -20,21 +20,21 @@ namespace project_library
             InitializeComponent();
 
             List_Forms.AddForm(new FormObject("Form_Home", new Form_Home(this)));
-            List_Forms.AddForm(new FormObject("Form_Borrow_Return", new Form_Borrow_Return(this)));
-            List_Forms.AddForm(new FormObject("Form_Books", new Form_Books(this)));
+            List_Forms.AddForm(new FormObject("Form_Borrow_Return", new Form_Borrow_Return()));
+            List_Forms.AddForm(new FormObject("Form_Books", new Form_Books()));
             List_Forms.AddForm(new FormObject("Form_Category", new Form_Category()));
-            List_Forms.AddForm(new FormObject("Form_Readers", new Form_Readers(this)));
+            List_Forms.AddForm(new FormObject("Form_Readers", new Form_Readers()));
             List_Forms.AddForm(new FormObject("Form_Myprofile", new Form_MyProfile_One()));
 
-            List_Forms.AddForm(new FormObject("Form_Borrow", new Form_Borrow(this)));
-            List_Forms.AddForm(new FormObject("Form_Return", new Form_Return(this)));
-            List_Forms.AddForm(new FormObject("Form_Membership", new Form_Membership(this)));
-            List_Forms.AddForm(new FormObject("Form_Insert_Reader", new Form_Insert_Reader(this)));
-            List_Forms.AddForm(new FormObject("Form_Insert_Book", new Form_Insert_Book(this)));
-            List_Forms.AddForm(new FormObject("Form_Table_Readers", new Form_Table("Readers")));
-            List_Forms.AddForm(new FormObject("Form_Import_Text", new Form_Import_Text()));
-            List_Forms.AddForm(new FormObject("Form_Table_Books", new Form_Table("Books")));
-            List_Forms.AddForm(new FormObject("Form_Search", new Form_Search()));
+            //List_Forms.AddForm(new FormObject("Form_Borrow", new Form_Borrow(this)));
+            //List_Forms.AddForm(new FormObject("Form_Return", new Form_Return()));
+            //List_Forms.AddForm(new FormObject("Form_Membership", new Form_Membership(this)));
+            //List_Forms.AddForm(new FormObject("Form_Insert_Reader", new Form_Insert_Reader(this)));
+            //List_Forms.AddForm(new FormObject("Form_Insert_Book", new Form_Insert_Book(this)));
+            //List_Forms.AddForm(new FormObject("Form_Table_Readers", new Form_Table("Readers")));
+            //List_Forms.AddForm(new FormObject("Form_Import_Text", new Form_Import_Text()));
+            //List_Forms.AddForm(new FormObject("Form_Table_Books", new Form_Table("Books")));
+            //List_Forms.AddForm(new FormObject("Form_Search", new Form_Search()));
         }
 
         public Form GetForm(String str)
@@ -182,8 +182,9 @@ namespace project_library
         }
 
         private void Label_Membership_Click(object sender, EventArgs e)
-        {   
-            ControlMethod.LoadForm(List_Forms["Form_Membership"]);
+        {
+            //ControlMethod.LoadForm(List_Forms["Form_Membership"]);
+            ControlMethod.LoadForm(new Form_Membership());
         }
 
         private void Label_Myprofile_Click(object sender, EventArgs e)

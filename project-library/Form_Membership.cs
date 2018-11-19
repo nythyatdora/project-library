@@ -15,6 +15,11 @@ namespace project_library
     {
         private Form_Main _form_main;
 
+        public Form_Membership()
+        {
+            InitializeComponent();
+        }
+
         public Form_Membership(Form_Main form_main)
         {
             InitializeComponent();
@@ -53,12 +58,12 @@ namespace project_library
 
         private void Label_Reset_Search_MouseEnter(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelGreen(Label_Reset);
+            GraphicInteraction.SetColorLabelGreen(Label_Reset_Search);
         }
 
         private void Label_Reset_Search_MouseLeave(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelWhite(Label_Reset);
+            GraphicInteraction.SetColorLabelWhite(Label_Reset_Search);
         }
 
         private void Label_Confirm_MouseEnter(object sender, EventArgs e)
@@ -103,17 +108,19 @@ namespace project_library
 
         private void Label_Close_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            ControlMethod.CloseForm(this);
         }
 
         private void Label_View_Table_Readers_Click(object sender, EventArgs e)
         {
-            ControlMethod.LoadForm(_form_main.GetForm("Form_Table_Readers"));
+            //ControlMethod.LoadForm(_form_main.GetForm("Form_Table_Readers"));
+            ControlMethod.LoadForm(new Form_Table("Readers"));
         }
 
         private void Label_New_Reader_Click(object sender, EventArgs e)
         {
-            ControlMethod.LoadForm(_form_main.GetForm("Form_Insert_Reader"));
+            //ControlMethod.LoadForm(_form_main.GetForm("Form_Insert_Reader"));
+            ControlMethod.LoadForm(new Form_Insert_Reader());
         }
     }
 }

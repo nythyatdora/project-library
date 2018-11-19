@@ -70,7 +70,7 @@ namespace project_library
 
         private void Label_Close_Click(object sender, EventArgs e)
         {
-            this.Close();
+            ControlMethod.CloseForm(this);
         }
     }
 }

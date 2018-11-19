@@ -11,25 +11,34 @@ namespace project_library.Class
     {
         public static void SetFormOnPanel(Panel panel, Form form)
         {
-            form.TopLevel = false;
-            panel.Controls.Clear();
+            if (!panel.Contains(form))
+            {
+                form.TopLevel = false;
+                panel.Controls.Clear();
 
-            if (!panel.Controls.Contains(form))
-            {
-                panel.Controls.Add(form);
-                form.FormBorderStyle = FormBorderStyle.None;
-                form.Dock = DockStyle.Fill;
-                form.Show();
-            }
-            else
-            {
-                form.Show();
+                if (!panel.Controls.Contains(form))
+                {
+                    panel.Controls.Add(form);
+                    form.FormBorderStyle = FormBorderStyle.None;
+                    form.Dock = DockStyle.Fill;
+                    form.Show();
+                }
+                else
+                {
+                    form.Show();
+                }
             }
         }
 
         public static void LoadForm(Form form)
         {
             form.Show();
+        }
+
+        public static void CloseForm(Form form)
+        {
+            form.Close();
+            GC.Collect();
         }
 
         public static void SetTextboxEmpty(Form form)

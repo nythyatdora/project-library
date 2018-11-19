@@ -60,7 +60,7 @@ namespace project_library
 
         private void Label_Close_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            ControlMethod.CloseForm(this);
         }
     }
 }
