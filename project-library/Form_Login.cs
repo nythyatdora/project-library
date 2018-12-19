@@ -13,6 +13,8 @@ namespace project_library
 {
     public partial class Form_Login : Form
     {
+        public Boolean isLogSuccessed { private set; get; }
+
         public Form_Login()
         {
             InitializeComponent();
@@ -38,9 +40,52 @@ namespace project_library
             GraphicInteraction.SetColorLabelWhite(Label_Exit);
         }
 
+        private void Label_Confirm_Click(object sender, EventArgs e)
+        {
+            Boolean validUsername = false;
+            Boolean validPassword = false;
+
+            if (Text_Username.Text == "admin")
+                validUsername = true;
+            else
+            {
+                validUsername = false;
+                
+                if(Text_Username.Text == "")
+                    MessageBox.Show("missing field: username!");
+                else
+                    MessageBox.Show("invalid username!");
+            }
+
+            if (Text_Password.Text == "admin")
+            {
+                validPassword = true;
+            }
+            else
+            {
+                validPassword = false;
+                if (Text_Username.Text == "")
+                    MessageBox.Show("missing field: password!");
+                else
+                    MessageBox.Show("invalid password!");
+            }
+
+            if(validUsername)
+            {
+                if(validPassword)
+                {
+                    isLogSuccessed = true;
+                    MessageBox.Show("login successful!");
+                    ControlMethod.LoadForm(new Form_Main());
+                    this.Hide();
+                }
+            }
+        }
+
         private void Label_Exit_Click(object sender, EventArgs e)
         {
+            isLogSuccessed = false;
             this.Close();
-        }
+        }  
     }
 }

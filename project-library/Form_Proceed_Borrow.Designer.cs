@@ -369,6 +369,7 @@
             this.Label_Proceed.Size = new System.Drawing.Size(92, 23);
             this.Label_Proceed.TabIndex = 75;
             this.Label_Proceed.Text = "PROCEED";
+            this.Label_Proceed.Click += new System.EventHandler(this.Label_Proceed_Click);
             this.Label_Proceed.MouseEnter += new System.EventHandler(this.Label_Proceed_MouseEnter);
             this.Label_Proceed.MouseLeave += new System.EventHandler(this.Label_Proceed_MouseLeave);
             // 
@@ -384,6 +385,7 @@
             this.Label_Add_New_Reader.TabIndex = 2;
             this.Label_Add_New_Reader.Text = "view\r\nproceed table";
             this.Label_Add_New_Reader.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Label_Add_New_Reader.Click += new System.EventHandler(this.Label_Add_New_Reader_Click);
             this.Label_Add_New_Reader.MouseEnter += new System.EventHandler(this.Label_Add_New_Reader_MouseEnter);
             this.Label_Add_New_Reader.MouseLeave += new System.EventHandler(this.Label_Add_New_Reader_MouseLeave);
             // 

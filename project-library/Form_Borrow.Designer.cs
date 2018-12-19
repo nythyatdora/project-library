@@ -173,6 +173,7 @@ namespace project_library
             this.Label_Next.Size = new System.Drawing.Size(54, 23);
             this.Label_Next.TabIndex = 75;
             this.Label_Next.Text = "NEXT";
+            this.Label_Next.Click += new System.EventHandler(this.Label_Next_Click);
             this.Label_Next.MouseEnter += new System.EventHandler(this.Label_Next_MouseEnter);
             this.Label_Next.MouseLeave += new System.EventHandler(this.Label_Next_MouseLeave);
             // 
@@ -187,6 +188,7 @@ namespace project_library
             this.Label_Search.Size = new System.Drawing.Size(82, 23);
             this.Label_Search.TabIndex = 55;
             this.Label_Search.Text = "SEARCH";
+            this.Label_Search.Click += new System.EventHandler(this.Label_Search_Click);
             this.Label_Search.MouseEnter += new System.EventHandler(this.Label_Search_MouseEnter);
             this.Label_Search.MouseLeave += new System.EventHandler(this.Label_Search_MouseLeave);
             // 

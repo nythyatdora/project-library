@@ -96,5 +96,20 @@ namespace project_library
             //ControlMethod.LoadForm(_form_main.GetForm("Form_Table_Readers"));
             ControlMethod.LoadForm(new Form_Table("Readers"));
         }
+
+        private void Label_Upload_Picture_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog_Reader_Picture.ShowDialog();
+        }
+
+        private void Label_Upload_Identification_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog_IdentificationID.ShowDialog();
+        }
+
+        private void Label_Confirm_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("reader has inserted!");
+        }
     }
 }

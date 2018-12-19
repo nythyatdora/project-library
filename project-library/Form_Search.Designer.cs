@@ -111,6 +111,7 @@
             this.Label_Search.Size = new System.Drawing.Size(93, 25);
             this.Label_Search.TabIndex = 6;
             this.Label_Search.Text = "SEARCH";
+            this.Label_Search.Click += new System.EventHandler(this.Label_Search_Click);
             this.Label_Search.MouseEnter += new System.EventHandler(this.Label_Search_MouseEnter);
             this.Label_Search.MouseLeave += new System.EventHandler(this.Label_Search_MouseLeave);
             // 
@@ -152,7 +153,7 @@
             this.Label_Searchby.TabIndex = 3;
             this.Label_Searchby.Text = "Search By";
             // 
-            // Frm_Search
+            // Form_Search
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -160,7 +161,7 @@
             this.Controls.Add(this.panel_head);
             this.Controls.Add(this.Panel_Body);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Frm_Search";
+            this.Name = "Form_Search";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_Search";
             this.Panel_Body.ResumeLayout(false);

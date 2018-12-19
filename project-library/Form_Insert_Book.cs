@@ -107,5 +107,10 @@ namespace project_library
             //ControlMethod.LoadForm(_form_main.GetForm("Form_Table_Books"));
             ControlMethod.LoadForm(new Form_Table("Books"));
         }
+
+        private void Label_Confirm_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("book has inserted!");
+        }
     }
 }

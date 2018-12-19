@@ -99,6 +99,7 @@
             this.Label_Confirm.Size = new System.Drawing.Size(114, 35);
             this.Label_Confirm.TabIndex = 8;
             this.Label_Confirm.Text = "confirm";
+            this.Label_Confirm.Click += new System.EventHandler(this.Label_Confirm_Click);
             this.Label_Confirm.MouseEnter += new System.EventHandler(this.Label_Confirm_MouseEnter);
             this.Label_Confirm.MouseLeave += new System.EventHandler(this.Label_Confirm_MouseLeave);
             // 

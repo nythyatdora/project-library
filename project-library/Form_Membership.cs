@@ -122,5 +122,17 @@ namespace project_library
             //ControlMethod.LoadForm(_form_main.GetForm("Form_Insert_Reader"));
             ControlMethod.LoadForm(new Form_Insert_Reader());
         }
+
+        private void Label_Confirm_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("membership has added!");
+            // ControlMethod.CloseForm(this);
+        }
+
+        private void Label_Search_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("search result: ");
+            ControlMethod.LoadForm(new Form_Table("Result"));
+        }
     }
 }

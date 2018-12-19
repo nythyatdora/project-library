@@ -130,6 +130,7 @@
             this.Label_Confirm.Size = new System.Drawing.Size(90, 23);
             this.Label_Confirm.TabIndex = 75;
             this.Label_Confirm.Text = "CONFIRM";
+            this.Label_Confirm.Click += new System.EventHandler(this.Label_Confirm_Click);
             this.Label_Confirm.MouseEnter += new System.EventHandler(this.Label_Confirm_MouseEnter);
             this.Label_Confirm.MouseLeave += new System.EventHandler(this.Label_Confirm_MouseLeave);
             // 
@@ -307,6 +308,7 @@
             this.Label_Search.Size = new System.Drawing.Size(82, 23);
             this.Label_Search.TabIndex = 55;
             this.Label_Search.Text = "SEARCH";
+            this.Label_Search.Click += new System.EventHandler(this.Label_Search_Click);
             this.Label_Search.MouseEnter += new System.EventHandler(this.Label_Search_MouseEnter);
             this.Label_Search.MouseLeave += new System.EventHandler(this.Label_Search_MouseLeave);
             // 

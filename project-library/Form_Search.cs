@@ -52,5 +52,11 @@ namespace project_library
         {
             ControlMethod.CloseForm(this);
         }
+
+        private void Label_Search_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Result"));
+            ControlMethod.CloseForm(this);
+        }
     }
 }

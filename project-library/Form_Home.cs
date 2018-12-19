@@ -18,7 +18,7 @@ namespace project_library
         public Form_Home(Form_Main form_main)
         {
             InitializeComponent();
-            _form_main = form_main;
+            _form_main = form_main; 
         }
 
         private void Button_Borrow_MouseEnter(object sender, EventArgs e)

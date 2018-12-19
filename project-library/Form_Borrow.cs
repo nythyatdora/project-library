@@ -144,5 +144,17 @@ namespace project_library
             //ControlMethod.LoadForm(_form_main.GetForm("Form_Table_Books"));
             ControlMethod.LoadForm(new Form_Table("Books"));
         }
+
+        private void Label_Next_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("all found!");
+            ControlMethod.LoadForm(new Form_Proceed_Borrow());
+            ControlMethod.CloseForm(this);
+        }
+
+        private void Label_Search_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("search result: ");
+        }
     }
 }

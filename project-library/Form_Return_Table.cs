@@ -88,5 +88,11 @@ namespace project_library
         {
             ControlMethod.CloseForm(this);
         }
+
+        private void Label_Return_Book_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Confirm Process?", "", MessageBoxButtons.YesNo);
+            // ControlMethod.CloseForm(this);
+        }
     }
 }

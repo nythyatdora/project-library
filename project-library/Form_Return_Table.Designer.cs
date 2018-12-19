@@ -100,6 +100,7 @@
             this.Label_Return_Book.Size = new System.Drawing.Size(130, 23);
             this.Label_Return_Book.TabIndex = 52;
             this.Label_Return_Book.Text = "RETURN BOOK";
+            this.Label_Return_Book.Click += new System.EventHandler(this.Label_Return_Book_Click);
             this.Label_Return_Book.MouseEnter += new System.EventHandler(this.Label_Return_Book_MouseEnter);
             this.Label_Return_Book.MouseLeave += new System.EventHandler(this.Label_Return_Book_MouseLeave);
             // 

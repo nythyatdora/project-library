@@ -206,5 +206,85 @@ namespace project_library
         {
             this.Close();
         }
+
+        private void TableBorrowToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Borrow"));
+        }
+
+        private void TableBooksToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Books"));
+        }
+
+        private void TableReadersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Readers"));
+        }
+
+        private void TableMembershipToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Membership"));
+        }
+
+        private void TableLoginHistoryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Login History"));
+        }
+
+        private void ScienceFictionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Science Fiction"));
+        }
+
+        private void DramaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Drama"));
+        }
+
+        private void MysteryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Mystery"));
+        }
+
+        private void ComicsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Comics"));
+        }
+
+        private void MathToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Math"));
+        }
+
+        private void HorrorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Horror"));
+        }
+
+        private void HistoryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("History"));
+        }
+
+        private void FantasyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Fantasy"));
+        }
+
+        private void AdventureToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Adventure"));
+        }
+
+        private void ScienceToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Science"));
+        }
+
+        private void tableProceedBorrowToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Proceed Borrow"));
+        }
     }
 }

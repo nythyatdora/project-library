@@ -72,5 +72,16 @@ namespace project_library
         {
             ControlMethod.CloseForm(this);
         }
+
+        private void Label_Add_New_Reader_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Proceed Borrow"));
+        }
+
+        private void Label_Proceed_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("process has completed!");
+            ControlMethod.CloseForm(this);
+        }
     }
 }

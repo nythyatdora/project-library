@@ -149,12 +149,13 @@
             this.Label_Upload_Identification.BackColor = System.Drawing.Color.Transparent;
             this.Label_Upload_Identification.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Upload_Identification.ForeColor = System.Drawing.Color.White;
-            this.Label_Upload_Identification.Location = new System.Drawing.Point(701, 666);
+            this.Label_Upload_Identification.Location = new System.Drawing.Point(696, 666);
             this.Label_Upload_Identification.Name = "Label_Upload_Identification";
             this.Label_Upload_Identification.Size = new System.Drawing.Size(139, 69);
             this.Label_Upload_Identification.TabIndex = 53;
             this.Label_Upload_Identification.Text = "Upload\r\nIdentification ID\r\n\r\n";
             this.Label_Upload_Identification.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label_Upload_Identification.Click += new System.EventHandler(this.Label_Upload_Identification_Click);
             this.Label_Upload_Identification.MouseEnter += new System.EventHandler(this.Label_Upload_Identification_MouseEnter);
             this.Label_Upload_Identification.MouseLeave += new System.EventHandler(this.Label_Upload_Identification_MouseLeave);
             // 
@@ -169,6 +170,7 @@
             this.Label_Upload_Picture.Size = new System.Drawing.Size(132, 23);
             this.Label_Upload_Picture.TabIndex = 52;
             this.Label_Upload_Picture.Text = "Upload Picture";
+            this.Label_Upload_Picture.Click += new System.EventHandler(this.Label_Upload_Picture_Click);
             this.Label_Upload_Picture.MouseEnter += new System.EventHandler(this.Label_Upload_Picture_MouseEnter);
             this.Label_Upload_Picture.MouseLeave += new System.EventHandler(this.Label_Upload_Picture_MouseLeave);
             // 
@@ -224,6 +226,7 @@
             this.Label_Confirm.Size = new System.Drawing.Size(90, 23);
             this.Label_Confirm.TabIndex = 47;
             this.Label_Confirm.Text = "CONFIRM";
+            this.Label_Confirm.Click += new System.EventHandler(this.Label_Confirm_Click);
             this.Label_Confirm.MouseEnter += new System.EventHandler(this.Label_Confirm_MouseEnter);
             this.Label_Confirm.MouseLeave += new System.EventHandler(this.Label_Confirm_MouseLeave);
             // 
@@ -423,6 +426,14 @@
             this.Picbox_Title.Size = new System.Drawing.Size(400, 72);
             this.Picbox_Title.TabIndex = 0;
             this.Picbox_Title.TabStop = false;
+            // 
+            // OpenFileDialog_Reader_Picture
+            // 
+            this.OpenFileDialog_Reader_Picture.Filter = "ImageFile|*.png;";
+            // 
+            // OpenFileDialog_IdentificationID
+            // 
+            this.OpenFileDialog_IdentificationID.Filter = "ImageFile|*.png;";
             // 
             // Form_Insert_Reader
             // 

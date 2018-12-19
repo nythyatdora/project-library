@@ -66,6 +66,7 @@
             this.TutorialsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.AboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ExitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tableProceedBorrowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Panel_Background.SuspendLayout();
             this.ContextMenuStrip_Main.SuspendLayout();
             this.SuspendLayout();
@@ -283,32 +284,35 @@
             this.ExitToolStripMenuItem});
             this.ContextMenuStrip_Main.Name = "contextMenuStrip";
             this.ContextMenuStrip_Main.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.ContextMenuStrip_Main.Size = new System.Drawing.Size(144, 70);
+            this.ContextMenuStrip_Main.Size = new System.Drawing.Size(181, 92);
             // 
             // ViewTablesToolStripMenuItem
             // 
             this.ViewTablesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.TableBorrowToolStripMenuItem,
+            this.tableProceedBorrowToolStripMenuItem,
             this.TableBooksToolStripMenuItem,
             this.TableCategoryToolStripMenuItem,
             this.TableReadersToolStripMenuItem,
             this.TableMembershipToolStripMenuItem,
             this.TableLoginHistoryToolStripMenuItem});
             this.ViewTablesToolStripMenuItem.Name = "ViewTablesToolStripMenuItem";
-            this.ViewTablesToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.ViewTablesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.ViewTablesToolStripMenuItem.Text = "View Tables";
             // 
             // TableBorrowToolStripMenuItem
             // 
             this.TableBorrowToolStripMenuItem.Name = "TableBorrowToolStripMenuItem";
-            this.TableBorrowToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.TableBorrowToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
             this.TableBorrowToolStripMenuItem.Text = "Table Borrow";
+            this.TableBorrowToolStripMenuItem.Click += new System.EventHandler(this.TableBorrowToolStripMenuItem_Click);
             // 
             // TableBooksToolStripMenuItem
             // 
             this.TableBooksToolStripMenuItem.Name = "TableBooksToolStripMenuItem";
-            this.TableBooksToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.TableBooksToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
             this.TableBooksToolStripMenuItem.Text = "Table Books";
+            this.TableBooksToolStripMenuItem.Click += new System.EventHandler(this.TableBooksToolStripMenuItem_Click);
             // 
             // TableCategoryToolStripMenuItem
             // 
@@ -324,7 +328,7 @@
             this.AdventureToolStripMenuItem,
             this.ScienceToolStripMenuItem});
             this.TableCategoryToolStripMenuItem.Name = "TableCategoryToolStripMenuItem";
-            this.TableCategoryToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.TableCategoryToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
             this.TableCategoryToolStripMenuItem.Text = "Table Category";
             // 
             // ScienceFictionToolStripMenuItem
@@ -332,78 +336,91 @@
             this.ScienceFictionToolStripMenuItem.Name = "ScienceFictionToolStripMenuItem";
             this.ScienceFictionToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.ScienceFictionToolStripMenuItem.Text = "Science Fiction";
+            this.ScienceFictionToolStripMenuItem.Click += new System.EventHandler(this.ScienceFictionToolStripMenuItem_Click);
             // 
             // DramaToolStripMenuItem
             // 
             this.DramaToolStripMenuItem.Name = "DramaToolStripMenuItem";
             this.DramaToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.DramaToolStripMenuItem.Text = "Drama";
+            this.DramaToolStripMenuItem.Click += new System.EventHandler(this.DramaToolStripMenuItem_Click);
             // 
             // MysteryToolStripMenuItem
             // 
             this.MysteryToolStripMenuItem.Name = "MysteryToolStripMenuItem";
             this.MysteryToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.MysteryToolStripMenuItem.Text = "Mystery";
+            this.MysteryToolStripMenuItem.Click += new System.EventHandler(this.MysteryToolStripMenuItem_Click);
             // 
             // ComicsToolStripMenuItem
             // 
             this.ComicsToolStripMenuItem.Name = "ComicsToolStripMenuItem";
             this.ComicsToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.ComicsToolStripMenuItem.Text = "Comics";
+            this.ComicsToolStripMenuItem.Click += new System.EventHandler(this.ComicsToolStripMenuItem_Click);
             // 
             // MathToolStripMenuItem
             // 
             this.MathToolStripMenuItem.Name = "MathToolStripMenuItem";
             this.MathToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.MathToolStripMenuItem.Text = "Math";
+            this.MathToolStripMenuItem.Click += new System.EventHandler(this.MathToolStripMenuItem_Click);
             // 
             // HorrorToolStripMenuItem
             // 
             this.HorrorToolStripMenuItem.Name = "HorrorToolStripMenuItem";
             this.HorrorToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.HorrorToolStripMenuItem.Text = "Horror";
+            this.HorrorToolStripMenuItem.Click += new System.EventHandler(this.HorrorToolStripMenuItem_Click);
             // 
             // HistoryToolStripMenuItem
             // 
             this.HistoryToolStripMenuItem.Name = "HistoryToolStripMenuItem";
             this.HistoryToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.HistoryToolStripMenuItem.Text = "History";
+            this.HistoryToolStripMenuItem.Click += new System.EventHandler(this.HistoryToolStripMenuItem_Click);
             // 
             // FantasyToolStripMenuItem
             // 
             this.FantasyToolStripMenuItem.Name = "FantasyToolStripMenuItem";
             this.FantasyToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.FantasyToolStripMenuItem.Text = "Fantasy";
+            this.FantasyToolStripMenuItem.Click += new System.EventHandler(this.FantasyToolStripMenuItem_Click);
             // 
             // AdventureToolStripMenuItem
             // 
             this.AdventureToolStripMenuItem.Name = "AdventureToolStripMenuItem";
             this.AdventureToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.AdventureToolStripMenuItem.Text = "Adventure";
+            this.AdventureToolStripMenuItem.Click += new System.EventHandler(this.AdventureToolStripMenuItem_Click);
             // 
             // ScienceToolStripMenuItem
             // 
             this.ScienceToolStripMenuItem.Name = "ScienceToolStripMenuItem";
             this.ScienceToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
             this.ScienceToolStripMenuItem.Text = "Science";
+            this.ScienceToolStripMenuItem.Click += new System.EventHandler(this.ScienceToolStripMenuItem_Click);
             // 
             // TableReadersToolStripMenuItem
             // 
             this.TableReadersToolStripMenuItem.Name = "TableReadersToolStripMenuItem";
-            this.TableReadersToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.TableReadersToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
             this.TableReadersToolStripMenuItem.Text = "Table Readers";
+            this.TableReadersToolStripMenuItem.Click += new System.EventHandler(this.TableReadersToolStripMenuItem_Click);
             // 
             // TableMembershipToolStripMenuItem
             // 
             this.TableMembershipToolStripMenuItem.Name = "TableMembershipToolStripMenuItem";
-            this.TableMembershipToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.TableMembershipToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
             this.TableMembershipToolStripMenuItem.Text = "Table Membership";
+            this.TableMembershipToolStripMenuItem.Click += new System.EventHandler(this.TableMembershipToolStripMenuItem_Click);
             // 
             // TableLoginHistoryToolStripMenuItem
             // 
             this.TableLoginHistoryToolStripMenuItem.Name = "TableLoginHistoryToolStripMenuItem";
-            this.TableLoginHistoryToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.TableLoginHistoryToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
             this.TableLoginHistoryToolStripMenuItem.Text = "Table Login History";
+            this.TableLoginHistoryToolStripMenuItem.Click += new System.EventHandler(this.TableLoginHistoryToolStripMenuItem_Click);
             // 
             // HelpToolStripMenuItem
             // 
@@ -411,27 +428,34 @@
             this.TutorialsToolStripMenuItem,
             this.AboutToolStripMenuItem});
             this.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem";
-            this.HelpToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.HelpToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.HelpToolStripMenuItem.Text = "Help";
             // 
             // TutorialsToolStripMenuItem
             // 
             this.TutorialsToolStripMenuItem.Name = "TutorialsToolStripMenuItem";
-            this.TutorialsToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.TutorialsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.TutorialsToolStripMenuItem.Text = "Tutorials";
             // 
             // AboutToolStripMenuItem
             // 
             this.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem";
-            this.AboutToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.AboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.AboutToolStripMenuItem.Text = "About";
             // 
             // ExitToolStripMenuItem
             // 
             this.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem";
-            this.ExitToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.ExitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.ExitToolStripMenuItem.Text = "Exit";
             this.ExitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolStripMenuItem_Click);
+            // 
+            // tableProceedBorrowToolStripMenuItem
+            // 
+            this.tableProceedBorrowToolStripMenuItem.Name = "tableProceedBorrowToolStripMenuItem";
+            this.tableProceedBorrowToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.tableProceedBorrowToolStripMenuItem.Text = "Table Proceed Borrow";
+            this.tableProceedBorrowToolStripMenuItem.Click += new System.EventHandler(this.tableProceedBorrowToolStripMenuItem_Click);
             // 
             // Form_Main
             // 
@@ -492,6 +516,7 @@
         private System.Windows.Forms.ToolStripMenuItem AdventureToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ScienceToolStripMenuItem;
         public System.Windows.Forms.Panel Panel_Main;
+        private System.Windows.Forms.ToolStripMenuItem tableProceedBorrowToolStripMenuItem;
     }
 }
 

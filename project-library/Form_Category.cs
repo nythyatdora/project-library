@@ -117,5 +117,55 @@ namespace project_library
         {
             GraphicInteraction.SetImageButtonLeave_Square(Button_Science);
         }
+
+        private void Button_Science_Fiction_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Science Fiction"));
+        }
+
+        private void Button_Drama_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Drama"));
+        }
+
+        private void Button_Mystery_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Mystery"));
+        }
+
+        private void Button_Comics_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Comic"));
+        }
+
+        private void Button_Math_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Math"));
+        }
+
+        private void Button_Horror_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Horror"));
+        }
+
+        private void Button_History_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("History"));
+        }
+
+        private void Button_Fantasy_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Fantasy"));
+        }
+
+        private void Button_Adventure_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Adventure"));
+        }
+
+        private void Button_Science_Click(object sender, EventArgs e)
+        {
+            ControlMethod.LoadForm(new Form_Table("Science"));
+        }
     }
 }
