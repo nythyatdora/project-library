@@ -58,25 +58,26 @@
             this.Text_Book_Title = new System.Windows.Forms.TextBox();
             this.Label_Book_Title = new System.Windows.Forms.Label();
             this.Label_Import_External = new System.Windows.Forms.Label();
-            this.Panel_Title = new System.Windows.Forms.Panel();
             this.OpenFileDialog_Bookcover = new System.Windows.Forms.OpenFileDialog();
+            this.Label_Title = new System.Windows.Forms.Label();
             this.Panel_Body.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Picbox_Bookcover)).BeginInit();
             this.SuspendLayout();
             // 
             // Panel_Head
             // 
-            this.Panel_Head.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel_Head.BackgroundImage")));
+            this.Panel_Head.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(102)))), ((int)(((byte)(24)))));
             this.Panel_Head.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.Panel_Head.Location = new System.Drawing.Point(0, 0);
             this.Panel_Head.Name = "Panel_Head";
-            this.Panel_Head.Size = new System.Drawing.Size(900, 6);
+            this.Panel_Head.Size = new System.Drawing.Size(900, 15);
             this.Panel_Head.TabIndex = 0;
             // 
             // Panel_Body
             // 
-            this.Panel_Body.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel_Body.BackgroundImage")));
+            this.Panel_Body.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.Panel_Body.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Panel_Body.Controls.Add(this.Label_Title);
             this.Panel_Body.Controls.Add(this.Label_Close);
             this.Panel_Body.Controls.Add(this.Label_View_Table_Book);
             this.Panel_Body.Controls.Add(this.Label_Confirm);
@@ -104,10 +105,9 @@
             this.Panel_Body.Controls.Add(this.Text_Book_Title);
             this.Panel_Body.Controls.Add(this.Label_Book_Title);
             this.Panel_Body.Controls.Add(this.Label_Import_External);
-            this.Panel_Body.Controls.Add(this.Panel_Title);
-            this.Panel_Body.Location = new System.Drawing.Point(0, 0);
+            this.Panel_Body.Location = new System.Drawing.Point(0, 15);
             this.Panel_Body.Name = "Panel_Body";
-            this.Panel_Body.Size = new System.Drawing.Size(900, 869);
+            this.Panel_Body.Size = new System.Drawing.Size(900, 865);
             this.Panel_Body.TabIndex = 1;
             // 
             // Label_Close
@@ -425,25 +425,27 @@
             this.Label_Import_External.MouseEnter += new System.EventHandler(this.Label_Import_External_MouseEnter);
             this.Label_Import_External.MouseLeave += new System.EventHandler(this.Label_Import_External_MouseLeave);
             // 
-            // Panel_Title
-            // 
-            this.Panel_Title.BackColor = System.Drawing.Color.Transparent;
-            this.Panel_Title.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel_Title.BackgroundImage")));
-            this.Panel_Title.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Panel_Title.Location = new System.Drawing.Point(27, 59);
-            this.Panel_Title.Name = "Panel_Title";
-            this.Panel_Title.Size = new System.Drawing.Size(378, 71);
-            this.Panel_Title.TabIndex = 0;
-            // 
             // OpenFileDialog_Bookcover
             // 
             this.OpenFileDialog_Bookcover.Filter = "ImageFile|*.png;";
+            // 
+            // Label_Title
+            // 
+            this.Label_Title.AutoSize = true;
+            this.Label_Title.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Title.Font = new System.Drawing.Font("Bahnschrift", 56F);
+            this.Label_Title.ForeColor = System.Drawing.Color.White;
+            this.Label_Title.Location = new System.Drawing.Point(23, 54);
+            this.Label_Title.Name = "Label_Title";
+            this.Label_Title.Size = new System.Drawing.Size(419, 90);
+            this.Label_Title.TabIndex = 105;
+            this.Label_Title.Text = "Insert Book";
             // 
             // Form_Insert_Book
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(900, 869);
+            this.ClientSize = new System.Drawing.Size(900, 880);
             this.Controls.Add(this.Panel_Head);
             this.Controls.Add(this.Panel_Body);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -461,7 +463,6 @@
 
         private System.Windows.Forms.Panel Panel_Head;
         private System.Windows.Forms.Panel Panel_Body;
-        private System.Windows.Forms.Panel Panel_Title;
         private System.Windows.Forms.Label Label_Book_Title;
         private System.Windows.Forms.Label Label_Import_External;
         private System.Windows.Forms.TextBox Text_Description;
@@ -490,5 +491,6 @@
         private System.Windows.Forms.Label Label_View_Table_Book;
         private System.Windows.Forms.Label Label_Close;
         private System.Windows.Forms.OpenFileDialog OpenFileDialog_Bookcover;
+        private System.Windows.Forms.Label Label_Title;
     }
 }

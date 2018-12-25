@@ -56,23 +56,25 @@
             this.Label_Book_Title = new System.Windows.Forms.Label();
             this.Label_New_Reader = new System.Windows.Forms.Label();
             this.Label_View_Table_Readers = new System.Windows.Forms.Label();
+            this.Label_Title = new System.Windows.Forms.Label();
             this.Panel_Body.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Picbox_Reader_Picture)).BeginInit();
             this.SuspendLayout();
             // 
             // Panel_Head
             // 
-            this.Panel_Head.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel_Head.BackgroundImage")));
+            this.Panel_Head.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(102)))), ((int)(((byte)(24)))));
             this.Panel_Head.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.Panel_Head.Location = new System.Drawing.Point(0, 0);
             this.Panel_Head.Name = "Panel_Head";
-            this.Panel_Head.Size = new System.Drawing.Size(900, 6);
+            this.Panel_Head.Size = new System.Drawing.Size(900, 15);
             this.Panel_Head.TabIndex = 1;
             // 
             // Panel_Body
             // 
-            this.Panel_Body.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel_Body.BackgroundImage")));
+            this.Panel_Body.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.Panel_Body.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Panel_Body.Controls.Add(this.Label_Title);
             this.Panel_Body.Controls.Add(this.Label_Close);
             this.Panel_Body.Controls.Add(this.Label_Confirm);
             this.Panel_Body.Controls.Add(this.Label_Reset);
@@ -98,9 +100,9 @@
             this.Panel_Body.Controls.Add(this.Label_Book_Title);
             this.Panel_Body.Controls.Add(this.Label_New_Reader);
             this.Panel_Body.Controls.Add(this.Label_View_Table_Readers);
-            this.Panel_Body.Location = new System.Drawing.Point(0, 6);
+            this.Panel_Body.Location = new System.Drawing.Point(0, 15);
             this.Panel_Body.Name = "Panel_Body";
-            this.Panel_Body.Size = new System.Drawing.Size(900, 681);
+            this.Panel_Body.Size = new System.Drawing.Size(900, 695);
             this.Panel_Body.TabIndex = 2;
             // 
             // Label_Close
@@ -400,11 +402,23 @@
             this.Label_View_Table_Readers.MouseEnter += new System.EventHandler(this.Label_View_Table_Readers_MouseEnter);
             this.Label_View_Table_Readers.MouseLeave += new System.EventHandler(this.Label_View_Table_Readers_MouseLeave);
             // 
+            // Label_Title
+            // 
+            this.Label_Title.AutoSize = true;
+            this.Label_Title.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Title.Font = new System.Drawing.Font("Bahnschrift", 56F);
+            this.Label_Title.ForeColor = System.Drawing.Color.White;
+            this.Label_Title.Location = new System.Drawing.Point(22, 47);
+            this.Label_Title.Name = "Label_Title";
+            this.Label_Title.Size = new System.Drawing.Size(454, 90);
+            this.Label_Title.TabIndex = 106;
+            this.Label_Title.Text = "Membership";
+            // 
             // Form_Membership
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(900, 681);
+            this.ClientSize = new System.Drawing.Size(900, 695);
             this.Controls.Add(this.Panel_Head);
             this.Controls.Add(this.Panel_Body);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -447,5 +461,6 @@
         private System.Windows.Forms.Label Label_Confirm;
         private System.Windows.Forms.Label Label_Reset;
         private System.Windows.Forms.Label Label_Close;
+        private System.Windows.Forms.Label Label_Title;
     }
 }

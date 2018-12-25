@@ -30,7 +30,6 @@ namespace project_library
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Borrow));
             this.Panel_Head = new System.Windows.Forms.Panel();
             this.Panel_Body = new System.Windows.Forms.Panel();
             this.Label_Back = new System.Windows.Forms.Label();
@@ -47,23 +46,25 @@ namespace project_library
             this.Label_Book_Title = new System.Windows.Forms.Label();
             this.Label_Add_New_Book = new System.Windows.Forms.Label();
             this.Label_Add_New_Reader = new System.Windows.Forms.Label();
+            this.Label_Title = new System.Windows.Forms.Label();
             this.Panel_Body.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Datagrid_Table)).BeginInit();
             this.SuspendLayout();
             // 
             // Panel_Head
             // 
-            this.Panel_Head.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel_Head.BackgroundImage")));
+            this.Panel_Head.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(102)))), ((int)(((byte)(24)))));
             this.Panel_Head.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.Panel_Head.Location = new System.Drawing.Point(0, 0);
             this.Panel_Head.Name = "Panel_Head";
-            this.Panel_Head.Size = new System.Drawing.Size(900, 6);
+            this.Panel_Head.Size = new System.Drawing.Size(900, 15);
             this.Panel_Head.TabIndex = 2;
             // 
             // Panel_Body
             // 
-            this.Panel_Body.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel_Body.BackgroundImage")));
+            this.Panel_Body.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.Panel_Body.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Panel_Body.Controls.Add(this.Label_Title);
             this.Panel_Body.Controls.Add(this.Label_Back);
             this.Panel_Body.Controls.Add(this.Datagrid_Table);
             this.Panel_Body.Controls.Add(this.Label_View_Table_Books);
@@ -78,7 +79,7 @@ namespace project_library
             this.Panel_Body.Controls.Add(this.Label_Book_Title);
             this.Panel_Body.Controls.Add(this.Label_Add_New_Book);
             this.Panel_Body.Controls.Add(this.Label_Add_New_Reader);
-            this.Panel_Body.Location = new System.Drawing.Point(0, 6);
+            this.Panel_Body.Location = new System.Drawing.Point(0, 15);
             this.Panel_Body.Name = "Panel_Body";
             this.Panel_Body.Size = new System.Drawing.Size(900, 685);
             this.Panel_Body.TabIndex = 3;
@@ -280,11 +281,23 @@ namespace project_library
             this.Label_Add_New_Reader.MouseEnter += new System.EventHandler(this.Label_Add_New_Reader_MouseEnter);
             this.Label_Add_New_Reader.MouseLeave += new System.EventHandler(this.Label_Add_New_Reader_MouseLeave);
             // 
+            // Label_Title
+            // 
+            this.Label_Title.AutoSize = true;
+            this.Label_Title.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Title.Font = new System.Drawing.Font("Bahnschrift", 56F);
+            this.Label_Title.ForeColor = System.Drawing.Color.White;
+            this.Label_Title.Location = new System.Drawing.Point(20, 47);
+            this.Label_Title.Name = "Label_Title";
+            this.Label_Title.Size = new System.Drawing.Size(288, 90);
+            this.Label_Title.TabIndex = 106;
+            this.Label_Title.Text = "Borrow";
+            // 
             // Form_Borrow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(900, 691);
+            this.ClientSize = new System.Drawing.Size(900, 700);
             this.Controls.Add(this.Panel_Head);
             this.Controls.Add(this.Panel_Body);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -316,5 +329,6 @@ namespace project_library
         private System.Windows.Forms.Label Label_View_Table_Readers;
         private System.Windows.Forms.DataGridView Datagrid_Table;
         private System.Windows.Forms.Label Label_Back;
+        private System.Windows.Forms.Label Label_Title;
     }
 }

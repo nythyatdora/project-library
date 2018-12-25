@@ -28,29 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Import_Text));
             this.Panel_Head = new System.Windows.Forms.Panel();
             this.Panel_Body = new System.Windows.Forms.Panel();
-            this.Label_Close = new System.Windows.Forms.Label();
-            this.Label_Title = new System.Windows.Forms.Label();
-            this.Text_Input = new System.Windows.Forms.TextBox();
+            this.Label_Browse = new System.Windows.Forms.Label();
             this.Label_Confirm = new System.Windows.Forms.Label();
             this.Label_Reset = new System.Windows.Forms.Label();
-            this.Label_Browse = new System.Windows.Forms.Label();
+            this.Text_Input = new System.Windows.Forms.TextBox();
+            this.Label_Title = new System.Windows.Forms.Label();
+            this.Label_Close = new System.Windows.Forms.Label();
             this.Panel_Body.SuspendLayout();
             this.SuspendLayout();
             // 
             // Panel_Head
             // 
-            this.Panel_Head.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel_Head.BackgroundImage")));
+            this.Panel_Head.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(102)))), ((int)(((byte)(24)))));
             this.Panel_Head.Location = new System.Drawing.Point(0, 0);
             this.Panel_Head.Name = "Panel_Head";
-            this.Panel_Head.Size = new System.Drawing.Size(500, 6);
+            this.Panel_Head.Size = new System.Drawing.Size(500, 15);
             this.Panel_Head.TabIndex = 0;
             // 
             // Panel_Body
             // 
-            this.Panel_Body.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel_Body.BackgroundImage")));
+            this.Panel_Body.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.Panel_Body.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.Panel_Body.Controls.Add(this.Label_Browse);
             this.Panel_Body.Controls.Add(this.Label_Confirm);
@@ -58,47 +57,24 @@
             this.Panel_Body.Controls.Add(this.Text_Input);
             this.Panel_Body.Controls.Add(this.Label_Title);
             this.Panel_Body.Controls.Add(this.Label_Close);
-            this.Panel_Body.Location = new System.Drawing.Point(0, 6);
+            this.Panel_Body.Location = new System.Drawing.Point(0, 15);
             this.Panel_Body.Name = "Panel_Body";
             this.Panel_Body.Size = new System.Drawing.Size(500, 355);
             this.Panel_Body.TabIndex = 1;
             // 
-            // Label_Close
+            // Label_Browse
             // 
-            this.Label_Close.AutoSize = true;
-            this.Label_Close.BackColor = System.Drawing.Color.Transparent;
-            this.Label_Close.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_Close.ForeColor = System.Drawing.Color.White;
-            this.Label_Close.Location = new System.Drawing.Point(28, 18);
-            this.Label_Close.Name = "Label_Close";
-            this.Label_Close.Size = new System.Drawing.Size(55, 23);
-            this.Label_Close.TabIndex = 57;
-            this.Label_Close.Text = "close";
-            this.Label_Close.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.Label_Close.Click += new System.EventHandler(this.Label_Close_Click);
-            this.Label_Close.MouseEnter += new System.EventHandler(this.Label_Close_MouseEnter);
-            this.Label_Close.MouseLeave += new System.EventHandler(this.Label_Close_MouseLeave);
-            // 
-            // Label_Title
-            // 
-            this.Label_Title.AutoSize = true;
-            this.Label_Title.BackColor = System.Drawing.Color.Transparent;
-            this.Label_Title.Font = new System.Drawing.Font("Bahnschrift", 32.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_Title.ForeColor = System.Drawing.Color.White;
-            this.Label_Title.Location = new System.Drawing.Point(23, 41);
-            this.Label_Title.Name = "Label_Title";
-            this.Label_Title.Size = new System.Drawing.Size(235, 52);
-            this.Label_Title.TabIndex = 58;
-            this.Label_Title.Text = "Import Text";
-            this.Label_Title.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // Text_Input
-            // 
-            this.Text_Input.Location = new System.Drawing.Point(32, 105);
-            this.Text_Input.Multiline = true;
-            this.Text_Input.Name = "Text_Input";
-            this.Text_Input.Size = new System.Drawing.Size(435, 200);
-            this.Text_Input.TabIndex = 59;
+            this.Label_Browse.AutoSize = true;
+            this.Label_Browse.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Browse.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Browse.ForeColor = System.Drawing.Color.White;
+            this.Label_Browse.Location = new System.Drawing.Point(382, 70);
+            this.Label_Browse.Name = "Label_Browse";
+            this.Label_Browse.Size = new System.Drawing.Size(85, 23);
+            this.Label_Browse.TabIndex = 62;
+            this.Label_Browse.Text = "BROWSE";
+            this.Label_Browse.MouseEnter += new System.EventHandler(this.Label_Browse_MouseEnter);
+            this.Label_Browse.MouseLeave += new System.EventHandler(this.Label_Browse_MouseLeave);
             // 
             // Label_Confirm
             // 
@@ -128,26 +104,49 @@
             this.Label_Reset.MouseEnter += new System.EventHandler(this.Label_Reset_MouseEnter);
             this.Label_Reset.MouseLeave += new System.EventHandler(this.Label_Reset_MouseLeave);
             // 
-            // Label_Browse
+            // Text_Input
             // 
-            this.Label_Browse.AutoSize = true;
-            this.Label_Browse.BackColor = System.Drawing.Color.Transparent;
-            this.Label_Browse.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_Browse.ForeColor = System.Drawing.Color.White;
-            this.Label_Browse.Location = new System.Drawing.Point(382, 70);
-            this.Label_Browse.Name = "Label_Browse";
-            this.Label_Browse.Size = new System.Drawing.Size(85, 23);
-            this.Label_Browse.TabIndex = 62;
-            this.Label_Browse.Text = "BROWSE";
-            this.Label_Browse.MouseEnter += new System.EventHandler(this.Label_Browse_MouseEnter);
-            this.Label_Browse.MouseLeave += new System.EventHandler(this.Label_Browse_MouseLeave);
+            this.Text_Input.Location = new System.Drawing.Point(32, 105);
+            this.Text_Input.Multiline = true;
+            this.Text_Input.Name = "Text_Input";
+            this.Text_Input.Size = new System.Drawing.Size(435, 200);
+            this.Text_Input.TabIndex = 59;
+            // 
+            // Label_Title
+            // 
+            this.Label_Title.AutoSize = true;
+            this.Label_Title.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Title.Font = new System.Drawing.Font("Bahnschrift", 32.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Title.ForeColor = System.Drawing.Color.White;
+            this.Label_Title.Location = new System.Drawing.Point(23, 41);
+            this.Label_Title.Name = "Label_Title";
+            this.Label_Title.Size = new System.Drawing.Size(235, 52);
+            this.Label_Title.TabIndex = 58;
+            this.Label_Title.Text = "Import Text";
+            this.Label_Title.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // Label_Close
+            // 
+            this.Label_Close.AutoSize = true;
+            this.Label_Close.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Close.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Close.ForeColor = System.Drawing.Color.White;
+            this.Label_Close.Location = new System.Drawing.Point(28, 18);
+            this.Label_Close.Name = "Label_Close";
+            this.Label_Close.Size = new System.Drawing.Size(55, 23);
+            this.Label_Close.TabIndex = 57;
+            this.Label_Close.Text = "close";
+            this.Label_Close.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Label_Close.Click += new System.EventHandler(this.Label_Close_Click);
+            this.Label_Close.MouseEnter += new System.EventHandler(this.Label_Close_MouseEnter);
+            this.Label_Close.MouseLeave += new System.EventHandler(this.Label_Close_MouseLeave);
             // 
             // Form_Import_Text
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(500, 361);
+            this.ClientSize = new System.Drawing.Size(500, 370);
             this.Controls.Add(this.Panel_Body);
             this.Controls.Add(this.Panel_Head);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

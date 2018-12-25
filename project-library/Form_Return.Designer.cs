@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Return));
             this.Panel_Head = new System.Windows.Forms.Panel();
             this.Panel_Body = new System.Windows.Forms.Panel();
             this.Datagrid_Table = new System.Windows.Forms.DataGridView();
@@ -42,23 +41,25 @@
             this.Text_Searchby = new System.Windows.Forms.TextBox();
             this.Label_Filter = new System.Windows.Forms.Label();
             this.Label_Book_Title = new System.Windows.Forms.Label();
+            this.Label_Title = new System.Windows.Forms.Label();
             this.Panel_Body.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Datagrid_Table)).BeginInit();
             this.SuspendLayout();
             // 
             // Panel_Head
             // 
-            this.Panel_Head.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel_Head.BackgroundImage")));
+            this.Panel_Head.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(102)))), ((int)(((byte)(24)))));
             this.Panel_Head.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.Panel_Head.Location = new System.Drawing.Point(0, 0);
             this.Panel_Head.Name = "Panel_Head";
-            this.Panel_Head.Size = new System.Drawing.Size(900, 6);
+            this.Panel_Head.Size = new System.Drawing.Size(900, 15);
             this.Panel_Head.TabIndex = 4;
             // 
             // Panel_Body
             // 
-            this.Panel_Body.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel_Body.BackgroundImage")));
+            this.Panel_Body.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.Panel_Body.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Panel_Body.Controls.Add(this.Label_Title);
             this.Panel_Body.Controls.Add(this.Datagrid_Table);
             this.Panel_Body.Controls.Add(this.Label_View_Table_Books);
             this.Panel_Body.Controls.Add(this.Label_View_Table_Readers);
@@ -70,7 +71,7 @@
             this.Panel_Body.Controls.Add(this.Text_Searchby);
             this.Panel_Body.Controls.Add(this.Label_Filter);
             this.Panel_Body.Controls.Add(this.Label_Book_Title);
-            this.Panel_Body.Location = new System.Drawing.Point(0, 6);
+            this.Panel_Body.Location = new System.Drawing.Point(0, 15);
             this.Panel_Body.Name = "Panel_Body";
             this.Panel_Body.Size = new System.Drawing.Size(900, 685);
             this.Panel_Body.TabIndex = 5;
@@ -161,7 +162,7 @@
             this.Label_Search.BackColor = System.Drawing.Color.Transparent;
             this.Label_Search.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Search.ForeColor = System.Drawing.Color.White;
-            this.Label_Search.Location = new System.Drawing.Point(791, 273);
+            this.Label_Search.Location = new System.Drawing.Point(783, 273);
             this.Label_Search.Name = "Label_Search";
             this.Label_Search.Size = new System.Drawing.Size(82, 23);
             this.Label_Search.TabIndex = 55;
@@ -226,12 +227,24 @@
             this.Label_Book_Title.TabIndex = 50;
             this.Label_Book_Title.Text = "Search by";
             // 
+            // Label_Title
+            // 
+            this.Label_Title.AutoSize = true;
+            this.Label_Title.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Title.Font = new System.Drawing.Font("Bahnschrift", 56F);
+            this.Label_Title.ForeColor = System.Drawing.Color.White;
+            this.Label_Title.Location = new System.Drawing.Point(22, 47);
+            this.Label_Title.Name = "Label_Title";
+            this.Label_Title.Size = new System.Drawing.Size(266, 90);
+            this.Label_Title.TabIndex = 104;
+            this.Label_Title.Text = "Return";
+            // 
             // Form_Return
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(900, 691);
+            this.ClientSize = new System.Drawing.Size(900, 705);
             this.Controls.Add(this.Panel_Head);
             this.Controls.Add(this.Panel_Body);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -260,5 +273,6 @@
         private System.Windows.Forms.TextBox Text_Searchby;
         private System.Windows.Forms.Label Label_Filter;
         private System.Windows.Forms.Label Label_Book_Title;
+        private System.Windows.Forms.Label Label_Title;
     }
 }

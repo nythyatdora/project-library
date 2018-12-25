@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Search));
             this.panel_head = new System.Windows.Forms.Panel();
             this.Panel_Body = new System.Windows.Forms.Panel();
             this.Label_Close = new System.Windows.Forms.Label();
@@ -43,16 +42,16 @@
             // 
             // panel_head
             // 
-            this.panel_head.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel_head.BackgroundImage")));
+            this.panel_head.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(102)))), ((int)(((byte)(24)))));
             this.panel_head.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel_head.Location = new System.Drawing.Point(0, 0);
             this.panel_head.Name = "panel_head";
-            this.panel_head.Size = new System.Drawing.Size(900, 6);
+            this.panel_head.Size = new System.Drawing.Size(900, 15);
             this.panel_head.TabIndex = 0;
             // 
             // Panel_Body
             // 
-            this.Panel_Body.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel_Body.BackgroundImage")));
+            this.Panel_Body.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.Panel_Body.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.Panel_Body.Controls.Add(this.Label_Close);
             this.Panel_Body.Controls.Add(this.Combo_Filter);
@@ -61,7 +60,7 @@
             this.Panel_Body.Controls.Add(this.Label_Reset);
             this.Panel_Body.Controls.Add(this.Label_Filter);
             this.Panel_Body.Controls.Add(this.Label_Searchby);
-            this.Panel_Body.Location = new System.Drawing.Point(0, 0);
+            this.Panel_Body.Location = new System.Drawing.Point(0, 15);
             this.Panel_Body.Name = "Panel_Body";
             this.Panel_Body.Size = new System.Drawing.Size(900, 350);
             this.Panel_Body.TabIndex = 1;
@@ -106,7 +105,7 @@
             this.Label_Search.BackColor = System.Drawing.Color.Transparent;
             this.Label_Search.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Search.ForeColor = System.Drawing.Color.White;
-            this.Label_Search.Location = new System.Drawing.Point(753, 299);
+            this.Label_Search.Location = new System.Drawing.Point(757, 299);
             this.Label_Search.Name = "Label_Search";
             this.Label_Search.Size = new System.Drawing.Size(93, 25);
             this.Label_Search.TabIndex = 6;
@@ -157,7 +156,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(900, 350);
+            this.ClientSize = new System.Drawing.Size(900, 365);
             this.Controls.Add(this.panel_head);
             this.Controls.Add(this.Panel_Body);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

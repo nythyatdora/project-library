@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Table));
             this.Panel_Head = new System.Windows.Forms.Panel();
             this.Panel_Body = new System.Windows.Forms.Panel();
             this.Label_Close = new System.Windows.Forms.Label();
@@ -47,16 +46,16 @@
             // 
             // Panel_Head
             // 
-            this.Panel_Head.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel_Head.BackgroundImage")));
+            this.Panel_Head.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(102)))), ((int)(((byte)(24)))));
             this.Panel_Head.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.Panel_Head.Location = new System.Drawing.Point(0, 0);
             this.Panel_Head.Name = "Panel_Head";
-            this.Panel_Head.Size = new System.Drawing.Size(1000, 6);
+            this.Panel_Head.Size = new System.Drawing.Size(1000, 15);
             this.Panel_Head.TabIndex = 0;
             // 
             // Panel_Body
             // 
-            this.Panel_Body.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel_Body.BackgroundImage")));
+            this.Panel_Body.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.Panel_Body.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.Panel_Body.Controls.Add(this.Label_Close);
             this.Panel_Body.Controls.Add(this.Label_Delete);
@@ -68,9 +67,9 @@
             this.Panel_Body.Controls.Add(this.Text_Searchby);
             this.Panel_Body.Controls.Add(this.Label_Searchby);
             this.Panel_Body.Controls.Add(this.Label_Title);
-            this.Panel_Body.Location = new System.Drawing.Point(0, 6);
+            this.Panel_Body.Location = new System.Drawing.Point(0, 15);
             this.Panel_Body.Name = "Panel_Body";
-            this.Panel_Body.Size = new System.Drawing.Size(1000, 794);
+            this.Panel_Body.Size = new System.Drawing.Size(1000, 790);
             this.Panel_Body.TabIndex = 1;
             // 
             // Label_Close
@@ -213,7 +212,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1000, 800);
+            this.ClientSize = new System.Drawing.Size(1000, 805);
             this.Controls.Add(this.Panel_Head);
             this.Controls.Add(this.Panel_Body);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

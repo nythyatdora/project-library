@@ -57,28 +57,28 @@
             this.Label_Last_Name = new System.Windows.Forms.Label();
             this.Text_First_Name = new System.Windows.Forms.TextBox();
             this.Label_First_Name = new System.Windows.Forms.Label();
-            this.Picbox_Title = new System.Windows.Forms.PictureBox();
             this.OpenFileDialog_Reader_Picture = new System.Windows.Forms.OpenFileDialog();
             this.OpenFileDialog_IdentificationID = new System.Windows.Forms.OpenFileDialog();
+            this.Label_Title = new System.Windows.Forms.Label();
             this.Panel_Body.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Picbox_IdentificationID)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Picbox_Reader_Picture)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Picbox_Title)).BeginInit();
             this.SuspendLayout();
             // 
             // Panel_Head
             // 
-            this.Panel_Head.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel_Head.BackgroundImage")));
+            this.Panel_Head.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(102)))), ((int)(((byte)(24)))));
             this.Panel_Head.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.Panel_Head.Location = new System.Drawing.Point(0, 0);
             this.Panel_Head.Name = "Panel_Head";
-            this.Panel_Head.Size = new System.Drawing.Size(900, 6);
+            this.Panel_Head.Size = new System.Drawing.Size(900, 15);
             this.Panel_Head.TabIndex = 0;
             // 
             // Panel_Body
             // 
-            this.Panel_Body.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Panel_Body.BackgroundImage")));
+            this.Panel_Body.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.Panel_Body.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Panel_Body.Controls.Add(this.Label_Title);
             this.Panel_Body.Controls.Add(this.Label_Close);
             this.Panel_Body.Controls.Add(this.Label_View_Table_Readers);
             this.Panel_Body.Controls.Add(this.Label_Upload_Identification);
@@ -105,10 +105,9 @@
             this.Panel_Body.Controls.Add(this.Label_Last_Name);
             this.Panel_Body.Controls.Add(this.Text_First_Name);
             this.Panel_Body.Controls.Add(this.Label_First_Name);
-            this.Panel_Body.Controls.Add(this.Picbox_Title);
-            this.Panel_Body.Location = new System.Drawing.Point(0, 6);
+            this.Panel_Body.Location = new System.Drawing.Point(0, 15);
             this.Panel_Body.Name = "Panel_Body";
-            this.Panel_Body.Size = new System.Drawing.Size(900, 796);
+            this.Panel_Body.Size = new System.Drawing.Size(900, 770);
             this.Panel_Body.TabIndex = 1;
             // 
             // Label_Close
@@ -201,7 +200,7 @@
             // dtp_dateofbirth
             // 
             this.dtp_dateofbirth.Font = new System.Drawing.Font("Bahnschrift", 15.75F);
-            this.dtp_dateofbirth.Location = new System.Drawing.Point(348, 305);
+            this.dtp_dateofbirth.Location = new System.Drawing.Point(348, 275);
             this.dtp_dateofbirth.Name = "dtp_dateofbirth";
             this.dtp_dateofbirth.Size = new System.Drawing.Size(280, 33);
             this.dtp_dateofbirth.TabIndex = 49;
@@ -210,7 +209,7 @@
             // 
             this.cbo_gender.Font = new System.Drawing.Font("Bahnschrift", 15.75F);
             this.cbo_gender.FormattingEnabled = true;
-            this.cbo_gender.Location = new System.Drawing.Point(41, 305);
+            this.cbo_gender.Location = new System.Drawing.Point(41, 275);
             this.cbo_gender.Name = "cbo_gender";
             this.cbo_gender.Size = new System.Drawing.Size(280, 33);
             this.cbo_gender.TabIndex = 48;
@@ -221,7 +220,7 @@
             this.Label_Confirm.BackColor = System.Drawing.Color.Transparent;
             this.Label_Confirm.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Confirm.ForeColor = System.Drawing.Color.White;
-            this.Label_Confirm.Location = new System.Drawing.Point(541, 736);
+            this.Label_Confirm.Location = new System.Drawing.Point(541, 727);
             this.Label_Confirm.Name = "Label_Confirm";
             this.Label_Confirm.Size = new System.Drawing.Size(90, 23);
             this.Label_Confirm.TabIndex = 47;
@@ -236,7 +235,7 @@
             this.Label_Reset.BackColor = System.Drawing.Color.Transparent;
             this.Label_Reset.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Reset.ForeColor = System.Drawing.Color.White;
-            this.Label_Reset.Location = new System.Drawing.Point(37, 736);
+            this.Label_Reset.Location = new System.Drawing.Point(37, 727);
             this.Label_Reset.Name = "Label_Reset";
             this.Label_Reset.Size = new System.Drawing.Size(65, 23);
             this.Label_Reset.TabIndex = 46;
@@ -248,10 +247,10 @@
             // 
             this.Text_Address.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Text_Address.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_Address.Location = new System.Drawing.Point(41, 579);
+            this.Text_Address.Location = new System.Drawing.Point(41, 549);
             this.Text_Address.Multiline = true;
             this.Text_Address.Name = "Text_Address";
-            this.Text_Address.Size = new System.Drawing.Size(585, 130);
+            this.Text_Address.Size = new System.Drawing.Size(585, 163);
             this.Text_Address.TabIndex = 45;
             // 
             // Label_Address
@@ -260,7 +259,7 @@
             this.Label_Address.BackColor = System.Drawing.Color.Transparent;
             this.Label_Address.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Address.ForeColor = System.Drawing.Color.White;
-            this.Label_Address.Location = new System.Drawing.Point(37, 543);
+            this.Label_Address.Location = new System.Drawing.Point(37, 513);
             this.Label_Address.Name = "Label_Address";
             this.Label_Address.Size = new System.Drawing.Size(116, 33);
             this.Label_Address.TabIndex = 44;
@@ -270,7 +269,7 @@
             // 
             this.Text_Email_Address.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Text_Email_Address.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_Email_Address.Location = new System.Drawing.Point(348, 491);
+            this.Text_Email_Address.Location = new System.Drawing.Point(348, 461);
             this.Text_Email_Address.Name = "Text_Email_Address";
             this.Text_Email_Address.Size = new System.Drawing.Size(280, 33);
             this.Text_Email_Address.TabIndex = 43;
@@ -281,7 +280,7 @@
             this.Label_Email_Address.BackColor = System.Drawing.Color.Transparent;
             this.Label_Email_Address.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Email_Address.ForeColor = System.Drawing.Color.White;
-            this.Label_Email_Address.Location = new System.Drawing.Point(342, 455);
+            this.Label_Email_Address.Location = new System.Drawing.Point(342, 425);
             this.Label_Email_Address.Name = "Label_Email_Address";
             this.Label_Email_Address.Size = new System.Drawing.Size(189, 33);
             this.Label_Email_Address.TabIndex = 42;
@@ -291,7 +290,7 @@
             // 
             this.Text_Phone_Number.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Text_Phone_Number.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_Phone_Number.Location = new System.Drawing.Point(41, 491);
+            this.Text_Phone_Number.Location = new System.Drawing.Point(41, 461);
             this.Text_Phone_Number.Name = "Text_Phone_Number";
             this.Text_Phone_Number.Size = new System.Drawing.Size(280, 33);
             this.Text_Phone_Number.TabIndex = 41;
@@ -302,7 +301,7 @@
             this.Label_Phone_Number.BackColor = System.Drawing.Color.Transparent;
             this.Label_Phone_Number.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Phone_Number.ForeColor = System.Drawing.Color.White;
-            this.Label_Phone_Number.Location = new System.Drawing.Point(35, 455);
+            this.Label_Phone_Number.Location = new System.Drawing.Point(35, 425);
             this.Label_Phone_Number.Name = "Label_Phone_Number";
             this.Label_Phone_Number.Size = new System.Drawing.Size(194, 33);
             this.Label_Phone_Number.TabIndex = 40;
@@ -312,7 +311,7 @@
             // 
             this.Text_Organization.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Text_Organization.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_Organization.Location = new System.Drawing.Point(348, 393);
+            this.Text_Organization.Location = new System.Drawing.Point(348, 363);
             this.Text_Organization.Name = "Text_Organization";
             this.Text_Organization.Size = new System.Drawing.Size(280, 33);
             this.Text_Organization.TabIndex = 39;
@@ -323,7 +322,7 @@
             this.Label_Organization.BackColor = System.Drawing.Color.Transparent;
             this.Label_Organization.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Organization.ForeColor = System.Drawing.Color.White;
-            this.Label_Organization.Location = new System.Drawing.Point(342, 357);
+            this.Label_Organization.Location = new System.Drawing.Point(342, 327);
             this.Label_Organization.Name = "Label_Organization";
             this.Label_Organization.Size = new System.Drawing.Size(168, 33);
             this.Label_Organization.TabIndex = 38;
@@ -333,7 +332,7 @@
             // 
             this.Text_Occupation.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Text_Occupation.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_Occupation.Location = new System.Drawing.Point(41, 393);
+            this.Text_Occupation.Location = new System.Drawing.Point(41, 363);
             this.Text_Occupation.Name = "Text_Occupation";
             this.Text_Occupation.Size = new System.Drawing.Size(280, 33);
             this.Text_Occupation.TabIndex = 37;
@@ -344,7 +343,7 @@
             this.Label_Occupation.BackColor = System.Drawing.Color.Transparent;
             this.Label_Occupation.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Occupation.ForeColor = System.Drawing.Color.White;
-            this.Label_Occupation.Location = new System.Drawing.Point(35, 357);
+            this.Label_Occupation.Location = new System.Drawing.Point(35, 327);
             this.Label_Occupation.Name = "Label_Occupation";
             this.Label_Occupation.Size = new System.Drawing.Size(148, 33);
             this.Label_Occupation.TabIndex = 36;
@@ -356,7 +355,7 @@
             this.Label_Date_of_Birth.BackColor = System.Drawing.Color.Transparent;
             this.Label_Date_of_Birth.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Date_of_Birth.ForeColor = System.Drawing.Color.White;
-            this.Label_Date_of_Birth.Location = new System.Drawing.Point(342, 269);
+            this.Label_Date_of_Birth.Location = new System.Drawing.Point(342, 239);
             this.Label_Date_of_Birth.Name = "Label_Date_of_Birth";
             this.Label_Date_of_Birth.Size = new System.Drawing.Size(164, 33);
             this.Label_Date_of_Birth.TabIndex = 34;
@@ -368,7 +367,7 @@
             this.Label_Gender.BackColor = System.Drawing.Color.Transparent;
             this.Label_Gender.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Gender.ForeColor = System.Drawing.Color.White;
-            this.Label_Gender.Location = new System.Drawing.Point(35, 269);
+            this.Label_Gender.Location = new System.Drawing.Point(35, 239);
             this.Label_Gender.Name = "Label_Gender";
             this.Label_Gender.Size = new System.Drawing.Size(102, 33);
             this.Label_Gender.TabIndex = 32;
@@ -378,7 +377,7 @@
             // 
             this.Text_Last_Name.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Text_Last_Name.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_Last_Name.Location = new System.Drawing.Point(348, 222);
+            this.Text_Last_Name.Location = new System.Drawing.Point(348, 192);
             this.Text_Last_Name.Name = "Text_Last_Name";
             this.Text_Last_Name.Size = new System.Drawing.Size(280, 33);
             this.Text_Last_Name.TabIndex = 31;
@@ -389,7 +388,7 @@
             this.Label_Last_Name.BackColor = System.Drawing.Color.Transparent;
             this.Label_Last_Name.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Last_Name.ForeColor = System.Drawing.Color.White;
-            this.Label_Last_Name.Location = new System.Drawing.Point(342, 186);
+            this.Label_Last_Name.Location = new System.Drawing.Point(342, 156);
             this.Label_Last_Name.Name = "Label_Last_Name";
             this.Label_Last_Name.Size = new System.Drawing.Size(142, 33);
             this.Label_Last_Name.TabIndex = 30;
@@ -399,7 +398,7 @@
             // 
             this.Text_First_Name.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Text_First_Name.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_First_Name.Location = new System.Drawing.Point(41, 222);
+            this.Text_First_Name.Location = new System.Drawing.Point(41, 192);
             this.Text_First_Name.Name = "Text_First_Name";
             this.Text_First_Name.Size = new System.Drawing.Size(280, 33);
             this.Text_First_Name.TabIndex = 29;
@@ -410,22 +409,11 @@
             this.Label_First_Name.BackColor = System.Drawing.Color.Transparent;
             this.Label_First_Name.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_First_Name.ForeColor = System.Drawing.Color.White;
-            this.Label_First_Name.Location = new System.Drawing.Point(35, 186);
+            this.Label_First_Name.Location = new System.Drawing.Point(35, 156);
             this.Label_First_Name.Name = "Label_First_Name";
             this.Label_First_Name.Size = new System.Drawing.Size(147, 33);
             this.Label_First_Name.TabIndex = 28;
             this.Label_First_Name.Text = "First Name";
-            // 
-            // Picbox_Title
-            // 
-            this.Picbox_Title.BackColor = System.Drawing.Color.Transparent;
-            this.Picbox_Title.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Picbox_Title.BackgroundImage")));
-            this.Picbox_Title.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Picbox_Title.Location = new System.Drawing.Point(27, 58);
-            this.Picbox_Title.Name = "Picbox_Title";
-            this.Picbox_Title.Size = new System.Drawing.Size(400, 72);
-            this.Picbox_Title.TabIndex = 0;
-            this.Picbox_Title.TabStop = false;
             // 
             // OpenFileDialog_Reader_Picture
             // 
@@ -435,11 +423,23 @@
             // 
             this.OpenFileDialog_IdentificationID.Filter = "ImageFile|*.png;";
             // 
+            // Label_Title
+            // 
+            this.Label_Title.AutoSize = true;
+            this.Label_Title.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Title.Font = new System.Drawing.Font("Bahnschrift", 56F);
+            this.Label_Title.ForeColor = System.Drawing.Color.White;
+            this.Label_Title.Location = new System.Drawing.Point(24, 40);
+            this.Label_Title.Name = "Label_Title";
+            this.Label_Title.Size = new System.Drawing.Size(441, 90);
+            this.Label_Title.TabIndex = 105;
+            this.Label_Title.Text = "New Reader";
+            // 
             // Form_Insert_Reader
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(900, 796);
+            this.ClientSize = new System.Drawing.Size(900, 785);
             this.Controls.Add(this.Panel_Head);
             this.Controls.Add(this.Panel_Body);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -450,7 +450,6 @@
             this.Panel_Body.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Picbox_IdentificationID)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Picbox_Reader_Picture)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Picbox_Title)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -459,7 +458,6 @@
 
         private System.Windows.Forms.Panel Panel_Head;
         private System.Windows.Forms.Panel Panel_Body;
-        private System.Windows.Forms.PictureBox Picbox_Title;
         private System.Windows.Forms.PictureBox Picbox_IdentificationID;
         private System.Windows.Forms.PictureBox Picbox_Reader_Picture;
         private System.Windows.Forms.DateTimePicker dtp_dateofbirth;
@@ -488,5 +486,6 @@
         private System.Windows.Forms.Label Label_Close;
         private System.Windows.Forms.OpenFileDialog OpenFileDialog_Reader_Picture;
         private System.Windows.Forms.OpenFileDialog OpenFileDialog_IdentificationID;
+        private System.Windows.Forms.Label Label_Title;
     }
 }
