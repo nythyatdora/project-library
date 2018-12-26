@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace project_library
 {
-    public partial class TestLayout : Form
+    public partial class Form_NewSearch : Form
     {
-        public TestLayout()
+        public Form_NewSearch()
         {
             InitializeComponent();
         }

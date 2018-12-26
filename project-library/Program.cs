@@ -16,7 +16,7 @@ namespace project_library
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TestLayout());
+            Application.Run(new Form_NewTable());
         }
     }
 }
