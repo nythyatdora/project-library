@@ -1,6 +1,6 @@
 ﻿namespace project_library
 {
-    partial class Form_NewBorrow
+    partial class Form_NewReturn
     {
         /// <summary>
         /// Required designer variable.
@@ -36,10 +36,8 @@
             this.Label_Title = new System.Windows.Forms.Label();
             this.Label_Close = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.Label_View_Table_Books = new System.Windows.Forms.Label();
             this.Label_View_Table_Readers = new System.Windows.Forms.Label();
-            this.Label_Add_New_Reader = new System.Windows.Forms.Label();
-            this.Label_Add_New_Book = new System.Windows.Forms.Label();
+            this.Label_View_Table_Books = new System.Windows.Forms.Label();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.Label_Reset_Search = new System.Windows.Forms.Label();
             this.Combo_Filter = new System.Windows.Forms.ComboBox();
@@ -50,7 +48,6 @@
             this.Datagrid_Table = new System.Windows.Forms.DataGridView();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.Label_Next = new System.Windows.Forms.Label();
-            this.Label_Back = new System.Windows.Forms.Label();
             this.Panel_Head = new System.Windows.Forms.Panel();
             this.tableLayoutPanel_Form.SuspendLayout();
             this.tableLayoutPanel_Margin.SuspendLayout();
@@ -163,7 +160,7 @@
             this.Label_Title.Name = "Label_Title";
             this.Label_Title.Size = new System.Drawing.Size(518, 110);
             this.Label_Title.TabIndex = 107;
-            this.Label_Title.Text = "Borrow";
+            this.Label_Title.Text = "Return";
             // 
             // Label_Close
             // 
@@ -185,10 +182,8 @@
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Controls.Add(this.Label_View_Table_Books, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.Label_View_Table_Readers, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.Label_Add_New_Reader, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.Label_Add_New_Book, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.Label_View_Table_Readers, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.Label_View_Table_Books, 1, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(518, 0);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
@@ -199,21 +194,6 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(346, 137);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // Label_View_Table_Books
-            // 
-            this.Label_View_Table_Books.AutoSize = true;
-            this.Label_View_Table_Books.BackColor = System.Drawing.Color.Transparent;
-            this.Label_View_Table_Books.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Label_View_Table_Books.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_View_Table_Books.ForeColor = System.Drawing.Color.White;
-            this.Label_View_Table_Books.Location = new System.Drawing.Point(0, 68);
-            this.Label_View_Table_Books.Margin = new System.Windows.Forms.Padding(0);
-            this.Label_View_Table_Books.Name = "Label_View_Table_Books";
-            this.Label_View_Table_Books.Size = new System.Drawing.Size(173, 69);
-            this.Label_View_Table_Books.TabIndex = 79;
-            this.Label_View_Table_Books.Text = "view\r\ntable books";
-            this.Label_View_Table_Books.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // Label_View_Table_Readers
             // 
             this.Label_View_Table_Readers.AutoSize = true;
@@ -221,45 +201,30 @@
             this.Label_View_Table_Readers.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Label_View_Table_Readers.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_View_Table_Readers.ForeColor = System.Drawing.Color.White;
-            this.Label_View_Table_Readers.Location = new System.Drawing.Point(0, 0);
+            this.Label_View_Table_Readers.Location = new System.Drawing.Point(173, 0);
             this.Label_View_Table_Readers.Margin = new System.Windows.Forms.Padding(0);
             this.Label_View_Table_Readers.Name = "Label_View_Table_Readers";
+            this.Label_View_Table_Readers.Padding = new System.Windows.Forms.Padding(0, 0, 12, 0);
             this.Label_View_Table_Readers.Size = new System.Drawing.Size(173, 68);
-            this.Label_View_Table_Readers.TabIndex = 78;
+            this.Label_View_Table_Readers.TabIndex = 80;
             this.Label_View_Table_Readers.Text = "view\r\ntable readers";
             this.Label_View_Table_Readers.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // Label_Add_New_Reader
+            // Label_View_Table_Books
             // 
-            this.Label_Add_New_Reader.AutoSize = true;
-            this.Label_Add_New_Reader.BackColor = System.Drawing.Color.Transparent;
-            this.Label_Add_New_Reader.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Label_Add_New_Reader.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_Add_New_Reader.ForeColor = System.Drawing.Color.White;
-            this.Label_Add_New_Reader.Location = new System.Drawing.Point(173, 0);
-            this.Label_Add_New_Reader.Margin = new System.Windows.Forms.Padding(0);
-            this.Label_Add_New_Reader.Name = "Label_Add_New_Reader";
-            this.Label_Add_New_Reader.Padding = new System.Windows.Forms.Padding(0, 0, 12, 0);
-            this.Label_Add_New_Reader.Size = new System.Drawing.Size(173, 68);
-            this.Label_Add_New_Reader.TabIndex = 80;
-            this.Label_Add_New_Reader.Text = "add\r\nnew reader";
-            this.Label_Add_New_Reader.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // Label_Add_New_Book
-            // 
-            this.Label_Add_New_Book.AutoSize = true;
-            this.Label_Add_New_Book.BackColor = System.Drawing.Color.Transparent;
-            this.Label_Add_New_Book.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Label_Add_New_Book.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_Add_New_Book.ForeColor = System.Drawing.Color.White;
-            this.Label_Add_New_Book.Location = new System.Drawing.Point(173, 68);
-            this.Label_Add_New_Book.Margin = new System.Windows.Forms.Padding(0);
-            this.Label_Add_New_Book.Name = "Label_Add_New_Book";
-            this.Label_Add_New_Book.Padding = new System.Windows.Forms.Padding(0, 0, 12, 0);
-            this.Label_Add_New_Book.Size = new System.Drawing.Size(173, 69);
-            this.Label_Add_New_Book.TabIndex = 81;
-            this.Label_Add_New_Book.Text = "add\r\nnew book";
-            this.Label_Add_New_Book.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Label_View_Table_Books.AutoSize = true;
+            this.Label_View_Table_Books.BackColor = System.Drawing.Color.Transparent;
+            this.Label_View_Table_Books.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Label_View_Table_Books.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_View_Table_Books.ForeColor = System.Drawing.Color.White;
+            this.Label_View_Table_Books.Location = new System.Drawing.Point(173, 68);
+            this.Label_View_Table_Books.Margin = new System.Windows.Forms.Padding(0);
+            this.Label_View_Table_Books.Name = "Label_View_Table_Books";
+            this.Label_View_Table_Books.Padding = new System.Windows.Forms.Padding(0, 0, 12, 0);
+            this.Label_View_Table_Books.Size = new System.Drawing.Size(173, 69);
+            this.Label_View_Table_Books.TabIndex = 81;
+            this.Label_View_Table_Books.Text = "view\r\ntable books";
+            this.Label_View_Table_Books.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // tableLayoutPanel3
             // 
@@ -393,8 +358,7 @@
             this.tableLayoutPanel4.ColumnCount = 2;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.Controls.Add(this.Label_Next, 0, 0);
-            this.tableLayoutPanel4.Controls.Add(this.Label_Back, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.Label_Next, 1, 0);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(0, 634);
             this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(0);
@@ -420,22 +384,6 @@
             this.Label_Next.Text = "NEXT";
             this.Label_Next.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // Label_Back
-            // 
-            this.Label_Back.AutoSize = true;
-            this.Label_Back.BackColor = System.Drawing.Color.Transparent;
-            this.Label_Back.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Label_Back.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_Back.ForeColor = System.Drawing.Color.White;
-            this.Label_Back.Location = new System.Drawing.Point(0, 0);
-            this.Label_Back.Margin = new System.Windows.Forms.Padding(0);
-            this.Label_Back.Name = "Label_Back";
-            this.Label_Back.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.Label_Back.Size = new System.Drawing.Size(432, 51);
-            this.Label_Back.TabIndex = 81;
-            this.Label_Back.Text = "BACK";
-            this.Label_Back.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // Panel_Head
             // 
             this.Panel_Head.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(102)))), ((int)(((byte)(24)))));
@@ -446,14 +394,14 @@
             this.Panel_Head.Size = new System.Drawing.Size(900, 15);
             this.Panel_Head.TabIndex = 0;
             // 
-            // Form_NewBorrow
+            // Form_NewReturn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(900, 700);
             this.Controls.Add(this.tableLayoutPanel_Form);
             this.MinimizeBox = false;
-            this.Name = "Form_NewBorrow";
+            this.Name = "Form_NewReturn";
             this.Text = "Form_NewBorrow";
             this.tableLayoutPanel_Form.ResumeLayout(false);
             this.tableLayoutPanel_Margin.ResumeLayout(false);
@@ -485,8 +433,6 @@
         private System.Windows.Forms.Label Label_Title;
         private System.Windows.Forms.Label Label_View_Table_Readers;
         private System.Windows.Forms.Label Label_View_Table_Books;
-        private System.Windows.Forms.Label Label_Add_New_Reader;
-        private System.Windows.Forms.Label Label_Add_New_Book;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.Label Label_Book_Title;
         private System.Windows.Forms.Label Label_Filter;
@@ -496,7 +442,6 @@
         private System.Windows.Forms.DataGridView Datagrid_Table;
         private System.Windows.Forms.Label Label_Search;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
-        private System.Windows.Forms.Label Label_Back;
         private System.Windows.Forms.Label Label_Next;
     }
 }

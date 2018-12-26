@@ -66,6 +66,12 @@
     <Compile Include="Form_Import_Text.Designer.cs">
       <DependentUpon>Form_Import_Text.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_NewReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_NewReturn.Designer.cs">
+      <DependentUpon>Form_NewReturn.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_NewBorrow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,12 @@
     </Compile>
     <Compile Include="Form_NewTable.Designer.cs">
       <DependentUpon>Form_NewTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_New_Insert_Book.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_New_Insert_Book.Designer.cs">
+      <DependentUpon>Form_New_Insert_Book.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_Return_Table.cs">
       <SubType>Form</SubType>
@@ -200,6 +212,9 @@
     <EmbeddedResource Include="Form_Import_Text.resx">
       <DependentUpon>Form_Import_Text.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_NewReturn.resx">
+      <DependentUpon>Form_NewReturn.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_NewBorrow.resx">
       <DependentUpon>Form_NewBorrow.cs</DependentUpon>
     </EmbeddedResource>
@@ -208,6 +223,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_NewTable.resx">
       <DependentUpon>Form_NewTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_New_Insert_Book.resx">
+      <DependentUpon>Form_New_Insert_Book.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Return_Table.resx">
       <DependentUpon>Form_Return_Table.cs</DependentUpon>

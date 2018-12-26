@@ -247,7 +247,7 @@
             this.Label_Searchby.AutoSize = true;
             this.Label_Searchby.BackColor = System.Drawing.Color.Transparent;
             this.Label_Searchby.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Label_Searchby.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Searchby.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Searchby.ForeColor = System.Drawing.Color.White;
             this.Label_Searchby.Location = new System.Drawing.Point(0, 0);
             this.Label_Searchby.Margin = new System.Windows.Forms.Padding(0);
@@ -255,6 +255,7 @@
             this.Label_Searchby.Size = new System.Drawing.Size(829, 40);
             this.Label_Searchby.TabIndex = 4;
             this.Label_Searchby.Text = "query ";
+            this.Label_Searchby.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // tableLayoutPanel3
             // 
@@ -277,7 +278,7 @@
             this.Label_Filter.AutoSize = true;
             this.Label_Filter.BackColor = System.Drawing.Color.Transparent;
             this.Label_Filter.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Label_Filter.Font = new System.Drawing.Font("Bahnschrift", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Filter.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Filter.ForeColor = System.Drawing.Color.White;
             this.Label_Filter.Location = new System.Drawing.Point(0, 0);
             this.Label_Filter.Margin = new System.Windows.Forms.Padding(0);
@@ -285,6 +286,7 @@
             this.Label_Filter.Size = new System.Drawing.Size(829, 40);
             this.Label_Filter.TabIndex = 5;
             this.Label_Filter.Text = "filter";
+            this.Label_Filter.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // tableLayoutPanel4
             // 
