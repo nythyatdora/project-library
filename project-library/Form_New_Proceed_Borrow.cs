@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace project_library
 {
-    public partial class Form_NewBorrow : Form
+    public partial class Form_New_Proceed_Borrow : Form
     {
-        public Form_NewBorrow()
+        public Form_New_Proceed_Borrow()
         {
             InitializeComponent();
         }

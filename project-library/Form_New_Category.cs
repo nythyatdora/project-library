@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace project_library
 {
-    public partial class Form_NewReturn : Form
+    public partial class Form_New_Category : Form
     {
-        public Form_NewReturn()
+        public Form_New_Category()
         {
             InitializeComponent();
         }

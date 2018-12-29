@@ -1,6 +1,6 @@
 ﻿namespace project_library
 {
-    partial class Form_NewSearch
+    partial class Form_New_Search
     {
         /// <summary>
         /// Required designer variable.
@@ -314,15 +314,15 @@
             this.Combo_Filter.Size = new System.Drawing.Size(408, 33);
             this.Combo_Filter.TabIndex = 50;
             // 
-            // Form_NewSearch
+            // Form_New_Search
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(900, 365);
             this.Controls.Add(this.tableLayoutPanel_Form);
             this.MinimizeBox = false;
-            this.Name = "Form_NewSearch";
-            this.Text = "Form_NewSearch";
+            this.Name = "Form_New_Search";
+            this.Text = "Search";
             this.tableLayoutPanel_Form.ResumeLayout(false);
             this.tableLayoutPanel_Margin.ResumeLayout(false);
             this.tableLayoutPanel_Inside.ResumeLayout(false);

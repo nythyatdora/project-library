@@ -1,6 +1,6 @@
 ﻿namespace project_library
 {
-    partial class Form_NewTable
+    partial class Form_New_Table
     {
         /// <summary>
         /// Required designer variable.
@@ -38,13 +38,13 @@
             this.Label_Title = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.Label_Reset = new System.Windows.Forms.Label();
+            this.Label_Search = new System.Windows.Forms.Label();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.Label_Query = new System.Windows.Forms.Label();
-            this.Label_Filter = new System.Windows.Forms.Label();
             this.Text_Searchby = new System.Windows.Forms.TextBox();
+            this.Label_Filter = new System.Windows.Forms.Label();
             this.Combo_Filter = new System.Windows.Forms.ComboBox();
-            this.Label_Search = new System.Windows.Forms.Label();
-            this.Label_Reset = new System.Windows.Forms.Label();
             this.Datagrid_Table = new System.Windows.Forms.DataGridView();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.Label_Refresh = new System.Windows.Forms.Label();
@@ -220,6 +220,35 @@
             this.tableLayoutPanel3.Size = new System.Drawing.Size(384, 28);
             this.tableLayoutPanel3.TabIndex = 0;
             // 
+            // Label_Reset
+            // 
+            this.Label_Reset.AutoSize = true;
+            this.Label_Reset.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Reset.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Label_Reset.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Reset.ForeColor = System.Drawing.Color.White;
+            this.Label_Reset.Location = new System.Drawing.Point(3, 0);
+            this.Label_Reset.Name = "Label_Reset";
+            this.Label_Reset.Size = new System.Drawing.Size(186, 28);
+            this.Label_Reset.TabIndex = 8;
+            this.Label_Reset.Text = "RESET";
+            this.Label_Reset.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // Label_Search
+            // 
+            this.Label_Search.AutoSize = true;
+            this.Label_Search.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Search.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Label_Search.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Search.ForeColor = System.Drawing.Color.White;
+            this.Label_Search.Location = new System.Drawing.Point(195, 0);
+            this.Label_Search.Name = "Label_Search";
+            this.Label_Search.Padding = new System.Windows.Forms.Padding(0, 0, 6, 0);
+            this.Label_Search.Size = new System.Drawing.Size(186, 28);
+            this.Label_Search.TabIndex = 7;
+            this.Label_Search.Text = "SEARCH";
+            this.Label_Search.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // tableLayoutPanel4
             // 
             this.tableLayoutPanel4.ColumnCount = 3;
@@ -254,6 +283,17 @@
             this.Label_Query.Text = "query";
             this.Label_Query.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // Text_Searchby
+            // 
+            this.Text_Searchby.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Text_Searchby.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Text_Searchby.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Text_Searchby.Location = new System.Drawing.Point(0, 42);
+            this.Text_Searchby.Margin = new System.Windows.Forms.Padding(0);
+            this.Text_Searchby.Name = "Text_Searchby";
+            this.Text_Searchby.Size = new System.Drawing.Size(241, 33);
+            this.Text_Searchby.TabIndex = 31;
+            // 
             // Label_Filter
             // 
             this.Label_Filter.AutoSize = true;
@@ -269,17 +309,6 @@
             this.Label_Filter.Text = "filter";
             this.Label_Filter.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // Text_Searchby
-            // 
-            this.Text_Searchby.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Text_Searchby.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Text_Searchby.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Text_Searchby.Location = new System.Drawing.Point(0, 42);
-            this.Text_Searchby.Margin = new System.Windows.Forms.Padding(0);
-            this.Text_Searchby.Name = "Text_Searchby";
-            this.Text_Searchby.Size = new System.Drawing.Size(241, 33);
-            this.Text_Searchby.TabIndex = 31;
-            // 
             // Combo_Filter
             // 
             this.Combo_Filter.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -290,35 +319,6 @@
             this.Combo_Filter.Name = "Combo_Filter";
             this.Combo_Filter.Size = new System.Drawing.Size(124, 33);
             this.Combo_Filter.TabIndex = 51;
-            // 
-            // Label_Search
-            // 
-            this.Label_Search.AutoSize = true;
-            this.Label_Search.BackColor = System.Drawing.Color.Transparent;
-            this.Label_Search.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Label_Search.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_Search.ForeColor = System.Drawing.Color.White;
-            this.Label_Search.Location = new System.Drawing.Point(195, 0);
-            this.Label_Search.Name = "Label_Search";
-            this.Label_Search.Padding = new System.Windows.Forms.Padding(0, 0, 6, 0);
-            this.Label_Search.Size = new System.Drawing.Size(186, 28);
-            this.Label_Search.TabIndex = 7;
-            this.Label_Search.Text = "SEARCH";
-            this.Label_Search.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // Label_Reset
-            // 
-            this.Label_Reset.AutoSize = true;
-            this.Label_Reset.BackColor = System.Drawing.Color.Transparent;
-            this.Label_Reset.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Label_Reset.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_Reset.ForeColor = System.Drawing.Color.White;
-            this.Label_Reset.Location = new System.Drawing.Point(3, 0);
-            this.Label_Reset.Name = "Label_Reset";
-            this.Label_Reset.Size = new System.Drawing.Size(186, 28);
-            this.Label_Reset.TabIndex = 8;
-            this.Label_Reset.Text = "RESET";
-            this.Label_Reset.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // Datagrid_Table
             // 
@@ -442,16 +442,16 @@
             this.Label_Delete.Text = "DELETE";
             this.Label_Delete.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // Form_NewTable
+            // Form_New_Table
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1000, 805);
             this.Controls.Add(this.tableLayoutPanel_Form);
             this.MinimizeBox = false;
-            this.Name = "Form_NewTable";
+            this.Name = "Form_New_Table";
             this.ShowIcon = false;
-            this.Text = "Form_NewTable";
+            this.Text = "Table";
             this.tableLayoutPanel_Form.ResumeLayout(false);
             this.tableLayoutPanel_Margin.ResumeLayout(false);
             this.tableLayoutPanel_Inside.ResumeLayout(false);

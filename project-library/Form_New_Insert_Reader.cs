@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace project_library
 {
-    public partial class Form_NewTable : Form
+    public partial class Form_New_Insert_Reader : Form
     {
-        public Form_NewTable()
+        public Form_New_Insert_Reader()
         {
             InitializeComponent();
         }

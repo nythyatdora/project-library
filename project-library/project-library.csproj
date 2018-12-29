@@ -66,29 +66,89 @@
     <Compile Include="Form_Import_Text.Designer.cs">
       <DependentUpon>Form_Import_Text.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_NewReturn.cs">
+    <Compile Include="Form_New_Home.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_NewReturn.Designer.cs">
-      <DependentUpon>Form_NewReturn.cs</DependentUpon>
+    <Compile Include="Form_New_Home.Designer.cs">
+      <DependentUpon>Form_New_Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_NewBorrow.cs">
+    <Compile Include="Form_New_Category.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_NewBorrow.Designer.cs">
-      <DependentUpon>Form_NewBorrow.cs</DependentUpon>
+    <Compile Include="Form_New_Category.Designer.cs">
+      <DependentUpon>Form_New_Category.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_NewSearch.cs">
+    <Compile Include="Form_New_Readers.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_NewSearch.Designer.cs">
-      <DependentUpon>Form_NewSearch.cs</DependentUpon>
+    <Compile Include="Form_New_Readers.Designer.cs">
+      <DependentUpon>Form_New_Readers.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_NewTable.cs">
+    <Compile Include="Form_New_Borrow_Return.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_NewTable.Designer.cs">
-      <DependentUpon>Form_NewTable.cs</DependentUpon>
+    <Compile Include="Form_New_Borrow_Return.Designer.cs">
+      <DependentUpon>Form_New_Borrow_Return.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_New_Books.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_New_Books.Designer.cs">
+      <DependentUpon>Form_New_Books.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_New_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_New_Main.Designer.cs">
+      <DependentUpon>Form_New_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_New_Membership_One.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_New_Membership_One.Designer.cs">
+      <DependentUpon>Form_New_Membership_One.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_New_Membership_Two.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_New_Membership_Two.Designer.cs">
+      <DependentUpon>Form_New_Membership_Two.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_New_Proceed_Borrow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_New_Proceed_Borrow.Designer.cs">
+      <DependentUpon>Form_New_Proceed_Borrow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_New_Return.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_New_Return.Designer.cs">
+      <DependentUpon>Form_New_Return.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_New_Borrow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_New_Borrow.Designer.cs">
+      <DependentUpon>Form_New_Borrow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_New_Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_New_Search.Designer.cs">
+      <DependentUpon>Form_New_Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_New_Table.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_New_Table.Designer.cs">
+      <DependentUpon>Form_New_Table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_New_Insert_Reader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_New_Insert_Reader.Designer.cs">
+      <DependentUpon>Form_New_Insert_Reader.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_New_Insert_Book.cs">
       <SubType>Form</SubType>
@@ -212,17 +272,47 @@
     <EmbeddedResource Include="Form_Import_Text.resx">
       <DependentUpon>Form_Import_Text.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_NewReturn.resx">
-      <DependentUpon>Form_NewReturn.cs</DependentUpon>
+    <EmbeddedResource Include="Form_New_Home.resx">
+      <DependentUpon>Form_New_Home.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_NewBorrow.resx">
-      <DependentUpon>Form_NewBorrow.cs</DependentUpon>
+    <EmbeddedResource Include="Form_New_Category.resx">
+      <DependentUpon>Form_New_Category.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_NewSearch.resx">
-      <DependentUpon>Form_NewSearch.cs</DependentUpon>
+    <EmbeddedResource Include="Form_New_Readers.resx">
+      <DependentUpon>Form_New_Readers.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_NewTable.resx">
-      <DependentUpon>Form_NewTable.cs</DependentUpon>
+    <EmbeddedResource Include="Form_New_Borrow_Return.resx">
+      <DependentUpon>Form_New_Borrow_Return.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_New_Books.resx">
+      <DependentUpon>Form_New_Books.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_New_Main.resx">
+      <DependentUpon>Form_New_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_New_Membership_One.resx">
+      <DependentUpon>Form_New_Membership_One.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_New_Membership_Two.resx">
+      <DependentUpon>Form_New_Membership_Two.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_New_Proceed_Borrow.resx">
+      <DependentUpon>Form_New_Proceed_Borrow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_New_Return.resx">
+      <DependentUpon>Form_New_Return.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_New_Borrow.resx">
+      <DependentUpon>Form_New_Borrow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_New_Search.resx">
+      <DependentUpon>Form_New_Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_New_Table.resx">
+      <DependentUpon>Form_New_Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_New_Insert_Reader.resx">
+      <DependentUpon>Form_New_Insert_Reader.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_New_Insert_Book.resx">
       <DependentUpon>Form_New_Insert_Book.cs</DependentUpon>

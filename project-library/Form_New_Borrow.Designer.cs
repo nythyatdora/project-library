@@ -1,6 +1,6 @@
 ﻿namespace project_library
 {
-    partial class Form_NewBorrow
+    partial class Form_New_Borrow
     {
         /// <summary>
         /// Required designer variable.
@@ -446,15 +446,15 @@
             this.Panel_Head.Size = new System.Drawing.Size(900, 15);
             this.Panel_Head.TabIndex = 0;
             // 
-            // Form_NewBorrow
+            // Form_New_Borrow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(900, 700);
             this.Controls.Add(this.tableLayoutPanel_Form);
             this.MinimizeBox = false;
-            this.Name = "Form_NewBorrow";
-            this.Text = "Form_NewBorrow";
+            this.Name = "Form_New_Borrow";
+            this.Text = "Borrow";
             this.tableLayoutPanel_Form.ResumeLayout(false);
             this.tableLayoutPanel_Margin.ResumeLayout(false);
             this.tableLayoutPanel_Inside.ResumeLayout(false);

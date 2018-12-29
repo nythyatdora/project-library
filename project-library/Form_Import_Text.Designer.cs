@@ -149,7 +149,7 @@
             this.ClientSize = new System.Drawing.Size(500, 370);
             this.Controls.Add(this.Panel_Body);
             this.Controls.Add(this.Panel_Head);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form_Import_Text";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form_Import_Text";

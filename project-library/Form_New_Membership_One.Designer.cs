@@ -1,6 +1,6 @@
 ﻿namespace project_library
 {
-    partial class Form_NewReturn
+    partial class Form_New_Membersip
     {
         /// <summary>
         /// Required designer variable.
@@ -160,7 +160,7 @@
             this.Label_Title.Name = "Label_Title";
             this.Label_Title.Size = new System.Drawing.Size(518, 110);
             this.Label_Title.TabIndex = 107;
-            this.Label_Title.Text = "Return";
+            this.Label_Title.Text = "Find Reader";
             // 
             // Label_Close
             // 
@@ -394,15 +394,15 @@
             this.Panel_Head.Size = new System.Drawing.Size(900, 15);
             this.Panel_Head.TabIndex = 0;
             // 
-            // Form_NewReturn
+            // Form_New_Membersip
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(900, 700);
             this.Controls.Add(this.tableLayoutPanel_Form);
             this.MinimizeBox = false;
-            this.Name = "Form_NewReturn";
-            this.Text = "Form_NewBorrow";
+            this.Name = "Form_New_Membersip";
+            this.Text = "Membership";
             this.tableLayoutPanel_Form.ResumeLayout(false);
             this.tableLayoutPanel_Margin.ResumeLayout(false);
             this.tableLayoutPanel_Inside.ResumeLayout(false);
