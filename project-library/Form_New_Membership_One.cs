@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace project_library
 {
-    public partial class Form_New_Membersip : Form
+    public partial class Form_New_Membership_One : Form
     {
-        public Form_New_Membersip()
+        public Form_New_Membership_One()
         {
             InitializeComponent();
         }

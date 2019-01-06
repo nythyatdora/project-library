@@ -1,6 +1,6 @@
 ﻿namespace project_library
 {
-    partial class Form_New_Membersip
+    partial class Form_New_Membership_One
     {
         /// <summary>
         /// Required designer variable.
@@ -394,14 +394,14 @@
             this.Panel_Head.Size = new System.Drawing.Size(900, 15);
             this.Panel_Head.TabIndex = 0;
             // 
-            // Form_New_Membersip
+            // Form_New_Membership_One
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(900, 700);
             this.Controls.Add(this.tableLayoutPanel_Form);
             this.MinimizeBox = false;
-            this.Name = "Form_New_Membersip";
+            this.Name = "Form_New_Membership_One";
             this.Text = "Membership";
             this.tableLayoutPanel_Form.ResumeLayout(false);
             this.tableLayoutPanel_Margin.ResumeLayout(false);
