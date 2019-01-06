@@ -54,12 +54,6 @@
     <Compile Include="Class\Reader.cs" />
     <Compile Include="Class\GraphicInteraction.cs" />
     <Compile Include="Class\User.cs" />
-    <Compile Include="Form_Borrow.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_Borrow.Designer.cs">
-      <DependentUpon>Form_Borrow.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form_Import_Text.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -156,65 +150,11 @@
     <Compile Include="Form_New_Insert_Book.Designer.cs">
       <DependentUpon>Form_New_Insert_Book.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_Return_Table.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_Return_Table.Designer.cs">
-      <DependentUpon>Form_Return_Table.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form_Insert_Book.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_Insert_Book.Designer.cs">
-      <DependentUpon>Form_Insert_Book.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form_Insert_Reader.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_Insert_Reader.Designer.cs">
-      <DependentUpon>Form_Insert_Reader.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form_Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form_Login.Designer.cs">
       <DependentUpon>Form_Login.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form_Membership.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_Membership.Designer.cs">
-      <DependentUpon>Form_Membership.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form_Proceed_Borrow.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_Proceed_Borrow.Designer.cs">
-      <DependentUpon>Form_Proceed_Borrow.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form_Main.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_Main.Designer.cs">
-      <DependentUpon>Form_Main.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form_Return.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_Return.Designer.cs">
-      <DependentUpon>Form_Return.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form_Search.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_Search.Designer.cs">
-      <DependentUpon>Form_Search.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form_Table.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_Table.Designer.cs">
-      <DependentUpon>Form_Table.cs</DependentUpon>
     </Compile>
     <Compile Include="CustomForm.cs">
       <SubType>Form</SubType>
@@ -222,53 +162,8 @@
     <Compile Include="CustomForm.Designer.cs">
       <DependentUpon>CustomForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_Borrow_Return.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_Borrow_Return.Designer.cs">
-      <DependentUpon>Form_Borrow_Return.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form_Category.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_Category.Designer.cs">
-      <DependentUpon>Form_Category.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form_Books.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_Books.Designer.cs">
-      <DependentUpon>Form_Books.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form_Home.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_Home.Designer.cs">
-      <DependentUpon>Form_Home.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form_MyProfile_One.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_MyProfile_One.Designer.cs">
-      <DependentUpon>Form_MyProfile_One.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form_MyProfile_Two.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_MyProfile_Two.Designer.cs">
-      <DependentUpon>Form_MyProfile_Two.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form_Readers.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_Readers.Designer.cs">
-      <DependentUpon>Form_Readers.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form_Borrow.resx">
-      <DependentUpon>Form_Borrow.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form_Import_Text.resx">
       <DependentUpon>Form_Import_Text.cs</DependentUpon>
     </EmbeddedResource>
@@ -317,59 +212,11 @@
     <EmbeddedResource Include="Form_New_Insert_Book.resx">
       <DependentUpon>Form_New_Insert_Book.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_Return_Table.resx">
-      <DependentUpon>Form_Return_Table.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_Insert_Book.resx">
-      <DependentUpon>Form_Insert_Book.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_Insert_Reader.resx">
-      <DependentUpon>Form_Insert_Reader.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form_Login.resx">
       <DependentUpon>Form_Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_Membership.resx">
-      <DependentUpon>Form_Membership.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_Proceed_Borrow.resx">
-      <DependentUpon>Form_Proceed_Borrow.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_Main.resx">
-      <DependentUpon>Form_Main.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_Return.resx">
-      <DependentUpon>Form_Return.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_Search.resx">
-      <DependentUpon>Form_Search.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_Table.resx">
-      <DependentUpon>Form_Table.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="CustomForm.resx">
       <DependentUpon>CustomForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_Borrow_Return.resx">
-      <DependentUpon>Form_Borrow_Return.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_Category.resx">
-      <DependentUpon>Form_Category.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_Books.resx">
-      <DependentUpon>Form_Books.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_Home.resx">
-      <DependentUpon>Form_Home.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_MyProfile_One.resx">
-      <DependentUpon>Form_MyProfile_One.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_MyProfile_Two.resx">
-      <DependentUpon>Form_MyProfile_Two.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_Readers.resx">
-      <DependentUpon>Form_Readers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

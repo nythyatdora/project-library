@@ -166,16 +166,18 @@
             // 
             this.Label_Close.AutoSize = true;
             this.Label_Close.BackColor = System.Drawing.Color.Transparent;
-            this.Label_Close.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Label_Close.Dock = System.Windows.Forms.DockStyle.Left;
             this.Label_Close.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Close.ForeColor = System.Drawing.Color.White;
             this.Label_Close.Location = new System.Drawing.Point(0, 0);
             this.Label_Close.Margin = new System.Windows.Forms.Padding(0);
             this.Label_Close.Name = "Label_Close";
-            this.Label_Close.Size = new System.Drawing.Size(518, 27);
+            this.Label_Close.Size = new System.Drawing.Size(55, 27);
             this.Label_Close.TabIndex = 77;
             this.Label_Close.Text = "close";
             this.Label_Close.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label_Close.MouseEnter += new System.EventHandler(this.Label_Close_MouseEnter);
+            this.Label_Close.MouseLeave += new System.EventHandler(this.Label_Close_MouseLeave);
             // 
             // tableLayoutPanel1
             // 
@@ -198,33 +200,37 @@
             // 
             this.Label_View_Table_Readers.AutoSize = true;
             this.Label_View_Table_Readers.BackColor = System.Drawing.Color.Transparent;
-            this.Label_View_Table_Readers.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Label_View_Table_Readers.Dock = System.Windows.Forms.DockStyle.Right;
             this.Label_View_Table_Readers.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_View_Table_Readers.ForeColor = System.Drawing.Color.White;
-            this.Label_View_Table_Readers.Location = new System.Drawing.Point(173, 0);
+            this.Label_View_Table_Readers.Location = new System.Drawing.Point(213, 0);
             this.Label_View_Table_Readers.Margin = new System.Windows.Forms.Padding(0);
             this.Label_View_Table_Readers.Name = "Label_View_Table_Readers";
             this.Label_View_Table_Readers.Padding = new System.Windows.Forms.Padding(0, 0, 12, 0);
-            this.Label_View_Table_Readers.Size = new System.Drawing.Size(173, 68);
+            this.Label_View_Table_Readers.Size = new System.Drawing.Size(133, 68);
             this.Label_View_Table_Readers.TabIndex = 80;
             this.Label_View_Table_Readers.Text = "view\r\ntable readers";
             this.Label_View_Table_Readers.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Label_View_Table_Readers.MouseEnter += new System.EventHandler(this.Label_View_Table_Readers_MouseEnter);
+            this.Label_View_Table_Readers.MouseLeave += new System.EventHandler(this.Label_View_Table_Readers_MouseLeave);
             // 
             // Label_View_Table_Books
             // 
             this.Label_View_Table_Books.AutoSize = true;
             this.Label_View_Table_Books.BackColor = System.Drawing.Color.Transparent;
-            this.Label_View_Table_Books.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Label_View_Table_Books.Dock = System.Windows.Forms.DockStyle.Right;
             this.Label_View_Table_Books.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_View_Table_Books.ForeColor = System.Drawing.Color.White;
-            this.Label_View_Table_Books.Location = new System.Drawing.Point(173, 68);
+            this.Label_View_Table_Books.Location = new System.Drawing.Point(229, 68);
             this.Label_View_Table_Books.Margin = new System.Windows.Forms.Padding(0);
             this.Label_View_Table_Books.Name = "Label_View_Table_Books";
             this.Label_View_Table_Books.Padding = new System.Windows.Forms.Padding(0, 0, 12, 0);
-            this.Label_View_Table_Books.Size = new System.Drawing.Size(173, 69);
+            this.Label_View_Table_Books.Size = new System.Drawing.Size(117, 69);
             this.Label_View_Table_Books.TabIndex = 81;
             this.Label_View_Table_Books.Text = "view\r\ntable books";
             this.Label_View_Table_Books.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Label_View_Table_Books.MouseEnter += new System.EventHandler(this.Label_View_Table_Books_MouseEnter);
+            this.Label_View_Table_Books.MouseLeave += new System.EventHandler(this.Label_View_Table_Books_MouseLeave);
             // 
             // tableLayoutPanel3
             // 
@@ -253,17 +259,19 @@
             // 
             this.Label_Reset_Search.AutoSize = true;
             this.Label_Reset_Search.BackColor = System.Drawing.Color.Transparent;
-            this.Label_Reset_Search.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Label_Reset_Search.Dock = System.Windows.Forms.DockStyle.Left;
             this.Label_Reset_Search.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Reset_Search.ForeColor = System.Drawing.Color.White;
             this.Label_Reset_Search.Location = new System.Drawing.Point(0, 70);
             this.Label_Reset_Search.Margin = new System.Windows.Forms.Padding(0);
             this.Label_Reset_Search.Name = "Label_Reset_Search";
             this.Label_Reset_Search.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.Label_Reset_Search.Size = new System.Drawing.Size(587, 39);
+            this.Label_Reset_Search.Size = new System.Drawing.Size(152, 39);
             this.Label_Reset_Search.TabIndex = 55;
             this.Label_Reset_Search.Text = "RESET SEARCH";
             this.Label_Reset_Search.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label_Reset_Search.MouseEnter += new System.EventHandler(this.Label_Reset_Search_MouseEnter);
+            this.Label_Reset_Search.MouseLeave += new System.EventHandler(this.Label_Reset_Search_MouseLeave);
             // 
             // Combo_Filter
             // 
@@ -322,17 +330,19 @@
             // 
             this.Label_Search.AutoSize = true;
             this.Label_Search.BackColor = System.Drawing.Color.Transparent;
-            this.Label_Search.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Label_Search.Dock = System.Windows.Forms.DockStyle.Right;
             this.Label_Search.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Search.ForeColor = System.Drawing.Color.White;
-            this.Label_Search.Location = new System.Drawing.Point(604, 70);
+            this.Label_Search.Location = new System.Drawing.Point(770, 70);
             this.Label_Search.Margin = new System.Windows.Forms.Padding(0);
             this.Label_Search.Name = "Label_Search";
             this.Label_Search.Padding = new System.Windows.Forms.Padding(0, 0, 12, 0);
-            this.Label_Search.Size = new System.Drawing.Size(260, 39);
+            this.Label_Search.Size = new System.Drawing.Size(94, 39);
             this.Label_Search.TabIndex = 57;
             this.Label_Search.Text = "SEARCH";
             this.Label_Search.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Label_Search.MouseEnter += new System.EventHandler(this.Label_Search_MouseEnter);
+            this.Label_Search.MouseLeave += new System.EventHandler(this.Label_Search_MouseLeave);
             // 
             // Datagrid_Table
             // 
@@ -383,6 +393,8 @@
             this.Label_Next.TabIndex = 82;
             this.Label_Next.Text = "NEXT";
             this.Label_Next.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label_Next.MouseEnter += new System.EventHandler(this.Label_Next_MouseEnter);
+            this.Label_Next.MouseLeave += new System.EventHandler(this.Label_Next_MouseLeave);
             // 
             // Panel_Head
             // 

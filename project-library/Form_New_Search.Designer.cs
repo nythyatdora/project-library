@@ -139,15 +139,17 @@
             // 
             this.Label_Close.AutoSize = true;
             this.Label_Close.BackColor = System.Drawing.Color.Transparent;
-            this.Label_Close.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Label_Close.Dock = System.Windows.Forms.DockStyle.Left;
             this.Label_Close.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Close.ForeColor = System.Drawing.Color.White;
             this.Label_Close.Location = new System.Drawing.Point(0, 0);
             this.Label_Close.Margin = new System.Windows.Forms.Padding(0);
             this.Label_Close.Name = "Label_Close";
-            this.Label_Close.Size = new System.Drawing.Size(864, 32);
+            this.Label_Close.Size = new System.Drawing.Size(55, 32);
             this.Label_Close.TabIndex = 78;
             this.Label_Close.Text = "close";
+            this.Label_Close.MouseEnter += new System.EventHandler(this.Label_Close_MouseEnter);
+            this.Label_Close.MouseLeave += new System.EventHandler(this.Label_Close_MouseLeave);
             // 
             // tableLayoutPanel_Foot
             // 
@@ -171,31 +173,35 @@
             // 
             this.Label_Search.AutoSize = true;
             this.Label_Search.BackColor = System.Drawing.Color.Transparent;
-            this.Label_Search.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Label_Search.Dock = System.Windows.Forms.DockStyle.Right;
             this.Label_Search.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Search.ForeColor = System.Drawing.Color.White;
-            this.Label_Search.Location = new System.Drawing.Point(431, 0);
+            this.Label_Search.Location = new System.Drawing.Point(752, 0);
             this.Label_Search.Margin = new System.Windows.Forms.Padding(0);
             this.Label_Search.Name = "Label_Search";
-            this.Label_Search.Size = new System.Drawing.Size(414, 52);
+            this.Label_Search.Size = new System.Drawing.Size(93, 52);
             this.Label_Search.TabIndex = 7;
             this.Label_Search.Text = "SEARCH";
             this.Label_Search.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Label_Search.MouseEnter += new System.EventHandler(this.Label_Search_MouseEnter);
+            this.Label_Search.MouseLeave += new System.EventHandler(this.Label_Search_MouseLeave);
             // 
             // Label_Reset
             // 
             this.Label_Reset.AutoSize = true;
             this.Label_Reset.BackColor = System.Drawing.Color.Transparent;
-            this.Label_Reset.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Label_Reset.Dock = System.Windows.Forms.DockStyle.Left;
             this.Label_Reset.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Reset.ForeColor = System.Drawing.Color.White;
             this.Label_Reset.Location = new System.Drawing.Point(17, 0);
             this.Label_Reset.Margin = new System.Windows.Forms.Padding(0);
             this.Label_Reset.Name = "Label_Reset";
-            this.Label_Reset.Size = new System.Drawing.Size(414, 52);
+            this.Label_Reset.Size = new System.Drawing.Size(75, 52);
             this.Label_Reset.TabIndex = 6;
             this.Label_Reset.Text = "RESET";
             this.Label_Reset.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label_Reset.MouseEnter += new System.EventHandler(this.Label_Reset_MouseEnter);
+            this.Label_Reset.MouseLeave += new System.EventHandler(this.Label_Reset_MouseLeave);
             // 
             // tableLayoutPanel1
             // 

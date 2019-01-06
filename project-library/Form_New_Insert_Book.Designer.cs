@@ -196,16 +196,18 @@
             // 
             this.Label_Close.AutoSize = true;
             this.Label_Close.BackColor = System.Drawing.Color.Transparent;
-            this.Label_Close.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Label_Close.Dock = System.Windows.Forms.DockStyle.Left;
             this.Label_Close.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Close.ForeColor = System.Drawing.Color.White;
             this.Label_Close.Location = new System.Drawing.Point(0, 0);
             this.Label_Close.Margin = new System.Windows.Forms.Padding(0);
             this.Label_Close.Name = "Label_Close";
-            this.Label_Close.Size = new System.Drawing.Size(639, 34);
+            this.Label_Close.Size = new System.Drawing.Size(55, 34);
             this.Label_Close.TabIndex = 78;
             this.Label_Close.Text = "close";
             this.Label_Close.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label_Close.MouseEnter += new System.EventHandler(this.Label_Close_MouseEnter);
+            this.Label_Close.MouseLeave += new System.EventHandler(this.Label_Close_MouseLeave);
             // 
             // tableLayoutPanel7
             // 
@@ -623,33 +625,37 @@
             // 
             this.Label_Confirm.AutoSize = true;
             this.Label_Confirm.BackColor = System.Drawing.Color.Transparent;
-            this.Label_Confirm.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Label_Confirm.Dock = System.Windows.Forms.DockStyle.Right;
             this.Label_Confirm.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Confirm.ForeColor = System.Drawing.Color.White;
-            this.Label_Confirm.Location = new System.Drawing.Point(319, 0);
+            this.Label_Confirm.Location = new System.Drawing.Point(533, 0);
             this.Label_Confirm.Margin = new System.Windows.Forms.Padding(0);
             this.Label_Confirm.Name = "Label_Confirm";
             this.Label_Confirm.Padding = new System.Windows.Forms.Padding(0, 0, 16, 0);
-            this.Label_Confirm.Size = new System.Drawing.Size(320, 62);
+            this.Label_Confirm.Size = new System.Drawing.Size(106, 62);
             this.Label_Confirm.TabIndex = 28;
             this.Label_Confirm.Text = "CONFIRM";
             this.Label_Confirm.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Label_Confirm.MouseEnter += new System.EventHandler(this.Label_Confirm_MouseEnter);
+            this.Label_Confirm.MouseLeave += new System.EventHandler(this.Label_Confirm_MouseLeave);
             // 
             // Label_Reset
             // 
             this.Label_Reset.AutoSize = true;
             this.Label_Reset.BackColor = System.Drawing.Color.Transparent;
-            this.Label_Reset.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Label_Reset.Dock = System.Windows.Forms.DockStyle.Left;
             this.Label_Reset.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Reset.ForeColor = System.Drawing.Color.White;
             this.Label_Reset.Location = new System.Drawing.Point(0, 0);
             this.Label_Reset.Margin = new System.Windows.Forms.Padding(0);
             this.Label_Reset.Name = "Label_Reset";
             this.Label_Reset.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
-            this.Label_Reset.Size = new System.Drawing.Size(319, 62);
+            this.Label_Reset.Size = new System.Drawing.Size(81, 62);
             this.Label_Reset.TabIndex = 27;
             this.Label_Reset.Text = "RESET";
             this.Label_Reset.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Label_Reset.MouseEnter += new System.EventHandler(this.Label_Reset_MouseEnter);
+            this.Label_Reset.MouseLeave += new System.EventHandler(this.Label_Reset_MouseLeave);
             // 
             // tableLayoutPanel5
             // 
@@ -692,31 +698,35 @@
             // 
             this.Label_Import_External.AutoSize = true;
             this.Label_Import_External.BackColor = System.Drawing.Color.Transparent;
-            this.Label_Import_External.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Label_Import_External.Dock = System.Windows.Forms.DockStyle.Right;
             this.Label_Import_External.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Import_External.ForeColor = System.Drawing.Color.White;
-            this.Label_Import_External.Location = new System.Drawing.Point(0, 34);
+            this.Label_Import_External.Location = new System.Drawing.Point(40, 34);
             this.Label_Import_External.Margin = new System.Windows.Forms.Padding(0);
             this.Label_Import_External.Name = "Label_Import_External";
-            this.Label_Import_External.Size = new System.Drawing.Size(225, 69);
+            this.Label_Import_External.Size = new System.Drawing.Size(185, 69);
             this.Label_Import_External.TabIndex = 2;
             this.Label_Import_External.Text = "import \r\nfrom external source";
             this.Label_Import_External.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Label_Import_External.MouseEnter += new System.EventHandler(this.Label_Import_External_MouseEnter);
+            this.Label_Import_External.MouseLeave += new System.EventHandler(this.Label_Import_External_MouseLeave);
             // 
             // Label_View_Table_Book
             // 
             this.Label_View_Table_Book.AutoSize = true;
             this.Label_View_Table_Book.BackColor = System.Drawing.Color.Transparent;
-            this.Label_View_Table_Book.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Label_View_Table_Book.Dock = System.Windows.Forms.DockStyle.Right;
             this.Label_View_Table_Book.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_View_Table_Book.ForeColor = System.Drawing.Color.White;
-            this.Label_View_Table_Book.Location = new System.Drawing.Point(0, 103);
+            this.Label_View_Table_Book.Location = new System.Drawing.Point(120, 103);
             this.Label_View_Table_Book.Margin = new System.Windows.Forms.Padding(0);
             this.Label_View_Table_Book.Name = "Label_View_Table_Book";
-            this.Label_View_Table_Book.Size = new System.Drawing.Size(225, 70);
+            this.Label_View_Table_Book.Size = new System.Drawing.Size(105, 70);
             this.Label_View_Table_Book.TabIndex = 56;
             this.Label_View_Table_Book.Text = "view\r\ntable books";
             this.Label_View_Table_Book.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Label_View_Table_Book.MouseEnter += new System.EventHandler(this.Label_View_Table_Book_MouseEnter);
+            this.Label_View_Table_Book.MouseLeave += new System.EventHandler(this.Label_View_Table_Book_MouseLeave);
             // 
             // tableLayoutPanel_Left
             // 
@@ -778,6 +788,8 @@
             this.Label_Upload_Bookcover.TabIndex = 26;
             this.Label_Upload_Bookcover.Text = "upload\r\nbook cover\r\n";
             this.Label_Upload_Bookcover.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label_Upload_Bookcover.MouseEnter += new System.EventHandler(this.Label_Upload_Bookcover_MouseEnter);
+            this.Label_Upload_Bookcover.MouseLeave += new System.EventHandler(this.Label_Upload_Bookcover_MouseLeave);
             // 
             // Form_New_Insert_Book
             // 

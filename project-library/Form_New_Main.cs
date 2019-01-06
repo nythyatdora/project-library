@@ -107,14 +107,14 @@ namespace project_library
             GraphicInteraction.SetColorLabelWhite(Label_Membership);
         }
 
-        private void Label_Myprofile_MouseEnter(object sender, EventArgs e)
+        private void Label_Management_MouseEnter(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelGreen(Label_Myprofile);
+            GraphicInteraction.SetColorLabelGreen(Label_Management);
         }
 
-        private void Label_Myprofile_MouseLeave(object sender, EventArgs e)
+        private void Label_Management_MouseLeave(object sender, EventArgs e)
         {
-            GraphicInteraction.SetColorLabelWhite(Label_Myprofile);
+            GraphicInteraction.SetColorLabelWhite(Label_Management);
         }
 
         private void Label_Report_MouseEnter(object sender, EventArgs e)

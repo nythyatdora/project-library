@@ -45,7 +45,7 @@
             this.Label_Category = new System.Windows.Forms.Label();
             this.Label_Readers = new System.Windows.Forms.Label();
             this.Label_Membership = new System.Windows.Forms.Label();
-            this.Label_Myprofile = new System.Windows.Forms.Label();
+            this.Label_Management = new System.Windows.Forms.Label();
             this.Label_Report = new System.Windows.Forms.Label();
             this.Label_Dropmenu = new System.Windows.Forms.Label();
             this.Panel_Main = new System.Windows.Forms.Panel();
@@ -127,7 +127,7 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.040816F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.97959F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.97959F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 31F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 33F));
             this.tableLayoutPanel3.Controls.Add(this.label1, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.Label_Clock, 2, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -149,7 +149,7 @@
             this.label1.Location = new System.Drawing.Point(21, 0);
             this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(523, 25);
+            this.label1.Size = new System.Drawing.Size(522, 25);
             this.label1.TabIndex = 18;
             this.label1.Text = "log as position";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -161,10 +161,10 @@
             this.Label_Clock.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Label_Clock.Font = new System.Drawing.Font("Bahnschrift", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Clock.ForeColor = System.Drawing.Color.Black;
-            this.Label_Clock.Location = new System.Drawing.Point(544, 0);
+            this.Label_Clock.Location = new System.Drawing.Point(543, 0);
             this.Label_Clock.Margin = new System.Windows.Forms.Padding(0);
             this.Label_Clock.Name = "Label_Clock";
-            this.Label_Clock.Size = new System.Drawing.Size(523, 25);
+            this.Label_Clock.Size = new System.Drawing.Size(522, 25);
             this.Label_Clock.TabIndex = 19;
             this.Label_Clock.Text = "hh : mm : ss | dd/mm/yy";
             this.Label_Clock.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -207,7 +207,7 @@
             this.tableLayoutPanel2.Controls.Add(this.Label_Category, 0, 5);
             this.tableLayoutPanel2.Controls.Add(this.Label_Readers, 0, 6);
             this.tableLayoutPanel2.Controls.Add(this.Label_Membership, 0, 7);
-            this.tableLayoutPanel2.Controls.Add(this.Label_Myprofile, 0, 8);
+            this.tableLayoutPanel2.Controls.Add(this.Label_Management, 0, 8);
             this.tableLayoutPanel2.Controls.Add(this.Label_Report, 0, 9);
             this.tableLayoutPanel2.Controls.Add(this.Label_Dropmenu, 0, 1);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -349,21 +349,21 @@
             this.Label_Membership.MouseEnter += new System.EventHandler(this.Label_Membership_MouseEnter);
             this.Label_Membership.MouseLeave += new System.EventHandler(this.Label_Membership_MouseLeave);
             // 
-            // Label_Myprofile
+            // Label_Management
             // 
-            this.Label_Myprofile.AutoSize = true;
-            this.Label_Myprofile.BackColor = System.Drawing.Color.Transparent;
-            this.Label_Myprofile.Dock = System.Windows.Forms.DockStyle.Left;
-            this.Label_Myprofile.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_Myprofile.ForeColor = System.Drawing.Color.White;
-            this.Label_Myprofile.Location = new System.Drawing.Point(0, 361);
-            this.Label_Myprofile.Margin = new System.Windows.Forms.Padding(0);
-            this.Label_Myprofile.Name = "Label_Myprofile";
-            this.Label_Myprofile.Size = new System.Drawing.Size(142, 48);
-            this.Label_Myprofile.TabIndex = 15;
-            this.Label_Myprofile.Text = "MY PROFILE";
-            this.Label_Myprofile.MouseEnter += new System.EventHandler(this.Label_Myprofile_MouseEnter);
-            this.Label_Myprofile.MouseLeave += new System.EventHandler(this.Label_Myprofile_MouseLeave);
+            this.Label_Management.AutoSize = true;
+            this.Label_Management.BackColor = System.Drawing.Color.Transparent;
+            this.Label_Management.Dock = System.Windows.Forms.DockStyle.Left;
+            this.Label_Management.Font = new System.Drawing.Font("Bahnschrift", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Management.ForeColor = System.Drawing.Color.White;
+            this.Label_Management.Location = new System.Drawing.Point(0, 361);
+            this.Label_Management.Margin = new System.Windows.Forms.Padding(0);
+            this.Label_Management.Name = "Label_Management";
+            this.Label_Management.Size = new System.Drawing.Size(173, 48);
+            this.Label_Management.TabIndex = 15;
+            this.Label_Management.Text = "MANAGEMENT";
+            this.Label_Management.MouseEnter += new System.EventHandler(this.Label_Management_MouseEnter);
+            this.Label_Management.MouseLeave += new System.EventHandler(this.Label_Management_MouseLeave);
             // 
             // Label_Report
             // 
@@ -610,7 +610,7 @@
         private System.Windows.Forms.Label Label_Category;
         private System.Windows.Forms.Label Label_Readers;
         private System.Windows.Forms.Label Label_Membership;
-        private System.Windows.Forms.Label Label_Myprofile;
+        private System.Windows.Forms.Label Label_Management;
         private System.Windows.Forms.Label Label_Report;
         private System.Windows.Forms.Label Label_Exit;
         private System.Windows.Forms.Label Label_Dropmenu;

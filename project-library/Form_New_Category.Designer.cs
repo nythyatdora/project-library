@@ -233,6 +233,8 @@
             this.Button_Science_Fiction.TabIndex = 1;
             this.Button_Science_Fiction.Text = "Science\r\nFiction\r\n";
             this.Button_Science_Fiction.UseVisualStyleBackColor = false;
+            this.Button_Science_Fiction.MouseEnter += new System.EventHandler(this.Button_Science_Fiction_MouseEnter);
+            this.Button_Science_Fiction.MouseLeave += new System.EventHandler(this.Button_Science_Fiction_MouseLeave);
             // 
             // Button_Drama
             // 
@@ -254,6 +256,8 @@
             this.Button_Drama.TabIndex = 16;
             this.Button_Drama.Text = "Drama";
             this.Button_Drama.UseVisualStyleBackColor = false;
+            this.Button_Drama.MouseEnter += new System.EventHandler(this.Button_Drama_MouseEnter);
+            this.Button_Drama.MouseLeave += new System.EventHandler(this.Button_Drama_MouseLeave);
             // 
             // Button_Mystery
             // 
@@ -275,6 +279,8 @@
             this.Button_Mystery.TabIndex = 17;
             this.Button_Mystery.Text = "Mystery";
             this.Button_Mystery.UseVisualStyleBackColor = false;
+            this.Button_Mystery.MouseEnter += new System.EventHandler(this.Button_Mystery_MouseEnter);
+            this.Button_Mystery.MouseLeave += new System.EventHandler(this.Button_Mystery_MouseLeave);
             // 
             // Button_Comics
             // 
@@ -296,6 +302,8 @@
             this.Button_Comics.TabIndex = 18;
             this.Button_Comics.Text = "Comics";
             this.Button_Comics.UseVisualStyleBackColor = false;
+            this.Button_Comics.MouseEnter += new System.EventHandler(this.Button_Comics_MouseEnter);
+            this.Button_Comics.MouseLeave += new System.EventHandler(this.Button_Comics_MouseLeave);
             // 
             // Button_Math
             // 
@@ -317,6 +325,8 @@
             this.Button_Math.TabIndex = 19;
             this.Button_Math.Text = "Math";
             this.Button_Math.UseVisualStyleBackColor = false;
+            this.Button_Math.MouseEnter += new System.EventHandler(this.Button_Math_MouseEnter);
+            this.Button_Math.MouseLeave += new System.EventHandler(this.Button_Math_MouseLeave);
             // 
             // Button_Horror
             // 
@@ -338,6 +348,8 @@
             this.Button_Horror.TabIndex = 20;
             this.Button_Horror.Text = "Horror";
             this.Button_Horror.UseVisualStyleBackColor = false;
+            this.Button_Horror.MouseEnter += new System.EventHandler(this.Button_Horror_MouseEnter);
+            this.Button_Horror.MouseLeave += new System.EventHandler(this.Button_Horror_MouseLeave);
             // 
             // Button_History
             // 
@@ -359,6 +371,8 @@
             this.Button_History.TabIndex = 21;
             this.Button_History.Text = "History";
             this.Button_History.UseVisualStyleBackColor = false;
+            this.Button_History.MouseEnter += new System.EventHandler(this.Button_History_MouseEnter);
+            this.Button_History.MouseLeave += new System.EventHandler(this.Button_History_MouseLeave);
             // 
             // Button_Fantasy
             // 
@@ -380,6 +394,8 @@
             this.Button_Fantasy.TabIndex = 22;
             this.Button_Fantasy.Text = "Fantasy";
             this.Button_Fantasy.UseVisualStyleBackColor = false;
+            this.Button_Fantasy.MouseEnter += new System.EventHandler(this.Button_Fantasy_MouseEnter);
+            this.Button_Fantasy.MouseLeave += new System.EventHandler(this.Button_Fantasy_MouseLeave);
             // 
             // Button_Adventure
             // 
@@ -401,6 +417,8 @@
             this.Button_Adventure.TabIndex = 23;
             this.Button_Adventure.Text = "Adventure";
             this.Button_Adventure.UseVisualStyleBackColor = false;
+            this.Button_Adventure.MouseEnter += new System.EventHandler(this.Button_Adventure_MouseEnter);
+            this.Button_Adventure.MouseLeave += new System.EventHandler(this.Button_Adventure_MouseLeave);
             // 
             // Button_Science
             // 
@@ -422,6 +440,8 @@
             this.Button_Science.TabIndex = 24;
             this.Button_Science.Text = "Science";
             this.Button_Science.UseVisualStyleBackColor = false;
+            this.Button_Science.MouseEnter += new System.EventHandler(this.Button_Science_MouseEnter);
+            this.Button_Science.MouseLeave += new System.EventHandler(this.Button_Science_MouseLeave);
             // 
             // Form_New_Category
             // 

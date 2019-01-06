@@ -213,6 +213,9 @@
             this.Button_Insert_Book.TabIndex = 1;
             this.Button_Insert_Book.Text = "INPUT/INSERT\r\nNEW BOOK";
             this.Button_Insert_Book.UseVisualStyleBackColor = false;
+            this.Button_Insert_Book.Click += new System.EventHandler(this.Button_Insert_Book_Click);
+            this.Button_Insert_Book.MouseEnter += new System.EventHandler(this.Button_Insert_Book_MouseEnter);
+            this.Button_Insert_Book.MouseLeave += new System.EventHandler(this.Button_Insert_Book_MouseLeave);
             // 
             // Button_Find_Book
             // 
@@ -234,6 +237,9 @@
             this.Button_Find_Book.TabIndex = 16;
             this.Button_Find_Book.Text = "FIND BOOK";
             this.Button_Find_Book.UseVisualStyleBackColor = false;
+            this.Button_Find_Book.Click += new System.EventHandler(this.Button_Find_Book_Click);
+            this.Button_Find_Book.MouseEnter += new System.EventHandler(this.Button_Find_Book_MouseEnter);
+            this.Button_Find_Book.MouseLeave += new System.EventHandler(this.Button_Find_Book_MouseLeave);
             // 
             // Form_New_Books
             // 

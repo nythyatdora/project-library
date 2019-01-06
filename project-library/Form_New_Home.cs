@@ -81,14 +81,14 @@ namespace project_library
             GraphicInteraction.SetImageButtonLeave_Half(Button_Membership);
         }
 
-        private void Button_Myprofile_MouseEnter(object sender, EventArgs e)
+        private void Button_Management_MouseEnter(object sender, EventArgs e)
         {
-            GraphicInteraction.SetImageButtonEnter_Full(Button_Myprofile);
+            GraphicInteraction.SetImageButtonEnter_Full(Button_Management);
         }
 
-        private void Button_Myprofile_MouseLeave(object sender, EventArgs e)
+        private void Button_Management_MouseLeave(object sender, EventArgs e)
         {
-            GraphicInteraction.SetImageButtonLeave_Full(Button_Myprofile);
+            GraphicInteraction.SetImageButtonLeave_Full(Button_Management);
         }
 
         private void Button_Report_MouseEnter(object sender, EventArgs e)
@@ -134,7 +134,7 @@ namespace project_library
             ControlMethod.LoadForm(new Form_New_Membership_One());
         }
 
-        private void Button_Myprofile_Click(object sender, EventArgs e)
+        private void Button_Management_Click(object sender, EventArgs e)
         {
             ControlMethod.SetFormOnPanel(_form_main.Panel_Main, _form_main.GetForm("Form_Myprofile"));
         }

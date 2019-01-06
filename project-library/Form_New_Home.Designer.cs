@@ -38,7 +38,7 @@
             this.Label_Title = new System.Windows.Forms.Label();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.Button_Report = new System.Windows.Forms.Button();
-            this.Button_Myprofile = new System.Windows.Forms.Button();
+            this.Button_Management = new System.Windows.Forms.Button();
             this.Button_Category = new System.Windows.Forms.Button();
             this.Button_Books = new System.Windows.Forms.Button();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
@@ -194,7 +194,7 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel3.Controls.Add(this.Button_Report, 2, 1);
-            this.tableLayoutPanel3.Controls.Add(this.Button_Myprofile, 1, 1);
+            this.tableLayoutPanel3.Controls.Add(this.Button_Management, 1, 1);
             this.tableLayoutPanel3.Controls.Add(this.Button_Category, 2, 0);
             this.tableLayoutPanel3.Controls.Add(this.Button_Books, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel4, 0, 0);
@@ -235,30 +235,30 @@
             this.Button_Report.MouseEnter += new System.EventHandler(this.Button_Report_MouseEnter);
             this.Button_Report.MouseLeave += new System.EventHandler(this.Button_Report_MouseLeave);
             // 
-            // Button_Myprofile
+            // Button_Management
             // 
-            this.Button_Myprofile.AutoSize = true;
-            this.Button_Myprofile.BackColor = System.Drawing.Color.Transparent;
-            this.Button_Myprofile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Button_Myprofile.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Button_Myprofile.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.Button_Myprofile.FlatAppearance.BorderSize = 0;
-            this.Button_Myprofile.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Button_Myprofile.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Button_Myprofile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button_Myprofile.Font = new System.Drawing.Font("Bahnschrift", 18F);
-            this.Button_Myprofile.ForeColor = System.Drawing.Color.Transparent;
-            this.Button_Myprofile.Image = global::project_library.Properties.Resources.imgButtonLeft_Full;
-            this.Button_Myprofile.Location = new System.Drawing.Point(272, 178);
-            this.Button_Myprofile.Margin = new System.Windows.Forms.Padding(0);
-            this.Button_Myprofile.Name = "Button_Myprofile";
-            this.Button_Myprofile.Size = new System.Drawing.Size(272, 178);
-            this.Button_Myprofile.TabIndex = 5;
-            this.Button_Myprofile.Text = "MY PROFILE";
-            this.Button_Myprofile.UseVisualStyleBackColor = false;
-            this.Button_Myprofile.Click += new System.EventHandler(this.Button_Myprofile_Click);
-            this.Button_Myprofile.MouseEnter += new System.EventHandler(this.Button_Myprofile_MouseEnter);
-            this.Button_Myprofile.MouseLeave += new System.EventHandler(this.Button_Myprofile_MouseLeave);
+            this.Button_Management.AutoSize = true;
+            this.Button_Management.BackColor = System.Drawing.Color.Transparent;
+            this.Button_Management.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Button_Management.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Button_Management.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.Button_Management.FlatAppearance.BorderSize = 0;
+            this.Button_Management.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Button_Management.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Button_Management.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_Management.Font = new System.Drawing.Font("Bahnschrift", 18F);
+            this.Button_Management.ForeColor = System.Drawing.Color.Transparent;
+            this.Button_Management.Image = global::project_library.Properties.Resources.imgButtonLeft_Full;
+            this.Button_Management.Location = new System.Drawing.Point(272, 178);
+            this.Button_Management.Margin = new System.Windows.Forms.Padding(0);
+            this.Button_Management.Name = "Button_Management";
+            this.Button_Management.Size = new System.Drawing.Size(272, 178);
+            this.Button_Management.TabIndex = 5;
+            this.Button_Management.Text = "MANAGEMENT";
+            this.Button_Management.UseVisualStyleBackColor = false;
+            this.Button_Management.Click += new System.EventHandler(this.Button_Management_Click);
+            this.Button_Management.MouseEnter += new System.EventHandler(this.Button_Management_MouseEnter);
+            this.Button_Management.MouseLeave += new System.EventHandler(this.Button_Management_MouseLeave);
             // 
             // Button_Category
             // 
@@ -487,7 +487,7 @@
         private System.Windows.Forms.Button Button_Category;
         private System.Windows.Forms.Button Button_Readers;
         private System.Windows.Forms.Button Button_Membership;
-        private System.Windows.Forms.Button Button_Myprofile;
+        private System.Windows.Forms.Button Button_Management;
         private System.Windows.Forms.Button Button_Report;
     }
 }

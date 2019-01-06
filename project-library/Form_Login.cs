@@ -13,7 +13,7 @@ namespace project_library
 {
     public partial class Form_Login : Form
     {
-        public Boolean isLogSuccessed { private set; get; }
+        public Boolean IsLogSuccessed { private set; get; }
 
         public Form_Login()
         {
@@ -74,9 +74,9 @@ namespace project_library
             {
                 if(validPassword)
                 {
-                    isLogSuccessed = true;
+                    IsLogSuccessed = true;
                     MessageBox.Show("login successful!");
-                    ControlMethod.LoadForm(new Form_Main());
+                    ControlMethod.LoadForm(new Form_New_Main());
                     this.Hide();
                 }
             }
@@ -84,7 +84,7 @@ namespace project_library
 
         private void Label_Exit_Click(object sender, EventArgs e)
         {
-            isLogSuccessed = false;
+            IsLogSuccessed = false;
             this.Close();
         }  
     }
