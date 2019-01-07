@@ -60,6 +60,12 @@
     <Compile Include="Form_Import_Text.Designer.cs">
       <DependentUpon>Form_Import_Text.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_New_Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_New_Management.Designer.cs">
+      <DependentUpon>Form_New_Management.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_New_Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -166,6 +172,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form_Import_Text.resx">
       <DependentUpon>Form_Import_Text.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_New_Management.resx">
+      <DependentUpon>Form_New_Management.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_New_Home.resx">
       <DependentUpon>Form_New_Home.cs</DependentUpon>
